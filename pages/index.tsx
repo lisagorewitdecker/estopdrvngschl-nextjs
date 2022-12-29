@@ -6,23 +6,23 @@ import { useCallback } from "react";
 
 const NavConfig = [
   {
-    name: "Home",
+    name: "HOME",
     link: "home",
   },
   {
-    name: "About",
+    name: "ABOUT",
     link: "about",
   },
   {
-    name: "Schedule",
+    name: "SCHEDULE",
     link: "schedule",
   },
   {
-    name: "Trainings & Services",
+    name: "TRAININGS & SERVICES",
     link: "trainings_and_services",
   },
   {
-    name: "Contact",
+    name: "CONTACT",
     link: "contact",
   },
 ];
@@ -30,22 +30,22 @@ const ServiceConfig = [
   {
     icon: "child",
     title: "Teens",
-    description: `6 Hours teens drivers' training`,
+    description: `6 Hours of Teenager Drivers Training`,
   },
   {
     icon: "user",
-    title: "Adults",
-    description: `2 Hours minimum for adults per day`,
+    title: "ADULTS",
+    description: `2 Hours Minimum for Adults Per Day`,
   },
   {
     icon: "universal-access",
-    title: "Seniors",
-    description: `1 Hour minimum for seniors' refresher'`,
+    title: "SENIORS",
+    description: `1 Hour Minimum for Seniors "Behind-The-Wheel Refresher"`,
   },
   {
     icon: "car",
-    title: "Car Rental",
-    description: `Car rental for the behind-wheel test with DMV`,
+    title: "CAR RENTAL",
+    description: `Car Rental for Test Behind-The-Wheel DMV of Choosing`,
   },
 ];
 const Home: NextPage = () => {
@@ -121,7 +121,7 @@ const Home: NextPage = () => {
         >
           <div className="container mx-auto">
             <div className="text-2xl mb-16 p-4" style={{ maxWidth: 480 }}>
-              Give Me 6 Hours Of Your Time And I Will Give You 30,000 Days!
+              GIVE ME 6 HOURS Of YOUR TIME AND I WILL GIVE YOU 30,000 DAYS!
               <a
                 className="bg-red-500 hover:bg-red-800 text-white px-4 py-2 m-2 text-xl"
                 href="https://calendly.com/estop"
@@ -134,7 +134,7 @@ const Home: NextPage = () => {
           </div>
         </div>
         <div id="about" className="container mx-auto py-4">
-          <h1  className="text-2xl text-center py-4 font-bold">About Tony and Estop Driving School in Novato, California &ndash; Marin County</h1>
+          <h1  className="text-2xl text-center py-4 font-bold">About Tony & Estop Driving School, in Novato, California 94945 • USA &ndash; Marin County</h1>
           <div className="grid sm:grid-cols-1  md:grid-cols-2 gap-4">
             <div className="flex items-center justify-center">
               <Image
@@ -186,7 +186,7 @@ const Home: NextPage = () => {
         >
           <div className="container mx-auto py-2">
             <h2 className="text-2xl text-center py-2 font-bold text-white">
-              Schedule An Appointment Today!
+              SCHEDULE AN APPOINTMMENT TODAY!
             </h2>
             <p className="text-center text-white mx-2">
               VISIT US AT{" "}
@@ -205,7 +205,7 @@ const Home: NextPage = () => {
         <div id="trainings_and_services" className="bg-gray-100">
           <div className="container mx-auto py-4">
             <h2 className="text-2xl text-center py-4 font-bold">
-              Training &amp; Services
+              TRAINING &amp; SERVICES
             </h2>
             <p className="text-center mx-2">
                Basic Training And Services Are $75/Hour Flat Rate. If You Happen To 
@@ -285,19 +285,25 @@ const Home: NextPage = () => {
             href="http://estopdrivingschool.com/"
             title="eStopDrivingSchool"
           >
-            eStopDrivingSchool
+            ESTOPDRIVINGSCHOOL
           </a>{" "}
           <a
             className="text-gray-400"
             href="mailto:tony@estopdrivingschool.com"
           >
-            Email
+            EMAIL
           </a>{" "}
           <a
             href="https://www.facebook.com/estopdrivingschool/"
             className="text-gray-400"
           >
-            Facebook
+            FACEBOOK
+          </a>
+           <a
+            href="https://www.facebook.com/estopdrivingschool/"
+            className="text-gray-400"
+          >
+           SITE RE-DESIIGN/WEB DEV BY LISA GOREWIT-DECKER
           </a>
         </div>
       </footer>
