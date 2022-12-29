@@ -29,13 +29,13 @@ const NavConfig = [
 const ServiceConfig = [
   {
     icon: "child",
-    title: "Teens",
-    description: `6 Hours of Teenager Drivers Training`,
+    title: "TEENS",
+    description: `6 Hours of Teenager Driver Training`,
   },
   {
     icon: "user",
     title: "ADULTS",
-    description: `2 Hours Minimum for Adults Per Day`,
+    description: `2 Hours Minimum for Adult Training Per Day`,
   },
   {
     icon: "universal-access",
@@ -45,7 +45,7 @@ const ServiceConfig = [
   {
     icon: "car",
     title: "CAR RENTAL",
-    description: `Car Rental for Test Behind-The-Wheel DMV of Choosing`,
+    description: `Car Rental for "Behind-The-Wheel" DMV Test (of Choice)`,
   },
 ];
 const Home: NextPage = () => {
@@ -120,21 +120,21 @@ const Home: NextPage = () => {
           }}
         >
           <div className="container mx-auto">
-            <div className="text-2xl mb-16 p-4" style={{ maxWidth: 480 }}>
-              GIVE ME 6 HOURS Of YOUR TIME AND I WILL GIVE YOU 30,000 DAYS!
+            <div className="text-2xl mb-16 p-4" style={{ maxWidth: 400, marginTop:-150px }}>
+              <b>GIVE ME 6 HOURS Of YOUR TIME AND I WILL GIVE YOU 30,000 DAYS!</b>
               <a
                 className="bg-red-500 hover:bg-red-800 text-white px-4 py-2 m-2 text-xl"
                 href="https://calendly.com/estop"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Try Now
+                TRY NOW!
               </a>
             </div>
           </div>
         </div>
         <div id="about" className="container mx-auto py-4">
-          <h1  className="text-2xl text-center py-4 font-bold">About Estop Driving School, Novato, CA 94945 &ndash; Located in Marin County</h1>
+          <h1  className="text-2xl text-center py-4 font-bold">About eStop Driving School, Novato, CA 94945 &ndash; Located in Marin County</h1>
           <div className="grid sm:grid-cols-1  md:grid-cols-2 gap-4">
             <div className="flex items-center justify-center">
               <Image
@@ -146,22 +146,22 @@ const Home: NextPage = () => {
             </div>
             <div className="p-4">
               <p className="font-bold leading-relaxed mb-4">
-                Since 1983, I Have 40 Years of Eperience Training, and Teaching Adults,
-                Teenagers, and Seniors Behind-The-Wheel Driving. All While Doing What I Love!
+                Since 1983, I Have 40 Years of Experience Training, Teenagers, Adults, and Seniors
+                Behind-The-Wheel Driving. I am grateful to Go to Work and Do What I Love!
               </p>
               <p className="mb-2">
                 Welcome to eStop Driving School. I am Tony, the founder and owner of eStop Driving School
                 (also known as Nile Driving School). I have been teaching behind-the-wheel driving since 1983. 
-                I have trained more than 5,000 teenagers, adults and seniors (of legal driving age and status).
-                Every Day, I take great pride, and receive so much joy, for what I do for a living!
+                I have trained more than 5,000 teenagers, adults and seniors (of legal status and age).
+                Every Day, I take the great pride, and receive so much joy, for what I do for a living!
               </p>
 
               <p className="mb-2">
-                My Life Philosophy Is...&ldquo;Speak STOP Fluently and Flawlessly For Life!&rdquo;
+                <b>My Life Philosophy Is...&ldquo;Speak STOP Fluently and Flawlessly For Life!&rdquo;</b>
               </p>
 
               <p className="mb-2">
-                Please Feel Free to Contact Me Any Time by Phone or Email.
+                Please Feel Free to Contact Me at Any Time by Phone or Email.
               </p>
 
               <p className="mb-2">
@@ -208,8 +208,8 @@ const Home: NextPage = () => {
               TRAINING &amp; SERVICES
             </h2>
             <p className="text-center mx-2">
-               Basic Training And Services Are $75/Hour Flat Rate. If You Happen To 
-               Need Any Additional Services, Please Do Not Hesitate To Contact Us For More Details.
+               Basic Training and Services are a $75/Hour Flat Rate. If You Happen to 
+               Need Any Additional Services, Please, Do Not Hesitate to Contact Us for More Details.
             </p>
             <div className="py-4 grid xs:grid-cols-1  md:grid-cols-2 lg:grid-cols-4 gap-4">
               {ServiceConfig.map(({ icon, title, description }) => (
@@ -233,16 +233,16 @@ const Home: NextPage = () => {
         </div>
         <div id="contact" className="flex py-20 bg-gray-200">
           <div className="container mx-auto py-2">
-            <h2 className="text-2xl text-center font-bold py-2">Contact</h2>
+            <h2 className="text-2xl text-center font-bold py-2">CONTACT ESTOPDRIVING SCHOOL</h2>
             <p className="text-center  mx-2">
-              If You Have Any Questions, Feel Free To Call Me Any Time At: (415) 897-7002.
-            </p>
+              If You Have Any Questions, Feel Free to Call Me Any Time: (415) 897-7002.
+            </p>TT
             <div className="p-8 m-auto grid sm:grid-cols-1 md:grid-cols-2">
               <div className="flex justify-end px-8">
                 <a href="https://www.yelp.com/biz/nile-driving-school-novato?utm_medium=biz_embedded_content&amp;utm_source=biz_badge">
                   <img
                     alt="Nile Driving School"
-                    src="https://dyn.yelpcdn.com/extimg/en_US/fsc/aqPJ63Ipo5dYtkh9JfJYRQ.png"
+                    src="https://dyn.yelpcdn.com/extimg/en_US/fsc/aqPJ63Ipo5dYtkh9JfJYRQ.png" target='_blank'
                     height={"55"}
                     width={"125"}
                   />
@@ -259,8 +259,8 @@ const Home: NextPage = () => {
                   </a>
                 </p>
                 <p>
-                  Licensed Instructor No. 3381 Please Call In Advance To
-                  Scheduled A Personal Appointmenet.
+                  Licensed Instructor No. 3381 Please Call in Advance to
+                  Scheduled a Personal Appointment.
                 </p>
               </div>
             </div>
@@ -285,7 +285,7 @@ const Home: NextPage = () => {
             href="http://estopdrivingschool.com/"
             title="eStopDrivingSchool"
           >
-            ESTOPDRIVINGSCHOOL |
+            eSTOPDRIVINGSCHOOL |
           </a>{" "}
           <a
             className="text-gray-400"
@@ -294,16 +294,16 @@ const Home: NextPage = () => {
             EMAIL |
           </a>{" "}
           <a
-            href="https://www.facebook.com/estopdrivingschool/"
+            href="https://www.facebook.com/estopdrivingschool/" target='_blank'
             className="text-gray-400"
           >
             FACEBOOK |
           </a>
            <a
-            href="https://lisagorerwitdecker.com"
+            href="https://lisagorerwitdecker.com" target='_blank'
             className="text-gray-400"
           >
-           SITE RE-DESIIGN/WEB DEV LISA GOREWIT-DECKER
+            SITE RE-DESIGN LISA GOREWIT-DECKER
           </a>
         </div>
       </footer>
