@@ -60,7 +60,7 @@ const Home: NextPage = () => {
     <div>
       <Head>
         <title>eStop Driving School</title>
-        <meta name="description" content="Teaching driving since 1983" />
+        <meta name="description" content="Teaching Behind-The-Wheel Driving Since 1983" />
         <link rel="icon" href="/favicon.ico" />
         <link
           rel="apple-touch-icon"
@@ -120,7 +120,7 @@ const Home: NextPage = () => {
           }}
         >
           <div className="container mx-auto">
-            <div className="text-2xl mb-16 p-4" style={{ maxWidth: 400, marginBottom: 120px }}>
+            <div className="text-2xl mb-16 p-4" style={{ maxWidth: 400, marginBottom: 120 }}>
               <b>GIVE ME 6 HOURS Of YOUR TIME AND I WILL GIVE YOU 30,000 DAYS!</b>
               <a
                 className="bg-red-500 hover:bg-red-800 text-white px-4 py-2 m-2 text-xl"
@@ -195,7 +195,7 @@ const Home: NextPage = () => {
                 href="https://calendly.com/estop"
                 target="_new"
                 rel="noopener noreferrer"
-              />
+              >
                 CALENDLY.COM/ESTOP{" "}
               </a>
               TO SCHEDULE YOUR DRIVING TRANING SESSIONS!
@@ -236,15 +236,13 @@ const Home: NextPage = () => {
             <h2 className="text-2xl text-center font-bold py-2">CONTACT ESTOPDRIVING SCHOOL</h2>
             <p className="text-center  mx-2">
               If You Have Any Questions, Please, Feel Free to Call Me at Any Time: (415) 897-7002.
-            </p>TT
+            </p>
             <div className="p-8 m-auto grid sm:grid-cols-1 md:grid-cols-2">
               <div className="flex justify-end px-8">
                 <a href="https://www.yelp.com/biz/nile-driving-school-novato?utm_medium=biz_embedded_content&amp;utm_source=biz_badge">
                   <img
                     alt="Nile Driving School"
                     src="https://dyn.yelpcdn.com/extimg/en_US/fsc/aqPJ63Ipo5dYtkh9JfJYRQ.png" 
-                    target="_new"
-                    rel="noopener noreferrer"
                     height={"55"}
                     width={"125"}
                   />
@@ -296,15 +294,15 @@ const Home: NextPage = () => {
             EMAIL |
           </a>{" "}
           <a
-            href="https://www.facebook.com/estopdrivingschool/" target="_new" rel="noopener noreferrer"
+            href="https://www.facebook.com/estopdrivingschool/" 
             className="text-gray-400"
-          />
+          >
             FACEBOOK |
-          </a>
+          </a>{" "}
            <a
-            href="https://lisagorewitdecker.com" target="_new" rel="noopener noreferrer"
+            href="https://lisagorewitdecker.com" 
             className="text-gray-400"
-          />
+          >
             SITE RE-DESIGN LISA GOREWIT-DECKER
           </a>
         </div>
