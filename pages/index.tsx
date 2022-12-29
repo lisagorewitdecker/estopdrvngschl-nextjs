@@ -134,7 +134,7 @@ const Home: NextPage = () => {
           </div>
         </div>
         <div id="about" className="container mx-auto py-4">
-          <h1  className="text-2xl text-center py-4 font-bold">About Tony & Estop Driving School, in Novato, California 94945 • USA &ndash; Marin County</h1>
+          <h1  className="text-2xl text-center py-4 font-bold">About Estop Driving School, Novato, CA 94945 &ndash; Located in Marin County</h1>
           <div className="grid sm:grid-cols-1  md:grid-cols-2 gap-4">
             <div className="flex items-center justify-center">
               <Image
@@ -253,7 +253,7 @@ const Home: NextPage = () => {
                 <p>Address: Suite N, 7075 Redwood Blvd, Novato, CA 94945</p>
                 <p>Phone: (415) 897-7002</p>
                 <p className="mb-4">
-                  Email:{" "}
+                  EMAIL:{" "}
                   <a href="mailto:tony@estopdrivingschool.com">
                     tony@estopdrivingschool.com
                   </a>
@@ -279,31 +279,31 @@ const Home: NextPage = () => {
       </main>
       <footer className="bg-gray-900 text-gray-400 py-4 text-sm">
         <div className="container m-auto text-center">
-          Copyright @2022{" "}
+          Copyright @2023{" "}
           <a
             className="text-gray-400"
             href="http://estopdrivingschool.com/"
             title="eStopDrivingSchool"
           >
-            ESTOPDRIVINGSCHOOL
+            ESTOPDRIVINGSCHOOL |
           </a>{" "}
           <a
             className="text-gray-400"
             href="mailto:tony@estopdrivingschool.com"
           >
-            EMAIL
+            EMAIL |
           </a>{" "}
           <a
             href="https://www.facebook.com/estopdrivingschool/"
             className="text-gray-400"
           >
-            FACEBOOK
+            FACEBOOK |
           </a>
            <a
-            href="https://www.facebook.com/estopdrivingschool/"
+            href="https://lisagorerwitdecker.com"
             className="text-gray-400"
           >
-           SITE RE-DESIIGN/WEB DEV BY LISA GOREWIT-DECKER
+           SITE RE-DESIIGN/WEB DEV LISA GOREWIT-DECKER
           </a>
         </div>
       </footer>
