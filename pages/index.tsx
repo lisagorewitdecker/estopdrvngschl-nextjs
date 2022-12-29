@@ -128,7 +128,7 @@ const Home: NextPage = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Try Now
+                TRY NOW
               </a>
             </div>
           </div>
@@ -300,7 +300,7 @@ const Home: NextPage = () => {
             FACEBOOK |
           </a>
            <a
-            href="https://lisagorerwitdecker.com" target="_blank"
+            href="https://lisagorewitdecker.com"
             className="text-gray-400"
           >
            SITE RE-DESIGN/WEB DEV LISA GOREWIT-DECKER
