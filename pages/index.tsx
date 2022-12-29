@@ -120,12 +120,12 @@ const Home: NextPage = () => {
           }}
         >
           <div className="container mx-auto">
-            <div className="text-2xl mb-16 p-4" style={{ maxWidth: 400, paddingBottom: 120px }}>
+            <div className="text-2xl mb-16 p-4" style={{ maxWidth: 400, marginBottom: 120px }}>
               <b>GIVE ME 6 HOURS Of YOUR TIME AND I WILL GIVE YOU 30,000 DAYS!</b>
               <a
                 className="bg-red-500 hover:bg-red-800 text-white px-4 py-2 m-2 text-xl"
                 href="https://calendly.com/estop"
-                target="_blank"
+                target="_new"
                 rel="noopener noreferrer"
               >
                 TRY NOW!
@@ -193,9 +193,9 @@ const Home: NextPage = () => {
               <a
                 className="font-bold"
                 href="https://calendly.com/estop"
-                target="_blank"
+                target="_new"
                 rel="noopener noreferrer"
-              >
+              />
                 CALENDLY.COM/ESTOP{" "}
               </a>
               TO SCHEDULE YOUR DRIVING TRANING SESSIONS!
@@ -242,7 +242,9 @@ const Home: NextPage = () => {
                 <a href="https://www.yelp.com/biz/nile-driving-school-novato?utm_medium=biz_embedded_content&amp;utm_source=biz_badge">
                   <img
                     alt="Nile Driving School"
-                    src="https://dyn.yelpcdn.com/extimg/en_US/fsc/aqPJ63Ipo5dYtkh9JfJYRQ.png" rel="noreferrer" target="_blank"
+                    src="https://dyn.yelpcdn.com/extimg/en_US/fsc/aqPJ63Ipo5dYtkh9JfJYRQ.png" 
+                    target="_new"
+                    rel="noopener noreferrer"
                     height={"55"}
                     width={"125"}
                   />
@@ -284,25 +286,25 @@ const Home: NextPage = () => {
             className="text-gray-400"
             href="http://estopdrivingschool.com/"
             title="eStopDrivingSchool"
-          >
+          />
             eSTOPDRIVINGSCHOOL |
           </a>{" "}
           <a
             className="text-gray-400"
             href="mailto:tony@estopdrivingschool.com"
-          >
+          />
             EMAIL |
           </a>{" "}
           <a
-            href="https://www.facebook.com/estopdrivingschool/" rel="noreferrer" target="_blank"
+            href="https://www.facebook.com/estopdrivingschool/" target="_new" rel="noopener noreferrer"
             className="text-gray-400"
-          >
+          />
             FACEBOOK |
           </a>
            <a
-            href="https://lisagorewitdecker.com" rel="noreferrer" target="_blank"
+            href="https://lisagorewitdecker.com" target="_new" rel="noopener noreferrer"
             className="text-gray-400"
-          >
+          />
             SITE RE-DESIGN LISA GOREWIT-DECKER
           </a>
         </div>
