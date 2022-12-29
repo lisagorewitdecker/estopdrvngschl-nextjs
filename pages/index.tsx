@@ -120,7 +120,7 @@ const Home: NextPage = () => {
           }}
         >
           <div className="container mx-auto">
-            <div className="text-2xl mb-16 p-4" style={{ maxWidth: 480 }}>
+            <div className="text-2xl mb-16 p-4" style={{ maxWidth: 490 }}>
               GIVE ME 6 HOURS Of YOUR TIME AND I WILL GIVE YOU 30,000 DAYS!
               <a
                 className="bg-red-500 hover:bg-red-800 text-white px-4 py-2 m-2 text-xl"
@@ -157,7 +157,7 @@ const Home: NextPage = () => {
               </p>
 
               <p className="mb-2">
-                My Life Philosophy Is...&ldquo;Speak STOP Fluently and Flawlessly For Life!&rdquo;
+               <b> My Life Philosophy Is...&ldquo;Speak STOP Fluently and Flawlessly For Life!&rdquo;</b>
               </p>
 
               <p className="mb-2">
@@ -233,9 +233,9 @@ const Home: NextPage = () => {
         </div>
         <div id="contact" className="flex py-20 bg-gray-200">
           <div className="container mx-auto py-2">
-            <h2 className="text-2xl text-center font-bold py-2">Contact</h2>
+            <h2 className="text-2xl text-center font-bold py-2">CONTACT ESTOPDRIVING SCHOOL</h2>
             <p className="text-center  mx-2">
-              If You Have Any Questions, Feel Free To Call Me Any Time At: (415) 897-7002.
+              If You Have Any Questions, Feel Free To Call Me Any Time: (415) 897-7002.
             </p>
             <div className="p-8 m-auto grid sm:grid-cols-1 md:grid-cols-2">
               <div className="flex justify-end px-8">
@@ -303,7 +303,7 @@ const Home: NextPage = () => {
             href="https://lisagorewitdecker.com"
             className="text-gray-400"
           >
-           SITE RE-DESIGN/WEB DEV LISA GOREWIT-DECKER
+           &nbsp;SITE WEB DEV LISA GOREWIT-DECKER
           </a>
         </div>
       </footer>
