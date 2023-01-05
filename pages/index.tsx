@@ -120,9 +120,9 @@ const Home: NextPage = () => {
           }}
         >
           <div className="container mx-auto">
-            <div className="text-2xl mb-16 p-4" style={{ maxWidth: 600 }}>
+            <div className="text-2xl mb-16 p-4" style={{ maxWidth: 480 }}>
               <div className="message">
-                GIVE ME 6 HOURS Of YOUR TIME AND I WILL GIVE YOU 30,000 DAYS!</div>
+                GIVE ME 6 HOURS Of YOUR TIME AND I WILL GIVE YOU 30,000 DAYS!
               <a
                 className="bg-red-500 hover:bg-red-800 text-white px-4 py-2 m-2 text-xl"
                 href="https://calendly.com/estop"
@@ -131,6 +131,7 @@ const Home: NextPage = () => {
               >
                 TRY NOW
               </a>
+              </div>
             </div>
           </div>
         </div>
@@ -141,8 +142,8 @@ const Home: NextPage = () => {
               <Image
                 src="/tony-good-morning.jpg"
                 alt="EstopDrivingSchool Logo"
-                width={300}
-                height={300}
+                width={400}
+                height={400}
               />
             </div>
             <div className="p-4">
