@@ -120,7 +120,7 @@
 .message{
   max-height: 250px;
   max-width: 580px;
-  margin: 0px; 0px; 135px; 0px !important;
+  margin: 0px; 0px; 150px; 0px !important;
 }
 
 @media (max-width: 600px) {
