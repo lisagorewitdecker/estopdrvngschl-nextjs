@@ -117,9 +117,10 @@
   margin: 0px; 0px; 80px; 0px;
 }
 
-.message{
+div.message{
   max-height: 250px;
   max-width: 480px;
+  margin: 0px; 0px; 40px; 0px !important;
 }
 
 @media (max-width: 600px) {
