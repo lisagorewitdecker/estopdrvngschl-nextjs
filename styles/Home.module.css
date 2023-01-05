@@ -115,7 +115,7 @@
 
 .message{
   margin:0px; 0px; 40px; 0px !important;
-  max-height: 250px;
+  height: 250px;
 }
 
 @media (max-width: 600px) {
