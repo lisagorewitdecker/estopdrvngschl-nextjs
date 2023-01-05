@@ -121,8 +121,8 @@ const Home: NextPage = () => {
         >
           <div className="container mx-auto">
             <div className="text-2xl mb-16 p-4" style={{ maxWidth: 480 }}>
-              <div className="message" style={{ marginBottom:40, maxHeight: 250 }}>
-                GIVE ME 6 HOURS Of YOUR TIME AND I WILL GIVE YOU 30,000 DAYS!  </div>
+              <div className="message" style={{ marginBottom:60, maxHeight: 250, maxWidth: 480 }}>
+                GIVE ME 6 HOURS Of YOUR TIME AND I WILL GIVE YOU 30,000 DAYS!
               <a className="bg-red-500 hover:bg-red-800 text-white px-4 py-2 m-2 text-xl"
                 href="https://calendly.com/estop"
                 target="_blank"
@@ -133,6 +133,7 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
+          </div>
         <div id="about" className="container mx-auto py-4">
           <h1 className="text-2xl text-center py-4 font-bold">About Estop Driving School, Novato, CA 94945 &ndash; Located in Marin County</h1>
           <div className="grid sm:grid-cols-1  md:grid-cols-2 gap-4">
