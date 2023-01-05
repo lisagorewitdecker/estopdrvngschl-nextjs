@@ -121,7 +121,8 @@ const Home: NextPage = () => {
         >
           <div className="container mx-auto">
             <div className="text-2xl mb-16 p-4" style={{ maxWidth: 600 }}>
-              GIVE ME 6 HOURS Of YOUR TIME AND I WILL GIVE YOU 30,000 DAYS!
+              <div className="message">
+                GIVE ME 6 HOURS Of YOUR TIME AND I WILL GIVE YOU 30,000 DAYS!</div>
               <a
                 className="bg-red-500 hover:bg-red-800 text-white px-4 py-2 m-2 text-xl"
                 href="https://calendly.com/estop"
