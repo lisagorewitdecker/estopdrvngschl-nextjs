@@ -113,6 +113,11 @@
   margin-left: 0.5rem;
 }
 
+.message{
+  margin:0px; 0px; 40px; 0px !important;
+  height: 250px;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
