@@ -18,8 +18,8 @@ const NavConfig = [
     link: "schedule",
   },
   {
-    name: "TRAININGS & SERVICES",
-    link: "trainings_and_services",
+    name: "TRAINING & SERVICES",
+    link: "training_and_services",
   },
   {
     name: "CONTACT",
@@ -121,7 +121,7 @@ const Home: NextPage = () => {
         >
           <div className="container mx-auto">
             <div className="text-2xl mb-16 p-4" style={{ maxWidth: 580 }}>
-              <div className="message" style={{ marginBottom:175, maxHeight: 250, maxWidth: 580 }}>
+              <div className="message" style={{ marginBottom:185, maxHeight: 250, maxWidth: 580 }}>
                 GIVE ME 6 HOURS Of YOUR TIME AND I WILL GIVE YOU 30,000 DAYS!
               <a className="bg-red-500 hover:bg-red-800 text-white px-4 py-2 m-2 text-xl"
                 href="https://calendly.com/estop"
@@ -203,14 +203,14 @@ const Home: NextPage = () => {
             </p>
           </div>
         </div>
-        <div id="trainings_and_services" className="bg-gray-100">
+        <div id="training_and_services" className="bg-gray-100">
           <div className="container mx-auto py-4">
             <h2 className="text-2xl text-center py-4 font-bold">
               TRAINING &amp; SERVICES
             </h2>
             <p className="text-center mx-2">
-               Basic Training And Services Are $75/Hour Flat Rate. If You Happen To 
-               Need Any Additional Services, Please Do Not Hesitate To Contact Us For More Details.
+               Basic Training and Services Are a $75/Hour Flat Rate. If You Happen To 
+               Need any Additional Services, Please Do Not Hesitate to Contact Us for More Details.
             </p>
             <div className="py-4 grid xs:grid-cols-1  md:grid-cols-2 lg:grid-cols-4 gap-4">
               {ServiceConfig.map(({ icon, title, description }) => (
@@ -234,7 +234,7 @@ const Home: NextPage = () => {
         </div>
         <div id="contact" className="flex py-20 bg-gray-200">
           <div className="container mx-auto py-2">
-            <h2 className="text-2xl text-center font-bold py-2">CONTACT ESTOPDRIVING SCHOOL</h2>
+            <h2 className="text-2xl text-center font-bold py-2">CONTACT eSTOPDRIVING SCHOOL</h2>
             <p className="text-center  mx-2">
               If You Have Any Questions, Feel Free To Call Me Any Time: (415) 897-7002.
             </p>
