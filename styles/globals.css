@@ -22,6 +22,10 @@ a {
   font-family: 'Overpass', sans-serif;
 
 }
+a.bg-red-500.hover\bg-red-800.text-white.px-4.py-2.m-2.text-xl{
+  padding:.25rem !important;
+}
+
 ul, li{
   min-height:50px; text-align:center;
 }
