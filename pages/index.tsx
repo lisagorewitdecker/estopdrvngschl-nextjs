@@ -10,7 +10,7 @@ const NavConfig = [
     link: "home",
   },
   {
-    name: "ABOUT",
+    name: "ABOUT US",
     link: "about",
   },
   {
@@ -22,7 +22,7 @@ const NavConfig = [
     link: "training_and_services",
   },
   {
-    name: "CONTACT",
+    name: "CONTACT US",
     link: "contact",
   },
 ];
