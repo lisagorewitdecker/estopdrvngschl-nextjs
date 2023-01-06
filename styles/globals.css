@@ -22,6 +22,9 @@ a {
   font-family: 'Overpass', sans-serif;
 
 }
+ul, li{
+  min-height:50px; text-align:center;
+}
 
 .outer {
 }
