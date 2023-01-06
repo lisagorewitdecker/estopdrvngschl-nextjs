@@ -2,10 +2,12 @@
 
 h1,h2,h3,h4,h5,h6{
   font-family: 'Quicksand', sans-serif;
+
 }
 
 p{
   font-family: 'Quicksand', sans-serif;
+
 }
 
 p.mb2{
@@ -14,10 +16,12 @@ p.mb2{
 
 ul{
   font-family: 'Quicksand', sans-serif;
+
 }
 
 body{
   font-family: 'Quicksand', sans-serif;
+
 }
 
 .container {
@@ -29,6 +33,7 @@ body{
   align-items: center;
   height: 100vh;
   font-family: 'Quicksand', sans-serif;
+
 }
 
 .main {
@@ -39,6 +44,7 @@ body{
   justify-content: center;
   align-items: center;
   font-family: 'Quicksand', sans-serif;
+
 }
 
 .footer {
@@ -48,7 +54,8 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Quicksand', sans-serif;
+  ffont-family: 'Quicksand', sans-serif;
+
 }
 
 .footer a {
@@ -57,12 +64,14 @@ body{
   align-items: center;
   flex-grow: 1;
   font-family: 'Quicksand', sans-serif;
+
 }
 
 .title a {
   color: #0070f3;
   text-decoration: none;
   font-family: 'Quicksand', sans-serif;
+
 }
 
 .title a:hover,
@@ -70,6 +79,7 @@ body{
 .title a:active {
   text-decoration: underline;
   font-family: 'Quicksand', sans-serif;
+
 }
 
 .title {
@@ -77,6 +87,7 @@ body{
   line-height: 1.15;
   font-size: 4rem;
   font-family: 'Quicksand', sans-serif;
+
 }
 
 .title,
