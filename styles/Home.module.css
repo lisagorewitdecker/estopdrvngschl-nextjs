@@ -176,7 +176,7 @@ body{
 
 .message{
   max-height: 250px;
-  max-width: 580px;
+  max-width: 600px;
   margin: 0px; 0px; 188px; 0px !important;
   font-family: 'Overpass', sans-serif;
 }
