@@ -130,7 +130,6 @@ const Home: NextPage = () => {
               >
                 TRY NOW
               </a>
-            </div>
           </div>
         </div>
           </div>
