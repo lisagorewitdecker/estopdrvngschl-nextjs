@@ -135,12 +135,12 @@ const Home: NextPage = () => {
         </div>
           </div>
         <div id="about" className="container mx-auto py-4">
-          <h1 className="text-2xl text-center py-4 font-bold">About Estop Driving School, Novato, CA 94945 &ndash; Located in Marin County</h1>
+          <h1 className="text-2xl text-center py-4 font-bold">About eStop Driving School, Novato, CA 94945 &ndash; Located in Marin County</h1>
           <div className="grid sm:grid-cols-1  md:grid-cols-2 gap-4">
             <div className="flex items-center justify-center">
               <Image
                 src="/tony-good-morning.jpg"
-                alt="EstopDrivingSchool Logo"
+                alt="eStopDrivingSchool Logo"
                 width={400}
                 height={400}
               />
@@ -187,7 +187,7 @@ const Home: NextPage = () => {
         >
           <div className="container mx-auto py-2">
             <h2 className="text-2xl text-center py-2 font-bold text-white">
-              SCHEDULE AN APPOINTMMENT TODAY!
+              SCHEDULE AN APPOINTMENT TODAY!
             </h2>
             <p className="text-center text-white mx-2">
               VISIT US AT{" "}
@@ -209,7 +209,7 @@ const Home: NextPage = () => {
               TRAINING &amp; SERVICES
             </h2>
             <p className="text-center mx-2">
-               Basic Training and Services Are a $75/Hour Flat Rate. If You Happen To 
+               Basic Training and Services Are a $75/Hour Flat Rate. If You Happen to 
                Need any Additional Services, Please Do Not Hesitate to Contact Us for More Details.
             </p>
             <div className="py-4 grid xs:grid-cols-1  md:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -286,7 +286,7 @@ const Home: NextPage = () => {
             href="http://estopdrivingschool.com/"
             title="eStopDrivingSchool"
           >
-            ESTOPDRIVINGSCHOOL |
+            eSTOPDRIVINGSCHOOL |
           </a>{" "}
           <a
             className="text-gray-400"
