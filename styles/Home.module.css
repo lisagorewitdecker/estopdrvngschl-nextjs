@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Quicksand', sans-serif;
+}
+
+p{
+  font-family: 'Quicksand', sans-serif;
+}
+
+ul{
+  font-family: 'Quicksand', sans-serif;
+}
+
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
