@@ -153,7 +153,7 @@ const Home: NextPage = () => {
               <p className="mb-2">
                 Welcome to eStop Driving School. I am Tony, the founder and owner of eStop Driving School
                 (also known as Nile Driving School). I have been teaching behind-the-wheel driving since 1983. 
-                I have trained more than 5,000 teenagers, adults and seniors (of legal driving age and status).
+                I have trained more than 5,000 teenagers, adults and seniors (of course they are of legal driving age, and status).
                 Every Day, I take great pride, and receive so much joy, for what I do for a living!
               </p>
 
@@ -209,8 +209,8 @@ const Home: NextPage = () => {
               TRAINING &amp; SERVICES
             </h2>
             <p className="text-center mx-2">
-               Basic Training and Services Are a $75/Hour Flat Rate. If You Happen to 
-               Need any Additional Services, Please Do Not Hesitate to Contact Us for More Details.
+               Basic Training and Services Are a $95/Hour Flat Rate. If You Happen to Need
+               any Additional Services, Please Do Not Hesitate to Contact Us for More Details.
             </p>
             <div className="py-4 grid xs:grid-cols-1  md:grid-cols-2 lg:grid-cols-4 gap-4">
               {ServiceConfig.map(({ icon, title, description }) => (
@@ -236,7 +236,7 @@ const Home: NextPage = () => {
           <div className="container mx-auto py-2">
             <h2 className="text-2xl text-center font-bold py-2">CONTACT eSTOPDRIVING SCHOOL</h2>
             <p className="text-center  mx-2">
-              If You Have Any Questions, Feel Free To Call Me Any Time: (415) 897-7002.
+              If You Have Any Questions, Feel Free to Call Me Any Time: (415) 897-7002.
             </p>
             <div className="p-8 m-auto grid sm:grid-cols-1 md:grid-cols-2">
               <div className="flex justify-end px-8">
@@ -260,8 +260,8 @@ const Home: NextPage = () => {
                   </a>
                 </p>
                 <p>
-                  Licensed Instructor No. 3381 Please Call In Advance To
-                  Scheduled A Personal Appointmenet.
+                  Licensed Instructor No. 3381 Please Call in Advance to
+                  Scheduled a Personal Appointmenet.
                 </p>
               </div>
             </div>
