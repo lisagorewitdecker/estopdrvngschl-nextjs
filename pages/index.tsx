@@ -260,7 +260,7 @@ const Home: NextPage = () => {
                   </a>
                 </p>
                 <p>
-                  Licensed Instructor No. 3381 Please Call in Advance to
+                  Licensed Instructor No. 2055001 Please Call in Advance to
                   Scheduled a Personal Appointmenet.
                 </p>
               </div>
