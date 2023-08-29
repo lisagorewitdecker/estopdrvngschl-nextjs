@@ -1,4 +1,4 @@
-# stopdrivingschool.com
+# estopdrivingschool.com
 
 ## Important Development Information
 Built in Next.js
