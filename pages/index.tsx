@@ -60,10 +60,10 @@ const Home: NextPage = () => {
     <div>
       <Head>
         <title>eStop Driving School</title>
-        <meta name="description" content="Teaching Driving to Teenagers, Adults, and Seniors Since 1983" />
+        <meta name="description" title=" eStop Driving School- Previously, Nile Driving School" content=" Teshome Kebere Has Been Teaching; Teenagers, Adults, And Seniors How To Drive Since 1983" />
         <link rel="icon" href="/favicon.ico" />
         <link
-          rel="apple-touch-icon"
+          rel="apple-touch-icon;
           sizes="180x180"
           href="/apple-touch-icon.png"
         />
@@ -170,8 +170,8 @@ const Home: NextPage = () => {
               </p>
 
               <p className="mb-2">
-                Phone: (415) 897-7002 <br />
-                Email:{" "}
+                <b><Phone:</b> (415) 897-7002 <br />
+                <b><Email:{" "}</b> 
                 <a href="mailto:tony@estopdrivingschool.com">
                   tony@estopdrivingschool.com
                 </a>
@@ -240,11 +240,11 @@ const Home: NextPage = () => {
           <div className="container mx-auto py-2">
             <h2 className="text-2xl text-center font-bold py-2">CONTACT eSTOPDRIVING SCHOOL</h2>
             <p className="text-center  mx-2">
-              If You Have Any Questions, Feel Free to Call Me Any Time: (415) 897-7002.
+              If You Have Any Questions, Feel Free to Call Me Anytime at (415) 897-7002.
             </p>
             <div className="p-8 m-auto grid sm:grid-cols-1 md:grid-cols-2">
               <div className="flex justify-end px-8">
-                <a href="https://www.yelp.com/biz/nile-driving-school-novato?utm_medium=biz_embedded_content&amp;utm_source=biz_badge">
+                <a href="https://www.yelp.com/biz/-novato?utm_medium=biz_embedded_content&amp;utm_source=biz_badge">
                   <img
                     alt="Nile Driving School"
                     src="https://dyn.yelpcdn.com/extimg/en_US/fsc/aqPJ63Ipo5dYtkh9JfJYRQ.png"
@@ -255,17 +255,17 @@ const Home: NextPage = () => {
               </div>
               <div>
                 <p className="mb-2 font-bold">Tony (Teshome Kebere)</p>
-                <p>Address: Suite N, 7075 Redwood Blvd, Novato, CA 94945</p>
-                <p>Phone: (415) 897-7002</p>
+                <p><b>ADDRESS:</b> Suite N, 7075 Redwood Blvd, Novato, CA 94945</p>
+                <p><b></b>PHONE:</b> (415) 897-7002</p>
                 <p className="mb-4">
-                  EMAIL:{" "}
+                   <b></b>EMAIL:{" "}</b>
                   <a href="mailto:tony@estopdrivingschool.com">
                     tony@estopdrivingschool.com
                   </a>
                 </p>
                 <p>
-                  Licensed Instructor No. 2055001 Please Call in Advance to
-                  Scheduled a Personal Appointment.
+                  Licensed Instructor No. 2055001 </p>
+              <p>Please Call In Advance To Schedule A Personal Appointment.</p>
                 </p>
               </div>
             </div>
@@ -284,25 +284,25 @@ const Home: NextPage = () => {
       </main>
       <footer className="bg-gray-900 text-gray-400 py-4 text-sm">
         <div className="container m-auto text-center">
-          Copyright @2024{" "}
+          Copyright @2024{" "} &nbsp; 
           <a
             className="text-gray-400"
             href="http://estopdrivingschool.com/"
             title="eStopDrivingSchool"
           >
-            eSTOPDRIVINGSCHOOL |
+            eSTOPDRIVINGSCHOOL | &nbsp; 
           </a>{" "}
           <a
             className="text-gray-400"
             href="mailto:tony@estopdrivingschool.com"
           >
-            EMAIL |
+            EMAIL | &nbsp; 
           </a>{" "}
           <a
             href="https://www.facebook.com/estopdrivingschool/"
             className="text-gray-400"
           >
-            FACEBOOK |
+            FACEBOOK | &nbsp; 
           </a>
            <a
             href="https://lisagorewitdecker.com"
