@@ -211,7 +211,7 @@ const Home: NextPage = () => {
                 //rel="noopener noreferrer"
               //>
              // </a>
-              TO SCHEDULE YOUR DRIVING TRAINING SESSION/S.
+              //TO SCHEDULE YOUR DRIVING TRAINING SESSION/S.
             //</p>
           </div>
         </div>
