@@ -60,7 +60,7 @@ const Home: NextPage = () => {
     <div>
       <Head>
         <title>eStop Driving School</title>
-        <meta name="description" content="Teaching Driving to Teenagers, Adults and Seniors Since 1983" />
+        <meta name="description" content="Teaching Driving to Teenagers, Adults, and Seniors Since 1983" />
         <link rel="icon" href="/favicon.ico" />
         <link
           rel="apple-touch-icon"
@@ -122,7 +122,7 @@ const Home: NextPage = () => {
           <div className="container mx-auto">
             <div className="text-2xl mb-16 p-4" style={{ maxWidth: 600 }}>
               <div className="message" style={{ marginBottom:188, maxHeight: 250, maxWidth: 600 }}>
-                GIVE ME 6 HOURS OF YOUR TIME AND I WILL GIVE YOU 30,000 DAYS!
+                GIVE ME 6 HOURS OF YOUR TIME, AND I WILL GIVE YOU 30,000 DAYS!
               <a className="bg-red-500 hover:bg-red-800 text-white px-4 py-2 m-2 text-xl"
                 href="https://calendly.com/estop"
                 target="_blank"
@@ -147,16 +147,17 @@ const Home: NextPage = () => {
             </div>
             <div className="p-4">
               <p className="font-bold leading-relaxed mb-4">
-                Since 1983, I Have 40 Years of Experience Training and Teaching Adults,
-                Teenagers and Seniors Behind-The-Wheel Driving. All While Doing What I Love!
-              </p>
+               
               <p className="mb-2">
-                Welcome to eStop Driving School. I am Tony(Tesshome), the founder and owner of eStop Driving School
-                (also known as Nile Driving School). I have been teaching behind-the-wheel driving since 1983. 
+                Welcome to eStop Driving School. I am Tony(Teshome), the founder and owner of eStop Driving School
+                (Also known as, or previously known as Nile Driving School). I have been teaching behind-the-wheel driving since 1983. 
                 I have trained more than 5,000 teenagers, adults, and seniors (of course, they are of legal driving age and status). 
                 Basic training and services are at a flat rate of $95/Hour If you need any additional services, please do not hesitate to contact us for more details.
-
-
+              </p>
+              <p className="mb-2">
+                Since 1983, I Have 40 Years of Experience Training and Teaching Adults, Teenagers, and Seniors Behind-The-Wheel Driving. All While Doing What I Love!
+                </p>
+              <p className="mb-2">
                 Every Day, I take great pride in and receive so much joy from what I do for a living!
               </p>
 
