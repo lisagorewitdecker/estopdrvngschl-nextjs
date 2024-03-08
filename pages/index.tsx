@@ -147,14 +147,17 @@ const Home: NextPage = () => {
             </div>
             <div className="p-4">
               <p className="font-bold leading-relaxed mb-4">
-                Since 1983, I Have 40 Years of Eperience Training, and Teaching Adults,
-                Teenagers, and Seniors Behind-The-Wheel Driving. All While Doing What I Love!
+                Since 1983, I Have 40 Years of Experience Training and Teaching Adults,
+                Teenagers and Seniors Behind-The-Wheel Driving. All While Doing What I Love!
               </p>
               <p className="mb-2">
-                Welcome to eStop Driving School. I am Tony, the founder and owner of eStop Driving School
+                Welcome to eStop Driving School. I am Tony(Tesshome), the founder and owner of eStop Driving School
                 (also known as Nile Driving School). I have been teaching behind-the-wheel driving since 1983. 
-                I have trained more than 5,000 teenagers, adults and seniors (of course they are of legal driving age, and status).
-                Every Day, I take great pride, and receive so much joy, for what I do for a living!
+                I have trained more than 5,000 teenagers, adults, and seniors (of course, they are of legal driving age and status). 
+                Basic training and services are at a flat rate of $95/Hour If you need any additional services, please do not hesitate to contact us for more details.
+
+
+                Every Day, I take great pride in and receive so much joy from what I do for a living!
               </p>
 
               <p className="mb-2">
@@ -204,19 +207,19 @@ const Home: NextPage = () => {
           </div>
         </div>
         <div id="training_and_services" className="bg-gray-100">
-          <div className="container mx-auto py-4">
-            <h2 className="text-2xl text-center py-4 font-bold">
+          <div className="container mx-auto py-3">
+            <h2 className="text-2xl text-center py-3 font-bold">
               TRAINING &amp; SERVICES
             </h2>
-            <p className="text-center mx-2">
+            <p className="text-center mx-1">
                Basic Training and Services Are a $95/Hour Flat Rate. If You Happen to Need
                any Additional Services, Please Do Not Hesitate to Contact Us for More Details.
             </p>
-            <div className="py-4 grid xs:grid-cols-1  md:grid-cols-2 lg:grid-cols-4 gap-4">
+            <div className="py-3 grid xs:grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-4">
               {ServiceConfig.map(({ icon, title, description }) => (
                 <div
                   key={title}
-                  className="p-4 flex flex-col text-center items-center"
+                  className="p-3 flex flex-col text-center items-center"
                   style={{ fontSize: 12 }}
                 >
                   <FontAwesomeIcon
