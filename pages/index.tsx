@@ -246,7 +246,7 @@ const Home: NextPage = () => {
               <div className="flex justify-end px-8">
                 <a href="https://www.yelp.com/biz/nile-driving-school-novato?utm_medium=biz_embedded_content&amp;utm_source=biz_badge">
                   <img
-                    alt="Nile Driving School"
+                    alt="eStop Driving School"
                     src="https://dyn.yelpcdn.com/extimg/en_US/fsc/aqPJ63Ipo5dYtkh9JfJYRQ.png"
                     height={"55"}
                     width={"125"}
@@ -284,6 +284,17 @@ const Home: NextPage = () => {
       </main>
       <footer className="bg-gray-900 text-gray-400 py-4 text-sm">
         <div className="container m-auto text-center">
+          function year() {
+    const date = new Date();
+    const year = date.getFullYear();
+    return (
+        <>
+            <div>Current year is {year}</div>
+        </>
+  )
+}
+
+export default year;
           Copyright @2023{" "}
           <a
             className="text-gray-400"
