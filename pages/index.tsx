@@ -203,7 +203,7 @@ const Home: NextPage = () => {
               >
                 CALENDLY.COM/ESTOP{" "}
               </a>
-              TO SCHEDULE YOUR DRIVING TRANING SESSIONS.
+              TO SCHEDULE YOUR DRIVING TRAINING SESSION/S.
             </p>
           </div>
         </div>
@@ -213,8 +213,8 @@ const Home: NextPage = () => {
               TRAINING &amp; SERVICES
             </h2>
             <p className="text-center mx-1">
-               Basic Training and Services Are a $95/Hour Flat Rate. If You Happen to Need
-               any Additional Services, Please Do Not Hesitate to Contact Us for More Details.
+               Basic Training And Services Are A $95/Hour Flat Rate. If You Happen To Need
+               Any Additional Services, Please Do Not Hesitate To Contact Us For More Details.
             </p>
             <div className="py-3 grid xs:grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-4">
               {ServiceConfig.map(({ icon, title, description }) => (
@@ -244,7 +244,7 @@ const Home: NextPage = () => {
             </p>
             <div className="p-8 m-auto grid sm:grid-cols-1 md:grid-cols-2">
               <div className="flex justify-end px-8">
-                <a href="https://www.yelp.com/biz/nile-driving-school-novato?utm_medium=biz_embedded_content&amp;utm_source=biz_badge">
+                <a href="https://www.yelp.com/biz/estop-driving-school-novato-2?utm_medium=biz_embedded_content&amp;utm_source=biz_badge">
                   <img
                     alt="eStop Driving School Previously Nile Driving School"
                     src="https://dyn.yelpcdn.com/extimg/en_US/fsc/aqPJ63Ipo5dYtkh9JfJYRQ.png"
@@ -255,8 +255,8 @@ const Home: NextPage = () => {
               </div>
               <div>
                 <p className="mb-2 font-bold">Tony (Teshome Kebere)</p>
-                <p><b>ddress:</b> Suite N, 7075 Redwood Blvd, Novato, CA 94945</p>
-                <p><b>Phone:</b> (415) 897-7002</p>
+                <p><b>ADDRESS:</b> Suite N, 7075 Redwood Blvd, Novato, CA 94945</p>
+                <p><b>PHONE:</b> (415) 897-7002</p>
                 <p className="mb-4">
                   <b>EMAIL:{" "}</b> 
                   <a href="mailto:tony@estopdrivingschool.com">
@@ -264,8 +264,8 @@ const Home: NextPage = () => {
                   </a>
                 </p>
                 <p>
-                  Licensed Instructor No. 2055001 Please Call in Advance to
-                  Scheduled a Personal Appointment.
+                  Licensed Instructor No. 2055001, Please Call In Advance To
+                  Scheduled A Personal Appointment.
                 </p>
               </div>
             </div>
