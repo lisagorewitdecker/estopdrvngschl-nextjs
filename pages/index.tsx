@@ -213,7 +213,7 @@ const Home: NextPage = () => {
              // </a>
               //TO SCHEDULE YOUR DRIVING TRAINING SESSION/S.
             //</p>
-          </div>
+         // </div>
         </div>
         <div id="training_and_services" className="bg-gray-100">
           <div className="container mx-auto py-3">
