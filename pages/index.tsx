@@ -124,7 +124,7 @@ const Home: NextPage = () => {
               <div className="message" style={{ marginBottom:188, maxHeight: 250, maxWidth: 600 }}>
                 GIVE ME 6 HOURS OF YOUR TIME, AND I WILL GIVE YOU 30,000 DAYS!
               <a className="bg-red-500 hover:bg-red-800 text-white px-4 py-2 m-2 text-xl"
-                href="https://calendly.com/estop"
+                href="tel:"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -170,9 +170,10 @@ const Home: NextPage = () => {
               </p>
 
               <p className="mb-2">
-                <b>Phone:</b> (415) 897-7002 <br />
-                <b>Email:</b>{" "}
-                <a href="mailto:tony@estopdrivingschool.com">
+                 <b>PHONE:</b>{" "}<a href="tel:tony@estopdrivingschool.com">
+                  tony@estopdrivingschool.com
+                </a>
+                <b>EMAIL:</b>{" "}<a href="mailto:tony@estopdrivingschool.com">
                   tony@estopdrivingschool.com
                 </a>
               </p>
@@ -194,14 +195,21 @@ const Home: NextPage = () => {
               SCHEDULE AN APPOINTMENT TODAY!
             </h2>
             <p className="text-center text-white mx-2">
-              CALL US AT{" "}
+              CALL ME AT{" "} OR
               <a
                 className="font-bold"
-                href="tel:"
+                href="tel:415-897-7002"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                CALENDLY.COM/ESTOP{" "}
+              </a>
+              EMAIL ME AT{" "}
+              <a
+                className="font-bold"
+                href="mailto:tony@estopdrivingschool.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
               </a>
               TO SCHEDULE YOUR DRIVING TRAINING SESSION/S.
             </p>
@@ -240,13 +248,13 @@ const Home: NextPage = () => {
           <div className="container mx-auto py-2">
             <h2 className="text-2xl text-center font-bold py-2">CONTACT eSTOPDRIVING SCHOOL</h2>
             <p className="text-center  mx-2">
-              If You Have Any Questions, Feel Free to Call Me Anytime at (415) 897-7002.
+              If You Have Any Questions, Feel Free To Call Me Anytime At 415-897-7002.
             </p>
             <div className="p-8 m-auto grid sm:grid-cols-1 md:grid-cols-2">
               <div className="flex justify-end px-8">
                 <a href="https://www.yelp.com/biz/estop-driving-school-novato-2?utm_medium=biz_embedded_content&amp;utm_source=biz_badge">
                   <img
-                    alt="eStop Driving School Previously Nile Driving School"
+                    alt="eStop Driving School, Previously Nile Driving School"
                     src="https://dyn.yelpcdn.com/extimg/en_US/fsc/aqPJ63Ipo5dYtkh9JfJYRQ.png"
                     height={"55"}
                     width={"125"}
