@@ -166,7 +166,7 @@ const Home: NextPage = () => {
                <b> My Life Philosophy Is...&ldquo;Speak STOP Fluently and Flawlessly For Life!&rdquo;</b>
               </p>
               <p className="mb-2">
-                Please Feel Free to Contact Me Any Time by Phone or Email.
+                Please Feel Free to Contact Me Anytime Via Phone Or Email.
               </p>
 
               <p className="mb-2">
@@ -195,7 +195,7 @@ const Home: NextPage = () => {
               SCHEDULE AN APPOINTMENT TODAY!
             </h2>
             <p className="text-center text-white mx-2">
-              CALL ME AT{" "} OR
+              CALL ME AT{"415-897-7002"} OR
               <a
                 className="font-bold"
                 href="tel:415-897-7002"
@@ -203,7 +203,7 @@ const Home: NextPage = () => {
                 rel="noopener noreferrer"
               >
               </a>
-              EMAIL ME AT{" "}
+              EMAIL ME AT{"tony@estopdrivingschool.com"}
               <a
                 className="font-bold"
                 href="mailto:tony@estopdrivingschool.com"
