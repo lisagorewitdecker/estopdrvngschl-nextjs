@@ -122,7 +122,7 @@ const Home: NextPage = () => {
           <div className="container mx-auto">
             <div className="text-2xl mb-16 p-4" style={{ maxWidth: 600 }}>
               <div className="message" style={{ marginBottom:188, maxHeight: 250, maxWidth: 600 }}>
-                GIVE ME 6 HOURS OF YOUR TIME AND I WILL GIVE YOU 30,000 DAYS!
+                GIVE ME 6 HOURS OF YOUR TIME, AND I WILL GIVE YOU 30,000 DAYS!
               <a className="bg-red-500 hover:bg-red-800 text-white px-4 py-2 m-2 text-xl"
                 href="https://calendly.com/estop"
                 target="_blank"
@@ -148,8 +148,8 @@ const Home: NextPage = () => {
             <div className="p-4">
               <p className="font-bold leading-relaxed mb-4"> 
               <p className="mb-2">
-                Welcome to eStop Driving School. I am Tony(Tesshome), the founder and owner of eStop Driving School
-                (also known as Nile Driving School). I have been teaching behind-the-wheel driving since 1983.
+                Welcome to eStop Driving School. I am Tony(Teshome), the founder and owner of eStop Driving School
+                (previously known as Nile Driving School). I have been teaching behind-the-wheel driving since 1983.
               </p>
               </p> 
               <p className="mb-2"> I have trained more than 5,000 teenagers, adults, and seniors (of course, they are of legal driving age and status). 
@@ -170,8 +170,8 @@ const Home: NextPage = () => {
               </p>
 
               <p className="mb-2">
-                Phone: (415) 897-7002 <br />
-                Email:{" "}
+                <b>Phone:</b> (415) 897-7002 <br />
+                <b>Email:</b>{" "}
                 <a href="mailto:tony@estopdrivingschool.com">
                   tony@estopdrivingschool.com
                 </a>
@@ -194,10 +194,10 @@ const Home: NextPage = () => {
               SCHEDULE AN APPOINTMENT TODAY!
             </h2>
             <p className="text-center text-white mx-2">
-              VISIT US AT{" "}
+              CALL US AT{" "}
               <a
                 className="font-bold"
-                href="https://calendly.com/estop"
+                href="tel:"
                 target="_blank"
                 rel="noopener noreferrer"
               >
