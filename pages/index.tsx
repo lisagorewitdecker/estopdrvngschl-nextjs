@@ -284,7 +284,7 @@ const Home: NextPage = () => {
       </main>
       <footer className="bg-gray-900 text-gray-400 py-4 text-sm">
         <div className="container m-auto text-center">
-          Copyright @2023{" "}
+          Copyright @2024{" "}
           <a
             className="text-gray-400"
             href="http://estopdrivingschool.com/"
