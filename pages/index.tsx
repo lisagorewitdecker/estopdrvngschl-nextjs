@@ -149,7 +149,7 @@ const Home: NextPage = () => {
               <p className="font-bold leading-relaxed mb-4"> 
               <p className="mb-2">
                 Welcome to eStop Driving School. I am Tony(Tesshome), the founder and owner of eStop Driving School
-                (also known as Nile Driving School). I have been teaching behind-the-wheel driving since 1983.
+                (also known as, or previously named Nile Driving School). I have been teaching behind-the-wheel driving since 1983.
               </p>
               </p> 
               <p className="mb-2"> I have trained more than 5,000 teenagers, adults, and seniors (of course, they are of legal driving age and status). 
@@ -195,13 +195,13 @@ const Home: NextPage = () => {
             </h2>
             <p className="text-center text-white mx-2">
               VISIT US AT{" "}
-              <a
-                className="font-bold"
-                href="https://calendly.com/estop"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                CALENDLY.COM/ESTOP{" "}
+              //<a
+                //className="font-bold"
+                //href="https://calendly.com/estop"
+                //target="_blank"
+                //rel="noopener noreferrer"
+              //>
+                //CALENDLY.COM/ESTOP{" "}
               </a>
               TO SCHEDULE YOUR DRIVING TRANING SESSIONS.
             </p>
@@ -240,7 +240,7 @@ const Home: NextPage = () => {
           <div className="container mx-auto py-2">
             <h2 className="text-2xl text-center font-bold py-2">CONTACT eSTOPDRIVING SCHOOL</h2>
             <p className="text-center  mx-2">
-              If You Have Any Questions, Feel Free to Call Me Any Time: (415) 897-7002.
+              If You Have Any Questions, Feel Free to Call Me Anytime at (415) 897-7002.
             </p>
             <div className="p-8 m-auto grid sm:grid-cols-1 md:grid-cols-2">
               <div className="flex justify-end px-8">
@@ -284,6 +284,17 @@ const Home: NextPage = () => {
       </main>
       <footer className="bg-gray-900 text-gray-400 py-4 text-sm">
         <div className="container m-auto text-center">
+          <div>
+          function Copyright() {
+  return (
+    <Typography variant="body2" color="text.secondary">
+      {'Copyright © '}
+           </Link>{' '}
+      {new Date().getFullYear()}
+    </Typography>
+  );
+}
+          </div>
           Copyright @2023{" "}
           <a
             className="text-gray-400"
@@ -296,13 +307,13 @@ const Home: NextPage = () => {
             className="text-gray-400"
             href="mailto:tony@estopdrivingschool.com"
           >
-            EMAIL |
+            EMAIL |&nbsp;
           </a>{" "}
           <a
             href="https://www.facebook.com/estopdrivingschool/"
             className="text-gray-400"
           >
-            FACEBOOK |
+            FACEBOOK |&nbsp;
           </a>
            <a
             href="https://lisagorewitdecker.com"
