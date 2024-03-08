@@ -195,24 +195,24 @@ const Home: NextPage = () => {
               SCHEDULE AN APPOINTMENT TODAY! CALL ME AT <a href="tel:415-897-7002" target="_blank" rel="noopener noreferrer"/>415-897-7002</a> OR EMAIL ME <a href="mailto:tony@estopdrivingschool.com" target="_blank" rel="noopener noreferrer"/>TONY@ESTOPDRIVINGSCHOOL>COM</a> TO SCHEDULE YOUR DRIVING TRAINING SESSION/S.
             </h2>
             
-              CALL ME AT{"415-897-7002"} OR
-              <a
-                className="font-bold"
-                href="tel:415-897-7002"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-              </a>
-              EMAIL ME AT{"tony@estopdrivingschool.com"}
-              <a
-                className="font-bold"
-                href="mailto:tony@estopdrivingschool.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-              </a>
+              //CALL ME AT{"415-897-7002"} OR
+             // <a
+               // className="font-bold"
+                //href="tel:415-897-7002"
+               // target="_blank"
+                //rel="noopener noreferrer"
+             //>
+             //</a>
+              //EMAIL ME AT{"tony@estopdrivingschool.com"}
+              //<a
+                //className="font-bold"
+                //href="mailto:tony@estopdrivingschool.com"
+               // target="_blank"
+                //rel="noopener noreferrer"
+              //>
+             // </a>
               TO SCHEDULE YOUR DRIVING TRAINING SESSION/S.
-            </p>
+            //</p>
           </div>
         </div>
         <div id="training_and_services" className="bg-gray-100">
