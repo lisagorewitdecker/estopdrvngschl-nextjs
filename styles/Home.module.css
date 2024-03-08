@@ -4,6 +4,12 @@ h1,h2,h3,h4,h5,h6{
   font-family: 'Overpass', sans-serif;
 
 }
+a {
+  @apply text-red-600 hover:text-red-300;
+  font-family: 'Overpass', sans-serif;
+  padding:.35rem .45rem !important;
+
+}
 
 p{
   font-family: 'Overpass', sans-serif;
