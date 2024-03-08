@@ -60,7 +60,7 @@ const Home: NextPage = () => {
     <div>
       <Head>
         <title>eStop Driving School</title>
-        <meta name="description" content="Teaching Driving to Teenagers, Adults and Seniors Since 1983" />
+        <meta name="description" content="Teaching Driving to Teenagers, Adults, and Seniors Since 1983" />
         <link rel="icon" href="/favicon.ico" />
         <link
           rel="apple-touch-icon"
@@ -146,24 +146,25 @@ const Home: NextPage = () => {
               />
             </div>
             <div className="p-4">
-              <p className="font-bold leading-relaxed mb-4">
-                Since 1983, I Have 40 Years of Experience Training and Teaching Adults,
-                Teenagers and Seniors Behind-The-Wheel Driving. All While Doing What I Love!
-              </p>
+              <p className="font-bold leading-relaxed mb-4"> 
               <p className="mb-2">
                 Welcome to eStop Driving School. I am Tony(Tesshome), the founder and owner of eStop Driving School
-                (also known as Nile Driving School). I have been teaching behind-the-wheel driving since 1983. 
-                I have trained more than 5,000 teenagers, adults, and seniors (of course, they are of legal driving age and status). 
+                (also known as Nile Driving School). I have been teaching behind-the-wheel driving since 1983.
+              </p>
+              </p> 
+              <p className="mb-2"> I have trained more than 5,000 teenagers, adults, and seniors (of course, they are of legal driving age and status). 
                 Basic training and services are at a flat rate of $95/Hour If you need any additional services, please do not hesitate to contact us for more details.
-
-
+              </p>
+              <p className="mb-2">
+                 Since 1983, I Have 40 Years of Experience Training and Teaching Adults,
+                Teenagers and Seniors Behind-The-Wheel Driving. All While Doing What I Love!
+               </p>
+              <p className="mb-2">
                 Every Day, I take great pride in and receive so much joy from what I do for a living!
               </p>
-
               <p className="mb-2">
                <b> My Life Philosophy Is...&ldquo;Speak STOP Fluently and Flawlessly For Life!&rdquo;</b>
               </p>
-
               <p className="mb-2">
                 Please Feel Free to Contact Me Any Time by Phone or Email.
               </p>
