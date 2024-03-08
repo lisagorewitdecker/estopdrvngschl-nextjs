@@ -42,11 +42,11 @@ const ServiceConfig = [
     title: "SENIORS",
     description: `1 Hour Minimum for Seniors "Behind-The-Wheel Refresher"`,
   },
-  {
-    icon: "car",
-    title: "CAR RENTAL",
-    description: `Car Rental for DMV "Behind-The-Wheel" Test at DMV`,
-  },
+  //{
+    //icon: "car",
+    //title: "CAR RENTAL",
+    //description: `Car Rental for DMV "Behind-The-Wheel" Test at DMV`,
+  //},
 ];
 const Home: NextPage = () => {
   const onScrollToView = useCallback((elemId: string) => {
