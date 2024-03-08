@@ -18,8 +18,8 @@ body {
 }
 
 a {
-  @apply text-red-600 hover:text-red-300;
-  font-family: 'Overpass', sans-serif;
+  @apply text-red-600 hover:text-red-300 !Important;
+  font-family: 'Overpass', sans-serif !Important;
   padding:.35rem .45rem !important;
 
 }
