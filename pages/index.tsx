@@ -284,6 +284,44 @@ const Home: NextPage = () => {
       </main>
       <footer className="bg-gray-900 text-gray-400 py-4 text-sm">
         <div className="container m-auto text-center">
+<script>
+function Copyright() {
+  return (
+    <Typography variant="body2" color="text.secondary">
+      {'Copyright © '}
+      <Link color="inherit" href="https://www.linkedin.com/in/fabio-catino/">
+        Fabio Catino
+      </Link>{' '}
+      {new Date().getFullYear()}
+    </Typography>
+  );
+}
+
+export default function StickyFooter() {
+  return (
+    <Box
+      component="footer"
+      sx={{
+        py: 3,
+        px: 2,
+        pd: 3,
+        width: '100%',
+        // position: 'absolute',
+        bottom: 0,
+        backgroundColor: (theme) =>
+          theme.palette.mode === 'light'
+            ? theme.palette.grey[200]
+            : theme.palette.grey[800],
+      }}
+    >
+      <Container maxWidth="sm">
+        <Copyright />
+      </Container>
+    </Box>
+  );
+}
+</script>
+          
           Copyright @2023{" "}
           <a
             className="text-gray-400"
