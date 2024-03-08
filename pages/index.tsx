@@ -193,18 +193,39 @@ const Home: NextPage = () => {
             <h2 className="text-2xl text-center py-2 font-bold text-white">
               SCHEDULE AN APPOINTMENT TODAY!
             </h2>
-            <p className="text-center text-white mx-2">
+            //<p className="text-center text-white mx-2">
+              //CALL US AT{" "}
+             // <a
+                //className="font-bold"
+               // href="tel:"
+               // target="_blank"
+                //rel="noopener noreferrer"
+              //>
+                //CALENDLY.COM/ESTOP{" "}
+              //</a>
+              //TO SCHEDULE YOUR DRIVING TRAINING SESSION/S.
+            //</p>
+              <p className="text-center text-white mx-2">
               CALL US AT{" "}
-              <a
-                className="font-bold"
-                href="tel:"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                CALENDLY.COM/ESTOP{" "}
-              </a>
-              TO SCHEDULE YOUR DRIVING TRAINING SESSION/S.
-            </p>
+                <a
+                  className="font-bold"
+                  href="tel:415-897-7002"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >
+                  (415) 897-7002{" "}
+                  </a>
+                OR EMAIL US AT{" "}
+                 <a
+                  className="font-bold"
+                  href="mailto:tony@estopdrivingschool.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >
+                  TONY@ESTOPDRIVINGSCHOOL.COM{" "}
+                  </a>
+                 TO SCHEDULE YOUR DRIVING TRAINING SESSION/S.
+               </p>
           </div>
         </div>
         <div id="training_and_services" className="bg-gray-100">
@@ -258,8 +279,8 @@ const Home: NextPage = () => {
                 <p><b>ADDRESS:</b> Suite N, 7075 Redwood Blvd, Novato, CA 94945</p>
                 <p><b>PHONE:</b> (415) 897-7002</p>
                 <p className="mb-4">
-                  <b>EMAIL:{" "}</b> 
-                  <a href="mailto:tony@estopdrivingschool.com">
+                  <b>EMAIL:{" "}</b>
+                    <a href="mailto:tony@estopdrivingschool.com">
                     tony@estopdrivingschool.com
                   </a>
                 </p>
