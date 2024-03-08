@@ -192,9 +192,14 @@ const Home: NextPage = () => {
         >
           <div className="container mx-auto py-2">
             <h2 className="text-2xl text-center py-2 font-bold text-white">
-              SCHEDULE AN APPOINTMENT TODAY! CALL ME AT <a className="font-bold" href="tel:415-897-7002" target="_blank" rel="noopener noreferrer"/>415-897-7002</a> OR EMAIL ME AT <a className="font-bold" href="mailto:tony@estopdrivingschool.com" target="_blank" rel="noopener noreferrer"/>TONY@ESTOPDRIVINGSCHOOL>COM</a> TO SCHEDULE YOUR DRIVING TRAINING SESSION/S.
+              SCHEDULE AN APPOINTMENT TODAY! CALL ME AT <p className="mb-2">
+                 <b>(415) 897-7002<:</b>{" "}<a href="tel:415-897-7002">
+                  415-897-7002
+                </a> OR EMAIL ME AT <b>TONY@ESTOPDRIVINGSCHOOL.COM<:</b>{" "}<a href="mailto:tony@estopdrivingschool.com">
+                  415-897-7002
+                </a>TONY@ESTOPDRIVINGSCHOOL.COM</a> TO SCHEDULE YOUR DRIVING TRAINING SESSION/S.
             </h2>
-            
+            </p>
             </div>
       </div>
         <div id="training_and_services" className="bg-gray-100">
