@@ -278,31 +278,31 @@ const Home: NextPage = () => {
       </main>
       <footer className="bg-gray-900 text-gray-400 py-4 text-sm">
         <div className="container m-auto text-center">
-          Copyright @2024{" "}
+          Copyright @2024{" "} &nbsp;|
           <a
             className="text-gray-400"
             href="http://estopdrivingschool.com/"
             title="eStopDrivingSchool"
           >
-            eSTOPDRIVINGSCHOOL |
+           &nbsp; eSTOPDRIVINGSCHOOL &nbsp;|
           </a>{" "}
           <a
             className="text-gray-400"
             href="mailto:tony@estopdrivingschool.com"
           >
-            EMAIL |
+            &nbsp; EMAIL &nbsp;|
           </a>{" "}
           <a
             href="https://www.facebook.com/estopdrivingschool/"
             className="text-gray-400"
           >
-            FACEBOOK |
+           &nbsp; FACEBOOK &nbsp;|
           </a>
            <a
             href="https://lisagorewitdecker.com"
             className="text-gray-400"
           >
-           &nbsp; SITE WEB DEV LISA GOREWIT-DECKER
+           &nbsp;SITE WEB DEV LISA GOREWIT-DECKER
           </a>
         </div>
       </footer>
