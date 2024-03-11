@@ -24,11 +24,11 @@ a {
 
 }
 a.bg-red-500.hover:bg-red-800.text-white.px-4.py-2.m-2.text-xl{
-  padding:.35rem .45rem !important;
+  padding:.35rem .45rem;
 }
 
 ul, li{
-  min-height:50px; text-align:center;
+  min-height:50px; text-align: center;
 }
 
 .outer {
