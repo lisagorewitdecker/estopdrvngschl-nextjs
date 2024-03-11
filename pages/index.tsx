@@ -260,7 +260,7 @@ const Home: NextPage = () => {
                   </a>
                 </p>
                 <p>
-                  Licensed Instructor No. 2055001, Pleas e<a href="tel:415-897-7002" target="_blank" rel="noopener noreferrer">Call</a> In Advance To
+                  Licensed Instructor No. 2055001, Please<a href="tel:415-897-7002" target="_blank" rel="noopener noreferrer">Call</a> In Advance To
                   Scheduled A Personal Appointment.
                 </p>
               </div>
