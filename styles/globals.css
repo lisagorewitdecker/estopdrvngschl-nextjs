@@ -20,7 +20,7 @@ body {
 a {
   @apply text-red-600 hover:text-red-300;
   font-family: 'Overpass', sans-serif;
-  padding:.35rem .35rem !important;
+  padding:.25rem .25rem;
 
 }
 a.bg-red-500.hover:bg-red-800.text-white.px-4.py-2.m-2.text-xl{
