@@ -170,8 +170,8 @@ const Home: NextPage = () => {
               </p>
 
               <p className="mb-2">
-                 <b>PHONE:</b>{" "}<a href="tel:tony@estopdrivingschool.com">
-                  tony@estopdrivingschool.com
+                 <b>PHONE:</b>{" "}<a href="tel:415-897-7002">
+                  (415) 897-7002
                 </a>
                 <b>EMAIL:</b>{" "}<a href="mailto:tony@estopdrivingschool.com">
                   tony@estopdrivingschool.com
