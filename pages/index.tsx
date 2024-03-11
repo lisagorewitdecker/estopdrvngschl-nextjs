@@ -200,9 +200,9 @@ const Home: NextPage = () => {
                 href="tel:415-897-7002"
                 target="_blank"
                 rel="noopener noreferrer"
-              > CALL ME</a> OR <a
+              >CALL ME</a> OR <a
                 className="font-bold bg-red-500 hover:bg-red-800 text-white px-4 py-2 m-2 text-xl"
-                href="tel:415-897-7002"
+                href="mailto:tony@estopdrivingschool.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 > EMAIL ME</a> TODAY!
