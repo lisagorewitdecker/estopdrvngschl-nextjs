@@ -234,7 +234,7 @@ const Home: NextPage = () => {
           <div className="container mx-auto py-2">
             <h2 className="text-2xl text-center font-bold py-2">CONTACT eSTOPDRIVING SCHOOL</h2>
             <p className="text-center  mx-2">
-              If You Have Any Questions, Feel Free To Call Me Anytime At<a href="tel:415-897-7002" target="_blank" rel="noopener noreferrer"> (415) 897-7002</a>
+              If You Have Any Questions, Feel Free To Call Me Anytime At<a href="tel:415-897-7002" target="_blank" rel="noopener noreferrer"> (415) 897-7002</a>.
             </p>
             <div className="p-8 m-auto grid sm:grid-cols-1 md:grid-cols-2">
               <div className="flex justify-end px-8">
