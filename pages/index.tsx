@@ -166,7 +166,7 @@ const Home: NextPage = () => {
                <b> My Life Philosophy Is...&ldquo;Speak STOP Fluently and Flawlessly For Life!&rdquo;</b>
               </p>
               <p className="mb-2">
-                Please Feel Free to Contact Me Anytime Via Phone Or Email.
+                Please Feel Free to Contact Me Any Time by Phone or Email.
               </p>
 
               <p className="mb-2">
@@ -192,16 +192,29 @@ const Home: NextPage = () => {
         >
           <div className="container mx-auto py-2">
             <h2 className="text-2xl text-center py-2 font-bold text-white">
-              SCHEDULE AN APPOINTMENT TODAY! CALL ME AT <p className="mb-2">
-                 <b>(415) 897-7002<:</b>{" "}<a href="tel:415-897-7002">
-                  415-897-7002
-                </a> OR EMAIL ME AT <b>TONY@ESTOPDRIVINGSCHOOL.COM<:</b>{" "}<a href="mailto:tony@estopdrivingschool.com">
-                  415-897-7002
-                </a>TONY@ESTOPDRIVINGSCHOOL.COM</a> TO SCHEDULE YOUR DRIVING TRAINING SESSION/S.
+              SCHEDULE AN APPOINTMENT TODAY!
             </h2>
+            <p className="text-center text-white mx-2">
+              CALL ME AT{" "} OR
+              <a
+                className="font-bold"
+                href="tel:415-897-7002"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+              </a>
+              EMAIL ME AT{" "}
+              <a
+                className="font-bold"
+                href="mailto:tony@estopdrivingschool.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+              </a>
+              TO SCHEDULE YOUR DRIVING TRAINING SESSION/S.
             </p>
-            </div>
-      </div>
+          </div>
+        </div>
         <div id="training_and_services" className="bg-gray-100">
           <div className="container mx-auto py-3">
             <h2 className="text-2xl text-center py-3 font-bold">
