@@ -195,22 +195,20 @@ const Home: NextPage = () => {
               SCHEDULE AN APPOINTMENT TODAY!
             </h2>
             <p className="text-center text-white mx-2">
-              CALL ME AT{" "} OR
-              <a
-                className="font-bold"
+              CALL ME AT {" "} <a
+                className="font-bold bg-red-500 hover:bg-red-800 text-white px-4 py-2 m-2 text-xl"
                 href="tel:415-897-7002"
                 target="_blank"
                 rel="noopener noreferrer"
-              >
-              </a>
-              EMAIL ME AT{" "}
+              > </a> OR
               <a
-                className="font-bold"
+                className="font-bold bg-red-500 hover:bg-red-800 text-white px-4 py-2 m-2 text-xl"
                 href="mailto:tony@estopdrivingschool.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-              </a>
+              EMAIL {" "}</a> ME AT
+            
               TO SCHEDULE YOUR DRIVING TRAINING SESSION/S.
             </p>
           </div>
