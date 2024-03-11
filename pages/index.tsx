@@ -292,7 +292,7 @@ const Home: NextPage = () => {
             className="text-gray-400"
             href="mailto:tony@estopdrivingschool.com"
           >
-            &nbsp; EMAIL &nbsp;| &nbsp;
+            EMAIL &nbsp;| &nbsp;
           </a>{" "}
           <a
             href="https://www.facebook.com/estopdrivingschool/"
