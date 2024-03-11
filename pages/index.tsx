@@ -196,12 +196,10 @@ const Home: NextPage = () => {
             </h2>
             <p className="text-center text-white mx-2">
             TO SCHEDULE YOUR DRIVING TRAINING SESSIONS <a
-                className="font-bold bg-red-500 hover:bg-red-800 text-white px-4 py-2 m-2 text-xl"
                 href="tel:415-897-7002"
                 target="_blank"
                 rel="noopener noreferrer"
               >CALL ME</a> OR <a
-                className="font-bold bg-red-500 hover:bg-red-800 text-white px-4 py-2 m-2 text-xl"
                 href="mailto:tony@estopdrivingschool.com"
                 target="_blank"
                 rel="noopener noreferrer"
