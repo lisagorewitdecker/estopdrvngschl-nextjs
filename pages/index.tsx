@@ -234,7 +234,7 @@ const Home: NextPage = () => {
           <div className="container mx-auto py-2">
             <h2 className="text-2xl text-center font-bold py-2">CONTACT eSTOPDRIVING SCHOOL</h2>
             <p className="text-center  mx-2">
-              If You Have Any Questions, Feel Free To Call Me Anytime At 415-897-7002.
+              If You Have Any Questions, Feel Free To Call Me Anytime At <a href="tel:415-897-7002" target="_blank" rel="noopener noreferrer">(415) 897-7002</a>.
             </p>
             <div className="p-8 m-auto grid sm:grid-cols-1 md:grid-cols-2">
               <div className="flex justify-end px-8">
@@ -249,16 +249,18 @@ const Home: NextPage = () => {
               </div>
               <div>
                 <p className="mb-2 font-bold">Tony (Teshome Kebere)</p>
-                <p><b>ADDRESS:</b> Suite N, 7075 Redwood Blvd, Novato, CA 94945</p>
-                <p><b>PHONE:</b> (415) 897-7002</p>
+                <p><b>ADDRESS:</b> <a href="https://maps.app.goo.gl/iuwCYbJZx8y8CMtr7" target="_blank" rel="noopener noreferrer">Suite N, 7075 Redwood Blvd, Novato, CA 94945</a></p>
+                <p><b>PHONE:</b> <a href="tel:415-897-7002" target="_blank" rel="noopener noreferrer">(415) 897-7002</a></p>
                 <p className="mb-4">
                   <b>EMAIL:{" "}</b> 
-                  <a href="mailto:tony@estopdrivingschool.com">
+                  <a href="mailto:tony@estopdrivingschool.com" 
+                    target="_blank" 
+                    rel="noopener noreferrer">
                     tony@estopdrivingschool.com
                   </a>
                 </p>
                 <p>
-                  Licensed Instructor No. 2055001, Please Call In Advance To
+                  Licensed Instructor No. 2055001, Please <a href="tel:415-897-7002" target="_blank" rel="noopener noreferrer">Call</a> In Advance To
                   Scheduled A Personal Appointment.
                 </p>
               </div>
