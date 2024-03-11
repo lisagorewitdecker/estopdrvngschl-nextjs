@@ -234,7 +234,7 @@ const Home: NextPage = () => {
           <div className="container mx-auto py-2">
             <h2 className="text-2xl text-center font-bold py-2">CONTACT eSTOPDRIVING SCHOOL</h2>
             <p className="text-center  mx-2">
-              If You Have Any Questions, Feel Free To Call Me Anytime At <a href="tel:415-897-7002" target="_blank" rel="noopener noreferrer">(415) 897-7002</a>.
+              If You Have Any Questions, Feel Free To Call Me Anytime At<a href="tel:415-897-7002" target="_blank" rel="noopener noreferrer"> (415) 897-7002</a>
             </p>
             <div className="p-8 m-auto grid sm:grid-cols-1 md:grid-cols-2">
               <div className="flex justify-end px-8">
@@ -260,7 +260,7 @@ const Home: NextPage = () => {
                   </a>
                 </p>
                 <p>
-                  Licensed Instructor No. 2055001, Please <a href="tel:415-897-7002" target="_blank" rel="noopener noreferrer">Call</a> In Advance To
+                  Licensed Instructor No. 2055001, Pleas e<a href="tel:415-897-7002" target="_blank" rel="noopener noreferrer">Call</a> In Advance To
                   Scheduled A Personal Appointment.
                 </p>
               </div>
@@ -280,31 +280,31 @@ const Home: NextPage = () => {
       </main>
       <footer className="bg-gray-900 text-gray-400 py-4 text-sm">
         <div className="container m-auto text-center">
-          Copyright @2024{" "} &nbsp;|
+          Copyright @2024{" "} &nbsp; | &nbsp;
           <a
             className="text-gray-400"
             href="http://estopdrivingschool.com/"
             title="eStopDrivingSchool"
           >
-           &nbsp; eSTOPDRIVINGSCHOOL &nbsp;|
+           &nbsp; eSTOPDRIVINGSCHOOL &nbsp; | &nbsp;
           </a>{" "}
           <a
             className="text-gray-400"
             href="mailto:tony@estopdrivingschool.com"
           >
-            &nbsp; EMAIL &nbsp;|
+            &nbsp; EMAIL &nbsp;| &nbsp;
           </a>{" "}
           <a
             href="https://www.facebook.com/estopdrivingschool/"
             className="text-gray-400"
           >
-           &nbsp; FACEBOOK &nbsp;|
+          FACEBOOK &nbsp;| &nbsp;
           </a>
            <a
             href="https://lisagorewitdecker.com"
             className="text-gray-400"
           >
-           &nbsp;SITE WEB DEV LISA GOREWIT-DECKER
+          SITE WEB DEV LISA GOREWIT-DECKER
           </a>
         </div>
       </footer>
