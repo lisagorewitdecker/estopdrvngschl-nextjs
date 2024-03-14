@@ -169,21 +169,9 @@ const Home: NextPage = () => {
                 Please Feel Free to Contact Me Anytime By
               </p>
             <p className="mb-2">
-                <a 
-                  href="tel:415-897-7002" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  >
-                <b>CALLL ME:</b>
-                </a>
-                OR 
-                <a 
-                  href="tel:415-897-7002" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  >
-                <b>TEXT ME:</b>
-                </a><b>AT: 415-897-7002.</b>
+                <a href="tel:415-897-7002" target="_blank" rel="noopener noreferrer">
+                <b>CALLL US</b></a> OR <a href="tel:415-897-7002" target="_blank" rel="noopener noreferrer">
+                <b>TEXT US</b></a> AT 415-897-7002.
               </p>          
             </div>
           </div>
@@ -305,18 +293,21 @@ const Home: NextPage = () => {
           <a
             className="text-gray-400"
             href="tel:415-897-7002"
+            title="eStopDrivingSchool Phone Number 415-897-7002 "
           >
-            CALL/TEXT:415-897-7002&nbsp;| &nbsp;
-          </a>{" "}
+            CALL/TEXT: 415-897-7002 &nbsp;| &nbsp;
+          </a>
           <a
             href="https://www.facebook.com/estopdrivingschool/"
             className="text-gray-400"
+            title="Facebook eStopDrivingSchool"
           >
           FACEBOOK &nbsp;| &nbsp;
           </a>
            <a
             href="https://lisagorewitdecker.com"
             className="text-gray-400"
+            title="Web Developer of eStopDrivingSchool"
           >
           SITE WEB DEV LISA GOREWIT-DECKER
           </a>
