@@ -153,7 +153,7 @@ const Home: NextPage = () => {
               </p>
               </p> 
               <p className="mb-2"> I have trained more than 5,000 teenagers, adults, and seniors (of course, they are of legal driving age and status). 
-                Basic training and services are at a flat rate of $95/Hour If you need any additional services, please do not hesitate to contact us for more details.
+                Basic training and services are at a flat rate of $95/Hour If you need any additional services, please do not hesitate to contact me for more details.
               </p>
               <p className="mb-2">
                  Since 1983, I Have 40 Years of Experience Training and Teaching Adults,
@@ -170,8 +170,8 @@ const Home: NextPage = () => {
               </p>
             <p className="mb-2">
                 <a href="tel:415-897-7002" target="_blank" rel="noopener noreferrer">
-                <b>CALLL US</b></a> OR <a href="tel:415-897-7002" target="_blank" rel="noopener noreferrer">
-                <b>TEXT US</b></a> AT 415-897-7002.
+                <b>CALLL ME</b></a> OR <a href="tel:415-897-7002" target="_blank" rel="noopener noreferrer">
+                <b>TEXT ME</b></a> AT 415-897-7002.
               </p>          
             </div>
           </div>
@@ -210,7 +210,7 @@ const Home: NextPage = () => {
             </h2>
             <p className="text-center mx-1">
                Basic Training And Services Are A $95/Hour Flat Rate. If You Happen To Need
-               Any Additional Services, Please Do Not Hesitate To Contact Us For More Details.
+              Additional Services, Please Do Not Hesitate To Call Or Text Me At 415-897-7002 For More Details.
             </p>
             <div className="py-3 grid xs:grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-4">
               {ServiceConfig.map(({ icon, title, description }) => (
@@ -236,7 +236,7 @@ const Home: NextPage = () => {
           <div className="container mx-auto py-2">
             <h2 className="text-2xl text-center font-bold py-2">CONTACT eSTOPDRIVING SCHOOL</h2>
             <p className="text-center  mx-2">
-              If You Have Any Questions, Feel Free To Call Me Anytime At<a href="tel:415-897-7002" target="_blank" rel="noopener noreferrer">415-897-7002</a>.
+              If You Have Any Questions, Feel Free To Call Me Anytime At <a href="tel:415-897-7002" target="_blank" rel="noopener noreferrer">415-897-7002</a>.
             </p>
             <div className="p-8 m-auto grid sm:grid-cols-1 md:grid-cols-2">
               <div className="flex justify-end px-8">
@@ -252,18 +252,10 @@ const Home: NextPage = () => {
               <div>
                 <p className="mb-2 font-bold">Tony (Teshome Kebere)</p>
                 <p><b>ADDRESS:</b> <a href="https://maps.app.goo.gl/iuwCYbJZx8y8CMtr7" target="_blank" rel="noopener noreferrer">Suite N, 7075 Redwood Blvd, Novato, CA 94945</a></p>
-                <p><a href="tel:415-897-7002" target="_blank" rel="noopener noreferrer"><b>CALL ME:</b> 415-897-7002</a>415-897-7002</p>
-                <p className="mb-4">
-                   <a href="tel:415-897-7002" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    >
-                  <b>TEXT ME:</b> 
-                  </a>
-                </p>
+                <p><a href="tel:415-897-7002" target="_blank" rel="noopener noreferrer"><b>CALL/TEXT:</b></a> 415-897-7002</a>415-897-7002</p>
                 <p>
                   Licensed Instructor No. 2055001, 
-                  Please <a href="tel:415-897-7002" target="_blank" rel="noopener noreferrer">Call Us</a> Or <a href="tel:415-897-7002" target="_blank" rel="noopener noreferrer">Text Us</a> At <a href="tel:415-897-7002" target="_blank" rel="noopener noreferrer">415-897-7002</a> In Advance To Scheduled A Personal Appointment.
+                  Please Call Me Or Text Me In Advance At 415-897-7002 To Scheduled A Personal Appointment.
                 </p>  
               </div>
             </div>
