@@ -151,7 +151,6 @@ const Home: NextPage = () => {
                 Welcome to eStop Driving School. I am Tony(Teshome), the founder and owner of eStop Driving School
                 (previously known as Nile Driving School). I have been teaching behind-the-wheel driving since 1983.
               </p>
-              </p> 
               <p className="mb-2"> I have trained more than 5,000 teenagers, adults, and seniors (of course, they are of legal driving age and status). 
                 Basic training and services are at a flat rate of $95/Hour If you need any additional services, please do not hesitate to contact me for more details.
               </p>
@@ -172,7 +171,8 @@ const Home: NextPage = () => {
                 <a href="tel:415-897-7002" target="_blank" rel="noopener noreferrer">
                 <b>CALLL ME</b></a> OR <a href="tel:415-897-7002" target="_blank" rel="noopener noreferrer">
                 <b>TEXT ME</b></a> AT 415-897-7002.
-              </p>          
+              </p>
+              </p> 
             </div>
           </div>
         </div>
@@ -191,15 +191,7 @@ const Home: NextPage = () => {
               SCHEDULE AN APPOINTMENT TODAY!
             </h2>
             <p className="text-center text-white mx-2">
-            TO SCHEDULE YOUR DRIVING TRAINING SESSIONS <a
-                href="tel:415-897-7002"
-                target="_blank"
-                rel="noopener noreferrer"
-              >CALL ME</a> OR <a
-                href="tel:415-897-7002"
-                target="_blank"
-                rel="noopener noreferrer"
-                > TEXT ME</a> TODAY!
+            TO SCHEDULE YOUR DRIVING TRAINING SESSIONS <a href="tel:415-897-7002" target="_blank" rel="noopener noreferrer">CALL ME</a> OR <a href="tel:415-897-7002" target="_blank" rel="noopener noreferrer">TEXT ME</a> TODAY!
             </p>
           </div>
         </div>
@@ -252,9 +244,9 @@ const Home: NextPage = () => {
               <div>
                 <p className="mb-2 font-bold">Tony (Teshome Kebere)</p>
                 <p><b>ADDRESS:</b> <a href="https://maps.app.goo.gl/iuwCYbJZx8y8CMtr7" target="_blank" rel="noopener noreferrer">Suite N, 7075 Redwood Blvd, Novato, CA 94945</a></p>
-                <p><a href="tel:415-897-7002" target="_blank" rel="noopener noreferrer"><b>CALL/TEXT:</b></a> 415-897-7002</a>415-897-7002</p>
-                <p>
-                  Licensed Instructor No. 2055001, 
+                <p><a href="tel:415-897-7002" target="_blank" rel="noopener noreferrer"><b>CALL/TEXT:</b></a> 415-897-7002</p>
+              
+                <p> Licensed Instructor No. 2055001, 
                   Please Call Me Or Text Me In Advance At 415-897-7002 To Scheduled A Personal Appointment.
                 </p>  
               </div>
@@ -285,7 +277,7 @@ const Home: NextPage = () => {
           <a
             className="text-gray-400"
             href="tel:415-897-7002"
-            title="eStopDrivingSchool Phone Number 415-897-7002 "
+            title="eStopDrivingSchool Phone Number"
           >
             CALL/TEXT: 415-897-7002 &nbsp;| &nbsp;
           </a>
