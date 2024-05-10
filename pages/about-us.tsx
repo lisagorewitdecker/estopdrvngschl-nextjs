@@ -11,7 +11,7 @@ const NavConfig = [
   },
   {
     name: "ABOUT US",
-    link: "about",
+    link: "../about-us/",
   },
   {
     name: "SCHEDULE",
