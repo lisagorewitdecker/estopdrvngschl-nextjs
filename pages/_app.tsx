@@ -9,8 +9,8 @@ import {
   faUser,
 } from "@fortawesome/free-solid-svg-icons";
 import type { AppProps } from "next/app";
+import "../public/google-analytics.js";
 import "../styles/globals.css";
-
 library.add(
   faCoffee,
   faCheckSquare,
