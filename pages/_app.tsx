@@ -10,6 +10,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import type { AppProps } from "next/app";
 import "../styles/globals.css";
+import { GoogleAnalytics } from '../public/google-analytics'
 
 library.add(
   faCoffee,
