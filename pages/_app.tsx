@@ -10,7 +10,6 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import type { AppProps } from "next/app";
 import "../styles/globals.css";
-
 library.add(
   faCoffee,
   faCheckSquare,
@@ -20,7 +19,9 @@ library.add(
   faCar,
   faArrowUp
 );
-
+function MyApp({ Component, GoogleAnalytics }: AppProps) {
+  return <Component {...analyticdsProps} />;
+}
 function MyApp({ Component, pageProps }: AppProps) {
   return <Component {...pageProps} />;
 }
