@@ -42,12 +42,6 @@ const ServiceConfig = [
     title: "SENIORS",
     description: `1 Hour Minimum for Seniors "Behind-The-Wheel Refresher"`,
   },
-  //{
-    //icon: "car",
-    //title: "CAR RENTAL",
-    //description: `Car Rental for DMV "Behind-The-Wheel" Test at DMV`,
-  //},
-];
 const Home: NextPage = () => {
   const onScrollToView = useCallback((elemId: string) => {
     const elem = document.getElementById(elemId);
@@ -59,6 +53,14 @@ const Home: NextPage = () => {
   return (
     <div>
       <Head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-DK82SLK3W9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DK82SLK3W9');
+</script>
         <title>eStop Driving School</title>
         <meta name="description" content="Teaching Driving to Teenagers, Adults, and Seniors Since 1983" />
         <link rel="icon" href="/favicon.ico" />
