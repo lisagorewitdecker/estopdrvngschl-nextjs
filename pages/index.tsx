@@ -58,6 +58,17 @@ const Home: NextPage = () => {
   }, []);
   return (
     <div>
+      <dvi>
+        <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HY6B7RQQ9N"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-HY6B7RQQ9N');
+</script>
+      </dvi>
       <Head>
         <title>eStop Driving School</title>
         <meta name="description" content="Teaching Driving to Teenagers, Adults, and Seniors Since 1983" />
