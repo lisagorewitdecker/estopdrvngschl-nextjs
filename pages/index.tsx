@@ -1,8 +1,13 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import type { NextPage } from "next";
 import Head from "next/head";
+import body from "next/body";
+import footer from "next/footer";
 import Image from "next/image";
 import { useCallback } from "react";
+import ReactGA from "react-ga4";
+
+ReactGA.initialize("id=d=G-HY6B7RQQ9N");
 
 const NavConfig = [
   {
