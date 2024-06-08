@@ -3,6 +3,11 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import { useCallback } from "react";
+import { GoogleTagManager } from '@next/third-parties/google'
+ 
+export default function Page() {
+  return <GoogleTagManager gtmId="GTM-HY6B7RQQ9N" />
+}
 
 const NavConfig = [
   {
