@@ -1,4 +1,4 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon } from "@fontawesome/react-fontawesome";
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
@@ -59,7 +59,8 @@ const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <script dangerouslySetInnerHTML={{
+        
+    <script dangerouslySetInnerHTML={{
     __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
@@ -67,6 +68,7 @@ const Home: NextPage = () => {
   })(window,document,'script','dataLayer','GTM-M2RDL48P');`,
   }}>
   </script>
+        
         <title>eStop Driving School</title>
         <meta name="description" content="Teaching Driving to Teenagers, Adults, and Seniors Since 1983" />
         <link rel="icon" href="/favicon.ico" />
@@ -92,8 +94,7 @@ const Home: NextPage = () => {
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff"></meta>
       </Head>
-
-      <main className="main">
+      <body className"main>
         <div id="home" className="flex items-center justify-center py-4">
           <Image
             src="/logo.png"
@@ -271,7 +272,7 @@ const Home: NextPage = () => {
             style={{ width: 36, height: 36 }}
           />
         </div>
-      </main>
+        </body>
       <footer className="bg-gray-900 text-gray-400 py-4 text-sm">
         <div className="container m-auto text-center">
           Copyright @2024{" "} &nbsp; | &nbsp;
