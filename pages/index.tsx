@@ -83,6 +83,15 @@ const Home: NextPage = () => {
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff"></meta>
+        <script src="googletagmanager.js">
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-HY6B7RQQ9N></script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-HY6B7RQQ9N');
+        </script>
+        </script>
       </Head>
 
       <main className="main">
