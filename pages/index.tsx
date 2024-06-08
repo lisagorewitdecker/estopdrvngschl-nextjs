@@ -42,11 +42,6 @@ const ServiceConfig = [
     title: "SENIORS",
     description: `1 Hour Minimum for Seniors "Behind-The-Wheel Refresher"`,
   },
-  //{
-    //icon: "car",
-    //title: "CAR RENTAL",
-    //description: `Car Rental for DMV "Behind-The-Wheel" Test at DMV`,
-  //},
 ];
 const Home: NextPage = () => {
   const onScrollToView = useCallback((elemId: string) => {
@@ -59,13 +54,12 @@ const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <script dangerouslySetInnerHTML={{
-    __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-M2RDL48P');`,
-  }}>
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M2RDL48P');</script>
   </script>
         <title>eStop Driving School</title>
         <meta name="description" content="Teaching Driving to Teenagers, Adults, and Seniors Since 1983" />
