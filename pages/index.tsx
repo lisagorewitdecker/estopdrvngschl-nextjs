@@ -1,4 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import GoogleTagManager from "./components/GoogleTagManager";
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
