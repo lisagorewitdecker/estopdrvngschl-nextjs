@@ -92,7 +92,7 @@ const Home: NextPage = () => {
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff"></meta>
       </Head>
-
+     <body className="main">
       <main className="main">
         <div id="home" className="flex items-center justify-center py-4">
           <Image
@@ -272,6 +272,7 @@ const Home: NextPage = () => {
           />
         </div>
       </main>
+       </body>
       <footer className="bg-gray-900 text-gray-400 py-4 text-sm">
         <div className="container m-auto text-center">
           Copyright @2024{" "} &nbsp; | &nbsp;
