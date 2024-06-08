@@ -3,6 +3,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import { useCallback } from "react";
+import GoogleTagManager from '@magicul/next-google-tag-manager';
 
 const NavConfig = [
   {
@@ -48,6 +49,14 @@ const ServiceConfig = [
     //description: `Car Rental for DMV "Behind-The-Wheel" Test at DMV`,
   //},
 ];
+const RootLayout = ({ children }) => (
+  <html lang="en">
+    <body>
+      <GoogleTagManager "id=G-HY6B7RQQ9N" />
+      {children}
+    </body>
+  </html>
+);
 const Home: NextPage = () => {
   const onScrollToView = useCallback((elemId: string) => {
     const elem = document.getElementById(elemId);
@@ -58,6 +67,7 @@ const Home: NextPage = () => {
   }, []);
   return (
     <div>
+
       <Head>
         <title>eStop Driving School</title>
         <meta name="description" content="Teaching Driving to Teenagers, Adults, and Seniors Since 1983" />
