@@ -59,7 +59,7 @@ const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <script dangerouslySetInnerHTML={{
+  <script dangerouslySetInnerHTML={{
     __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
@@ -304,6 +304,23 @@ const Home: NextPage = () => {
           SITE WEB DEV LISA GOREWIT-DECKER
           </a>
         </div>
+        <footer>
+    <p>
+      Copyright &copy; 2022 - <span id="current-year">2024</span> allaboutweb.co
+    </p>
+  <script>
+    window.addEventListener('load', onLoad);
+
+    function onLoad () {
+      const currentYearEl = document.getElementById('current-year');
+
+      if (currentYearEl) {
+        const currentYear = new Date().getFullYear();
+
+        currentYearEl.textContent = currentYear;
+      }
+    }
+  </script>
       </footer>
     </div>
   );
