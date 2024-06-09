@@ -1,5 +1,7 @@
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { Analytics } from '@vercel/analytics/react';
+import { GoogleTagManager } from "@next/third-parties/google";
+
 import {
   faArrowUp,
   faCar,
@@ -22,11 +24,11 @@ library.add(
   faArrowUp
 );
 
-function MyApp({ Component, pageProps }: AppProps) {
+export default function MyApp({ Component, pageProps }) {
   return (
     <>
       <Component {...pageProps} />
-      <Analytics />
+      <GoogleTagManager gtmId="GTM-HY6B7RQQ9N" />
     </>
   );
 }
