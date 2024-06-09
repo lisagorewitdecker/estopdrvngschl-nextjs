@@ -1,8 +1,12 @@
+'use client';
+import { Analytics } from '@vercel/analytics/react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import { useCallback } from "react";
+
+
 
 const NavConfig = [
   {
@@ -57,8 +61,14 @@ const Home: NextPage = () => {
     }
   }, []);
   return (
-    <div>
-      <Head>
+    export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="en">
+      <head>
         <title>eStop Driving School</title>
         <meta name="description" content="Teaching Driving to Teenagers, Adults, and Seniors Since 1983" />
         <link rel="icon" href="/favicon.ico" />
@@ -83,9 +93,11 @@ const Home: NextPage = () => {
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff"></meta>
-      </Head>
+     </head>
+      <body>
+       
 
-      <main className="main">
+    <-- <main className="main">
         <div id="home" className="flex items-center justify-center py-4">
           <Image
             src="/logo.png"
@@ -263,7 +275,7 @@ const Home: NextPage = () => {
             style={{ width: 36, height: 36 }}
           />
         </div>
-      </main>
+   
       <footer className="bg-gray-900 text-gray-400 py-4 text-sm">
         <div className="container m-auto text-center">
           Copyright @2024{" "} &nbsp; | &nbsp;
@@ -297,8 +309,11 @@ const Home: NextPage = () => {
           </a>
         </div>
       </footer>
-    </div>
+       {children}
+        <Analytics mode={'production'} />;
+      </body>
+    </html>
   );
-};
+}
 
 export default Home;
