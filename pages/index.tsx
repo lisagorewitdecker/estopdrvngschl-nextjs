@@ -4,7 +4,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { useCallback } from "react";
 import { Analytics } from "@vercel/analytics/react";
-mport TagManager from 'react-gtm-module'
+import TagManager from 'react-gtm-module'
 const tagManagerArgs = {
    gtmId: 'GTM-G-HY6B7RQQ9N'
 }
