@@ -20,7 +20,16 @@ library.add(
   faCar,
   faArrowUp
 );
+import { GoogleTagManager } from '@next/third-parties/google'
 
+export default function RootLayout({children}: {children: React.ReactNode}) {
+    return (
+        <html lang="en">
+            <body>{children}</body>
+            <GoogleTagManager gtmId="GTM-HY6B7RQQ9N" />
+        </html>
+     )
+}
 function MyApp({ Component, pageProps }: AppProps) {
   return <Component {...pageProps} />;
 }
