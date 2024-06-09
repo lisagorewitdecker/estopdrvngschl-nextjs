@@ -4,8 +4,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { useCallback } from "react";
 import { Analytics } from "@vercel/analytics/react";
-
-
+ 
 const NavConfig = [
   {
     name: "HOME",
@@ -59,6 +58,17 @@ const Home: NextPage = () => {
     }
   }, []);
   return (
+
+
+
+    export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="en">
+
     <div>
       <Head>
         <title>eStop Driving School</title>
