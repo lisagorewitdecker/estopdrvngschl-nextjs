@@ -3,8 +3,6 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import { useCallback } from "react";
-import { Analytics } from "@vercel/analytics/react";
-
 
 const NavConfig = [
   {
