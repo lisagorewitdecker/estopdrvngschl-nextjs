@@ -1,6 +1,6 @@
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { Analytics } from '@vercel/analytics/react';
-import { GoogleTagManager } from '@next/third-parties/google'
+import { Analytics } from "@vercel/analytics/react';
+import { GoogleTagManager } from "@next/third-parties/google";
 
 import {
   faArrowUp,
