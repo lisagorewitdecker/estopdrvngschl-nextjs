@@ -11,7 +11,7 @@ const tagManagerArgs = [
     gtmId: "GTM-HY6B7RQQ9N"
      },
      {
-    TagManager.initialize(tagManagerArgs) 
+    TagManager.initialize(tagManagerArgs), 
   },
 ];
 const NavConfig = [
