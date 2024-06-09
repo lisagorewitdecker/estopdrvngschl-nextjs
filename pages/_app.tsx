@@ -20,6 +20,12 @@ library.add(
   faCar,
   faArrowUp
 );
+import TagManager from 'react-gtm-module'
+ 
+const tagManagerArgs = {
+    gtmId: 'GTM-HY6B7RQQ9N'
+}
+TagManager.initialize(tagManagerArgs);
 
 function MyApp({ Component, pageProps }: AppProps) {
   return <Component {...pageProps} />;
