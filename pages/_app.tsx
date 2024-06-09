@@ -1,4 +1,5 @@
 import { library } from "@fortawesome/fontawesome-svg-core";
+import { Analytics } from '@vercel/analytics/react';
 import {
   faArrowUp,
   faCar,
@@ -22,6 +23,11 @@ library.add(
 );
 
 function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />;
+  return (
+    <>
+      <Component {...pageProps} />
+      <Analytics />
+    </>
+  );
 }
 export default MyApp;
