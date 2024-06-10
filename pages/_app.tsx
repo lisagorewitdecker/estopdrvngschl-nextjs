@@ -1,5 +1,6 @@
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { Analytics } from '@vercel/analytics/react';
+import { Analytics } from '.../public/analytics';
 import {
   faArrowUp,
   faCar,
