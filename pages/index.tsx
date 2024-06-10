@@ -4,6 +4,10 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import { useCallback } from "react";
+import { GoogleTagManager } from "@next/third-parties/google";
+
+<noscript><iframe src="https://www.googletagmanager.com/gtag/js?id=G-VKSKK5CQ59"
+height="0" width="0" style={{ display: "none", visibility: "hidden" }}></iframe></noscript>
 
 const NavConfig = [
   {
@@ -58,6 +62,19 @@ const Home: NextPage = () => {
     }
   }, []);
   return (
+    export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}: {
+  {
+  return (
+    <html lang="en">
+      <GoogleTagManager gtmId="Your ID Goes Here" />
+      <body>{children}</body>
+    </html>
+  )
+}
     <div>
       <Head>
         <title>eStop Driving School</title>
