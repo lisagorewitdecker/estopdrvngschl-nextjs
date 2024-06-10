@@ -70,7 +70,7 @@ const Home: NextPage = () => {
   {
   return (
     <html lang="en">
-      <GoogleTagManager gtmId="Your ID Goes Here" />
+      <GoogleTagManager gtmId="VKSKK5CQ59" />
       <body>{children}</body>
     </html>
   )
