@@ -234,16 +234,14 @@ const Home: NextPage = () => {
             <div className="p-8 m-auto grid sm:grid-cols-1 md:grid-cols-2">
               <div className="flex justify-end px-8">
                 <a href="https://www.yelp.com/biz/estop-driving-school-novato-2?utm_medium=biz_embedded_content&amp;utm_source=biz_badge">
-                 export default function Page() {
-                    return (
+                
                     <Image
                     alt="eStop Driving School, Previously Nile Driving School"
                     src="https://dyn.yelpcdn.com/extimg/en_US/fsc/aqPJ63Ipo5dYtkh9JfJYRQ.png"
                     height={"55"}
                     width={"125"}
                  />
-                )
-              }
+               
                 </a>
               </div>
               <div>
