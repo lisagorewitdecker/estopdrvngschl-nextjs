@@ -177,8 +177,8 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
-        <div
-          id="schedule"
+        <div id="schedule".
+        <Image
           className="flex py-20"
           style={{
             background: "url(./driving.jpg)",
@@ -186,7 +186,7 @@ const Home: NextPage = () => {
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
-        >
+        />
           <div className="container mx-auto py-2">
             <h2 className="text-2xl text-center py-2 font-bold text-white">
               SCHEDULE AN APPOINTMENT TODAY!
@@ -202,7 +202,7 @@ const Home: NextPage = () => {
               TRAINING &amp; SERVICES
             </h2>
             <p className="text-center mx-1">
-               Basic Training And Services Are A $95/Hour Flat Rate. If You Happen To Need
+               Basic Training And Services Are Flat Rate p. If You Happen To Need
               Additional Services, Please Do Not Hesitate To Call Or Text Me At 415-897-7002 For More Details.
             </p>
             <div className="py-3 grid xs:grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -234,7 +234,7 @@ const Home: NextPage = () => {
             <div className="p-8 m-auto grid sm:grid-cols-1 md:grid-cols-2">
               <div className="flex justify-end px-8">
                 <a href="https://www.yelp.com/biz/estop-driving-school-novato-2?utm_medium=biz_embedded_content&amp;utm_source=biz_badge">
-                  <img
+                  <Image
                     alt="eStop Driving School, Previously Nile Driving School"
                     src="https://dyn.yelpcdn.com/extimg/en_US/fsc/aqPJ63Ipo5dYtkh9JfJYRQ.png"
                     height={"55"}
