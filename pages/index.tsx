@@ -152,7 +152,7 @@ const Home: NextPage = () => {
                 (previously known as Nile Driving School). I have been teaching behind-the-wheel driving since 1983.
               </p>
               <p className="mb-2"> I have trained more than 5,000 teenagers, adults, and seniors (of course, they are of legal driving age and status). 
-                Basic training and services are at a flat rate of $95/Hour If you need any additional services, please do not hesitate to contact me for more details.
+                Basic training and services are a flat hourly Rate. If you need any additional services, please do not hesitate to contact me for more details.
               </p>
               <p className="mb-2">
                  Since 1983, I Have 40 Years of Experience Training and Teaching Adults,
@@ -201,7 +201,7 @@ const Home: NextPage = () => {
               TRAINING &amp; SERVICES
             </h2>
             <p className="text-center mx-1">
-               Basic Training And Services Are A $95/Hour Flat Rate. If You Happen To Need
+               Basic Training And Services Are A Flat Hourly Rate. If You Happen To Need
               Additional Services, Please Do Not Hesitate To Call Or Text Me At 415-897-7002 For More Details.
             </p>
             <div className="py-3 grid xs:grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-4">
