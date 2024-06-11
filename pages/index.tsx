@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Analytics } from "@vercel/analytics/react";
 import type { NextPage } from "next";
 import Head from "next/head";
-import Image from "next/image";
+import image from "next/image";
 import { useCallback } from "react";
 
 const NavConfig = [
@@ -88,7 +88,7 @@ const Home: NextPage = () => {
 
       <main className="main">
         <div id="home" className="flex items-center justify-center py-4">
-          <Image
+          <img
             src="/logo.png"
             alt="eStop Driving School Logo"
             width={80}
