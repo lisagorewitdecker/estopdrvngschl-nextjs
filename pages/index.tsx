@@ -1,3 +1,5 @@
+import type { AppProps } from 'next/app';
+import { Analytics } from '@vercel/analytics/react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import type { NextPage } from "next";
 import Head from "next/head";
@@ -48,6 +50,23 @@ const ServiceConfig = [
     //description: `Car Rental for DMV "Behind-The-Wheel" Test at DMV`,
   //},
 ];
+function MyApp({ Component, pageProps }: AppProps) {
+  return (
+    <>
+      <Component {...pageProps} />
+      <Analytics
+        beforeSend={(event) => {
+          if (event.url.includes('/private')) {
+            return null;
+          }
+          return event;
+        }}
+      />
+    </>
+  );
+}
+ 
+export default MyApp;
 const Home: NextPage = () => {
   const onScrollToView = useCallback((elemId: string) => {
     const elem = document.getElementById(elemId);
