@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Analytics } from "@vercel/analytics/react";
 import type { NextPage } from "next";
 import Head from "next/head";
-import image from "next/image";
+import { Image } from "next/image";
 import { useCallback } from "react";
 
 const NavConfig = [
@@ -61,7 +61,7 @@ const Home: NextPage = () => {
     <div>
       <Head>
         <title>eStop Driving School</title>
-        <meta name="description" content="Teaching Driving to Teenagers, Adults, and Seniors Since 1983" />
+        <meta name="description" content="Teaching Driving in Novato, CA and In Marin County, San Francisco  Along  entire  " />
         <link rel="icon" href="/favicon.ico" />
         <link
           rel="apple-touch-icon"
@@ -235,12 +235,11 @@ const Home: NextPage = () => {
               <div className="flex justify-end px-8">
                 <a href="https://www.yelp.com/biz/estop-driving-school-novato-2?utm_medium=biz_embedded_content&amp;utm_source=biz_badge">
                 
-                    <Image
-                    alt="eStop Driving School, Previously Nile Driving School"
-                    src="https://dyn.yelpcdn.com/extimg/en_US/fsc/aqPJ63Ipo5dYtkh9JfJYRQ.png"
+                  <Image src="https://dyn.yelpcdn.com/extimg/en_US/fsc/aqPJ63Ipo5dYtkh9JfJYRQ.png"
+                    alt="eStop Driving School, Previously Nile Driving School. Proving Driving Instruction in Novato CA, Marin County, CA, and All of the Bay Area to Teenagers, Adults, and Seniors Since 1983,"
                     height={"55"}
                     width={"125"}
-                      />
+                    />
                 </a>
               </div>
               <div>
