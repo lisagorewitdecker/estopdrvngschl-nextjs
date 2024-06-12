@@ -1,5 +1,6 @@
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { Analytics } from '@vercel/analytics/react';
+import type { AppProps } from 'next/app';
 import {
   faArrowUp,
   faCar,
@@ -26,8 +27,16 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Component {...pageProps} />
-      <Analytics />
+      <Analytics
+        beforeSend={(event) => {
+          if (localStorage.getItem('va-disable')) {
+            return null;
+          }
+          return event;
+        }}
+      />
     </>
   );
 }
+ 
 export default MyApp;
