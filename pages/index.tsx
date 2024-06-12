@@ -1,4 +1,3 @@
-import { SpeedInsights } from "@vercel/speed-insights/next";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import type { NextPage } from "next";
 import Head from "next/head";
@@ -113,7 +112,7 @@ const Home: NextPage = () => {
         <div
           className="flex items-end"
           style={{
-            background: "url(./tony.jpg)",
+            background: "url(./tony.webp)",
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
             height: 400,
