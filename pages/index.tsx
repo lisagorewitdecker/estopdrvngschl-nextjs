@@ -2,7 +2,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import type { NextPage } from "next";
 import Head from "next/head";
-import Image from "next/image";
+import image from "next/image";
 import { useCallback } from "react";
 
 const NavConfig = [
@@ -113,7 +113,7 @@ const Home: NextPage = () => {
         <div
           className="flex items-end"
           style={{
-            background: "url(./tony.jpg)",
+            background: "url(./tony.webp)",
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
             height: 400,
@@ -139,7 +139,7 @@ const Home: NextPage = () => {
           <h1 className="text-2xl text-center py-4 font-bold">About eStop Driving School Of Novato, CA 94945 &ndash; Located in Marin County!</h1>
           <div className="grid sm:grid-cols-1  md:grid-cols-2 gap-4">
             <div className="flex items-center justify-center">
-              <Image
+              <img
                 src="/tony-good-morning.jpg"
                 alt="eStopDrivingSchool Logo"
                 width={400}
@@ -153,7 +153,7 @@ const Home: NextPage = () => {
                 (previously known as Nile Driving School). I have been teaching behind-the-wheel driving since 1983.
               </p>
               <p className="mb-2"> I have trained more than 5,000 teenagers, adults, and seniors (of course, they are of legal driving age and status). 
-                Basic training and services are at a flat rate of $95/Hour If you need any additional services, please do not hesitate to contact me for more details.
+                Basic training and services are at a flat rate per hour. If you need any additional services, please do not hesitate to contact me for more details.
               </p>
               <p className="mb-2">
                  Since 1983, I Have 40 Years of Experience Training and Teaching Adults,
@@ -202,7 +202,7 @@ const Home: NextPage = () => {
               TRAINING &amp; SERVICES
             </h2>
             <p className="text-center mx-1">
-               Basic Training And Services Are A $95/Hour Flat Rate. If You Happen To Need
+               Basic Training and Services Are a Flat Hourly Rate. If You Happen To Need
               Additional Services, Please Do Not Hesitate To Call Or Text Me At 415-897-7002 For More Details.
             </p>
             <div className="py-3 grid xs:grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -246,7 +246,7 @@ const Home: NextPage = () => {
                 <p className="mb-2 font-bold">Tony (Teshome Kebere)</p>
                 <p><b>ADDRESS:</b> <a href="https://maps.app.goo.gl/iuwCYbJZx8y8CMtr7" target="_blank" rel="noopener noreferrer">Suite N, 7075 Redwood Blvd, Novato, CA 94945</a></p>
                 <p><b>CALL/TEXT:</b> <a href="tel:415-897-7002" target="_blank" rel="noopener noreferrer">415-897-7002</a></p>
-              
+      
                 <p> Licensed Instructor No. 2055001, 
                   Please Call Me Or Text Me In Advance At 415-897-7002 To Scheduled A Personal Appointment.
                 </p>  
