@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import type { NextPage } from "next";
 import Head from "next/head";
