@@ -2,7 +2,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import type { NextPage } from "next";
 import Head from "next/head";
-import image from "next/image";
+import Image from "next/image";
 import { useCallback } from "react";
 
 const NavConfig = [
