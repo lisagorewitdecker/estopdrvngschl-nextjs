@@ -1,5 +1,5 @@
-import { library } from "@fortawesome/fontawesome-svg-core";
 import { Analytics } from '@vercel/analytics/react';
+import { library } from "@fortawesome/fontawesome-svg-core";
 import {
   faArrowUp,
   faCar,
@@ -21,13 +21,14 @@ library.add(
   faCar,
   faArrowUp
 );
-
+ 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Component {...pageProps} />
-      <Analytics />
+      <Analytics mode={'production'} />;
     </>
   );
 }
+ 
 export default MyApp;
