@@ -1,3 +1,4 @@
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import type { NextPage } from "next";
 import Head from "next/head";
@@ -296,6 +297,7 @@ const Home: NextPage = () => {
           SITE WEB DEV LISA GOREWIT-DECKER
           </a>
         </div>
+        <SpeedInsights/>
       </footer>
     </div>
   );
