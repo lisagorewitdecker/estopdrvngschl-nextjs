@@ -1,5 +1,4 @@
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { Analytics } from '@vercel/analytics/react';
 import {
   faArrowUp,
   faCar,
@@ -21,13 +20,22 @@ library.add(
   faCar,
   faArrowUp
 );
+import { Analytics } from '@vercel/analytics/react';
 
 function MyApp({ Component, pageProps }: AppProps) {
-  return (
-    <>
-      <Component {...pageProps} />
-      <Analytics />
+  return 
+     <>
+       <Component {...pageProps} />;
+       <Analytics
+        beforeSend={(event) => {
+          if (localStorage.getItem('va-disable')) {
+            return null;
+          }
+          return event;
+        }}
+      />
     </>
   );
 }
+ 
 export default MyApp;
