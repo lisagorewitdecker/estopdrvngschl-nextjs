@@ -1,5 +1,6 @@
-import { library } from "@fortawesome/fontawesome-svg-core";
+import type { AppProps } from 'next/app';
 import { Analytics } from '@vercel/analytics/react';
+import { library } from "@fortawesome/fontawesome-svg-core";
 import {
   faArrowUp,
   faCar,
@@ -23,11 +24,21 @@ library.add(
 );
 
 function MyApp({ Component, pageProps }: AppProps) {
+
   return (
-    <>
-      <Component {...pageProps} />
-      <Analytics />
+    <<Component {...pageProps} />;>
+      <Analytics
+        beforeSend={(event) => {
+          const url = new URL(event.url);
+          url.searchParams.delete('secret');
+          return {
+            ...event,
+            url: url.toString(),
+          };
+        }}
+      />
     </>
   );
 }
+ 
 export default MyApp;
