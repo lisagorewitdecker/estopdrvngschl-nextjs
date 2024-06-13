@@ -141,7 +141,7 @@ const Home: NextPage = () => {
             <div className="flex items-center justify-center">
               <Image
                 src="/tony-good-morning.jpg"
-                alt="eStopDrivingSchool Logo"
+                alt="eStopDrivingSchool Logo Located in Novato, CA and Servicing all Locations in Marin County, Sonoma County and The Entire Bay Area Including San Francisco and The Bay Area"
                 width={400}
                 height={400}
               />
@@ -263,6 +263,9 @@ const Home: NextPage = () => {
             className="text-red-500"
             style={{ width: 36, height: 36 }}
           />
+        </div>
+        <div>
+          <form action="https://squareup.com/outreach/bfsXvM/subscribe" method="POST" target="_blank"><input type="email" name="email_address" placeholder="Your Email Address" style="height: 38px; padding: 0 16px; font-size: 14px; border: 1px solid #bec3c8; border-radius: 3px; margin-right: 8px; font-family: 'Helvetica Neue', Helvetica, sans-serif;"><input type="hidden" name="embed" value="true"><button type="submit" style="cursor: pointer; background-color: #546476; color: white; height: 40px; border: 0; border-radius: 3px; font-size: 14px; padding: 0 16px; font-family: 'Helvetica Neue', Helvetica, sans-serif; font-weight: 500;">Join Now</button></form>
         </div>
       </main>
       <footer className="bg-gray-900 text-gray-400 py-4 text-sm">
