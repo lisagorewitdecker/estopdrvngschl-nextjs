@@ -269,7 +269,7 @@ const Home: NextPage = () => {
           action="https://squareup.com/outreach/bfsXvM/subscribe" 
           method="POST"
           target="_blank"
-          className="form"
+          className="p-3 flex flex-col text-center items-center"
           >
           <input 
             type="email" 
