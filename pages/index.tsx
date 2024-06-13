@@ -327,10 +327,10 @@ const Home: NextPage = () => {
           SITE WEB DEV LISA GOREWIT-DECKER
           </a>
         </div>
-        <SpeedInsights/>
-	  </footer>
+      </footer>
 	</body>
 	</html>
+	<SpeedInsights/>
     </div>
   );
 };
