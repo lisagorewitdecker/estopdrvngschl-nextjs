@@ -34,6 +34,10 @@ body{
   font-family: 'Overpass', sans-serif;
 
 }
+.form{
+  max-width:100%;
+  height:auto;
+}
 .button-square{
   cursor: pointer;
   background-color: #546476; 
@@ -42,8 +46,24 @@ body{
   font-size: 14px; padding: 0 16px; 
   font-family: 'Overpass', sans-serif;
 }
-imput-square{
-  
+.imput-square-a{
+  height: 38px; 
+  padding: 0 16px; 
+  font-size: 14px; 
+  border: 1px solid #bec3c8; 
+  border-radius: 3px; 
+  margin-right: 8px; 
+  font-family: 'Overpass', sans-serif;
+} 
+.imput-square-b{
+  height: 38px; 
+  padding: 0 16px; 
+  font-size: 14px; 
+  border: 1px solid #bec3c8; 
+  border-radius: 3px; 
+  margin-right: 8px; 
+  font-family: 'Overpass', sans-serif;
+}  
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
@@ -53,7 +73,6 @@ imput-square{
   align-items: center;
   height: 100vh;
   font-family: 'Overpass', sans-serif;
-
 }
 
 .main {
