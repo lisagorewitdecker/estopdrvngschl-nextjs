@@ -265,6 +265,22 @@ const Home: NextPage = () => {
             style={{ width: 36, height: 36 }}
           />
         </div>
+        <form action="https://squareup.com/outreach/bfsXvM/subscribe" 
+          method="POST"
+          target="_blank">
+          <input type="email" 
+            name="email_address" 
+            placeholder="Your Email Address" 
+            style="{{height: 38px; padding: 0 16px; font-size: 14px; border: 1px solid #bec3c8; border-radius: 3px; margin-right: 8px; font-family: 'Helvetica Neue', Helvetica, sans-serif;}}">
+          <input type="hidden" 
+            name="embed" 
+            value="true">
+            <button 
+              type="submit" 
+              style="{{cursor: pointer; background-color: #546476; color: white; height: 40px; border: 0; border-radius: 3px; font-size: 14px; padding: 0 16px; font-family: 'Helvetica Neue', Helvetica, sans-serif; font-weight: 500;}}">
+              Join Now
+            </button>
+          </form>
       </main>
       <footer className="bg-gray-900 text-gray-400 py-4 text-sm">
         <div className="container m-auto text-center">
