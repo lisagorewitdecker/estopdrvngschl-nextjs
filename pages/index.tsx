@@ -1,3 +1,4 @@
+import Script from 'next/script';
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import type { NextPage } from "next";
