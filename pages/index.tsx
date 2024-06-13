@@ -271,10 +271,10 @@ const Home: NextPage = () => {
           <input type="email" 
             name="email_address" 
             placeholder="Your Email Address" 
-            style="{{height: 38px; padding: 0 16px; font-size: 14px; border: 1px solid #bec3c8; border-radius: 3px; margin-right: 8px; font-family: 'Helvetica Neue', Helvetica, sans-serif;}}">
+            style="{{height: 38px; padding: 0 16px; font-size: 14px; border: 1px solid #bec3c8; border-radius: 3px; margin-right: 8px; font-family: 'Helvetica Neue', Helvetica, sans-serif;}}"/>
           <input type="hidden" 
             name="embed" 
-            value="true">
+            value="true"/>
             <button 
               type="submit" 
               style="{{cursor: pointer; background-color: #546476; color: white; height: 40px; border: 0; border-radius: 3px; font-size: 14px; padding: 0 16px; font-family: 'Helvetica Neue', Helvetica, sans-serif; font-weight: 500;}}">
