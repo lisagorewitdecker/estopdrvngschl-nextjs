@@ -38,6 +38,7 @@ body{
   max-width:100%;
   height:auto;
 }
+
 .button-square{
   cursor: pointer;
   background-color: #546476; 
@@ -64,6 +65,7 @@ body{
   margin-right: 8px; 
   font-family: 'Overpass', sans-serif;
 }  
+
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
