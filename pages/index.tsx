@@ -3,6 +3,8 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import type { NextPage } from "next";
 import Head from "next/head";
+import Body from "next/body";
+import Html from "next/html";
 import Image from "next/image";
 import { useCallback } from "react";
 
@@ -86,8 +88,7 @@ const Home: NextPage = () => {
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff"></meta>
       </Head>
-
-      <main className="main">
+      <body className="main">
         <div id="home" className="flex items-center justify-center py-4">
           <Image
             src="/logo.png"
@@ -182,10 +183,10 @@ const Home: NextPage = () => {
           id="schedule"
           className="flex py-20"
           style={{
-            background: "url(./driving.jpg)",
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "cover",
-            backgroundPosition: "center",
+          background: "url(./driving.jpg)",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
           }}
         >
           <div className="container mx-auto py-2">
@@ -266,7 +267,7 @@ const Home: NextPage = () => {
           />
         </div>
 	</div>
-       <div>
+       	<div>
           <form 
             action="https://squareup.com/outreach/bfsXvM/subscribe" 
             method="POST" 
@@ -291,7 +292,7 @@ const Home: NextPage = () => {
        	 Join Now
        	 </button>
         </form>
-	</main>
+	</div>
         </div>
      
       <footer className="bg-gray-900 text-gray-400 py-4 text-sm">
@@ -327,7 +328,9 @@ const Home: NextPage = () => {
           </a>
         </div>
         <SpeedInsights/>
-      </footer>
+	  </footer>
+	</body>
+	</html>
     </div>
   );
 };
