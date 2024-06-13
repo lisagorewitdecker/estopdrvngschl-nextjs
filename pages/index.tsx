@@ -32,17 +32,18 @@ const ServiceConfig = [
   {
     icon: "child",
     title: "TEENS",
-    description: `6 Hours of Teenager Drivers Training`,
+    description: `Three 2-Hour Driving Lessons For Teenagers`,
   },
   {
     icon: "user",
     title: "ADULTS",
-    description: `2 Hours Minimum for Adults Per Day`,
+    description: `Three 2-Hour Driving Lessons For Adults<br>
+    Or Minimum 2-Hour Driving Lessons for Adults Per Day`,
   },
   {
     icon: "universal-access",
     title: "SENIORS",
-    description: `1 Hour Minimum for Seniors "Behind-The-Wheel Refresher"`,
+    description: `1-Hour Minimum Driving Lesson For Seniors "Behind-The-Wheel Refresher"`,
   },
   //{
     //icon: "car",
@@ -264,7 +265,8 @@ const Home: NextPage = () => {
             className="text-red-500"
             style={{ width: 36, height: 36 }}
           />
-        </div>
+        </di>
+        <div className="flex py-20 bg-gray-200">
         <form 
           action="https://squareup.com/outreach/bfsXvM/subscribe" 
           method="POST"
@@ -272,6 +274,7 @@ const Home: NextPage = () => {
           className="form"
           >
           <input 
+            type="name" 
             type="email" 
             name="email_address" 
             placeholder="Your Email Address" 
@@ -290,6 +293,7 @@ const Home: NextPage = () => {
               Join Now
           </button>
           </form>
+          </div>
       </main>
       <footer className="bg-gray-900 text-gray-400 py-4 text-sm">
         <div className="container m-auto text-center">
