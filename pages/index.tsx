@@ -265,20 +265,24 @@ const Home: NextPage = () => {
             style={{ width: 36, height: 36 }}
           />
         </div>
-        <form action="https://squareup.com/outreach/bfsXvM/subscribe" 
+        <form className="form"
+          action="https://squareup.com/outreach/bfsXvM/subscribe" 
           method="POST"
           target="_blank">
           <input type="email" 
             name="email_address" 
             placeholder="Your Email Address" 
-            className="input"
+            className="square-input"
             />
           <input type="hidden" 
             name="embed" 
-            value="true"/>
+            value="true"
+            className="square-input
+            />
             <button 
               type="submit" 
-              className="square-buttyon">
+              className="square-button"
+              >
               Join Now
             </button>
           </form>
