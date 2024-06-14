@@ -198,7 +198,7 @@ const Home: NextPage = () => {
               TRAINING &amp; SERVICES
             </h2>
             <p className="text-center mx-1">
-               Basic Training And Services are an Hourly Flat Rate. If You Happen To Need
+               Basic Training And Services are a Flat Hourly Rate of $125. If You Happen To Need
               Additional Services, Please Do Not Hesitate To Call Or Text Me At 415-897-7002 For More Details.
             </p>
             <div className="py-3 grid xs:grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-4">
