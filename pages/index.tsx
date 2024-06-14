@@ -1,6 +1,6 @@
 import Script from 'next/script';
 import { SpeedInsights } from "@vercel/speed-insights/next";
-import { FortAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
