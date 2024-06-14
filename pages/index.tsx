@@ -255,7 +255,8 @@ const Home: NextPage = () => {
             style={{ width: 36, height: 36 }}
           />
         </div>
-    
+       </div>
+          </div>
          
           <div className="container mx-auto py-2">
              <div className="flex py-20 bg-gray-200">
@@ -294,8 +295,6 @@ const Home: NextPage = () => {
         </div>
             </div>
               </div>
-            </div>
-          </div>
         
         </main>
       <footer className="bg-gray-900 text-gray-400 py-4 text-sm">
