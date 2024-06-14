@@ -264,10 +264,9 @@ const Home: NextPage = () => {
             style={{ width: 36, height: 36 }}
           />
         </div>
-      </main>
-          <div id="contact" className="flex py-20 bg-gray-200">
+          <div className="flex py-20 bg-gray-200">
           <div className="container mx-auto py-2">
-            <div id="training_and_services" className="bg-gray-100">
+            <div className="bg-gray-100">
           <div className="container mx-auto py-3">
             <h2 className="text-2xl text-center py-3 font-bold">
               Subswcribe To Our Mqailing List
@@ -299,6 +298,9 @@ const Home: NextPage = () => {
           </form>
             </div>
             </div>
+            </div>
+            </div>
+        </main>
       <footer className="bg-gray-900 text-gray-400 py-4 text-sm">
         <div className="container m-auto text-center">
           Copyright @2024{" "} &nbsp; | &nbsp;
