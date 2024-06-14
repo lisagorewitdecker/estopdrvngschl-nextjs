@@ -105,9 +105,8 @@ const Home: NextPage = () => {
             ))}
           </ul>
         </div>
-        <div
-          className="flex items-end"
-          style={{
+        <div className="flex items-end"
+           style={{
             background: "url(./tony.jpg)",
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
@@ -172,8 +171,7 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
-        <div
-          id="schedule"
+        <div id="schedule"
           className="flex py-20"
           style={{
             background: "url(./driving.jpg)",
@@ -190,8 +188,7 @@ const Home: NextPage = () => {
             TO SCHEDULE YOUR DRIVING TRAINING SESSIONS <a href="tel:415-897-7002" target="_blank" rel="noopener noreferrer">CALL ME</a> OR <a href="tel:415-897-7002" target="_blank" rel="noopener noreferrer">TEXT ME</a> TODAY!
             </p>
           </div>
-        </div>
-       </div>
+          </div>
         <div id="training_and_services" className="bg-gray-100">
           <div className="container mx-auto py-3">
             <h2 className="text-2xl text-center py-3 font-bold">
@@ -218,7 +215,10 @@ const Home: NextPage = () => {
                   <p className="text-base">{description}</p>
                 </div>
               ))}
-          
+          </div>
+            </div>
+             </div>
+            </div>
         <div id="contact" className="flex py-20 bg-gray-200">
           <div className="container mx-auto py-2">
             <h2 className="text-2xl text-center font-bold py-2">CONTACT eSTOPDRIVING SCHOOL</h2>
@@ -243,7 +243,8 @@ const Home: NextPage = () => {
                 <p> Licensed Instructor No. 2055001, 
                   Please Call Me Or Text Me In Advance At 415-897-7002 To Scheduled A Personal Appointment.
                 </p>  
-           
+              
+
      
        <div className="fixed bottom-2 right-2"
           onClick={() => onScrollToView("home")}
@@ -253,6 +254,11 @@ const Home: NextPage = () => {
             className="text-red-500"
             style={{ width: 36, height: 36 }}
           />
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
         </div>
      
          
@@ -290,11 +296,6 @@ const Home: NextPage = () => {
               Join Now
           </button>
           </form>
-        </div>
-            </div>
-              </div>
-          </div>
-              </div>
               </div>
              </div>
         </main>
@@ -329,9 +330,9 @@ const Home: NextPage = () => {
           >
           SITE WEB DEV LISA GOREWIT-DECKER
           </a>
+          </div>
           
-          
-    </div>
+    <div>
       </footer>
     </div>
   );
