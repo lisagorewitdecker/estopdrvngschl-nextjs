@@ -275,7 +275,8 @@ const Home: NextPage = () => {
           </form>
 </div>
               </div>
-          </main>
+             </div>
+            </main>
       <footer 
         className="bg-gray-900 text-gray-400 py-4 text-sm">
         <div className="container m-auto text-center">
