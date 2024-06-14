@@ -57,7 +57,26 @@ body{
   font-family: 'Overpass', sans-serif;
 
 }
-
+.input-square{
+ height: 38px;
+  padding: 0 16px; 
+  font-size: 14px; 
+  border: 1px solid #888; 
+  border-radius: 3px; 
+  margin-right: 8px; 
+  font-family: 'Overpass', sans-serif;
+}
+.button-square{
+   cursor: pointer; 
+   rgba(239,68,68,var(--tw-text-opacity));
+   color: white; 
+   height: 40px; 
+   border: 0; 
+   border-radius: 3px; 
+   font-size: 14px; 
+   padding: 0 16px; 
+   font-family: 'Overpass', sans-serif;
+}
 .footer {
   width: 100%;
   height: 100px;
