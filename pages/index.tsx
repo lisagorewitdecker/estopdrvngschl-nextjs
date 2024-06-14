@@ -271,7 +271,7 @@ const Home: NextPage = () => {
           <div className="container mx-auto py-3">
             <h2 className="text-2xl text-center py-3 font-bold">
               Subswcribe To Our Mqailing List
-            </h2>xf
+            </h2>
         <form 
           action="https://squareup.com/outreach/bfsXvM/subscribe" 
           method="POST"
