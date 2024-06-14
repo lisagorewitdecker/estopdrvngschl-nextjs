@@ -33,19 +33,19 @@ const ServiceConfig = [
     icon: "child",
     title: "TEENS",
     description: `Three 2-Hour Driving Lessons For Teenagers
-    (One-Hour Rate is $125 an Hour). Total Service Cost is $750.`
+    (One-Hour Rate is <b>$125/b> an Hour). Total Service Cost is <b>$750</b>.`
   },
   {
     icon: "user",
     title: "ADULTS",
     description: `Three 2-Hour Driving Lessons For Adults, Ages 18 and Up.
-    (One-Hour Rate is $125 an Hour). Total Service Cost is $750.`
+    (One-Hour Rate is <b>$125</b> an Hour). Total Service Cost is <b>$750</b>.`
   },
   {
     icon: "universal-access",
     title: "SENIORS",
     description: `One-Hour Driving Lesson For Seniors "Behind-The-Wheel Refresher".
-    (One-Hour Rate is $125 an Hour). Total Service Cost is $125.`
+    (One-Hour Rate is <b>$125</b> an Hour). Total Service Cost is <b>$125</b>.`
   },
 ];
 const Home: NextPage = () => {
@@ -151,7 +151,7 @@ const Home: NextPage = () => {
                 (previously known as Nile Driving School). I have been teaching behind-the-wheel driving since 1983.
               </p>
               <p className="mb-2"> I have trained more than 5,000 teenagers, adults, and seniors (of course, they are of legal driving age and status). 
-                Basic training and services are at a flat hourly rate of $125. If you need any additional services, please do not hesitate to contact me for more details.
+                Basic training and services are at a flat hourly rate of <b>$125</b>. If you need any additional services, please do not hesitate to contact me for more details.
               </p>
               <p className="mb-2">
                  Since 1983, I Have 40 Years of Experience Training and Teaching Adults,
@@ -206,7 +206,7 @@ const Home: NextPage = () => {
                 Sonoma County, CA, The East Bay and San Francisco.</h3> 
               <h3 className="text-xl text-center font-bold"> You Will Safely Be Returned to The Location You Were Picked Up At!</h3>
               <p> &nbsp;  </p>
-              Basic Training and Services are an Hourly Rate of $125. If You Happen To Need Additional Services, 
+              Basic Training and Services are an Hourly Rate of <b>$125</b>. If You Happen To Need Additional Services, 
               Please Do Not Hesitate To Call Or Text Me At 415-897-7002 For More Details.
                  <p> &nbsp;  </p>
               <b>** Lastly, We No Longer Accept Cash or Checks.**</b> 
