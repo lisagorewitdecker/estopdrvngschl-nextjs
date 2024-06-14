@@ -317,6 +317,7 @@ const Home: NextPage = () => {
         <SpeedInsights/>
       </footer>
     </div>
+    <div>
      <div
           className="fixed bottom-2 right-2"
           onClick={() => onScrollToView("home")}
@@ -327,7 +328,8 @@ const Home: NextPage = () => {
             style={{ width: 36, height: 36 }}
           />
         </div>
+   </div>
   )
-};
+}
 
 export default Home;
