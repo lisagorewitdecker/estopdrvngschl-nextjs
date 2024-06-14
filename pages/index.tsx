@@ -258,7 +258,7 @@ const Home: NextPage = () => {
     
          
           <div className="container mx-auto py-2">
-             <divclassName="flex py-20 bg-gray-200">
+             <div className="flex py-20 bg-gray-200">
             <h2 className="text-2xl text-center py-3 font-bold">
               Subscribe To Our Mailing List
             </h2>
