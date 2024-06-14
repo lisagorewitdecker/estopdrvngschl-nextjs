@@ -205,10 +205,10 @@ const Home: NextPage = () => {
               <h3 className="text-xl text-center font-bold"> I Will Meet/Pick You Up Anywhere in Maarin County, CA,
                 Sonoma County, CA, The East Bay and San Francisco.</h3> 
               <h3 className="text-xl text-center font-bold"> You Will Safely Be Returned to The Location You Were Picked Up At!</h3>
-              
+              <br>
               Basic Training and Services are an Hourly Rate of $125. If You Happen To Need Additional Services, 
               Please Do Not Hesitate To Call Or Text Me At 415-897-7002 For More Details.
-              
+              <br>
               <b>** Lastly, We No Longer Accept Cash or Checks.**</b> 
               However, We Accept Direct ApplePay Payments, and Can Accept Bank Transfers from Zelle Through Your Banking Apps, 
               We Are Very Excited to Be Announce That We Will Be Making All Appointment Bookings a Well as Also Accepting
@@ -294,13 +294,13 @@ const Home: NextPage = () => {
             type="email" 
             name="email_address" 
             placeholder="Your Email Address" 
-            className="imput-square-a"
+            className="imput-square"
           />
           <input 
             type="hidden" 
             name="embed" 
             value="true"
-            className="imput-square-b"
+            className="imput-square"
           />
           <button 
             type="submit" 
