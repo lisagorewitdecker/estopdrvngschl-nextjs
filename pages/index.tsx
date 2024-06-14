@@ -168,7 +168,6 @@ const Home: NextPage = () => {
                 <b>TEXT ME</b></a> AT 415-897-7002.
               </p>
               </p> 
-  
       <div id="schedule" className="flex py-20"
           style={{
             background: "url(./driving.jpg)",
@@ -228,8 +227,7 @@ const Home: NextPage = () => {
                     height={"55"}
                     width={"125"}
                   />
-                </a>
-             
+                </a>   
                 <p className="mb-2 font-bold">Tony (Teshome Kebere)</p>
                 <p><b>ADDRESS:</b> <a href="https://maps.app.goo.gl/iuwCYbJZx8y8CMtr7" target="_blank" rel="noopener noreferrer">Suite N, 7075 Redwood Blvd, Novato, CA 94945</a></p>
                 <p><b>CALL/TEXT:</b> <a href="tel:415-897-7002" target="_blank" rel="noopener noreferrer">415-897-7002</a></p>
@@ -237,8 +235,6 @@ const Home: NextPage = () => {
                 <p> Licensed Instructor No. 2055001, 
                   Please Call Me Or Text Me In Advance At 415-897-7002 To Scheduled A Personal Appointment.
                 </p>  
-           
-     
        <div className="fixed bottom-2 right-2"
           onClick={() => onScrollToView("home")}
         >
@@ -248,8 +244,6 @@ const Home: NextPage = () => {
             style={{ width: 36, height: 36 }}
           />
         </div>
-     
-         
           <div className="container mx-auto py-2">
              <div className="flex py-20 bg-gray-200">
             <h2 className="text-2xl text-center py-3 font-bold">
@@ -320,10 +314,9 @@ const Home: NextPage = () => {
           >
           SITE WEB DEV LISA GOREWIT-DECKER
           </a>
-          
-          
+             </footer>
+            </div>
     </div>
-      </footer>
     </div>
   );
 };
