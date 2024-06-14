@@ -329,9 +329,10 @@ const Home: NextPage = () => {
         </div>
         <SpeedInsights/>
       </div>
-   
+   <div>
          </footer>
       </div>
+    </div>
   );
 };
 
