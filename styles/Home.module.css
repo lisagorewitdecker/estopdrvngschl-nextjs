@@ -35,41 +35,41 @@ body{
 
 }
 .form{
-  min-height: 100vh;
-  padding: 0 0.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  font-family: 'Overpass', sans-serif;
+  min-height: 100vh !important;
+  padding: 0 0.5rem !important;
+  display: flex !important;
+  flex-direction: column!important;
+  justify-content: center!important;
+  align-items: center !important;
+  height: 100vh !important;
+  font-family: 'Overpass', sans-serif !important;
 }
 
 .button-square{
-  cursor: pointer;
-  background-color: #546476; 
-  color: white; height: 40px; 
-  border: 0; border-radius: 3px; 
-  font-size: 14px; padding: 0 16px; 
-  font-family: 'Overpass', sans-serif;
+  cursor: pointer !important;
+  background-color: red !important; 
+  color: white; height: 40px !important;
+  border: 0; border-radius: 3px !important;
+  font-size: 14px; padding: 0 16px !important;
+  font-family: 'Overpass', sans-serif!important;
 }
 .imput-square-a{
-  height: 38px; 
-  padding: 0 16px; 
-  font-size: 14px; 
-  border: 1px solid #bec3c8; 
-  border-radius: 3px; 
-  margin-right: 8px; 
-  font-family: 'Overpass', sans-serif;
+  height: 38px !important;
+  padding: 0 16px !important;
+  font-size: 14px !important;
+  border: 1px solid #5b5b5b !important; 
+  border-radius: 3px !important; 
+  margin-right: 8px !important; 
+  font-family: 'Overpass', sans-serif !important;
 } 
 .imput-square-b{
-  height: 38px; 
-  padding: 0 16px; 
-  font-size: 14px; 
-  border: 1px solid #bec3c8; 
-  border-radius: 3px; 
-  margin-right: 8px; 
-  font-family: 'Overpass', sans-serif;
+  height: 38px !important; 
+  padding: 0 16px !important;
+  font-size: 14px !important;
+  border: 1px solid #5b5b5b !important; 
+  border-radius: 3px !important;  
+  margin-right: 8px !important; 
+  font-family: 'Overpass', sans-serif !important; 
 }  
 .container {
   min-height: 100vh;
@@ -79,7 +79,7 @@ body{
   justify-content: center;
   align-items: center;
   height: 100vh;
-  font-family: 'Overpass', sans-serif;
+  font-family: 'Overpass', sans-serif !important; 
 }
 .main {
   padding: 5rem 0;
@@ -88,7 +88,7 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: 'Overpass', sans-serif;
+  font-family: 'Overpass', sans-serif !important; 
 }
 
 /* .footer {
@@ -101,20 +101,29 @@ body{
   font-family: 'Overpass', sans-serif;
 
 } */
-.footer bg-gray-900 {
-    background-color: rgba(17, 24, 39, var(--tw-bg-opacity));
+.bg-gray-900 {
+    background-color: rgba(17, 24, 39, var(--tw-bg-opacity)) !important; 
     position: absolute;
     align-content: center;
     min-width: 100%;
 }
+.footer{
+    background-color: rgba(17, 24, 39, var(--tw-bg-opacity)) !important;
+    align-content: center !important; 
+    min-width: 100% !important; 
+    display: flex !important; 
+    justify-content: center !important; 
+    align-items: center !important; 
+    flex-grow: 1 !important; 
+    font-family: 'Overpass', sans-serif!important;  
+}
 
 .footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-  font-family: 'Overpass', sans-serif;
-
+  display: flex !important; 
+  justify-content: center !important; 
+  align-items: center!important; 
+  flex-grow: 1 !important; 
+  font-family: 'Overpass', sans-serif !important; 
 }
 
 .title a {
@@ -161,8 +170,6 @@ body{
 
 /*   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace; */
- 
-
 }
 
 .grid {
