@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
+import Body from "next/body";
 import { useCallback } from "react";
 
 const NavConfig = [
@@ -255,16 +256,6 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
-        <div
-          className="fixed bottom-2 right-2"
-          onClick={() => onScrollToView("home")}
-        >
-          <FontAwesomeIcon
-            icon="arrow-up"
-            className="text-red-500"
-            style={{ width: 36, height: 36 }}
-          />
-        </div>
         <form 
           action="https://squareup.com/outreach/bfsXvM/subscribe" 
           method="POST"
@@ -291,6 +282,16 @@ const Home: NextPage = () => {
           </button>
           </form>
       </main>
+       <div
+          className="fixed bottom-2 right-2"
+          onClick={() => onScrollToView("home")}
+        >
+          <FontAwesomeIcon
+            icon="arrow-up"
+            className="text-red-500"
+            style={{ width: 36, height: 36 }}
+          />
+        </div>
       <footer className="bg-gray-900 text-gray-400 py-4 text-sm">
         <div className="container m-auto text-center">
           Copyright @2024{" "} &nbsp; | &nbsp;
@@ -325,6 +326,7 @@ const Home: NextPage = () => {
         </div>
         <SpeedInsights/>
       </footer>
+      </div>
     </div>
   );
 };
