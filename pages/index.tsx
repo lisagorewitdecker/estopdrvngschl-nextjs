@@ -38,7 +38,8 @@ const ServiceConfig = [
   {
     icon: "user",
     title: "ADULTS",
-    description: `Three 2-Hour Driving Lessons For Adults`,
+    description: `Three 2-Hour Driving Lessons For Adults\
+    Total Cost for All Three-Hour Driving Lessons For Adults is $750`,
   },
   {
     icon: "universal-access",
@@ -290,13 +291,12 @@ const Home: NextPage = () => {
               Join Now
           </button>
           </form>
+         </div>
+            </div>
+          </div>
         </div>
             </div>
-              </div>
           </div>
-              </div>
-              </div>
-             </div>
         </main>
       <footer className="bg-gray-900 text-gray-400 py-4 text-sm">
         <div className="container m-auto text-center">
@@ -329,9 +329,8 @@ const Home: NextPage = () => {
           >
           SITE WEB DEV LISA GOREWIT-DECKER
           </a>
-          
-          
-    </div>
+        </div>
+            
       </footer>
     </div>
   );
