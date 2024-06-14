@@ -197,8 +197,9 @@ const Home: NextPage = () => {
               TRAINING &amp; SERVICES
             </h2>
             <p className="text-center mx-1">
-               Basic Training And Services are an Hourly Flat Rate. If You Happen To Need
-              Additional Services, Please Do Not Hesitate To Call Or Text Me At 415-897-7002 For More Details.
+               Basic Training & Services Are a Flat Rate of $125. If You Happen to Need
+              Additional Services, Please Do Not Hesitate To Call or Text Teshome (Tony) At 415-897-7002 For More Details.
+             <h3> Valet Driving Instructor Service! I will Come and Pick You Up Wherever You Are! Whether You Live in Marin County CA, Sonoma County, CA, San Francisco or Anywhere in The East Bay </h3>
             </p>
             <div className="py-3 grid xs:grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-4">
               {ServiceConfig.map(({ icon, title, description }) => (
@@ -249,16 +250,7 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
-       <div
-          className="fixed bottom-2 right-2"
-          onClick={() => onScrollToView("home")}
-        >
-          <FontAwesomeIcon
-            icon="arrow-up"
-            className="text-red-500"
-            style={{ width: 36, height: 36 }}
-          />
-        </div>
+      
     
           <div
             className="flex 
@@ -274,6 +266,7 @@ const Home: NextPage = () => {
         </div>
             </div>
         </main>
+      
       <footer className="bg-gray-900 text-gray-400 py-4 text-sm">
         <div className="container m-auto text-center">
           Copyright @2024{" "} &nbsp; | &nbsp;
@@ -310,6 +303,15 @@ const Home: NextPage = () => {
     </div>
       </footer>
     </div>
+     <div className="fixed bottom-2 right-2"
+          onClick={() => onScrollToView("home")}
+        >
+          <FontAwesomeIcon
+            icon="arrow-up"
+            className="text-red-500"
+            style={{ width: 36, height: 36 }}
+          />
+        </div>
   );
 };
 
