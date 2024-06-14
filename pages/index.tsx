@@ -200,9 +200,11 @@ const Home: NextPage = () => {
               TRAINING &amp; SERVICES
             </h2>
             <p className="text-center mx-1">
-            <h3 className="ttext-xl text-center font-bold"> 
-              No Need to Worry I offer My Clients, Valet Service!
-              I Will Meet/Pick You Up Anywhere in Maarin County, CA, Sonoma County, CA, The East Bay and San Francisco. You Will Safely Be Returned to The Location You Were Picked Up At! </h3>
+            <h3 className="text-xl text-center font-bold"> 
+              No Need to Worry I offer My Clients, Valet Service!</h3>
+              <h3 className="text-xl text-center font-bold"> I Will Meet/Pick You Up Anywhere in Maarin County, CA,
+                Sonoma County, CA, The East Bay and San Francisco.</h3> 
+              <h3 className="text-xl text-center font-bold"> You Will Safely Be Returned to The Location You Were Picked Up At!</h3>
               
               Basic Training and Services are an Hourly Rate of $125. If You Happen To Need Additional Services, 
               Please Do Not Hesitate To Call Or Text Me At 415-897-7002 For More Details.
