@@ -1,8 +1,3 @@
 {
   "extends": "next/core-web-vitals"
-},
-{
-  "scripts": {
-    "lint": "next lint"
-  }
 }
