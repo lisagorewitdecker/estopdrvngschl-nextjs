@@ -201,14 +201,17 @@ const Home: NextPage = () => {
               TRAINING &amp; SERVICES
             </h2>
             <p className="text-center mx-1">
-              <h2> No Need to Worry I offer My Clients, Valet Service! I Will Meet You Anywhere
-                in Maarin County, CA, Sonoma County, CA, The East Bay and San Francisco</h2>
+            <h2 className="text-2xl text-center py-3 font-bold"> 
+              No Need to Worry I offer My Clients, Valet Service!</h2> 
+            <h3 className="text-1xl text-center py-3 font-bold"> 
+              I Will Meet/Pick You Up Anywhere in Maarin County, CA, Sonoma County, CA, The East Bay and San Francisco
+              and Will Safely Take You Back To Your Desired Location! </h3>
               Basic Training and Services are an Hourly Rate of $125. If You Happen To Need Additional Services, 
               Please Do Not Hesitate To Call Or Text Me At 415-897-7002 For More Details.
               
-              ** Lastly, I No Longer Accept Cash or Checks. We Accepting ApplePay, and Zelle Through Banking Apps, and. 
-              We Are Very Excited to Be Rolling Out Bookings and Payments Through Square in The Next Few Days! **
-              
+              <b>** Lastly, I No Longer Accept Cash or Checks.**</b> However, We are Accepting Direct ApplePay Payments,
+                and Accepting Bank Transfers Zelle From Banking Apps, We Are Very Excited to Be Announce That We Will
+                Be Making All Bookings and also acce[tiing Payments Through Square in The Next Few Days! 
             </p>
             <div className="py-3 grid xs:grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-4">
               {ServiceConfig.map(({ icon, title, description }) => (
