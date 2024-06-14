@@ -34,43 +34,7 @@ body{
   font-family: 'Overpass', sans-serif;
 
 }
-.form{
-  min-height: 100vh !important;
-  padding: 0 0.5rem !important;
-  display: flex !important;
-  flex-direction: column!important;
-  justify-content: center!important;
-  align-items: center !important;
-  height: 100vh !important;
-  font-family: 'Overpass', sans-serif !important;
-}
 
-.button-square{
-  cursor: pointer !important;
-  background-color: red !important; 
-  color: white; height: 40px !important;
-  border: 0; border-radius: 3px !important;
-  font-size: 14px; padding: 0 16px !important;
-  font-family: 'Overpass', sans-serif!important;
-}
-.imput-square-a{
-  height: 38px !important;
-  padding: 0 16px !important;
-  font-size: 14px !important;
-  border: 1px solid #5b5b5b !important; 
-  border-radius: 3px !important; 
-  margin-right: 8px !important; 
-  font-family: 'Overpass', sans-serif !important;
-} 
-.imput-square-b{
-  height: 38px !important; 
-  padding: 0 16px !important;
-  font-size: 14px !important;
-  border: 1px solid #5b5b5b !important; 
-  border-radius: 3px !important;  
-  margin-right: 8px !important; 
-  font-family: 'Overpass', sans-serif !important; 
-}  
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
@@ -79,8 +43,10 @@ body{
   justify-content: center;
   align-items: center;
   height: 100vh;
-  font-family: 'Overpass', sans-serif !important; 
+  font-family: 'Overpass', sans-serif;
+
 }
+
 .main {
   padding: 5rem 0;
   flex: 1;
@@ -88,10 +54,11 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: 'Overpass', sans-serif !important; 
+  font-family: 'Overpass', sans-serif;
+
 }
 
-/* .footer {
+.footer {
   width: 100%;
   height: 100px;
   border-top: 1px solid #eaeaea;
@@ -100,30 +67,15 @@ body{
   align-items: center;
   font-family: 'Overpass', sans-serif;
 
-} */
-.bg-gray-900 {
-    background-color: rgba(17, 24, 39, var(--tw-bg-opacity)) !important; 
-    position: absolute;
-    align-content: center;
-    min-width: 100%;
-}
-.footer{
-    background-color: rgba(17, 24, 39, var(--tw-bg-opacity)) !important;
-    align-content: center !important; 
-    min-width: 100% !important; 
-    display: flex !important; 
-    justify-content: center !important; 
-    align-items: center !important; 
-    flex-grow: 1 !important; 
-    font-family: 'Overpass', sans-serif!important;  
 }
 
 .footer a {
-  display: flex !important; 
-  justify-content: center !important; 
-  align-items: center!important; 
-  flex-grow: 1 !important; 
-  font-family: 'Overpass', sans-serif !important; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  font-family: 'Overpass', sans-serif;
+
 }
 
 .title a {
@@ -170,6 +122,8 @@ body{
 
 /*   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace; */
+ 
+
 }
 
 .grid {
