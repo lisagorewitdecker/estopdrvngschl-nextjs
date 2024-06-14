@@ -265,6 +265,8 @@ const Home: NextPage = () => {
             style={{ width: 36, height: 36 }}
           />
         </div>
+          <div id="contact" className="flex py-20 bg-gray-200">
+          <div className="container mx-auto py-2">
         <form 
           action="https://squareup.com/outreach/bfsXvM/subscribe" 
           method="POST"
@@ -290,6 +292,8 @@ const Home: NextPage = () => {
               Join Now
           </button>
           </form>
+            </div>
+            </div>
       </main>
       <footer className="bg-gray-900 text-gray-400 py-4 text-sm">
         <div className="container m-auto text-center">
@@ -330,4 +334,5 @@ const Home: NextPage = () => {
       </div>
   );
 };
+
 export default Home;
