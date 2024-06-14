@@ -81,7 +81,8 @@ const Home: NextPage = () => {
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff"></meta>
       </Head>
-      <main className="main">
+      <main 
+        className="main">
         <div id="home" className="flex items-center justify-center py-4">
           <Image
             src="/logo.png"
@@ -190,8 +191,7 @@ const Home: NextPage = () => {
             TO SCHEDULE YOUR DRIVING TRAINING SESSIONS <a href="tel:415-897-7002" target="_blank" rel="noopener noreferrer">CALL ME</a> OR <a href="tel:415-897-7002" target="_blank" rel="noopener noreferrer">TEXT ME</a> TODAY!
             </p>
           </div>
-        </div>
-       </div>
+    
         <div id="training_and_services" className="bg-gray-100">
           <div className="container mx-auto py-3">
             <h2 className="text-2xl text-center py-3 font-bold">
@@ -297,6 +297,8 @@ const Home: NextPage = () => {
               </div>
               </div>
              </div>
+                </div>
+       </div>
         </main>
       <footer className="bg-gray-900 text-gray-400 py-4 text-sm">
         <div className="container m-auto text-center">
