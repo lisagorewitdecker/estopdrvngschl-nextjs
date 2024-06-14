@@ -29,6 +29,6 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Analytics mode={'production'} />;
     </>
   );
-}
+};
  
 export default MyApp;
