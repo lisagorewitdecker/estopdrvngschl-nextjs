@@ -101,9 +101,9 @@ body{
   font-family: 'Overpass', sans-serif;
 
 } */
-.footer bg-gray-900 {
-    background-color: rgba(17, 24, 39, var(--tw-bg-opacity));
-    position: absolute;
+.footer{
+    background-color: rgba(17, 24, 39,));
+    position: absolute !important;
     align-content: center;
     min-width: 100%;
 }
@@ -161,8 +161,6 @@ body{
 
 /*   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace; */
- 
-
 }
 
 .grid {
