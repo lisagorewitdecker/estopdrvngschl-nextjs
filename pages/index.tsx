@@ -32,7 +32,7 @@ const ServiceConfig = [
   {
     icon: "child",
     title: "TEENS",
-    description: `Three 2-Hour Driving Lessons For Teens`,
+    description: `Three 2-Hour Driving Lessons For Teens/ (One-Hour is Priced at $125 an Hour). Total Service Cost $750`,
   },
   {
     icon: "user",
