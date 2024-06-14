@@ -35,9 +35,9 @@ ul, li{
 }
 .inner {
 }
-.footer bg-gray-900 {
+.footer {
     background-color: rgba(17, 24, 39, var(--tw-bg-opacity));
-    position: absolute;
+    position: absolute !important;
     align-content: center;
     min-width: 100%;
 }
