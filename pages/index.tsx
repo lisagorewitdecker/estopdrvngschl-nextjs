@@ -245,12 +245,8 @@ const Home: NextPage = () => {
                 <p> Licensed Instructor No. 2055001, 
                   Please Call Me Or Text Me In Advance At 415-897-7002 To Scheduled A Personal Appointment.
                 </p>  
-              </div>
-            </div>
-          </div>
-        </div>
-       <div
-          className="fixed bottom-2 right-2"
+            
+       <div className="fixed bottom-2 right-2"
           onClick={() => onScrollToView("home")}
         >
           <FontAwesomeIcon
@@ -260,19 +256,47 @@ const Home: NextPage = () => {
           />
         </div>
     
-          <div
-            className="flex 
-            py-20 
-            bg-gray-200">
-          <div 
-            className="container 
-            mx-auto py-2">
+         
+          <div className="container mx-auto py-2">
+             <divclassName="flex py-20 bg-gray-200">
             <h2 className="text-2xl text-center py-3 font-bold">
               Subscribe To Our Mailing List
             </h2>
-       
+        <form action="https://squareup.com/outreach/bfsXvM/subscribe" 
+          className="p-3 
+          flex 
+          flex-col 
+          text-center 
+          items-center"
+          method="POST"
+          target="_blank"
+          className="form-square p-3 flex flex-col text-center items-center"
+          >
+          <input 
+            type="email" 
+            name="email_address" 
+            placeholder="Your Email Address" 
+            className="imput-square-a"
+          />
+          <input 
+            type="hidden" 
+            name="embed" 
+            value="true"
+            className="imput-square-b"
+          />
+          <button 
+            type="submit" 
+            className="square-button"
+            >
+              Join Now
+          </button>
+          </form>
         </div>
             </div>
+              </div>
+            </div>
+          </div>
+        
         </main>
       <footer className="bg-gray-900 text-gray-400 py-4 text-sm">
         <div className="container m-auto text-center">
