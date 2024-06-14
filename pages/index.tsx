@@ -327,8 +327,6 @@ const Home: NextPage = () => {
           SITE WEB DEV LISA GOREWIT-DECKER
           </a>
         </div>
-                </div>
-
         <div>
            </footer>
         </div>
