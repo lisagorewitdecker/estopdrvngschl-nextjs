@@ -191,6 +191,7 @@ const Home: NextPage = () => {
             </p>
           </div>
         </div>
+       </div>
         <div id="training_and_services" className="bg-gray-100">
           <div className="container mx-auto py-3">
             <h2 className="text-2xl text-center py-3 font-bold">
