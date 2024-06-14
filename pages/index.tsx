@@ -326,9 +326,8 @@ const Home: NextPage = () => {
           >
           SITE WEB DEV LISA GOREWIT-DECKER
           </a>
-          </div>
         <SpeedInsights/>
-    </div>
+     </div>
       </footer>
     </div>
   );
