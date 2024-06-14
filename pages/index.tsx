@@ -255,16 +255,7 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
-        <div
-          className="fixed bottom-2 right-2"
-          onClick={() => onScrollToView("home")}
-        >
-          <FontAwesomeIcon
-            icon="arrow-up"
-            className="text-red-500"
-            style={{ width: 36, height: 36 }}
-          />
-        </div>
+       
         <form 
           action="https://squareup.com/outreach/bfsXvM/subscribe" 
           method="POST"
@@ -326,6 +317,16 @@ const Home: NextPage = () => {
         <SpeedInsights/>
       </footer>
     </div>
+     <div
+          className="fixed bottom-2 right-2"
+          onClick={() => onScrollToView("home")}
+        >
+          <FontAwesomeIcon
+            icon="arrow-up"
+            className="text-red-500"
+            style={{ width: 36, height: 36 }}
+          />
+        </div>
   )
 };
 
