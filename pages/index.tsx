@@ -81,8 +81,7 @@ const Home: NextPage = () => {
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff"></meta>
       </Head>
-      <main 
-        className="main">
+      <main className="main">
         <div id="home" className="flex items-center justify-center py-4">
           <Image
             src="/logo.png"
@@ -106,8 +105,7 @@ const Home: NextPage = () => {
             ))}
           </ul>
         </div>
-        <div
-          className="flex items-end"
+        <div className="flex items-end"
           style={{
             background: "url(./tony.jpg)",
             backgroundRepeat: "no-repeat",
@@ -170,12 +168,8 @@ const Home: NextPage = () => {
                 <b>TEXT ME</b></a> AT 415-897-7002.
               </p>
               </p> 
-            </div>
-          </div>
-        </div>
-     </div>        
-      <div id="schedule"
-          className="flex py-20"
+  
+      <div id="schedule" className="flex py-20"
           style={{
             background: "url(./driving.jpg)",
             backgroundRepeat: "no-repeat",
@@ -293,12 +287,7 @@ const Home: NextPage = () => {
         </div>
             </div>
               </div>
-          </div>
-              </div>
-              </div>
-             </div>
-                </div>
-       </div>
+
         </main>
       <footer className="bg-gray-900 text-gray-400 py-4 text-sm">
         <div className="container m-auto text-center">
