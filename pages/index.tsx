@@ -44,11 +44,6 @@ const ServiceConfig = [
     title: "SENIORS",
     description: `One-Hour Driving Lesson For Seniors "Behind-The-Wheel Refresher"`,
   },
-  //{
-    //icon: "car",
-    //title: "CAR RENTAL",
-    //description: `Car Rental for DMV "Behind-The-Wheel" Test at DMV`,
-  //},
 ];
 const Home: NextPage = () => {
   const onScrollToView = useCallback((elemId: string) => {
