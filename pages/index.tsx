@@ -264,12 +264,16 @@ const Home: NextPage = () => {
             style={{ width: 36, height: 36 }}
           />
         </div>
-          <div className="flex py-20 bg-gray-200">
-          <div className="container mx-auto py-2">
-            <div className="bg-gray-100">
-          <div className="container mx-auto py-3">
+    
+          <div
+            className="flex 
+            py-20 
+            bg-gray-200">
+          <div 
+            className="container 
+            mx-auto py-2">
             <h2 className="text-2xl text-center py-3 font-bold">
-              Subswcribe To Our Mqailing List
+              Subscribe To Our Mqailing List
             </h2>
         <form 
           action="https://squareup.com/outreach/bfsXvM/subscribe" 
@@ -296,9 +300,7 @@ const Home: NextPage = () => {
               Join Now
           </button>
           </form>
-            </div>
-            </div>
-            </div>
+        </div>
             </div>
         </main>
       <footer className="bg-gray-900 text-gray-400 py-4 text-sm">
@@ -332,6 +334,8 @@ const Home: NextPage = () => {
           >
           SITE WEB DEV LISA GOREWIT-DECKER
           </a>
+          
+          
     </div>
       </footer>
     </div>
