@@ -250,14 +250,9 @@ const Home: NextPage = () => {
               Subscribe To Our Mailing List
             </h2>
         <form action="https://squareup.com/outreach/bfsXvM/subscribe" 
-          className="p-3 
-          flex 
-          flex-col 
-          text-center 
-          items-center"
+          className="form-square p-3 flex flex-col text-center items-center"
           method="POST"
           target="_blank"
-          className="form-square p-3 flex flex-col text-center items-center"
           >
           <input 
             type="email" 
@@ -278,13 +273,10 @@ const Home: NextPage = () => {
               Join Now
           </button>
           </form>
-        </div>
-            </div>
-             </div>
-           </div>
-          </div>
+</div>
           </main>
-      <footer className="bg-gray-900 text-gray-400 py-4 text-sm">
+      <footer 
+        className="bg-gray-900 text-gray-400 py-4 text-sm">
         <div className="container m-auto text-center">
           Copyright @2024{" "} &nbsp; | &nbsp;
           <a
@@ -315,8 +307,10 @@ const Home: NextPage = () => {
           >
           SITE WEB DEV LISA GOREWIT-DECKER
           </a>
-             </footer>
-            </div>
+                </div>
+          </div>
+      </footer>
+          
     </div>
     </div>
   );
