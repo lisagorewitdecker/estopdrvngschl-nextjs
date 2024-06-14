@@ -19,7 +19,7 @@ body {
 
 a {
   @apply text-red-600 hover:text-red-300;
-  font-family: 'Overpass', sans-serif;
+  font-family: 'Overpass', sans-serif !important;
   padding:.15rem .15rem;
 
 }
@@ -36,8 +36,20 @@ ul, li{
 .inner {
 }
 .footer {
-    background-color: rgba(17, 24, 39, var(--tw-bg-opacity));
-    position: absolute !important;
-    align-content: center;
-    min-width: 100%;
+  min-width: 100% !important;
+  height: 125px !important;
+  border-top: 1px solid #eaeaea !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  font-family: 'Overpass', sans-serif !important;
+}
+
+.footer a {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-grow: 1 !important;
+  font-family: 'Overpass', sans-serif !important;
+
 }
