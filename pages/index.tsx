@@ -299,11 +299,8 @@ const Home: NextPage = () => {
           SITE WEB DEV LISA GOREWIT-DECKER
           </a>
           
-          
-    </div>
-      </footer>
-    </div>
-     <div className="fixed bottom-2 right-2"
+          </div>
+         <div className="fixed bottom-2 right-2"
           onClick={() => onScrollToView("home")}
         >
           <FontAwesomeIcon
@@ -312,6 +309,11 @@ const Home: NextPage = () => {
             style={{ width: 36, height: 36 }}
           />
         </div>
+    </div>
+        
+      </footer>
+    </div>
+    
   );
 };
 
