@@ -5,6 +5,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import { useCallback } from "react";
+import { FormEvent } from 'react'
 
 const NavConfig = [
   {
@@ -53,8 +54,7 @@ const Home: NextPage = () => {
       elem.scrollIntoView({ behavior: "smooth" });
     }
   }, []);
-  return (
-    <div>
+  return }
       <Head>
         <title>eStop Driving School</title>
         <meta name="description" content="Teaching Driving to Teenagers, Adults, and Seniors Since 1983" />
@@ -191,6 +191,7 @@ const Home: NextPage = () => {
             </p>
           </div>
         </div>
+       </div>
         <div id="training_and_services" className="bg-gray-100">
           <div className="container mx-auto py-3">
             <h2 className="text-2xl text-center py-3 font-bold">
@@ -217,9 +218,7 @@ const Home: NextPage = () => {
                   <p className="text-base">{description}</p>
                 </div>
               ))}
-            </div>
-          </div>
-        </div>
+          
         <div id="contact" className="flex py-20 bg-gray-200">
           <div className="container mx-auto py-2">
             <h2 className="text-2xl text-center font-bold py-2">CONTACT eSTOPDRIVING SCHOOL</h2>
@@ -236,8 +235,7 @@ const Home: NextPage = () => {
                     width={"125"}
                   />
                 </a>
-              </div>
-              <div>
+             
                 <p className="mb-2 font-bold">Tony (Teshome Kebere)</p>
                 <p><b>ADDRESS:</b> <a href="https://maps.app.goo.gl/iuwCYbJZx8y8CMtr7" target="_blank" rel="noopener noreferrer">Suite N, 7075 Redwood Blvd, Novato, CA 94945</a></p>
                 <p><b>CALL/TEXT:</b> <a href="tel:415-897-7002" target="_blank" rel="noopener noreferrer">415-897-7002</a></p>
@@ -245,12 +243,9 @@ const Home: NextPage = () => {
                 <p> Licensed Instructor No. 2055001, 
                   Please Call Me Or Text Me In Advance At 415-897-7002 To Scheduled A Personal Appointment.
                 </p>  
-              </div>
-            </div>
-          </div>
-        </div>
-       <div
-          className="fixed bottom-2 right-2"
+           
+     
+       <div className="fixed bottom-2 right-2"
           onClick={() => onScrollToView("home")}
         >
           <FontAwesomeIcon
@@ -259,20 +254,50 @@ const Home: NextPage = () => {
             style={{ width: 36, height: 36 }}
           />
         </div>
-    
-          <div
-            className="flex 
-            py-20 
-            bg-gray-200">
-          <div 
-            className="container 
-            mx-auto py-2">
+     
+         
+          <div className="container mx-auto py-2">
+             <div className="flex py-20 bg-gray-200">
             <h2 className="text-2xl text-center py-3 font-bold">
               Subscribe To Our Mailing List
             </h2>
-       
+        <form action="https://squareup.com/outreach/bfsXvM/subscribe" 
+          className="p-3 
+          flex 
+          flex-col 
+          text-center 
+          items-center"
+          method="POST"
+          target="_blank"
+          className="form-square p-3 flex flex-col text-center items-center"
+          >
+          <input 
+            type="email" 
+            name="email_address" 
+            placeholder="Your Email Address" 
+            className="imput-square-a"
+          />
+          <input 
+            type="hidden" 
+            name="embed" 
+            value="true"
+            className="imput-square-b"
+          />
+          <button 
+            type="submit" 
+            className="square-button"
+            >
+              Join Now
+          </button>
+          </form>
         </div>
             </div>
+              </div>
+          </div>
+              </div>
+            </div>
+          </div>
+             </div>
         </main>
       <footer className="bg-gray-900 text-gray-400 py-4 text-sm">
         <div className="container m-auto text-center">
