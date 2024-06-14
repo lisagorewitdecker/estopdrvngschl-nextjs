@@ -296,6 +296,7 @@ const Home: NextPage = () => {
               Join Now
           </button>
           </form>
+                </div>
               </div>
              </div>
             <div>
