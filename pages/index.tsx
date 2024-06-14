@@ -42,7 +42,7 @@ const ServiceConfig = [
   {
     icon: "universal-access",
     title: "SENIORS",
-    description: `One-Hour Driving Lesson F0r Seniors "Behind-The-Wheel Refresher"`,
+    description: `One-Hour Driving Lesson For Seniors "Behind-The-Wheel Refresher"`,
   },
   //{
     //icon: "car",
