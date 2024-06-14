@@ -324,9 +324,10 @@ const Home: NextPage = () => {
           </a>
         </div>
         <SpeedInsights/>
-      </footer>
-    </div>
-  )
+      </div>
+      <div>
+         </footer>
+      </div>
+  );
 };
-
 export default Home;
