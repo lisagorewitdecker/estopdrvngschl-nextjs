@@ -270,31 +270,7 @@ const Home: NextPage = () => {
             <h2 className="text-2xl text-center py-3 font-bold">
               Subscribe To Our Mailing List
             </h2>
-        <form 
-          action="https://squareup.com/outreach/bfsXvM/subscribe" 
-          method="POST"
-          target="_blank"
-          className="p-3 flex flex-col text-center items-center"
-          >
-          <input 
-            type="email" 
-            name="email_address" 
-            placeholder="Your Email Address" 
-            className="imput-square-a"
-          />
-          <input 
-            type="hidden" 
-            name="embed" 
-            value="true"
-            className="imput-square-b"
-          />
-          <button 
-            type="submit" 
-            className="square-button"
-            >
-              Join Now
-          </button>
-          </form>
+       
         </div>
             </div>
         </main>
