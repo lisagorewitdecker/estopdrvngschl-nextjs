@@ -173,8 +173,8 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
-        <div
-          id="schedule"
+     </div>        
+      <div id="schedule"
           className="flex py-20"
           style={{
             background: "url(./driving.jpg)",
