@@ -310,7 +310,7 @@ const Home: NextPage = () => {
     </div>
       </footer>
     </div>
-  );
-};
+   },
+  },
 
 export default Home;
