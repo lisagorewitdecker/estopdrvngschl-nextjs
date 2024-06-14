@@ -32,17 +32,17 @@ const ServiceConfig = [
   {
     icon: "child",
     title: "TEENS",
-    description: `6 Hours of Teenager Drivers Training`,
+    description: `Three 2-Hour Driving Lessons For Teens`,
   },
   {
     icon: "user",
     title: "ADULTS",
-    description: `2 Hours Minimum for Adults Per Day`,
+    description: `Three 2-Hour Driving Lessons For Adults`,
   },
   {
     icon: "universal-access",
     title: "SENIORS",
-    description: `1 Hour Minimum for Seniors "Behind-The-Wheel Refresher"`,
+    description: `One-Hour Driving Lesson F0r Seniors "Behind-The-Wheel Refresher"`,
   },
   //{
     //icon: "car",
@@ -86,7 +86,6 @@ const Home: NextPage = () => {
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff"></meta>
       </Head>
-
       <main className="main">
         <div id="home" className="flex items-center justify-center py-4">
           <Image
@@ -268,6 +267,11 @@ const Home: NextPage = () => {
       </main>
           <div id="contact" className="flex py-20 bg-gray-200">
           <div className="container mx-auto py-2">
+            <div id="training_and_services" className="bg-gray-100">
+          <div className="container mx-auto py-3">
+            <h2 className="text-2xl text-center py-3 font-bold">
+              Subswcribe To Our Mqailing List
+            </h2>xf
         <form 
           action="https://squareup.com/outreach/bfsXvM/subscribe" 
           method="POST"
