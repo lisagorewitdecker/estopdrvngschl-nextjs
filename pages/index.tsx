@@ -5,7 +5,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import { useCallback } from "react";
-import { FormEvent } from 'react'
+
 
 const NavConfig = [
   {
