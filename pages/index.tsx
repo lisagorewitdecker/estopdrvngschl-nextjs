@@ -32,17 +32,17 @@ const ServiceConfig = [
   {
     icon: "child",
     title: "TEENS",
-    description: `Three 2-Hour Driving Lessons For Teens`,
+    description: `Three 2-Hour Driving Lessons For Teenagers. <br> Total Hourly Cost at $125 an Hour for Services $750`,
   },
   {
     icon: "user",
     title: "ADULTS",
-    description: `Three 2-Hour Driving Lessons For Adults`,
+    description: `Three 2-Hour Driving Lessons For Adults, Ages 18 and Over.<br>Total Hourly Cost at $125 an Hour for Services $750 `,
   },
   {
     icon: "universal-access",
     title: "SENIORS",
-    description: `One-Hour Driving Lesson For Seniors "Behind-The-Wheel Refresher"`,
+    description: `One-Hour Driving Lesson For Seniors "Behind-The-Wheel Refresher".<br>Total Hourly Cost at $125 an Hour for Services $125"`,
   },
 ];
 const Home: NextPage = () => {
@@ -148,7 +148,7 @@ const Home: NextPage = () => {
                 (previously known as Nile Driving School). I have been teaching behind-the-wheel driving since 1983.
               </p>
               <p className="mb-2"> I have trained more than 5,000 teenagers, adults, and seniors (of course, they are of legal driving age and status). 
-                Basic training and services are at a flat hourly rate.If you need any additional services, please do not hesitate to contact me for more details.
+                Basic training and services are at a flat hourly rate. of $125. If you need any additional services, please do not hesitate to contact me for more details.
               </p>
               <p className="mb-2">
                  Since 1983, I Have 40 Years of Experience Training and Teaching Adults,
@@ -197,8 +197,14 @@ const Home: NextPage = () => {
               TRAINING &amp; SERVICES
             </h2>
             <p className="text-center mx-1">
-               Basic Training And Services are an Hourly Flat Rate. If You Happen To Need
-              Additional Services, Please Do Not Hesitate To Call Or Text Me At 415-897-7002 For More Details.
+              <h2> No Need to Worry I offer My Clients, Valet Service! I Will Meet You Anywhere
+                in Maarin County, CA, Sonoma County, CA, The East Bay and San Francisco</h2>
+              Basic Training and Services are an Hourly Rate of $125. If You Happen To Need Additional Services, 
+              Please Do Not Hesitate To Call Or Text Me At 415-897-7002 For More Details.
+              
+              ** Lastly, I No Longer Accept Cash or Checks. We Accepting ApplePay, and Zelle Through Banking Apps, and. 
+              We Are Very Excited to Be Rolling Out Bookings and Payments Through Square in The Next Few Days! **
+              
             </p>
             <div className="py-3 grid xs:grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-4">
               {ServiceConfig.map(({ icon, title, description }) => (
@@ -276,27 +282,27 @@ const Home: NextPage = () => {
         </main>
       <footer className="bg-gray-900 text-gray-400 py-4 text-sm">
         <div className="container m-auto text-center">
-          Copyright @2024{" "} &nbsp; | &nbsp;
+          Copyright @2024{" "} | 
           <a
             className="text-gray-400"
             href="http://estopdrivingschool.com/"
             title="eStopDrivingSchool"
           >
-           &nbsp; eSTOPDRIVINGSCHOOL &nbsp; | &nbsp;
+            eSTOPDRIVINGSCHOOL | 
           </a>{" "}
           <a
             className="text-gray-400"
             href="tel:415-897-7002"
             title="eStopDrivingSchool Phone Number"
           >
-            CALL/TEXT: 415-897-7002 &nbsp;| &nbsp;
+            CALL/TEXT: 415-897-7002 | 
           </a>
           <a
             href="https://www.facebook.com/estopdrivingschool/"
             className="text-gray-400"
             title="Facebook eStopDrivingSchool"
           >
-          FACEBOOK &nbsp;| &nbsp;
+          FACEBOOK | 
           </a>
            <a
             href="https://lisagorewitdecker.com"
