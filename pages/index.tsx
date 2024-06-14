@@ -32,17 +32,21 @@ const ServiceConfig = [
   {
     icon: "child",
     title: "TEENS",
-    description: `Three 2-Hour Driving Lessons For Teenagers. <br> Total Hourly Cost at $125 an Hour for Services $750`,
+
+    description: `Three 2-Hour Driving Lessons For Teenagers
+    (One-Hour Rate is $125 an Hour). Total Service Cost is $750.`
   },
   {
     icon: "user",
     title: "ADULTS",
-    description: `Three 2-Hour Driving Lessons For Adults, Ages 18 and Over.<br>Total Hourly Cost at $125 an Hour for Services $750 `,
+    description: `Three 2-Hour Driving Lessons For Adults, Ages 18 and Up.
+    (One-Hour Rate is $125 an Hour). Total Service Cost is $750.`
   },
   {
     icon: "universal-access",
     title: "SENIORS",
-    description: `One-Hour Driving Lesson For Seniors "Behind-The-Wheel Refresher".<br>Total Hourly Cost at $125 an Hour for Services $125"`,
+    description: `One-Hour Driving Lesson For Seniors "Behind-The-Wheel Refresher".
+    (One-Hour Rate is $125 an Hour). Total Service Cost is $125.`
   },
 ];
 const Home: NextPage = () => {
@@ -148,7 +152,7 @@ const Home: NextPage = () => {
                 (previously known as Nile Driving School). I have been teaching behind-the-wheel driving since 1983.
               </p>
               <p className="mb-2"> I have trained more than 5,000 teenagers, adults, and seniors (of course, they are of legal driving age and status). 
-                Basic training and services are at a flat hourly rate. of $125. If you need any additional services, please do not hesitate to contact me for more details.
+                Basic training and services are at a flat hourly rate of $125. If you need any additional services, please do not hesitate to contact me for more details.
               </p>
               <p className="mb-2">
                  Since 1983, I Have 40 Years of Experience Training and Teaching Adults,
