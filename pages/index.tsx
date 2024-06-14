@@ -201,17 +201,18 @@ const Home: NextPage = () => {
               TRAINING &amp; SERVICES
             </h2>
             <p className="text-center mx-1">
-            <h2 className="text-2xl text-center py-3 font-bold"> 
-              No Need to Worry I offer My Clients, Valet Service!</h2> 
-            <h3 className="text-1xl text-center py-3 font-bold"> 
-              I Will Meet/Pick You Up Anywhere in Maarin County, CA, Sonoma County, CA, The East Bay and San Francisco
-              and Will Safely Take You Back To Your Desired Location! </h3>
+            <h3 className="text-1xl text-center qfont-bold"> 
+              No Need to Worry I offer My Clients, Valet Service!
+              I Will Meet/Pick You Up Anywhere in Maarin County, CA, Sonoma County, CA, 
+              The East Bay and San Francisco. You Will Safely Be Returned to The Location You Were Picked Up At! </h3>
+              
               Basic Training and Services are an Hourly Rate of $125. If You Happen To Need Additional Services, 
               Please Do Not Hesitate To Call Or Text Me At 415-897-7002 For More Details.
               
-              <b>** Lastly, I No Longer Accept Cash or Checks.**</b> However, We are Accepting Direct ApplePay Payments,
-                and Accepting Bank Transfers Zelle From Banking Apps, We Are Very Excited to Be Announce That We Will
-                Be Making All Bookings and also acce[tiing Payments Through Square in The Next Few Days! 
+              <b>** Lastly, We No Longer Accept Cash or Checks.**</b> 
+              However, We Accept Direct ApplePay Payments, and Can Accept Bank Transfers from Zelle Through Your Banking Apps, 
+              We Are Very Excited to Be Announce That We Will Be Making All Appointment Bookings a Well as Also Accepting
+              Payments Through Square in The Next Few Days! 
             </p>
             <div className="py-3 grid xs:grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-4">
               {ServiceConfig.map(({ icon, title, description }) => (
@@ -283,7 +284,31 @@ const Home: NextPage = () => {
             <h2 className="text-2xl text-center py-3 font-bold">
               Subscribe To Our Mailing List
             </h2>
-       
+        <form 
+          action="https://squareup.com/outreach/bfsXvM/subscribe" 
+          method="POST"
+          target="_blank"
+          className="p-3 flex flex-col text-center items-center"
+          >
+          <input 
+            type="email" 
+            name="email_address" 
+            placeholder="Your Email Address" 
+            className="imput-square-a"
+          />
+          <input 
+            type="hidden" 
+            name="embed" 
+            value="true"
+            className="imput-square-b"
+          />
+          <button 
+            type="submit" 
+            className="square-button"
+            >
+              Join Now
+          </button>
+          </form>
         </div>
             </div>
         </main>
