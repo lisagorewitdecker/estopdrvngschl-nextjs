@@ -1,4 +1,14 @@
 /** @type {import('next').NextConfig} */
-module.exports = {
-  reactStrictMode: false,
+const nextConfig = {
+  reactStrictMode: true,
+  swMinify: true,
+  async rewrites () {
+    return [
+      {
+        source: '/',
+        destination: '/html/index.html',
+      },
+    ]
+  }
 }
+module.exports = nextConfig
