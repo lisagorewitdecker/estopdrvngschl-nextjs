@@ -138,10 +138,10 @@ const Home: NextPage = () => {
           <div className="grid sm:grid-cols-1  md:grid-cols-2 gap-4">
             <div className="flex items-center justify-center">
               <Image
-                src="/2024-best-award.jpg"
+                src="public/2024-best-award.jpg"
                 alt="Novato Best Driving Instructor Award"
-                width={400}
-                height={400}
+                width={300}
+                height={300}
               />
             </div>
             <div className="p-4">
