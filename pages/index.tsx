@@ -1,5 +1,5 @@
 import Script from 'next/script';
-import { SpeedInsights } from "@vercel/speed-insights/next";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import type { NextPage } from "next";
 import Head from "next/head";
@@ -138,7 +138,7 @@ const Home: NextPage = () => {
           <div className="grid sm:grid-cols-1  md:grid-cols-2 gap-4">
             <div className="flex items-center justify-center">
               <Image
-                src="/public/2024-best-award.jpg"
+                src="2024-best-award.jpg"
                 alt="Novato Best Driving Instructor Award"
                 width={400}
                 height={400}
