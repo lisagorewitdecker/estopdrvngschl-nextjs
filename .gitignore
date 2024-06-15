@@ -1,5 +1,5 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
+.
 # dependencies
 /node_modules
 /.pnp
@@ -8,12 +8,17 @@
 # testing
 /coverage
 
+#folder
+/node_modules/|/bower_components/|/\.devtools|/\.git/|/\.sass-cache/|/\.hg/|/\.idea/|/\.svn/|/\.cache/|/\.project/|/\.DS_Store$|/\.Trashes$|/\.Spotlight-V100$|/\.AppleDouble$|/\.LSOverride$|/Icon$|/\._.*$
+
 # next.js
 /.next/
 /out/
 
 # production
 /build
+# ignore
+/node_modules/|/bower_components/
 
 # misc
 .DS_Store
