@@ -169,7 +169,7 @@ const Home: NextPage = () => {
               </p>
             <p className="mb-2">
                 <a href="tel:415-897-7002" target="_blank" rel="noopener noreferrer">
-                <b>CALLL ME</b></a> OR <a href="tel:415-897-7002" target="_blank" rel="noopener noreferrer">
+                <b>CALL ME</b></a> OR <a href="tel:415-897-7002" target="_blank" rel="noopener noreferrer">
                 <b>TEXT ME</b></a> AT 415-897-7002.
               </p>
               </p> 
@@ -207,12 +207,12 @@ const Home: NextPage = () => {
                 Sonoma County, CA, The East Bay and San Francisco.</h3> 
               <h3 className="text-xl text-center font-bold"> You Will Safely Be Returned to The Location You Were Picked Up At!</h3>
               <p> &nbsp;  </p>
-              Basic Training and Services are an Hourly Rate of $125. If You Happen To Need Additional Services, 
+              Basic Training and Services are at an Hourly Rate of $125. If You Happen To Need Additional Services, 
               Please Do Not Hesitate To Call Or Text Me At 415-897-7002 For More Details.
                  <p> &nbsp;  </p>
               <b>** Lastly, We No Longer Accept Cash or Checks.**</b> 
-              However, We Accept Direct ApplePay Payments, and Can Accept Bank Transfers from Zelle Through Your Banking Apps, 
-              We Are Very Excited to Be Announce That We Will Be Making All Appointment Bookings a Well as Also Accepting
+              However, We Accept Direct ApplePay Payments and Can Accept Bank Transfers from Zelle Through Your Banking Apps, 
+              We Are Very Excited to Announce That We Will Be Making All Appointment Bookings and Also Accepting
               Payments Through Square in The Next Few Days! 
             </p>
             <div className="py-3 grid xs:grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-4">
