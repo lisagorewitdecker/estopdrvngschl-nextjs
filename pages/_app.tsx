@@ -1,4 +1,3 @@
-import { Analytics } from '@vercel/analytics/react';
 import { library } from "@fortawesome/fontawesome-svg-core";
 import {
   faArrowUp,
@@ -21,7 +20,12 @@ library.add(
   faCar,
   faArrowUp
 );
- 
+import { body } from "@freq-body/api";
+
+ export default async function handler(req, res) {
+  const { body } = req;
+  return res.send(`Hello ${body.name}, you just parsed the request body!`);
+}
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
