@@ -1,12 +1,13 @@
 import Script from 'next/script';
 import { SpeedInsights } from "@vercel/speed-insights/next";
-import { Analytics } from "@vercel/analytics/next";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
+import Body from "@req-body/api";
+import Html from "@req-html/api";
+ 
 import { useCallback } from "react";
-
 const NavConfig = [
   {
     name: "HOME",
@@ -59,7 +60,8 @@ const Home: NextPage = () => {
   }, []);
   return (
     <div>
-      <Head>
+      <html lang="en-US">
+    <meta charset="utf-8" />
         <title>eStop Driving School</title>
         <meta name="description" content="Teaching Driving to Teenagers, Adults, and Seniors Since 1983" />
         <link rel="icon" href="/favicon.ico" />
@@ -84,8 +86,9 @@ const Home: NextPage = () => {
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff"></meta>
-      </Head>
-      <main className="main">
+</head>
+
+      <body className="main">
         <div id="home" className="flex items-center justify-center py-4">
           <Image
             src="/logo.png"
@@ -349,6 +352,8 @@ const Home: NextPage = () => {
     </div>
       </footer>
     </div>
+    </body>
+    </html>
   );
 };
 
