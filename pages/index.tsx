@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
-import Body from "@req-body/api";
+import body from "@req-body/api";
  
 import { useCallback } from "react";
 const NavConfig = [
