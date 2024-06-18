@@ -40,7 +40,7 @@ const ServiceConfig = [
     icon: "user",
     title: "ADULTS",
     description: `Three 2-Hour Driving Lessons For Adults, Ages 18 and Up.
-    (One-Hour Rate is $125 an Hour). Total Service Cost is $750.`
+    (One-Hour Rate is $125 an Hour). Total Service Cost is $750.`}
   },
   {
     icon: "universal-access",
@@ -85,7 +85,10 @@ const Home: NextPage = () => {
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff"></meta>
       
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-B0JWV1HFBS"></script>
+<script 
+  async 
+  src="https://www.googletagmanager.com/gtag/js?id=G-B0JWV1HFBS"><
+    /script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -93,6 +96,7 @@ const Home: NextPage = () => {
 
   gtag('config', 'G-B0JWV1HFBS');
 </script>
+  </div>
       </Head>
       <main className="main">
         <div id="home" className="flex items-center justify-center py-4">
