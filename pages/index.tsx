@@ -86,7 +86,7 @@ const Home: NextPage = () => {
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff"></meta>
-</head>
+      </head>
 
       <body className="main">
         <div id="home" className="flex items-center justify-center py-4">
@@ -315,7 +315,7 @@ const Home: NextPage = () => {
           </form>
         </div>
             </div>
-        </main>
+        </body>
       <footer className="bg-gray-900 text-gray-400 py-4 text-sm">
         <div className="container m-auto text-center">
           Copyright @2024{" "} | 
@@ -352,8 +352,10 @@ const Home: NextPage = () => {
     </div>
       </footer>
     </div>
-    </body>
-    </html>
+   <div>
+   </html>
+   </div>
+    
   );
 };
 
