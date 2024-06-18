@@ -61,6 +61,7 @@ const Home: NextPage = () => {
     <div>
 {/*       <html lang="en-US">
     <meta charset="utf-8" /> */}
+     <head>
         <title>eStop Driving School</title>
         <meta name="description" content="Teaching Driving to Teenagers, Adults, and Seniors Since 1983" />
         <link rel="icon" href="/favicon.ico" />
@@ -85,8 +86,7 @@ const Home: NextPage = () => {
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff"></meta>
-      </head>
-
+</head>
       <body className="main">
         <div id="home" className="flex items-center justify-center py-4">
           <Image
