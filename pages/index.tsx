@@ -85,14 +85,14 @@ const Home: NextPage = () => {
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff"></meta>
         <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-B0JWV1HFBS"></script>
-<script>
+<link async src="https://www.googletagmanager.com/gtag/js?id=G-B0JWV1HFBS"></link>
+<link>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'G-B0JWV1HFBS');
-</script>
+</link>
       </Head>
       <main className="main">
         <div id="home" className="flex items-center justify-center py-4">
