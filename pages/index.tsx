@@ -85,10 +85,9 @@ const Home: NextPage = () => {
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff"></meta>
       
-<script 
-  async 
-  src="https://www.googletagmanager.com/gtag/js?id=G-B0JWV1HFBS"><
-    /script>
+<script async 
+  src="https://www.googletagmanager.com/gtag/js?id=G-B0JWV1HFBS">
+  </script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
