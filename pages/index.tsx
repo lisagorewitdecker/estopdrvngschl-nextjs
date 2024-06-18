@@ -1,5 +1,5 @@
-import Script from 'next/script';
-import GoogleAnalytics from '@/components/GoogleAnalytics';
+import Script from "next/script";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import type { NextPage } from "next";
 import Head from "next/head";
