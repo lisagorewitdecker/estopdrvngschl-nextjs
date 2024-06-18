@@ -59,8 +59,8 @@ const Home: NextPage = () => {
   }, []);
   return (
     <div>
-      <html lang="en-US">
-    <meta charset="utf-8" />
+{/*       <html lang="en-US">
+    <meta charset="utf-8" /> */}
         <title>eStop Driving School</title>
         <meta name="description" content="Teaching Driving to Teenagers, Adults, and Seniors Since 1983" />
         <link rel="icon" href="/favicon.ico" />
