@@ -138,12 +138,14 @@ const Home: NextPage = () => {
           <h1 className="text-2xl text-center py-4 font-bold">About eStop Driving School Of Novato, CA 94945 &ndash; Located in Marin County!</h1>
           <div className="grid sm:grid-cols-1  md:grid-cols-2 gap-4">
             <div className="flex items-center justify-center">
+              <a href="https://qualitybusinessawards.com/2024/the-best-driving-school-in-novato/nile-driving-school"/>
               <Image
                 src="2024-best-award.jpg"
                 alt="Novato Best Driving Instructor Award"
                 width={400}
                 height={400}
               />
+              </a>
             </div>
             <div className="p-4">
               <p className="font-bold leading-relaxed mb-4"> 
