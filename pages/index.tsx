@@ -144,7 +144,7 @@ const Home: NextPage = () => {
                 src="2024-best-award.jpg"
                 alt="Novato Best Driving Instructor Award"
                 width={400}
-               now I'm gonna go in height={400}
+                height={400}
               />
               </a>
               </div>
