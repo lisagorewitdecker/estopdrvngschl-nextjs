@@ -140,14 +140,14 @@ const Home: NextPage = () => {
             <div className="flex items-center justify-center">
               <a href="https://qualitybusinessawards.com/2024/the-best-driving-school-in-novato/nile-driving-school"
                 />
-                 <Image
+                <Image
                 src="2024-best-award.jpg"
                 alt="Novato Best Driving Instructor Award"
                 width={400}
                 height={400}
-              />
+               />
               </a>
-              </div>
+              
             </div>
             <div className="p-4">
               <p className="font-bold leading-relaxed mb-4"> 
