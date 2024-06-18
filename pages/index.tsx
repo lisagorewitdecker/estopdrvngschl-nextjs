@@ -60,6 +60,7 @@ const Home: NextPage = () => {
   }, []);
   return (
     <div>
+      <html>
       <Head>
         <title>eStop Driving School</title>
         <meta name="description" content="Teaching Driving to Teenagers, Adults, and Seniors Since 1983" />
@@ -313,7 +314,7 @@ const Home: NextPage = () => {
           </form>
         </div>
             </div>
-        </main>
+        <--</main>
       <footer className="bg-gray-900 text-gray-400 py-4 text-sm">
         <div className="container m-auto text-center">
           Copyright @2024{" "} | 
@@ -350,6 +351,8 @@ const Home: NextPage = () => {
     </div>
       </footer>
     </div>
+    </body>
+    </html>
   );
 };
 
