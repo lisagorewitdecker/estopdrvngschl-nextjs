@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
+import Body from "@req-body/api";
 import { useCallback } from "react";
 
 const NavConfig = [
@@ -85,7 +86,7 @@ const Home: NextPage = () => {
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff"></meta>
       </Head>
-      <main className="main">
+      <body className="main">
         <div id="home" className="flex items-center justify-center py-4">
           <Image
             src="/logo.png"
