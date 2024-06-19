@@ -20,13 +20,13 @@ library.add(
   faCar,
   faArrowUp
 )
-import { GoogleTagManager } from '@next/third-parties/google'
+import { GoogleTagManager } from '@next/third-parties/google';
  
 export default function MyApp({ Component, pageProps }) {
   return (
     <>
       <Component {...pageProps} />
-      <GoogleTagManager gtmId="GTM-XYZ" />
+      <GoogleTagManager gtmId="G-B0JWV1HFBS" />
     </>
   )
 }
