@@ -6,6 +6,8 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import { useCallback } from "react";
+import { GoogleTagManager } from '@next/third-parties/google';
+
 
 const NavConfig = [
   {
@@ -352,4 +354,6 @@ const Home: NextPage = () => {
   );
 };
 
-export default Home;
+export default function Home() {
+  return <GoogleTagManager gtmId="G-B0JWV1HFBS" />
+}
