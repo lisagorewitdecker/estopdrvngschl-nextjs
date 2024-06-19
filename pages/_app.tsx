@@ -28,4 +28,4 @@ export default function MyApp({ Component, pageProps }) {
     </>
    );
 }
-export default MyApp;
+
