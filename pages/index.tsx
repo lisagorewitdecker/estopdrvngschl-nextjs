@@ -46,7 +46,7 @@ const ServiceConfig = [
     icon: "universal-access",
     title: "SENIORS",
     description: `One-Hour Driving Lesson For Seniors "Behind-The-Wheel Refresher".
-    (One-Hour Rate is $115 an Hour and Includes Taxes). Total Service Cost is $115.`
+    (One-Hour Rate is <b$115 an Hour and Includes Taxes). Total Service Cost is $115.`
   },
 ];
 const Home: NextPage = () => {
@@ -125,7 +125,7 @@ const Home: NextPage = () => {
                 GIVE ME 6 HOURS OF YOUR TIME, AND I WILL GIVE YOU 30,000 DAYS!
               <a className="bg-red-500 hover:bg-red-800 text-white px-4 py-2 m-2 text-xl"
                 href="tel:"
-                target="_blank"
+                target=" _blank"
                 rel="noopener noreferrer"
               >
                 TRY NOW
@@ -139,8 +139,8 @@ const Home: NextPage = () => {
           <div className="grid sm:grid-cols-1  md:grid-cols-2 gap-4">
             <div className="flex items-center justify-center">
               <a 
-                href="https://qualitybusinessawards.com/2024/the-best-driving-school-in-novato/nile-driving-school?_uax=NjIxMjM6OTUyNDE3MDI6ODc2NDI6NDYwNzQ2OjI1NzUyMTk1MDM6NTYxMzY1MjE" 
-                target="_top" rel="noopener noreferrer"
+                href="https://qualitybusinessawards.com/2024/the-best-driving-school-in-novato/nile-driving-school?_uax=NjIxMjM6OTUyNDE3MDI6ODc2NDI6NDYwNzQ2OjI1NzUyMTk1MDM6NTYxMzY1MjE"
+                rel="noopener noreferrer"
                 >
               <Image
                 src="2024-best-award.jpg"
@@ -173,8 +173,8 @@ const Home: NextPage = () => {
                 Please Feel Free to Contact Me Anytime By
               </p>
             <p className="mb-2">
-                <a href="tel:415-897-7002" target="_blank" rel="noopener noreferrer">
-                <b>CALL ME</b></a> OR <a href="tel:415-897-7002" target="_blank" rel="noopener noreferrer">
+                <a href="tel:415-897-7002" rel="noopener noreferrer">
+                <b>CALL ME</b></a> OR <a href="tel:415-897-7002" rel="noopener noreferrer">
                 <b>TEXT ME</b></a> AT 415-897-7002.
               </p>
               </p> 
@@ -196,7 +196,7 @@ const Home: NextPage = () => {
               SCHEDULE AN APPOINTMENT TODAY!
             </h2>
             <p className="text-center text-white mx-2">
-            TO SCHEDULE YOUR DRIVING TRAINING SESSIONS <a href="tel:415-897-7002" target="_blank" rel="noopener noreferrer">CALL ME</a> OR <a href="tel:415-897-7002" target="_blank" rel="noopener noreferrer">TEXT ME</a> TODAY!
+            TO SCHEDULE YOUR DRIVING TRAINING SESSIONS <a href="tel:415-897-7002" rel="noopener noreferrer">CALL ME</a> OR <a href="tel:415-897-7002" rel="noopener noreferrer">TEXT ME</a> TODAY!
             </p>
           </div>
         </div>
@@ -244,7 +244,7 @@ const Home: NextPage = () => {
           <div className="container mx-auto py-2">
             <h2 className="text-2xl text-center font-bold py-2">CONTACT eSTOPDRIVING SCHOOL</h2>
             <p className="text-center  mx-2">
-              If You Have Any Questions, Feel Free To Call Me Anytime At <a href="tel:415-897-7002" target="_blank" rel="noopener noreferrer">415-897-7002</a>.
+              If You Have Any Questions, Feel Free To Call Me Anytime At <a href="tel:415-897-7002" rel="noopener noreferrer">415-897-7002</a>.
             </p>
             <div className="p-8 m-auto grid sm:grid-cols-1 md:grid-cols-2">
               <div className="flex justify-end px-8">
@@ -259,8 +259,8 @@ const Home: NextPage = () => {
               </div>
               <div>
                 <p className="mb-2 font-bold">Tony (Teshome Kebere)</p>
-                <p><b>ADDRESS:</b> <a href="https://maps.app.goo.gl/iuwCYbJZx8y8CMtr7" target="_blank" rel="noopener noreferrer">Suite N, 7075 Redwood Blvd, Novato, CA 94945</a></p>
-                <p><b>CALL/TEXT:</b> <a href="tel:415-897-7002" target="_blank" rel="noopener noreferrer">415-897-7002</a></p>
+                <p><b>ADDRESS:</b> <a href="https://maps.app.goo.gl/iuwCYbJZx8y8CMtr7" rel="noopener noreferrer">Suite N, 7075 Redwood Blvd, Novato, CA 94945</a></p>
+                <p><b>CALL/TEXT:</b> <a href="tel:415-897-7002" rel="noopener noreferrer">415-897-7002</a></p>
               
                 <p> Licensed Instructor No. 2055001, 
                   Please Call Me Or Text Me In Advance At 415-897-7002 To Scheduled A Personal Appointment.
@@ -293,7 +293,6 @@ const Home: NextPage = () => {
         <form 
           action="https://squareup.com/outreach/bfsXvM/subscribe" 
           method="POST"
-          target="_blank"
           className="p-3 flex flex-col text-center items-center"
           >
           <input 
