@@ -140,7 +140,7 @@ const Home: NextPage = () => {
             <div className="flex items-center justify-center">
               <a 
                 href="https://qualitybusinessawards.com/2024/the-best-driving-school-in-novato/nile-driving-school?_uax=NjIxMjM6OTUyNDE3MDI6ODc2NDI6NDYwNzQ2OjI1NzUyMTk1MDM6NTYxMzY1MjE" 
-                target="_parent" rel="noopener noreferrer"
+                target="_blank" rel="noopener noreferrer"
                 >
               <Image
                 src="2024-best-award.jpg"
