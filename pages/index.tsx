@@ -173,9 +173,9 @@ const Home: NextPage = () => {
                 Please Feel Free to Contact Me Anytime By
               </p>
             <p className="mb-2">
-                <a href="tel:415-897-7002" target="_blank" rel="noopener noreferrer">
-                <b>CALL ME</b></a> OR <a href="tel:415-897-7002" target="_blank" rel="noopener noreferrer">
-                <b>TEXT ME</b></a> AT 415-897-7002.
+                <a href="tel:+4158977002" rel="noopener noreferrer">
+                <b>CALL ME:</b> AT 415-897-7002</a> OR <a href="="tel:+4158977002" rel="noopener noreferrer">
+                <b>TEXT ME:</b></a> AT 415-897-7002.
               </p>
               </p> 
             </div>
@@ -196,7 +196,7 @@ const Home: NextPage = () => {
               SCHEDULE AN APPOINTMENT TODAY!
             </h2>
             <p className="text-center text-white mx-2">
-            TO SCHEDULE YOUR DRIVING TRAINING SESSIONS <a href="tel:415-897-7002" target="_blank" rel="noopener noreferrer">CALL ME</a> OR <a href="tel:415-897-7002" target="_blank" rel="noopener noreferrer">TEXT ME</a> TODAY!
+            TO SCHEDULE YOUR DRIVING TRAINING SESSIONS <a href="="tel:+4158977002" rel="noopener noreferrer">CALL ME</a> OR <<a href="="tel:+4158977002" rel="noopener noreferrer">TEXT ME</a> TODAY!
             </p>
           </div>
         </div>
@@ -213,7 +213,7 @@ const Home: NextPage = () => {
               <h3 className="text-xl text-center font-bold"> You Will Safely Be Returned to The Location You Were Picked Up At!</h3>
               <p> &nbsp;  </p>
               Basic Training and Services are at an Hourly Rate of $115. If You Happen To Need Additional Services, 
-              Please Do Not Hesitate To Call Or Text Me At 415-897-7002 For More Details.
+              Please Do Not Hesitate To Call Or Text Me At <a href="="tel:+4158977002" rel="noopener noreferrer">415-897-7002</a> For More Details.
                  <p> &nbsp;  </p>
               <b>** Lastly, We No Longer Accept Cash or Checks.**</b> 
               However, We Accept Direct ApplePay Payments and Can Also Accept Zelle Bank Transfers from Zelle Through Your Banking App and not Zelle, 
@@ -244,7 +244,7 @@ const Home: NextPage = () => {
           <div className="container mx-auto py-2">
             <h2 className="text-2xl text-center font-bold py-2">CONTACT eSTOPDRIVING SCHOOL</h2>
             <p className="text-center  mx-2">
-              If You Have Any Questions, Feel Free To Call Me Anytime At <a href="tel:415-897-7002" target="_blank" rel="noopener noreferrer">415-897-7002</a>.
+              If You Have Any Questions, Feel Free To Call Me Anytime At <a href="tel:+4158977002" rel="noopener noreferrer"> 415-897-7002</a>.
             </p>
             <div className="p-8 m-auto grid sm:grid-cols-1 md:grid-cols-2">
               <div className="flex justify-end px-8">
@@ -260,10 +260,10 @@ const Home: NextPage = () => {
               <div>
                 <p className="mb-2 font-bold">Tony (Teshome Kebere)</p>
                 <p><b>ADDRESS:</b> <a href="https://maps.app.goo.gl/iuwCYbJZx8y8CMtr7" target="_blank" rel="noopener noreferrer">Suite N, 7075 Redwood Blvd, Novato, CA 94945</a></p>
-                <p><b>CALL/TEXT:</b> <a href="tel:415-897-7002" target="_blank" rel="noopener noreferrer">415-897-7002</a></p>
+                <p><b>CALL/TEXT:</b> <a href="="tel:+4158977002" rel="noopener noreferrer">415-897-7002</a></p>
               
                 <p> Licensed Instructor No. 2055001, 
-                  Please Call Me Or Text Me In Advance At 415-897-7002 To Scheduled A Personal Appointment.
+                  Please Call Me Or Text Me In Advance At <a href="="tel:+4158977002" rel="noopener noreferrer">415-897-7002</a> To Scheduled A Personal Appointment.
                 </p>  
               </div>
             </div>
@@ -333,7 +333,8 @@ const Home: NextPage = () => {
             href="tel:415-897-7002"
             title="eStopDrivingSchool Phone Number"
           >
-            CALL/TEXT: 415-897-7002 | 
+            CALL/TEXT: <a href="="tel:+4158977002" rel="noopener noreferrer">
+            415-897-7002</a> | 
           </a>
           <a
             href="https://www.facebook.com/estopdrivingschool/"
