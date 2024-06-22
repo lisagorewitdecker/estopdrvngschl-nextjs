@@ -34,19 +34,19 @@ const ServiceConfig = [
     icon: "child",
     title: "TEENS",
     description: `Three 2-Hour Driving Lessons For Teenagers
-    (One-Hour Rate is $125 an Hour). Total Service Cost is $750.`
+    (One-Hour Rate is $115 an Hour). Total Service Cost is $750 and Includes Additional Taxes and Fees.`
   },
   {
     icon: "user",
     title: "ADULTS",
     description: `Three 2-Hour Driving Lessons For Adults, Ages 18 and Up.
-    (One-Hour Rate is $125 an Hour). Total Service Cost is $750.`
+    (One-Hour Rate is $115 an Hour). Total Service Cost is $750 and Includes Additional Taxes and Fees.`
   },
   {
     icon: "universal-access",
     title: "SENIORS",
     description: `One-Hour Driving Lesson For Seniors "Behind-The-Wheel Refresher".
-    (One-Hour Rate is $125 an Hour). Total Service Cost is $125.`
+    (One-Hour Rate is $115 an Hour). Total Service Cost is $115 and Includes Additional Taxes and Fees.`
   },
 ];
 const Home: NextPage = () => {
@@ -140,13 +140,13 @@ const Home: NextPage = () => {
             <div className="flex items-center justify-center">
               <a 
                 href="https://qualitybusinessawards.com/2024/the-best-driving-school-in-novato/nile-driving-school?_uax=NjIxMjM6OTUyNDE3MDI6ODc2NDI6NDYwNzQ2OjI1NzUyMTk1MDM6NTYxMzY1MjE" 
-                target="_top" rel="noopener noreferrer"
+                target="_parent" rel="noopener noreferrer"
                 >
               <Image
                 src="2024-best-award.jpg"
                 alt="Novato Best Driving Instructor Award"
-                width={350}
-                height={350}
+                width={300}
+                height={300}
               />
               </a>
             </div>
@@ -157,7 +157,7 @@ const Home: NextPage = () => {
                 (previously known as Nile Driving School). I have been teaching behind-the-wheel driving since 1983.
               </p>
               <p className="mb-2"> I have trained more than 5,000 teenagers, adults, and seniors (of course, they are of legal driving age and status). 
-                Basic training and services are at a flat hourly rate of $125. If you need any additional services, please do not hesitate to contact me for more details.
+                Basic training and services are at a flat hourly rate of $115. If you need any additional services, please do not hesitate to contact me for more details.
               </p>
               <p className="mb-2">
                  Since 1983, I Have 40 Years of Experience Training and Teaching Adults,
@@ -212,13 +212,13 @@ const Home: NextPage = () => {
                 Sonoma County, CA, The East Bay and San Francisco.</h3> 
               <h3 className="text-xl text-center font-bold"> You Will Safely Be Returned to The Location You Were Picked Up At!</h3>
               <p> &nbsp;  </p>
-              Basic Training and Services are at an Hourly Rate of $125. If You Happen To Need Additional Services, 
+              Basic Training and Services are at an Hourly Rate of $115. If You Happen To Need Additional Services, 
               Please Do Not Hesitate To Call Or Text Me At 415-897-7002 For More Details.
                  <p> &nbsp;  </p>
               <b>** Lastly, We No Longer Accept Cash or Checks.**</b> 
-              However, We Accept Direct ApplePay Payments and Can Accept Bank Transfers from Zelle Through Your Banking Apps, 
+              However, We Accept Direct ApplePay Payments and Can Also Accept Zelle Bank Transfers from Zelle Through Your Banking App and not Zelle, 
               We Are Very Excited to Announce That We Will Be Making All Appointment Bookings and Also Accepting
-              Payments Through Square in The Next Few Days! 
+              Payments Through Square in The Next Week! 
             </p>
             <div className="py-3 grid xs:grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-4">
               {ServiceConfig.map(({ icon, title, description }) => (
