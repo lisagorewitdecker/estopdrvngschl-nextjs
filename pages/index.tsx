@@ -2,7 +2,7 @@ import Script from 'next/script';
 import { Component }  from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import type { NextPage } from "next";
-import Head from "next/head";
+import head from "next/head";
 import Image from "next/image";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
@@ -60,7 +60,7 @@ const Home: NextPage = () => {
   }, []);
   return (
     <div>
-      <Head>
+      <head>
         <title>eStop Driving School</title>
         <meta name="description" content="Teaching Driving to Teenagers, Adults, and Seniors Since 1983" />
         <link rel="icon" href="/favicon.ico" />
@@ -85,7 +85,7 @@ const Home: NextPage = () => {
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff"></meta>
-      </Head>
+      </head>
       <main className="main">
         <div id="home" className="flex items-center justify-center py-4">
           <Image
@@ -354,7 +354,26 @@ const Home: NextPage = () => {
     </div>
       </footer>
     </div>
+    <div>
+import React, { Component } from 'react';
+export class HomePage extends Component {
+    render() {
+        return (
+            <div>
+                Hello
+            </div>
+        );
+    }
+
+    componentDidMount() {
+        require('jquery');
+        require('popper');
+        require('bootstrap');
+    }
+}
+     
   );
 };
 
-export default Home;
+export default HomePage;
+</div>
