@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import Script from 'next/script';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon } from "@fortawesome/react-font-awesome";
 import type { NextPage } from "next";
 import head from "next/head";
 import Image from "next/image";
@@ -88,11 +88,11 @@ const Home: NextPage = () => {
        
         jQuery(document).ready(function() {
         $("#google-reviews").googlePlaces({
-            placeId: '[PLACES_ID]',
+            placeId: 'CbeCdHhgkAWvEAE]',
             render: ['reviews'],
             min_rating: 5,
             max_rows: 0,
-        },
+        }
         });
     });
       </head>
@@ -268,6 +268,9 @@ const Home: NextPage = () => {
                   />
                 </a>
               </div>
+              </p>
+<div id="google-reviews"> </div>
+<p>
               <div>
                 <p className="mb-2 font-bold">Tony (Teshome Kebere)</p>
                 <p><b>ADDRESS:</b> <a href="https://maps.app.goo.gl/iuwCYbJZx8y8CMtr7" rel="noopener noreferrer">Suite N, 7075 Redwood Blvd, Novato, CA 94945</a></p>
