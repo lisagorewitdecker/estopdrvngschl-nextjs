@@ -357,20 +357,4 @@ const Home: NextPage = () => {
   );
 };
 
-export class HomePage extends Component {
-    render() {
-        return (
-            <div>
-                Hello
-            </div>
-        );
-    }
-
-    componentDidMount() {
-        require('jquery');
-        require('popper');
-        require('bootstrap');
-    }
-}
-
-export default HomePage;
+export default class Home;
