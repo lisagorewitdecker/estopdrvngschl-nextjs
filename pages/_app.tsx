@@ -20,7 +20,23 @@ library.add(
   faCar,
   faArrowUp
 );
+import React, { Component } from 'react';
 
+export class MyApp extends Component {
+    render() {
+        return (
+            <div>
+                Hello
+            </div>
+        );
+    }
+
+    componentDidMount() {
+        require('jquery');
+        require('popper');
+        require('bootstrap');
+    }
+}
 function MyApp({ Component, pageProps }: AppProps) {
   return <Component {...pageProps} />;
 }
