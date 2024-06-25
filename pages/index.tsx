@@ -1,5 +1,5 @@
-import Script from 'next/script';
-import React, { Component } from 'react';
+import Script from "next/script";
+import React, { Component } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import type { NextPage } from "next";
 import Head from "next/head";
@@ -356,5 +356,4 @@ const Home: NextPage = () => {
     </div>
   );
 };
-
 export default class Home;
