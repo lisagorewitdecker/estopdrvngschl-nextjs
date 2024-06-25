@@ -1,4 +1,6 @@
 import { library } from "@fortawesome/fontawesome-svg-core";
+import React, { Component } from 'react';
+
 import {
   faArrowUp,
   faCar,
@@ -20,7 +22,6 @@ library.add(
   faCar,
   faArrowUp
 );
-import React, { Component } from 'react';
 
 export class MyApp extends Component {
     render() {
@@ -29,8 +30,6 @@ export class MyApp extends Component {
                 Hello
             </div>
         );
-    }
-
     componentDidMount() {
         require('jquery');
         require('popper');
