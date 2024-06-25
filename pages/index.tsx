@@ -92,7 +92,7 @@ const Home: NextPage = () => {
             render: ['reviews'],
             min_rating: 5,
             max_rows: 0,
-        }
+      ),
         });
     });
       </head>
