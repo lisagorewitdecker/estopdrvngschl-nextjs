@@ -28,7 +28,7 @@ const NavConfig = [
   {
     name: "CONTACT US",
     link: "contact",
-  },
+  }},
 ];
 const ServiceConfig = [
   {
