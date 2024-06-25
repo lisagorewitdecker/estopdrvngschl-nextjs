@@ -91,7 +91,8 @@ const Home: NextPage = () => {
             placeId: '[PLACES_ID]',
             render: ['reviews'],
             min_rating: 5,
-            max_rows: 0 }
+            max_rows: 0,
+        }
         });
     });
       </head>
