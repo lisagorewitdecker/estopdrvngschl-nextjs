@@ -1,5 +1,5 @@
-import { library } from "@fortawesome/fontawesome-svg-core";
 import React, { Component } from "react";
+import { library } from "@fortawesome/fontawesome-svg-core";
 
 import {
   faArrowUp,
@@ -21,7 +21,8 @@ library.add(
   faUniversalAccess,
   faCar,
   faArrowUp
-);
+)
+}
 export class MyApp extends Component {
     render() {
         return (
@@ -37,5 +38,5 @@ export class MyApp extends Component {
 }};
 function MyApp({ Component, pageProps }: AppProps) {
   return <Component {...pageProps} />;
-}
+};
 export default MyApp;
