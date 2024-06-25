@@ -1,5 +1,5 @@
 import { library } from "@fortawesome/fontawesome-svg-core";
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 import {
   faArrowUp,
@@ -22,7 +22,6 @@ library.add(
   faCar,
   faArrowUp
 );
-
 export class MyApp extends Component {
     render() {
         return (
@@ -35,7 +34,7 @@ export class MyApp extends Component {
         require('popper');
         require('bootstrap');
     }
-}
+}};
 function MyApp({ Component, pageProps }: AppProps) {
   return <Component {...pageProps} />;
 }
