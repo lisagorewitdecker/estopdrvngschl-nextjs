@@ -1,4 +1,4 @@
-
+import React, { Component } from 'react';
 import Script from 'next/script';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import type { NextPage } from "next";
@@ -92,7 +92,7 @@ const Home: NextPage = () => {
             render: ['reviews'],
             min_rating: 5,
             max_rows: 0,
-        }
+        },
         });
     });
       </head>
