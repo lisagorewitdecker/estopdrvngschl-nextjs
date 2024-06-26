@@ -1,4 +1,4 @@
-import head from "next/head";
+import Head from "next/head";
 import Script from 'next/script';
 import React, { Component } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -58,27 +58,7 @@ const Home: NextPage = () => {
       elem.scrollIntoView({ behavior: "smooth" });
     }
   }, []);
-  
-const gtag = `https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID}`;
-export default class MyDocument extends Document {
-    render() {
-    return (
       <head>
-         {/* Google Analytics Measurement ID*/}
-          <script async src={gtag} />
-          {/ Inject the GA tracking code with the Measurement ID /}
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', '${process.env.NEXT_PUBLIC_GA_ID}', {
-                  page_path: window.location.pathname
-                });
-              `,
-            }}
-          />
         <title>eStop Driving School</title>
         <meta name="description" content="Teaching Driving to Teenagers, Adults, and Seniors Since 1983" />
         <link rel="icon" href="/favicon.ico" />
@@ -103,9 +83,7 @@ export default class MyDocument extends Document {
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff"></meta>
-      </Head>
-           <html>
-        <body>
+      </head>
       <main className="main">
         <div id="home" className="flex items-center justify-center py-4">
           <Image
@@ -373,9 +351,7 @@ export default class MyDocument extends Document {
           
     </div>
       </footer>
-            <NextScript />
-        </body>
-        </Html>
+          
     </div>
   );
 };
