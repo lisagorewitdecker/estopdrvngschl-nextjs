@@ -1,9 +1,9 @@
-import Document, { Html, Head, Main, NextScript } from 'next/document';
+import Document, { Html, Main, NextScript } from 'next/document';
+import head from "next/head";
 import Script from 'next/script';
 import React, { Component } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import type { NextPage } from "next";
-// import head from "next/head";
 import Image from "next/image";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
@@ -375,6 +375,7 @@ export default class MyDocument extends Document {
       </footer>
             <NextScript />
         </body>
+        </Html>
     </div>
   );
 };
