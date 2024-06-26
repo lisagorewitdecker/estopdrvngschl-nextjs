@@ -59,11 +59,11 @@ const Home: NextPage = () => {
       elem.scrollIntoView({ behavior: "smooth" });
     }
   }, []);
+  
 const gtag = `https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID}`;
 export default class MyDocument extends Document {
     render() {
     return (
-      <Html>
       <head>
          {/* Google Analytics Measurement ID*/}
           <script async src={gtag} />
@@ -105,6 +105,7 @@ export default class MyDocument extends Document {
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff"></meta>
       </Head>
+           <html>
         <body>
       <main className="main">
         <div id="home" className="flex items-center justify-center py-4">
