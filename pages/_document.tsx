@@ -1,4 +1,4 @@
-import Document, { Html, Head, Main, NextScript } from 'next/document';
+import Document, { Html, Head, Body, Main, NextScript } from 'next/document';
 // Importing the Google Analytics Measurement ID from the environment variable
 const gtag = `https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID}`;
 export default class MyDocument extends Document {
