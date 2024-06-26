@@ -21,6 +21,7 @@ library.add(
   faCar,
   faArrowUp
 );
+import Document, { Head, Html, Main, NextScript } from 'next/document';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return <Component {...pageProps} />;
