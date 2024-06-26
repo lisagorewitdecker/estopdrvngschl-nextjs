@@ -1,4 +1,3 @@
-import Document, { Html, Main, NextScript } from 'next/document';
 import head from "next/head";
 import Script from 'next/script';
 import React, { Component } from "react";
