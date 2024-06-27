@@ -351,7 +351,6 @@ const Home: NextPage = () => {
           SITE WEB DEV LISA GOREWIT-DECKER
           </a>
           
-            return <GoogleTagManager gtmId="GTM-XYZ" />
     </div>
       </footer>
     </div>
