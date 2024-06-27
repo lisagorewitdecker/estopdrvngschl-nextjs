@@ -356,6 +356,4 @@ const Home: NextPage = () => {
     </div>
   );
 };
-export default function home() {
-  return <GoogleTagManager gtmId="G-HF75XQ6F80" />
-}
+export default Home;
