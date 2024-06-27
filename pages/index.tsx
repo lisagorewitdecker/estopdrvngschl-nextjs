@@ -1,3 +1,4 @@
+import { GoogleTagManager } from '@next/third-parties/google'
 import Script from 'next/script';
 import React, { Component } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -350,11 +351,11 @@ const Home: NextPage = () => {
           SITE WEB DEV LISA GOREWIT-DECKER
           </a>
           
-          
     </div>
       </footer>
     </div>
   );
 };
-
-export default Home;
+export default function home() {
+  return <GoogleTagManager gtmId="G-HF75XQ6F80" />
+}
