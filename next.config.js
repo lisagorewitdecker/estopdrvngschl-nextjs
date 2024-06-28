@@ -17,4 +17,5 @@ rewrites: async () => [
   },
 ],
 }
+}
 module.exports = nextConfig
