@@ -9,7 +9,6 @@ const nextConfig = {
         destination: '/html/index.html',
        },
     ],
-}
  }
 }
 
