@@ -7,8 +7,8 @@ const nextConfig = {
       {
         source: '/',
         destination: '/html/index.html',
-       },
-    ],
+       }
+    ]
  }
 }
 
