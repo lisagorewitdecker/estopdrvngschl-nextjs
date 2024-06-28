@@ -1,39 +1,99 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 .
-# dependencies
+# DEPENDENCIES 
 /node_modules
 /.pnp
 .pnp.js
 
-# testing
+# TESTING
 /coverage
 
-#folder
+#FOLDER
 /node_modules/|/bower_components/|/\.devtools|/\.git/|/\.sass-cache/|/\.hg/|/\.idea/|/\.svn/|/\.cache/|/\.project/|/\.DS_Store$|/\.Trashes$|/\.Spotlight-V100$|/\.AppleDouble$|/\.LSOverride$|/Icon$|/\._.*$
 
-# next.js
+# NEXT.JS
 /.next/
 /out/
+.next
 
-# production
+# PRODUCTION
 /build
-# ignore
+
+# IGNORE
 /node_modules/|/bower_components/
 
-# misc
+# MISC
 .DS_Store
 *.pem
 
-# debug
+# DEBUG
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+npm-debug.log
 
-# local env files
+# Local ENV Files
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
+.env.local
+.env.*.local
+.venv
 
-# vercel
+# VERCEL
 .vercel
+
+# HG
+hg
+
+# Git
+.git
+
+# Git Modules
+.gitmodules
+
+# SVN 
+.svn
+
+# Cache
+.cache
+
+# Now
+.now
+
+# NPM IGNORE
+.npmignore
+
+# DOCKER IGNORE
+.dockerignore
+
+# GIT IGNORE
+.gitignore
+
+# GIT SWP
+.*.swp
+
+# DS_STORE
+.DS_Store
+
+# WAFPICKE
+.wafpicke-*
+
+# LOCK-SCRIPT
+.lock-wscript
+
+# CONFIG
+config.gypi
+
+# NODE MODULES
+node_modules
+
+# PYCACHE
+__pycache__
+
+# VENV
+venv
+
+# CVS
+CVS
