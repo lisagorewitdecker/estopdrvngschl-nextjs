@@ -11,11 +11,10 @@ const nextConfig = {
     ]
   }
 }
-module.exports = {
- async rewrites() {
+module.exports = nextConfig () {
     return [
       {
-    source: "/public/myfile.html",
+   source: "/public/myfile.html",
     destination: "/pages/api/myfile.js",
   },
     ]
