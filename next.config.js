@@ -7,8 +7,18 @@ const nextConfig = {
       {
         source: '/',
         destination: '/html/index.html',
-      },
+       },
     ]
   }
+}
+module.exports = {
+ async rewrites() {
+    return [
+      {
+    source: "/public/myfile.html",
+    destination: "/pages/api/myfile.js",
+  },
+    ],
+  },
 }
 module.exports = nextConfig
