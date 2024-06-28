@@ -2,23 +2,20 @@
 const nextConfig = {
   reactStrictMode: "true",
   swMinify: "true",
-  async rewrites () {
-    return [
-      {
+  if async rewrites () {
+    return {
         source: '/',
         destination: '/html/index.html',
-       },
-    ]
+        reactStrictMode: "true",
+        swMinify: "true",
+      }
   }
-}
+ 
 module.exports = {
  async rewrites() {
-    return [
-      {
+    return {
     source: "/public/myfile.html",
     destination: "/pages/api/myfile.js",
-  },
-    ]
   }
 }
 module.exports = nextConfig
