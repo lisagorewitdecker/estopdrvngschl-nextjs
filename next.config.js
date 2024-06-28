@@ -11,7 +11,7 @@ const nextConfig = {
     ]
   }
 }
-module.exports = nextConfig () {
+module.exports = nextConfig
     return [
       {
    source: "/public/myfile.html",
