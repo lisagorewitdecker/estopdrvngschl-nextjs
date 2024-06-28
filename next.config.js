@@ -8,7 +8,7 @@ const nextConfig = {
         source: '/',
         destination: '/html/index.html',
        },
-    ]
+    ],
   }
 }
 module.exports = nextConfig
@@ -17,6 +17,8 @@ module.exports = nextConfig
    source: "/public/myfile.html",
     destination: "/pages/api/myfile.js",
   },
-    ]
+    ],
+}
+ }
 }
 module.exports = nextConfig
