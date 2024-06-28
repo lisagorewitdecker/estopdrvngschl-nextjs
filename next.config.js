@@ -18,6 +18,5 @@ module.exports = nextConfig
     destination: "/pages/api/myfile.js",
   },
     ]
-  }
 }
 module.exports = nextConfig
