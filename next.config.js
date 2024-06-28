@@ -16,5 +16,4 @@ rewrites: async () => [
     destination: "/pages/api/myfile.js",
   },
 ],
-  }
 }
