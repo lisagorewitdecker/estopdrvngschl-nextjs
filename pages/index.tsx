@@ -33,7 +33,7 @@ const NavConfig = [
 const ServiceConfig = [
   {
     icon: "child",
-    title: "TEENS",
+    title: "TEENAGERS",
     description: `Three 2-Hour Driving Lessons For Teenagers
     (One-Hour Rate is $115 an Hour). Total Service Cost is $750.`
   },
