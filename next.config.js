@@ -1,15 +1,19 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: "true",
-  swMinify: "true",
-  async rewrites () {
+// @ts-check
+
+
+module.exports = async {rewrites,{ defaultConfig }) => {
     return [
       {
-        source: '/',
-        destination: '/html/index.html',
-       },
-    ]
+    source: "/public/myfile.html",
+    destination: "/pages/api/myfile.js",
   }
+   * @type {import('next').NextConfig}
+   */
+  const nextConfig = {
+  reactStrictMode: "true",
+  swMinify: "true",
+  source: '/',
+  destination: '/html/index.html',
 }
 module.exports = {
  async rewrites() {
@@ -21,4 +25,3 @@ module.exports = {
     ]
   }
 }
-module.exports = nextConfig
