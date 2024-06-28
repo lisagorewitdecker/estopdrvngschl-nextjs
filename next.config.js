@@ -10,6 +10,9 @@ const nextConfig = {
        },
     ],
 }
+ }
+}
+
 module.exports = nextConfig
     return [
       {
