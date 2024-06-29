@@ -138,8 +138,8 @@ const Home: NextPage = () => {
           <h1 className="text-2xl text-center py-4 font-bold">eStop Driving School, Novato, CA &ndash; Driving Lessons in Marin County & Sonoma County!</h1>
           <div className="grid sm:grid-cols-1  md:grid-cols-2 gap-4">
             <div className="flex items-center justify-center">
-                <div className="container items-center justify-center">
-                  <h3>Teshome (Tony or TK) WISHES FOR ALL TO BE WELL TODAY! HAVE A SAFE WEEKEND DRIVING!</h3>
+                <div className="container items-center align-center">
+                  <h3 className"center-text-bold">Teshome (Tony or TK) WISHES FOR ALL TO BE WELL TODAY! HAVE A SAFE WEEKEND DRIVING!</h3>
                  
               <a 
                 href="https://qualitybusinessawards.com/2024/the-best-driving-school-in-novato/nile-driving-school?_uax=NjIxMjM6OTUyNDE3MDI6ODc2NDI6NDYwNzQ2OjI1NzUyMTk1MDM6NTYxMzY1MjE"
@@ -252,7 +252,7 @@ const Home: NextPage = () => {
             <div className="p-8 m-auto grid sm:grid-cols-1 md:grid-cols-2">
               <div className="flex justify-end px-8">
                 <a href="https://www.yelp.com/biz/estop-driving-school-novato-2?utm_medium=biz_embedded_content&amp;utm_source=biz_badge">
-                  <img
+                  <Image
                     alt="eStop Driving School, Previously Nile Driving School"
                     src="https://dyn.yelpcdn.com/extimg/en_US/fsc/aqPJ63Ipo5dYtkh9JfJYRQ.png"
                     height={"55"}
