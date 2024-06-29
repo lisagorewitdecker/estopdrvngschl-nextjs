@@ -2,7 +2,7 @@ import Script from 'next/script';
 import React, { Component } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import type { NextPage } from "next";
-import head from "next/head";
+import Head from "next/head";
 import Image from "next/image";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
@@ -60,7 +60,7 @@ const Home: NextPage = () => {
   }, []);
   return (
     <div>
-      <head>
+      <Head>
         <title>eStop Driving School</title>
         <meta name="description" content="Teaching Driving to Teenagers, Adults, and Seniors Since 1983" />
         <link rel="icon" href="/favicon.ico" />
@@ -85,7 +85,7 @@ const Home: NextPage = () => {
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff"></meta>
-      </head>
+      </Head>
       <main className="main">
         <div id="home" className="flex items-center justify-center py-4">
           <Image
@@ -208,10 +208,9 @@ const Home: NextPage = () => {
             </h2>
             <p className="text-center mx-1">
             <h3 className="text-xl text-center font-bold"> 
-              No Need to Worry I offer My Clients, Valet Service!</h3>
-              <h3 className="text-xl text-center font-bold"> I Will Meet/Pick You Up Anywhere in Maarin County, CA,
-                Sonoma County, CA, The East Bay and San Francisco.</h3> 
-              <h3 className="text-xl text-center font-bold"> You Will Safely Be Returned to The Location You Were Picked Up At!</h3>
+              My Clients Receive Valet Service!</h3>
+              <h3 className="text-xl text-center font-bold"> I Will Pick You Up Anywhere in Marin County, and Or Sonoma County, East Bay and San Francisco.</h3> 
+              <h3 className="text-xl text-center font-bold"> No Need to Worry, You Will Safely Be Returned to The Location You Were Picked Up At!</h3>
               <p> &nbsp;  </p>
               Basic Training and Services are at an Hourly Rate of $115. If You Happen To Need Additional Services, 
               Please Do Not Hesitate To Call Or Text Me At 415-897-7002 For More Details.
