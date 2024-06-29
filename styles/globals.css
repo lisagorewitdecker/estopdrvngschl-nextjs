@@ -56,3 +56,16 @@ form.button-square{
    padding: 0 16px !important;
    font-family: 'Overpass', sans-serif !important;
 }
+
+h2.footer {
+  margin: 18px !important;
+}
+h2.footer {
+  padding: 18px !important;
+}
+footer.h2 {
+  padding: 18px !important;
+}
+footer.h2 {
+  margin: 18px !important;
+}
