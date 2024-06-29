@@ -34,8 +34,8 @@ body{
   font-family: 'Overpass', sans-serif;
 
 }
-.h2-footer{
-  margin: 18px 0px;
+h2-footer {
+  margin: 18px !important;
 }
 .container {
   min-height: 100vh;
@@ -79,7 +79,7 @@ form.button-square{
    padding: 0 16px !important;
    font-family: 'Overpass', sans-serif !important;
 }
-h2.footer{
+.footer h2 {
   padding:18px!important;
   {
 .footer {
