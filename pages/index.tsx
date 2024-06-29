@@ -134,7 +134,6 @@ const Home: NextPage = () => {
               </div>
                 </div>
                  </div>
-                  </div>
         <div id="about" className="container mx-auto py-4">
           <h1 className="text-2xl text-center py-4 font-bold">eStop Driving School, Novato, CA &ndash; Driving Lessons in Marin County & Sonoma County!</h1>
           <div className="grid sm:grid-cols-1  md:grid-cols-2 gap-4">
@@ -154,7 +153,8 @@ const Home: NextPage = () => {
               />
               </a>
           </div>
-               </div>
+           </div>
+          </div>
           </div>
             <div className="flex items-center justify-center p-4">
               <p className="font-bold leading-relaxed mb-4"> 
