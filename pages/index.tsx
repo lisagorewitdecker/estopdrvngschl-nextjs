@@ -288,7 +288,7 @@ const Home: NextPage = () => {
             className="container 
             mx-auto py-2">
             <h2 className="text-2xl text-center py-3 font-bold">
-              Subscribe To Our Mailing List
+              SUBSCRIBE TO THE eSTOP DRIVING SCHOOL MAILING LIST!
             </h2>
         <form 
           action="https://squareup.com/outreach/bfsXvM/subscribe" 
