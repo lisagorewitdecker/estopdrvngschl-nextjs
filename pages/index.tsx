@@ -155,7 +155,10 @@ const Home: NextPage = () => {
               />
               </a>
             </div>
-               </div>
+              </div>
+            </div>
+          </div>
+              
             <div className="grid sm:grid-cols-1  md:grid-cols-1 gap-4">
             <div className="flex items-center justify-center">
               <p className="font-bold leading-relaxed mb-4"> 
@@ -187,7 +190,8 @@ const Home: NextPage = () => {
               </p> 
             </div>
           </div>
-    
+              </div>
+
         <div
           id="schedule"
           className="flex py-20"
