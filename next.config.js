@@ -8,7 +8,7 @@ const nextConfig = {
         source: '/',
         destination: '/html/index.html',
         destination: '/public/myfile.html',
-        destination: '/pages/api/myfile.js
+        pages: '/api/myfile.js
       },
     ]
   }
