@@ -7,6 +7,8 @@ const nextConfig = {
       {
         source: '/',
         destination: '/html/index.html',
+        destination: '/public/myfile.html',
+        destination: '/api/myfile.js',
       },
     ]
   }
