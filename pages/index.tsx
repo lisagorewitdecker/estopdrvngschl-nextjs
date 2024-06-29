@@ -138,12 +138,11 @@ const Home: NextPage = () => {
         <div id="about" className="container mx-auto py-4">
           <h1 className="text-2xl text-center py-4 font-bold">eStop Driving School, Novato, CA &ndash; Driving Lessons in Marin County & Sonoma County!</h1>
           <div className="grid sm:grid-cols-1  md:grid-cols-2 gap-4">
-            <div className="flex items-center justify-center">
-            <div>
+            <div className="flex items-center align-center">
             <h3 className="center-text-bold">TESHOME (TONY/TK) WISHES FOR ALL TO BE WELL TODAY!</h3>
-                 </div>
-              <div>
-              <a 
+               </div>
+<div className="flex items-center align-center">
+  <a 
                 href="https://qualitybusinessawards.com/2024/the-best-driving-school-in-novato/nile-driving-school?_uax=NjIxMjM6OTUyNDE3MDI6ODc2NDI6NDYwNzQ2OjI1NzUyMTk1MDM6NTYxMzY1MjE"
                 rel="noopener noreferrer"
                 >
@@ -156,7 +155,8 @@ const Home: NextPage = () => {
               </a>
           </div>
                </div>
-            <div className="p-4">
+          </div>
+            <div className="flex items-center justify-center p-4">
               <p className="font-bold leading-relaxed mb-4"> 
               <p className="mb-2">
                 Welcome to eStop Driving School. I am Tony(Teshome), the founder and owner of eStop Driving School
@@ -184,7 +184,6 @@ const Home: NextPage = () => {
                 <b>TEXT ME</b></a> AT 415-897-7002.
               </p>
               </p> 
-            </div>
           </div>
         </div>
         <div
