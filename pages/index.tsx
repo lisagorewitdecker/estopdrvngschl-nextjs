@@ -47,7 +47,7 @@ const ServiceConfig = [
     icon: "universal-access",
     title: "SENIORS",
     description: `One-Hour Driving Lesson For Seniors "Behind-The-Wheel Refresher".
-    (One-Hour Rate is <b$115 an Hour and Includes Taxes). Total Service Cost is $115.`
+    (One-Hour Rate is $115 an Hour and Includes Taxes). Total Service Cost is $115.`
   },
 ];
 const Home: NextPage = () => {
