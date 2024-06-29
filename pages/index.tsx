@@ -319,7 +319,7 @@ const Home: NextPage = () => {
         </main>
          <div>
          
-   <h2> The Most Specific Locations Where Teshome(Tony or TK) Or eStop Driving School Takes Clients Out for Driving Lessons are Listed Here; But, Not Limited To;... Novato, CA, Tiburon, CA, Petaluma, CA, San Rafael, CA, Corte Madera, CA, Sausalito, CA, Sebastopol, CA, Mill Valley, CA, San Anselmo, CA, And Last But Not Least, Greenbrae, Kentfield, CA</h2>      </h2>
+   <h2> The Most Specific Locations Where Teshome(Tony or TK) Or eStop Driving School Takes Clients Out for Driving Lessons are Listed Here; But, Not Limited To;... Novato, CA, Tiburon, CA, Petaluma, CA, San Rafael, CA, Corte Madera, CA, Sausalito, CA, Sebastopol, CA, Mill Valley, CA, San Anselmo, CA, And Last But Not Least, Greenbrae, Kentfield, CA</h2>     
 
           </div>
       <footer className="bg-gray-900 text-gray-400 py-4 text-sm">
