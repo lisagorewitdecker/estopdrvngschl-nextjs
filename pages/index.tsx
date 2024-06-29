@@ -2,7 +2,7 @@ import Script from 'next/script';
 import React, { Component } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import type { NextPage } from "next";
-import head from "next/head";
+import Head from "next/head";
 import Image from "next/image";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
@@ -237,7 +237,7 @@ const Home: NextPage = () => {
                   <h3 className="font-bold text-lg">{title}</h3>
                   <p className="text-base">{description}</p>
                 </div>
-              ))}
+          
             </div>
           </div>
         </div>
