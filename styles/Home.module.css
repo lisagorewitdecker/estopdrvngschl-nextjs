@@ -57,9 +57,9 @@ body{
   font-family: 'Overpass', sans-serif;
 
 }
-footer.bg-gray-900.text-gray-40.py-4.text-sm div.locations h2{
-  padding:8px !important;
-  margin:8px !important;
+footer.bg-gray-900.text-gray-40.py-4.text-sm,div.locations,h2{
+ padding: 19px 16px !important;
+  text-align:center;
 }
 
 form.input-square{
