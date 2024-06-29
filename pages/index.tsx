@@ -153,7 +153,7 @@ const Home: NextPage = () => {
                 height={350}
               />
               </a>
-            </div>
+          
                </div>
             <div className="p-4">
               <p className="font-bold leading-relaxed mb-4"> 
