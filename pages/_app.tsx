@@ -11,7 +11,6 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import type { AppProps } from "next/app";
 import "../styles/globals.css";
-
 library.add(
   faCoffee,
   faCheckSquare,
@@ -24,15 +23,13 @@ library.add(
 
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from "@vercel/speed-insights/next";
-
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Component {...pageProps} />
-      <Analytics mode={'production'} />;
-      <SpeedInsights />;
+      <Analytics mode={'production'} />
+      <SpeedInsights />
     </>
   );
 }
- 
 export default MyApp;
