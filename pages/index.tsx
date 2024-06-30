@@ -1,4 +1,4 @@
-import Script from "next/script";
+import Script from 'next/script';
 import React, { Component } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import type { NextPage } from "next";
@@ -139,22 +139,18 @@ const Home: NextPage = () => {
           <h1 className="text-2xl text-center py-4 font-bold">eStop Driving School, Novato, CA &ndash; Driving Lessons in Marin County & Sonoma County!</h1>
           <div className="grid sm:grid-cols-1  md:grid-cols-2 gap-4">
             <div className="flex items-center justify-center">
-                <div className="container">
-                  <h3 className="center-text-bold">TESHOME (TONY/TK) WISHES FOR ALL TO BE WELL TODAY! HAVE A SAFE WEEKEND!</h3>
-                 
               <a 
                 href="https://qualitybusinessawards.com/2024/the-best-driving-school-in-novato/nile-driving-school?_uax=NjIxMjM6OTUyNDE3MDI6ODc2NDI6NDYwNzQ2OjI1NzUyMTk1MDM6NTYxMzY1MjE"
                 rel="noopener noreferrer"
                 >
               <Image
                 src="2024-best-award.jpg"
-                alt="Novato-Marin County Best Driving Instructor Award"
+                alt="Novato Best Driving Instructor Award"
                 width={350}
                 height={350}
               />
               </a>
             </div>
-               </div>
             <div className="p-4">
               <p className="font-bold leading-relaxed mb-4"> 
               <p className="mb-2">
@@ -292,7 +288,7 @@ const Home: NextPage = () => {
             className="container 
             mx-auto py-2">
             <h2 className="text-2xl text-center py-3 font-bold">
-              SUBSCRIBE TO THE eSTOP DRIVING SCHOOL MAILING LIST!
+              Subscribe To Our Mailing List
             </h2>
         <form 
           action="https://squareup.com/outreach/bfsXvM/subscribe" 
@@ -355,7 +351,7 @@ const Home: NextPage = () => {
        
         </div>
         <div className="locations">
-         <h2>eStop Driving School, in Novato, CA of Marin County, CA; Provides Driving Lessons to Both Marin and Sonoma Counties. Here are More Specific Areas We Provide Our Valet Service Pick-Up and Drop-Off, Driving Lessons: Novato, CA; Tiburon, CA; Petaluma, CA; San Rafael, CA; Corte Madera, CA; Sausalito, CA; Sebastopol, CA; Mill Valley, CA; San Anselmo, CA; Greenbrae CA; Kentfield, CA. If You Do Not See Your Location Listed Here; Please Do Not Hesitate to Contact Teshome (Tony or TK) Via Text or Phone.</h2> 
+         <h2>eStop Driving School Provides Dring Lessons to The Following Locations: Novato, CA; Tiburon, CA; Petaluma, CA; San Rafael, CA; Corte Madera, CA; Sausalito, CA; Sebastopol, CA; Mill Valley, CA; San Anselmo, CA; Greenbrae CA; Kentfield, CA. If You Do Not See Your Location Listed Here; Please Do Not Hesitate to Contact Teshome (Tony or TK) Via Text or Phone.</h2> 
          </div>
  </footer>
     </div>
