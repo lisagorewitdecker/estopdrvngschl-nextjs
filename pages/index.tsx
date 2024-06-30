@@ -141,8 +141,8 @@ const Home: NextPage = () => {
             <div className="flex items-center justify-center">
               <div class="container">
                 <h3 class="center-text-bold">TESHOME (TONY/TK) WISHES FOR ALL TO BE WELL TODAY! HAVE A SAFE WEEKEND!</h3>
-                </div>
-                <div class="container">
+              
+       
               <a 
                 href="https://qualitybusinessawards.com/2024/the-best-driving-school-in-novato/nile-driving-school?_uax=NjIxMjM6OTUyNDE3MDI6ODc2NDI6NDYwNzQ2OjI1NzUyMTk1MDM6NTYxMzY1MjE"
                 rel="noopener noreferrer"
