@@ -140,7 +140,7 @@ const Home: NextPage = () => {
           <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-2">
             <div className="flex items-center justify-center">
               
-                  <h3 className="center-text-bold"><b></b>TESHOME (TONY/TK) WISHES FOR ALL TO BE WELL TODAY! HAVE A SAFE WEEKEND!</b></h3>
+                  <h3 className="center-text-bold"><b>TESHOME (TONY/TK) WISHES FOR ALL TO BE WELL TODAY! HAVE A SAFE WEEKEND!</b></h3>
                  
               <a 
                 href="https://qualitybusinessawards.com/2024/the-best-driving-school-in-novato/nile-driving-school?_uax=NjIxMjM6OTUyNDE3MDI6ODc2NDI6NDYwNzQ2OjI1NzUyMTk1MDM6NTYxMzY1MjE"
