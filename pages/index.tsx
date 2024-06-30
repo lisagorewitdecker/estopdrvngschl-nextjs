@@ -264,6 +264,7 @@ const Home: NextPage = () => {
                   />
                 </a>
               </div>
+              </div>
               <div>
                 <p className="mb-2 font-bold">Tony (Teshome Kebere)</p>
                 <p><b>ADDRESS:</b> <a href="https://maps.app.goo.gl/iuwCYbJZx8y8CMtr7" rel="noopener noreferrer">Suite N, 7075 Redwood Blvd, Novato, CA 94945</a></p>
