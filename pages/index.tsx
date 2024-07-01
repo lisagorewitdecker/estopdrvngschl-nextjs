@@ -35,19 +35,19 @@ const ServiceConfig = [
     icon: "child",
     title: "TEENAGERS",
     description: `Three 2-Hour Driving Lessons For Teenagers
-    (One-Hour Rate is $115 an Hour). Total Service Cost is $750.`
+    (One-Hour Rate is $115 an Hour, and Includes Taxes). Total Service Cost is $750.`
   },
   {
     icon: "user",
     title: "ADULTS",
     description: `Three 2-Hour Driving Lessons For Adults, Ages 18 and Up.
-    (One-Hour Rate is $115 an Hour and Includes Taxes). Total Service Cost is $750.`
+    (One-Hour Rate is $115 an Hour, and Includes Taxes). Total Service Cost is $750.`
   },
   {
     icon: "universal-access",
     title: "SENIORS",
     description: `One-Hour Driving Lesson For Seniors "Behind-The-Wheel Refresher".
-    (One-Hour Rate is $115 an Hour and Includes Taxes). Total Service Cost is $115.`
+    (One-Hour Rate is $115 an Hour, and Includes Taxes). Total Service Cost is $115.`
   },
 ];
 const Home: NextPage = () => {
@@ -162,7 +162,7 @@ const Home: NextPage = () => {
                 Welcome to eStop Driving School. I am Tony(Teshome), the founder and owner of eStop Driving School
                 (previously known as Nile Driving School). I have been teaching behind-the-wheel driving since 1983.
               </p>
-              <p className="mb-2"> I have trained more than 5,000 teenagers, adults, and seniors (of course, they are of legal driving age and status). 
+              <p className="mb-2"> I have trained more than 33,000 plus teenagers  and over 5,000 adults, and seniors during my almost four decade career (of course, they are of legal driving age and status). 
                 Basic training and services are at a flat hourly rate of $115. If you need any additional services, please do not hesitate to contact me for more details.
               </p>
               <p className="mb-2">
