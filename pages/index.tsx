@@ -1,4 +1,3 @@
-import Script from 'next/script';
 import React, { Component } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import type { NextPage } from "next";
@@ -14,10 +13,7 @@ export default function Document() {
   return (
       <Html>
        <Head>
-           <Script
-          src="https://unpkg.com/css-paint-polyfill@3.4.0/dist/css-paint-polyfill.js"
-          strategy="beforeInteractive"
-        />
+         
 const NavConfig = [
   {
     name: "HOME",
@@ -69,14 +65,12 @@ const Home: NextPage = () => {
     }
   }, []);
   return (
-    <div>
-     
         <Script
           src="https://unpkg.com/css-paint-polyfill@3.4.0/dist/css-paint-polyfill.js"
           strategy="beforeInteractive"
         />
-
-        <title>eStop Driving School</title>
+           }
+  },     <title>eStop Driving School</title>
         <meta name="description" content="Teaching Driving to Teenagers, Adults, and Seniors Since 1983" />
         <link rel="icon" href="/favicon.ico" />
         <link
@@ -101,7 +95,7 @@ const Home: NextPage = () => {
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff"></meta>
       </Head>
-           <body>
+       <body>
       <main className="main">
         <div id="home" className="flex items-center justify-center py-4">
           <Image
