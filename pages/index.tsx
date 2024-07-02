@@ -1,5 +1,6 @@
 import Script from 'next/script';
 import React, { Component } from "react";
+import CountUp, { useCountUp } from "react-countup";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import type { NextPage } from "next";
 import Head from "next/head";
