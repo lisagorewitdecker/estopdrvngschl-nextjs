@@ -1,3 +1,4 @@
+import React, { Component } from "react";
 import { useCountUp } from 'react-countup';
 
 const CompleteHook = () => {
@@ -24,3 +25,4 @@ const CompleteHook = () => {
     </div>
   );
 };
+export default MyDocuments;
