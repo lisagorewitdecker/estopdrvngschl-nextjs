@@ -25,4 +25,4 @@ const CompleteHook = () => {
     </div>
   );
 };
-export default MyDocuments;
+export default documents;
