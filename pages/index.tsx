@@ -141,7 +141,8 @@ const Home: NextPage = () => {
           <div className="grid sm:grid-cols-1  md:grid-cols-2 gap-4">
             <div className="flex items-center justify-center">
               <div className="container">
-                <h3><b>TESHOME (TONY/TK) WISHES FOR ALL TO BE WELL TODAY! HAVE A SAFE WEEKEND!</b></h3>
+                <h3><b>TESHOME (TONY/TK) 26,382 GRATEFUL FOR ALL OF MY DAYS ALIVE AND EVERY BREATH I TAKE ON THIS PLANET AND EVERY!</b></h3>
+              </div>
               </div>
               <div className="container">
               <a 
