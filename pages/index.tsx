@@ -135,7 +135,7 @@ const Home: NextPage = () => {
               </div>
                 </div>
                  </div>
-               
+                 </div>
         <div id="about" className="container mx-auto py-4">
           <h1 className="text-2xl text-center py-4 font-bold">eStop Driving School, Novato, CA &ndash; Driving Lessons in Marin County & Sonoma County!</h1>
           <div className="grid sm:grid-cols-1  md:grid-cols-2 gap-4">
@@ -143,7 +143,7 @@ const Home: NextPage = () => {
               <div className="container">
                 <h3><b>TESHOME(TONY/TK) 26,382 GRATEFUL FOR ALL OF MY DAYS ALIVE AND EVERY BREATH I TAKE ON THIS PLANET AND EVERY!</b></h3>
               </div>
-                 </div>
+               
               <div className="container">
               <a 
                 href="https://qualitybusinessawards.com/2024/the-best-driving-school-in-novato/nile-driving-school?_uax=NjIxMjM6OTUyNDE3MDI6ODc2NDI6NDYwNzQ2OjI1NzUyMTk1MDM6NTYxMzY1MjE"
