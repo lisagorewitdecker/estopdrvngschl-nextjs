@@ -1,4 +1,4 @@
-import Script from 'next/script';
+import Script from "next/script";
 import React, { Component } from "react";
 import CountUp, { useCountUp } from "react-countup";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -141,8 +141,7 @@ const Home: NextPage = () => {
           <div className="grid sm:grid-cols-1  md:grid-cols-2 gap-4">
             <div className="flex items-center justify-center">
               <div className="container">
-                <h3 
-                  className=text-center py-2 font-bold>
+                <h3 className="text-center">
                   <b>TESHOME(TONY/TK) IS GRATEFUL FOR 26,382 DAYS ALIVE & EVERY BREATH I TAKE EVERYDAY!</b></h3>
               </div>
                
