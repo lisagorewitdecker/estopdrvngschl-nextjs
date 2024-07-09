@@ -36,19 +36,19 @@ const ServiceConfig = [
     icon: "child",
     title: "TEENAGERS",
     description: `Three 2-Hour Driving Lessons For Teenagers
-    (One-Hour Rate is $115 an Hour, and Includes Taxes). Total Service Cost is $750.`
+    (One-Hour Rate is $125 an Hour, and Includes Taxes). Total Service Cost is $750.`
   },
   {
     icon: "user",
     title: "ADULTS",
     description: `Three 2-Hour Driving Lessons For Adults, Ages 18 and Up.
-    (One-Hour Rate is $115 an Hour, and Includes Taxes). Total Service Cost is $750.`
+    (One-Hour Rate is $125 an Hour, and Includes Taxes). Total Service Cost is $750.`
   },
   {
     icon: "universal-access",
     title: "SENIORS",
     description: `One-Hour Driving Lesson For Seniors "Behind-The-Wheel Refresher".
-    (One-Hour Rate is $115 an Hour, and Includes Taxes). Total Service Cost is $115.`
+    (One-Hour Rate is $125 an Hour, and Includes Taxes). Total Service Cost is $125.`
   },
 ];
 const Home: NextPage = () => {
@@ -142,7 +142,7 @@ const Home: NextPage = () => {
             <div className="flex items-center justify-center">
               <div className="container">
                 <h3 className="text-center">
-                  <b>TESHOME (TONY/TK) IS GRATEFUL FOR 26,385 DAYS ALIVE & EVERY BREATH I TAKE EVERYDAY!</b></h3>
+                  <b>TESHOME (TONY/TK) IS GRATEFUL FOR 26,386 DAYS ALIVE & EVERY BREATH I TAKE EVERYDAY!</b></h3>
               </div>
                
               <div
@@ -224,10 +224,10 @@ const Home: NextPage = () => {
               Basic Training and Services are at an Hourly Rate of $115. If You Happen To Need Additional Services, 
               Please Do Not Hesitate To Call Or Text Me At 415-897-7002 For More Details.
                  <p> &nbsp;  </p>
-              <b>** Lastly, We No Longer Accept Cash or Checks.**</b> 
-              However, We Accept Direct ApplePay Payments and Can Accept Bank Transfers from Zelle Through Your Banking Apps, 
+              <b>** Lastly, We No Longer Accept Cash and or Checks!**</b> 
+              However, We Do Accept Direct ApplePay Payments, and Can Accept and Send Bank Transfers from Zelle Through Your Banking Apps, 
               We Are Very Excited to Announce That We Will Be Making All Appointment Bookings and Also Accepting
-              Payments Through Square in The Next Few Days! 
+              Payments Through Square in The Very Near Future!
             </p>
             <div className="py-3 grid xs:grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-4">
               {ServiceConfig.map(({ icon, title, description }) => (
