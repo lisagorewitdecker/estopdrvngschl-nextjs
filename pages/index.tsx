@@ -36,19 +36,19 @@ const ServiceConfig = [
     icon: "child",
     title: "TEENAGERS",
     description: `Three 2-Hour Driving Lessons For Teenagers
-    (One-Hour Rate is $115 an Hour, and Includes Taxes). Total Service Cost is $750.`
+    (One-Hour Rate is $125 an Hour, and Includes Taxes). Total Service Cost is $750.`
   },
   {
     icon: "user",
     title: "ADULTS",
     description: `Three 2-Hour Driving Lessons For Adults, Ages 18 and Up.
-    (One-Hour Rate is $115 an Hour, and Includes Taxes). Total Service Cost is $750.`
+    (One-Hour Rate is $125 an Hour, and Includes Taxes). Total Service Cost is $750.`
   },
   {
     icon: "universal-access",
     title: "SENIORS",
     description: `One-Hour Driving Lesson For Seniors "Behind-The-Wheel Refresher".
-    (One-Hour Rate is $115 an Hour, and Includes Taxes). Total Service Cost is $115.`
+    (One-Hour Rate is $125 an Hour, and Includes Taxes). Total Service Cost is $125.`
   },
 ];
 const Home: NextPage = () => {
@@ -142,7 +142,7 @@ const Home: NextPage = () => {
             <div className="flex items-center justify-center">
               <div className="container">
                 <h3 className="text-center">
-                  <b>TESHOME (TONY/TK) IS GRATEFUL FOR 26,385 DAYS ALIVE & EVERY BREATH I TAKE EVERYDAY!</b></h3>
+                  <b>TESHOME (TONY/TK) IS GRATEFUL FOR HIS 26,386 DAYS ALIVE & EVERY BREATH HE TAKES DAILY!</b></h3>
               </div>
                
               <div
@@ -221,13 +221,14 @@ const Home: NextPage = () => {
               <h3 className="text-xl text-center font-bold"> I Will Pick You Up Anywhere in Marin County, and Or Sonoma County, East Bay and San Francisco.</h3> 
               <h3 className="text-xl text-center font-bold"> No Need to Worry, You Will Safely Be Returned to The Location You Were Picked Up At!</h3>
               <p> &nbsp;  </p>
-              Basic Training and Services are at an Hourly Rate of $115. If You Happen To Need Additional Services, 
+              Basic Training and Services are at an Hourly Rate of $125. If You Happen To Need Additional Services, 
               Please Do Not Hesitate To Call Or Text Me At 415-897-7002 For More Details.
                  <p> &nbsp;  </p>
               <b>** Lastly, We No Longer Accept Cash or Checks.**</b> 
-              However, We Accept Direct ApplePay Payments and Can Accept Bank Transfers from Zelle Through Your Banking Apps, 
-              We Are Very Excited to Announce That We Will Be Making All Appointment Bookings and Also Accepting
-              Payments Through Square in The Next Few Days! 
+              However, We Accept Payments Directly Through Your Smart Phone and Desktop or Laptop Computer. Tony is Proud to Tell You He Now Takes ApplePay Payments,and Will Only Allow Accept Zelle Payments 
+              Through the Zelle App. Bank Transfers From Zelle Will Only Be Taken From a Clients Banking App to The eStop Driving School Banking App.
+              The Zelle App Is Not The Most Secure and We Want Our Clients to Always Be Happy. We Will Also be Offering Our Valued Clients Booking and Payments Through Square!
+              These Options With Square Will Hopefully be by the end of the week (fingers crossed, LOL!).If you have any other payment recommendations to make that don't require cash or check, please call Tony and let him know. Thank you Veru Much for Your Patience and thank You for Becoming Part of The eStop Driving School Family!
             </p>
             <div className="py-3 grid xs:grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-4">
               {ServiceConfig.map(({ icon, title, description }) => (
