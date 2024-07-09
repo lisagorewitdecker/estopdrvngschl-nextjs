@@ -36,19 +36,19 @@ const ServiceConfig = [
     icon: "child",
     title: "TEENAGERS",
     description: `Three 2-Hour Driving Lessons For Teenagers
-    (One-Hour Rate is $115 an Hour, and Includes Taxes). Total Service Cost is $750.`
+    (One-Hour Rate is $125 an Hour, and Includes Taxes). Total Service Cost is $750.`
   },
   {
     icon: "user",
     title: "ADULTS",
     description: `Three 2-Hour Driving Lessons For Adults, Ages 18 and Up.
-    (One-Hour Rate is $115 an Hour, and Includes Taxes). Total Service Cost is $750.`
+    (One-Hour Rate is $125 an Hour, and Includes Taxes). Total Service Cost is $750.`
   },
   {
     icon: "universal-access",
     title: "SENIORS",
     description: `One-Hour Driving Lesson For Seniors "Behind-The-Wheel Refresher".
-    (One-Hour Rate is $115 an Hour, and Includes Taxes). Total Service Cost is $115.`
+    (One-Hour Rate is $125 an Hour, and Includes Taxes). Total Service Cost is $125.`
   },
 ];
 const Home: NextPage = () => {
