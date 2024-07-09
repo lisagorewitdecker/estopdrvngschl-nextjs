@@ -295,6 +295,9 @@ const Home: NextPage = () => {
           <div 
             className="container 
             mx-auto py-2">
+            <h2 className="text-2xl text-center py-3 font-bold">
+              SUBSCRIBE TO RECEIVE OUR EMAIL NEWSLETTER
+            </h2>
         <form 
           action="https://squareup.com/outreach/bfsXvM/subscribe" 
           method="POST"
@@ -338,8 +341,7 @@ const Home: NextPage = () => {
           <a
             className="text-gray-400"
             href="tel:415-897-7002"
-            title="eStopDrivingSchool Phone Number"
-          >
+            title="eStopDrivingSchool Phone Number">
             CALL/TEXT: 415-897-7002 | 
           </a>
           <a
