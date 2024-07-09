@@ -288,7 +288,6 @@ const Home: NextPage = () => {
             style={{ width: 36, height: 36 }}
           />
         </div>
-    
           <div
             className="flex 
             py-20 
@@ -296,9 +295,6 @@ const Home: NextPage = () => {
           <div 
             className="container 
             mx-auto py-2">
-            <h2 className="text-2xl text-center py-3 font-bold">
-              Subscribe To Our Mailing List
-            </h2>
         <form 
           action="https://squareup.com/outreach/bfsXvM/subscribe" 
           method="POST"
