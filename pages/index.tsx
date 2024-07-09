@@ -288,7 +288,6 @@ const Home: NextPage = () => {
             style={{ width: 36, height: 36 }}
           />
         </div>
-    
           <div
             className="flex 
             py-20 
@@ -296,9 +295,6 @@ const Home: NextPage = () => {
           <div 
             className="container 
             mx-auto py-2">
-            <h2 className="text-2xl text-center py-3 font-bold">
-              Subscribe To Our Mailing List
-            </h2>
         <form 
           action="https://squareup.com/outreach/bfsXvM/subscribe" 
           method="POST"
@@ -327,6 +323,9 @@ const Home: NextPage = () => {
             </div>
         </main>
       <footer className="bg-gray-900 text-gray-400 py-4 text-sm">
+         <div className="locations">
+         <h2>eStop Driving School Provides Dring Lessons to The Following Locations: Novato, CA; Tiburon, CA; Petaluma, CA; San Rafael, CA; Corte Madera, CA; Sausalito, CA; Sebastopol, CA; Mill Valley, CA; San Anselmo, CA; Greenbrae CA; Kentfield, CA. If You Do Not See Your Location Listed Here; Please Do Not Hesitate to Contact Teshome (Tony or TK) Via Text or Phone.</h2> 
+         </div>
         <div className="container m-auto text-center">
           Copyright @2024{" "} | 
           <a
@@ -359,9 +358,7 @@ const Home: NextPage = () => {
           </a>
        
         </div>
-        <div className="locations">
-         <h2>eStop Driving School Provides Dring Lessons to The Following Locations: Novato, CA; Tiburon, CA; Petaluma, CA; San Rafael, CA; Corte Madera, CA; Sausalito, CA; Sebastopol, CA; Mill Valley, CA; San Anselmo, CA; Greenbrae CA; Kentfield, CA. If You Do Not See Your Location Listed Here; Please Do Not Hesitate to Contact Teshome (Tony or TK) Via Text or Phone.</h2> 
-         </div>
+
  </footer>
     </div>
   );
