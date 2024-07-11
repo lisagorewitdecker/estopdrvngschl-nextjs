@@ -351,10 +351,17 @@ const Home: NextPage = () => {
           >
           FACEBOOK | 
           </a>
+            <a
+            href="https://www.youtube.com/@teshomekebere4491"
+            className="text-gray-400"
+            title="YouTube eStopDrivingSchool"
+          >
+          YOUTUBE | 
+          </a>
            <a
             href="https://lisagorewitdecker.com"
             className="text-gray-400"
-            title="Web Developer of eStopDrivingSchool"
+            title="Best Full-Stack Developer Free eStopDrivingSchool"
           >
           SITE WEB DEV LISA GOREWIT-DECKER
           </a>
