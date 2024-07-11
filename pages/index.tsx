@@ -344,7 +344,8 @@ const Home: NextPage = () => {
           <a
             className="text-gray-400"
             href="tel:415-897-7002"
-            title="eStopDrivingSchool Phone Number">
+            title="eStopDrivingSchool Phone Number"
+            >
             CALL/TEXT: 415-897-7002 | 
           </a>
           <a
