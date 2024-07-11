@@ -142,7 +142,7 @@ const Home: NextPage = () => {
             <div className="flex items-center justify-center">
               <div className="container">
                 <h3 className="text-center">
-                  <b>TESHOME (TONY/TK) IS GRATEFUL FOR 26,386 DAYS ALIVE & EVERY BREATH I TAKE EVERYDAY!</b></h3>
+                  <b>TESHOME (TONY/TK) IS GRATEFUL FOR 26,387 DAYS ALIVE & EVERY BREATH I TAKE EVERYDAY!</b></h3>
               </div>
                
               <div
@@ -335,6 +335,9 @@ const Home: NextPage = () => {
             className="text-gray-400"
             href="http://estopdrivingschool.com/"
             title="eStopDrivingSchool"
+            target=" _blank"
+            rel="noopener noreferrer"
+            title="Best Drivng School in Marin County eStopDrivingSchool"
           >
             eSTOPDRIVINGSCHOOL | 
           </a>{" "}
@@ -347,16 +350,29 @@ const Home: NextPage = () => {
           <a
             href="https://www.facebook.com/estopdrivingschool/"
             className="text-gray-400"
+            target=" _blank"
+            rel="noopener noreferrer"
             title="Facebook eStopDrivingSchool"
           >
           FACEBOOK | 
           </a>
            <a
+            href="https://www.youtube.com/@teshomekebere4491"
+            className="text-gray-400"
+            target=" _blank"
+            rel="noopener noreferrer"
+            title="YouTube eStopDrivingSchool"
+          >
+          YOUTUBE | 
+           </a>
+           <a
             href="https://lisagorewitdecker.com"
             className="text-gray-400"
-            title="Web Developer of eStopDrivingSchool"
+            target=" _blank"
+            rel="noopener noreferrer"
+            title="Fantastic Full-Stack Programmer For eStopDrivingSchool"
           >
-          SITE WEB DEV LISA GOREWIT-DECKER
+          SITE WEB DEV LISA GOREWIT-DECKER |
           </a>
        
         </div>
