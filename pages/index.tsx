@@ -287,19 +287,7 @@ const Home: NextPage = () => {
             style={{ width: 36, height: 36 }}
           />
         </div>
-{/*         <div
-            className="flex 
-            py-20 
-            bg-gray-200">
-          <div 
-            className="container 
-            mx-auto py-2">
-       <!-- Google Calendar Appointment Scheduling begin -->
-<iframe src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ2Uli05CeFUbN2-NoYUq-Zs6CyLAKBaXxsQMpU_PTrNrQw6a8SsIg8t9F8uP03pC1oQA9VleXTp?gv=true"></iframe>
-<!-- end Google Calendar Appointment Scheduling -->
-     </div>
-          </div>
-          <div
+       <div
             className="flex  */}
             py-20 
             bg-gray-200">
