@@ -41,13 +41,7 @@ body{
   font-family: 'Overpass', sans-serif;
 
 }
-iframe{
-  border: 0;
-  max-width:100%;
-  height:600px;
-  frameborde:0;
-  scrolling:no;
-}
+
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
