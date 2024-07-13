@@ -36,19 +36,19 @@ const ServiceConfig = [
     icon: "child",
     title: "TEENAGERS",
     description: `Three 2-Hour Driving Lessons For Teenagers
-    (The one-Hour Rate is $125 an Hour and Includes Taxes). Total Service Cost is $750.`
+    (The one-Hour Rate is $125 an Hour and Includes All Taxes and Fees). Total Service Cost is $750.`
   },
   {
     icon: "user",
     title: "ADULTS",
     description: `Three 2-Hour Driving Lessons For Adults, Ages 18 and Up.
-    (The one-Hour Rate is $125 an Hour and Includes Taxes). Total Service Cost is $750.`
+    (The one-Hour Rate is $125 an Hour and Includes All Taxes and Fees). Total Service Cost is $750.`
   },
   {
     icon: "universal-access",
     title: "SENIORS",
     description: `One-Hour Driving Lesson For Seniors "Behind-The-Wheel Refresher".
-    (The one-Hour Rate is $125 an Hour and Includes Taxes). Total Service Cost is $125.`
+    (The one-Hour Rate is $125 an Hour and Includes All Taxes and Fees). Total Service Cost is $125.`
   },
 ];
 const Home: NextPage = () => {
@@ -61,9 +61,8 @@ const Home: NextPage = () => {
   }, []);
   return (
     <div>
-      <Head>
-        <title>eStop Driving School | Best Driving Instuctor of Novato in Marin County, CA & Sonoma County | Accepts Instuction in All Bay Area Locations</title>
-        <meta name="description" content="Teaching Driving Teenagers, Adults, & Seniors How to Drive Marin County & Since 1983" />
+      <Head><title>eStop Driving School, The Best Driving School of Novato in Marin County to Sonoma County, CA | Teaching Expert Driving in North Bay, South Bay — San Francisco | Instructor Has Over Four Decades of Experience</title>
+        <meta name="description" content="Award Winning | Teaching Driving Teenagers, Adults, & Seniors How to Drive Marin County & Since 1983" />
         <link rel="icon" href="/favicon.ico" />
         <link
           rel="apple-touch-icon"
@@ -126,7 +125,7 @@ const Home: NextPage = () => {
               <div className="message" style={{ marginBottom:188, maxHeight: 250, maxWidth: 600 }}>
                 GIVE ME 6 HOURS OF YOUR TIME, AND I WILL GIVE YOU 30,000 DAYS!
               <a className="bg-red-500 hover:bg-red-800 text-white px-4 py-2 m-2 text-xl"
-                href="tel:"
+                href="https://calendar.app.google/9u5fwVGk3K3giVj4A"
                 target=" _blank"
                 rel="noopener noreferrer"
               >
