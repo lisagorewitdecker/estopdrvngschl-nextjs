@@ -287,7 +287,7 @@ const Home: NextPage = () => {
             style={{ width: 36, height: 36 }}
           />
         </div>
-        <div
+{/*         <div
             className="flex 
             py-20 
             bg-gray-200">
@@ -300,7 +300,7 @@ const Home: NextPage = () => {
      </div>
           </div>
           <div
-            className="flex 
+            className="flex  */}
             py-20 
             bg-gray-200">
           <div 
