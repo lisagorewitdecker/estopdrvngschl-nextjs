@@ -152,7 +152,7 @@ const Home: NextPage = () => {
                 >
               <Image
                 src="2024-best-award.jpg"
-                alt="Novato Best Driving Instructor Award"
+                alt="Novato's Best Driving School and  Driving Instructor Award, in Marin County, CA"
                 width={350}
                 height={350}
               />
@@ -165,8 +165,8 @@ const Home: NextPage = () => {
                 Welcome to eStop Driving School. I am Tony(Teshome), the founder and owner of eStop Driving School
                 (previously known as Nile Driving School). I have been teaching behind-the-wheel driving since 1983.
               </p>
-              <p className="mb-2"> I have trained more than 33,000 plus teenagers  and over 5,000 adults, and seniors during my almost four decade career (of course, they are of legal driving age and status). 
-                Basic training and services are at a flat hourly rate of $115. If you need any additional services, please do not hesitate to contact me for more details.
+              <p className="mb-2"> I have trained more than 33,000+ teenagers and over 5,000+ adults and seniors during my four-decade career (of course, they are of legal driving age and status). 
+                Basic training and services are at a flat hourly rate of $125. If you need any additional services, please do not hesitate to contact me for more details.
               </p>
               <p className="mb-2">
                  Since 1983, I Have 40 Years of Experience Training and Teaching Adults,
@@ -202,7 +202,7 @@ const Home: NextPage = () => {
         >
           <div className="container mx-auto py-2">
             <h2 className="text-2xl text-center py-2 font-bold text-white">
-              SCHEDULE AN APPOINTMENT TODAY!
+<!-- Google Calendar Appointment Scheduling begin --> <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet"> <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script> <script> (function() { var target = document.currentScript; window.addEventListener('load', function() { calendar.schedulingButton.load({ url: 'https://calendar.google.com/calendar/appointments/AcZssZ3B6hZFNktoqDJf53KhPPenlCGQpgECcRJ_Z9A=?gv=true', color: '#D50000', label: "SCHEDULE YOUR LESSONS NOW!", target, }); }); })(); </script> <!-- end Google Calendar Appointment Scheduling -->
             </h2>
             <p className="text-center text-white mx-2">
             TO SCHEDULE YOUR DRIVING TRAINING SESSIONS <a href="tel:415-897-7002" rel="noopener noreferrer">CALL ME</a> OR <a href="tel:415-897-7002" rel="noopener noreferrer">TEXT ME</a> TODAY!
