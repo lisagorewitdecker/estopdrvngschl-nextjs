@@ -202,7 +202,27 @@ const Home: NextPage = () => {
         >
           <div className="container mx-auto py-2">
             <h2 className="text-2xl text-center py-2 font-bold text-white">
-<!-- Google Calendar Appointment Scheduling begin --> <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet"> <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script> <script> (function() { var target = document.currentScript; window.addEventListener('load', function() { calendar.schedulingButton.load({ url: 'https://calendar.google.com/calendar/appointments/AcZssZ3B6hZFNktoqDJf53KhPPenlCGQpgECcRJ_Z9A=?gv=true', color: '#D50000', label: "SCHEDULE YOUR LESSONS NOW!", target, }); }); })(); </script> <!-- end Google Calendar Appointment Scheduling -->
+              <!-- Google Calendar Appointment Scheduling begin --> 
+             <script> 
+               <link 
+                href="https://calendar.google.com/calendar/scheduling-button-script.css" 
+                 rel="stylesheet"
+                  >
+               <script 
+                 src="https://calendar.google.com/calendar/scheduling-button-script.js" 
+                 rel="async"
+                 > 
+               </script> 
+               <script> 
+                 (function() { var target = document.currentScript; window.addEventListener('load', function(){ 
+                   calendar. Scheduling button.load({ `URL: 'https://calendar.google.com/calendar/appointments/AcZssZ3B6hZFNktoqDJf53KhPPenlCGQpgECcRJ_Z9A=?gv=true` 
+                             style="color: '#D50000', label: "SCHEDULE YOUR LESSONS NOW!", target, 
+                 }); 
+                 });
+                 })
+                 (); 
+               </script> 
+               <!-- end Google Calendar Appointment Scheduling -->
             </h2>
             <p className="text-center text-white mx-2">
             TO SCHEDULE YOUR DRIVING TRAINING SESSIONS <a href="tel:415-897-7002" rel="noopener noreferrer">CALL ME</a> OR <a href="tel:415-897-7002" rel="noopener noreferrer">TEXT ME</a> TODAY!
