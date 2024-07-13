@@ -288,22 +288,18 @@ const Home: NextPage = () => {
           />
         </div>
         <div
-          className="flex
-          py-20
-          bg-gray-200">
-        </div>
+            className="flex 
+            py-20 
+            bg-gray-200">
           <div 
-            className="container
-            mx-auto 
-            py-2">
-        <iframe src="https://calendar.google.com/calendar/embed?src=tony%40estopdrivingschool.com&ctz=America%2FLos_Angeles" 
-          style="border: 0" 
-          max-width="800" 
-          height="600" 
-          frameborder="0" 
-          scrolling="no">
+            className="container 
+            mx-auto py-2">
+        <iframe 
+          src="https://calendar.google.com/calendar/embed?src=tony%40estopdrivingschool.com&ctz=America%2FLos_Angeles"
+          >
         </iframe>
      </div>
+          </div>
           <div
             className="flex 
             py-20 
