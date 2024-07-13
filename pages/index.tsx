@@ -294,9 +294,7 @@ const Home: NextPage = () => {
           <div 
             className="container 
             mx-auto py-2">
-        <iframe 
-          src="https://calendar.google.com/calendar/embed?src=tony%40estopdrivingschool.com&ctz=America%2FLos_Angeles"
-          >
+        <iframe src="https://calendar.google.com/calendar/embed?src=tony%40estopdrivingschool.com&ctz=America%2FLos_Angeles">
         </iframe>
      </div>
           </div>
