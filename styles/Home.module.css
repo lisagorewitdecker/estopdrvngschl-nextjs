@@ -43,10 +43,10 @@ body{
 }
 iframe{
   border: 0;
-  max-width:100%;
-  height:600px;
+  max-width:800;
+  height:600;
   frameborde:0;
-  scrolling:no;
+  scrolling:yes;
 }
 .container {
   min-height: 100vh;
