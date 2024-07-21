@@ -62,7 +62,7 @@ const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <script>
+    <script>
   window.dataLayer = window.dataLayer || [];
   function gtag() { dataLayer.push(arguments); }
   gtag('consent', 'default', {
@@ -73,7 +73,7 @@ const Home: NextPage = () => {
     'wait_for_update': 500,
   });
   gtag('js', new Date());
-  gtag('config', 'Google tag ID');
+  gtag('config', 'Google tag G-B0JWV1HFBS');
   </script>
         <title>eStop Driving School, The Best Driving School of Novato in Marin County to Sonoma County, CA | Teaching Expert Driving in North Bay, South Bay — San Francisco | Instructor Has Over Four Decades of Experience</title>
         <meta name="description" content="Award Winning | Teaching Driving Teenagers, Adults, & Seniors How to Drive Marin County & Since 1983" />
