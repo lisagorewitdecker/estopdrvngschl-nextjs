@@ -66,10 +66,6 @@ const Home: NextPage = () => {
         <meta name="description" content="Award Winning | Teaching Driving Teenagers, Adults, & Seniors How to Drive Marin County & Since 1983" />
        <script async 
          src="https://www.googletagmanager.com/gtag/js?id=G-HF75XQ6F80"></script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-HF75XQ6F80');
         </script>
         <link rel="icon" href="/favicon.ico" />
         <link
