@@ -64,7 +64,8 @@ const Home: NextPage = () => {
       <Head>
     <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag() { dataLayer.push(arguments); }
+  function gtag() { dataLayer.push(arguments); 
+      }}
   gtag('consent', 'default', {
   });
   gtag('js', new Date());
