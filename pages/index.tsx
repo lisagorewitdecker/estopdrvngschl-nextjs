@@ -62,16 +62,6 @@ const Home: NextPage = () => {
   return (
     <div>
       <Head>
-    <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag() { dataLayer.push(arguments); 
-      }}
-  gtag('consent', 'default', {
-  });
-  gtag('js', new Date());
-  gtag('config', 'Google tag G-B0JWV1HFBS');
-      }
-  </script>
         <title>eStop Driving School, The Best Driving School of Novato in Marin County to Sonoma County, CA | Teaching Expert Driving in North Bay, South Bay — San Francisco | Instructor Has Over Four Decades of Experience</title>
         <meta name="description" content="Award Winning | Teaching Driving Teenagers, Adults, & Seniors How to Drive Marin County & Since 1983" />
         <link rel="icon" href="/favicon.ico" />
@@ -96,6 +86,25 @@ const Home: NextPage = () => {
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff"></meta>
+        grantButton.addEventListener("click", function() {
+   <script> 
+     localStorage.setItem("consentGranted", "true");
+    function gtag() { dataLayer.push(arguments); }
+
+    gtag('consent', 'update', {
+      ad_user_data: 'granted',
+      ad_personalization: 'granted',
+      ad_storage: 'granted',
+      analytics_storage: 'granted'
+    });
+  });
+  var gtagScript = document.createElement('script');
+  gtagScript.async = true;
+  gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-B0JWV1HFBS';
+
+  var firstScript = document.getElementsByTagName('script')[0];
+  firstScript.parentNode.insertBefore(gtagScript,firstScript);
+     </script>
       </Head>
       <main className="main">
         <div id="home" className="flex items-center justify-center py-4">
