@@ -89,8 +89,7 @@ const Home: NextPage = () => {
         grantButton.addEventListener("click", function() {
    <script> 
      localStorage.setItem("consentGranted", "true");
-    function gtag() { dataLayer.push(arguments); }
-
+    function gtag() { dataLayer.push(arguments); } }
     gtag('consent', 'update', {
       ad_user_data: 'granted',
       ad_personalization: 'granted',
