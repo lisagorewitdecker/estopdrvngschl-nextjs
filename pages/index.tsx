@@ -130,7 +130,7 @@ const Home: NextPage = () => {
               <div className="message" style={{ marginBottom:188, maxHeight: 250, maxWidth: 600 }}>
                 GIVE ME 6 HOURS OF YOUR TIME, AND I WILL GIVE YOU 30,000 DAYS!
               <a className="bg-red-500 hover:bg-red-800 text-white px-4 py-2 m-2 text-xl"
-                href="https://calendar.app.google/9u5fwVGk3K3giVj4A"
+                href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0Vtgnt2HCrNnjTlXkJD_44kPo16Xj0ZReg9kh0aKMA_Sxnbe8a4zIVHQ3rTSBTRUPDBxq-apyw"
                 target=" _blank"
                 rel="noopener noreferrer"
               >
