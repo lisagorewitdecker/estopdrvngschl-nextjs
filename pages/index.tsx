@@ -213,7 +213,7 @@ const Home: NextPage = () => {
                <script
                  src="https://calendar.google.com/calendar/scheduling-button-script.js" async>
                </script> 
-               <script> (function()=> { var target = document.currentScript; window.addEventListener('load', function() { calendar.schedulingButton.load({ url: 'https://calendar.google.com/calendar/appointments/AcZssZ3B6hZFNktoqDJf53KhPPenlCGQpgECcRJ_Z9A=?gv=true', color: '#D50000', label: "SCHEDULE YOUR LESSONS NOW!", target, }); 
+               <script> (function({ var target = document.currentScript; window.addEventListener('load', function() { calendar.schedulingButton.load({ url: 'https://calendar.google.com/calendar/appointments/AcZssZ3B6hZFNktoqDJf53KhPPenlCGQpgECcRJ_Z9A=?gv=true', color: '#D50000', label: "SCHEDULE YOUR LESSONS NOW!", target, }); 
                  }); 
                  })
                  (); </script> 
