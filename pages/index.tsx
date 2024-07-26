@@ -134,7 +134,7 @@ const Home: NextPage = () => {
                 target=" _blank"
                 rel="noopener noreferrer"
               >
-                TRY NOW
+                TRY NOW!
               </a>
               </div>
                 </div>
@@ -146,7 +146,7 @@ const Home: NextPage = () => {
             <div className="flex items-center justify-center">
               <div className="container">
                 <h3 className="text-center">
-                  <b>TESHOME (TONY/TK) IS GRATEFUL FOR 26,334 DAYS ALIVE & EVERY BREATH I TAKE EVERYDAY!</b></h3>
+                  <b>TESHOME (TONY/TK) IS GRATEFUL FOR 26,390 DAYS ALIVE & EVERY BREATH I TAKE EVERYDAY!</b></h3>
               </div>
                
               <div
