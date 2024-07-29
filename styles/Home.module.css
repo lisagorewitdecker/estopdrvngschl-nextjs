@@ -11,9 +11,9 @@ h3.center-text-bold {
   font-weight:bold;
 }
 .iframe{
- width:100%;
- height:800;
-background-color: rgba(255,255,255,var(--tw-text-opacity)) !important;
+ width:100% !important;
+ height:800px !important;
+ background-color: white !important;
 }
 a {
   @apply text-red-600 hover:text-red-300;
