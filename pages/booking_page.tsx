@@ -10,7 +10,7 @@ import { useCallback } from "react";
 const NavConfig = [
   {
     name: "HOME",
-    link: "/home",
+    link: "./home",
   },
   {
     name: "ABOUT US",
@@ -37,6 +37,8 @@ const MyComponent = () => {
       width="100%"
       height="800"
       title="The Best Driving School - eStop Driving School in Marin County and Sonoma County"
+      tabIndex="0" /* Make iframe focusable */
+      onLoad={(e) => e.target.contentWindow.focus()} /* Set focus on load */
     />
   );
 };
