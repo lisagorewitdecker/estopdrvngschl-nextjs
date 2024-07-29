@@ -141,7 +141,7 @@ const Home: NextPage = () => {
             <div className="flex items-center justify-center">
               <div className="container">
                 <h3 className="text-center">
-                  <b>TESHOME (TONY/TK) IS GRATEFUL FOR 26,389 DAYS ALIVE & EVERY BREATH I TAKE EVERYDAY!</b></h3>
+                  <b>TESHOME (TONY/TK) IS GRATEFUL FOR 26,392 DAYS ALIVE & EVERY BREATH I TAKE EVERYDAY!</b></h3>
               </div>
                
               <div
@@ -165,7 +165,7 @@ const Home: NextPage = () => {
                 Welcome to eStop Driving School. I am Tony(Teshome), the founder and owner of eStop Driving School
                 (previously known as Nile Driving School). I have been teaching behind-the-wheel driving since 1983.
               </p>
-              <p className="mb-2"> I have trained more than 33,000 plus teenagers  and over 5,000 adults, and seniors during my almost four decade career (of course, they are of legal driving age and status). 
+              <p className="mb-2"> I have trained more than 33,000 teenagers and over 5,000 adults and seniors during my almost four-decade career (of course, they are of legal driving age and status). 
                 Basic training and services are at a flat hourly rate of $115. If you need any additional services, please do not hesitate to contact me for more details.
               </p>
               <p className="mb-2">
@@ -224,7 +224,7 @@ const Home: NextPage = () => {
               Please Do Not Hesitate To Call Or Text Me At 415-897-7002 For More Details.
                  <p> &nbsp;  </p>
               <b>** Lastly, We No Longer Accept Cash and or Checks!**</b> 
-              However, We Do Accept Direct ApplePay Payments, and Can Accept and Send Bank Transfers from Zelle Through Your Banking Apps, 
+              However, We Do Accept Direct ApplePay Payments and Can Accept and Send Bank Transfers from Zelle Through Your Banking Apps, 
               We Are Very Excited to Announce That We Will Be Making All Appointment Bookings and Also Accepting
               Payments Through Square in The Very Near Future!
             </p>
@@ -252,7 +252,14 @@ const Home: NextPage = () => {
           <div className="container mx-auto py-2">
             <h2 className="text-2xl text-center font-bold py-2">CONTACT eSTOPDRIVING SCHOOL</h2>
             <p className="text-center  mx-2">
-              If You Have Any Questions, Feel Free To Call Me Anytime At <a href="tel:415-897-7002" rel="noopener noreferrer">415-897-7002</a>
+              If You Have Any Questions, Feel Free To Call Me Anytime At <a href="tel:415-897-7002" rel="noopener noreferrer">415-897-7002</a> Or
+              <a className="bg-red-500 hover:bg-red-800 text-white px-4 py-2 m-2 text-xl"
+                href="https://calendar.app.google/HMwwZEXYNCrUxCve7"
+                target=" _blank"
+                rel="noopener noreferrer"
+              >
+                SCHEDULE AN APPOINTMENT NOW!
+              </a>
             </p>
             <div className="p-8 m-auto grid sm:grid-cols-1 md:grid-cols-2">
               <div className="flex justify-end px-8">
@@ -271,7 +278,7 @@ const Home: NextPage = () => {
                 <p><b>CALL/TEXT:</b> <a href="tel:415-897-7002" rel="noopener noreferrer">415-897-7002</a></p>
               
                 <p> Licensed Instructor No. 2055001, 
-                  Please Call Me Or Text Me In Advance At 415-897-7002 To or Scheduled A Personal Appointment.
+                  Please Call Me Or Text Me In Advance At 415-897-7002 To Scheduled A Personal Appointment.
                 </p>  
               </div>
             </div>
