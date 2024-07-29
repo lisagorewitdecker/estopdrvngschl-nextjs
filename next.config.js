@@ -1,11 +1,9 @@
-
-Script
+import Iframes from "next/script";
 
 contentSecurityPolicy: {
   directives: {
     default-src: ["'self'"],
-    frame-src: ["https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2X5prOOhhr9YY9lm18M6ccMEaEvW6SXqUkLSGyd5ZPeWZ_azMZEpImoszopFVTB4UXsnNkDOfy"],
-  // swMinify: true,
+    frame-src: ["https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2X5prOOhhr9YY9lm18M6ccMEaEvW6SXqUkLSGyd5ZPeWZ_azMZEpImoszopFVTB4UXsnNkDOfy"]
   },
 }
 
