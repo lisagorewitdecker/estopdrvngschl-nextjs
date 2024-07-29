@@ -20,7 +20,7 @@ const NavConfig = [
   },
   {
     name: "SCHEDULE",
-    link: "schedule",
+    link: "/booking_page/",
   },
   {
     name: "TRAINING & SERVICES",
