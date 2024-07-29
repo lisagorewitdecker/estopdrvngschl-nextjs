@@ -1,4 +1,4 @@
-import Script from "next/script";
+// import Script from "next/script";
 import React, { Component } from "react";
 import type { NextPage } from "next";
 import Head from "next/head";
