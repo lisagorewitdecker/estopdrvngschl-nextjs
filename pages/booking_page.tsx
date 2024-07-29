@@ -1,7 +1,5 @@
 import Script from "next/script";
 import React, { Component } from "react";
-import CountUp, { useCountUp } from "react-countup";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
@@ -36,8 +34,8 @@ const MyComponent = () => {
   return (
     <iframe
       src="https://calendar.app.google/HMwwZEXYNCrUxCve7"
-      width="800"
-      height="600"
+      width="100%"
+      height="800"
       title="The Best Driving School - eStop Driving School in Marin County and Sonoma County"
     />
   );
