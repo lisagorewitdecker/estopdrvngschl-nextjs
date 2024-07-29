@@ -16,7 +16,11 @@ body {
 * {
   box-sizing: border-box;
 }
-
+.iframe{
+ min-width:100% !important;
+ height:800px !important;
+ background-color: #FFFFFF!important;
+}
 a {
   @apply text-red-600 hover:text-red-300;
   font-family: 'Overpass', sans-serif;
