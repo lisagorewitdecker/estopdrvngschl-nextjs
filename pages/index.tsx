@@ -1,4 +1,4 @@
-import { GoogleAnalytics } from '@next/third-parties/google'
+import { GoogleAnalytics } from "@next/third-parties/google";
 import Script from "next/script";
 import React, { Component } from "react";
 import CountUp, { useCountUp } from "react-countup";
@@ -146,7 +146,7 @@ const Home: NextPage = () => {
             <div className="flex items-center justify-center">
               <div className="container">
                 <h3 className="text-center">
-                  <b>TESHOME (TONY/TK) IS GRATEFUL FOR 26,340 DAYS ALIVE & EVERY BREATH I TAKE EVERYDAY!</b></h3>
+                  <b>TESHOME (TONY/TK) IS GRATEFUL FOR 26,350 DAYS ALIVE & EVERY BREATH I TAKE EVERYDAY!</b></h3>
               </div>
                
               <div
@@ -195,16 +195,15 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
-        <div
-          id="schedule"
-          className="flex py-20"
-          style={{
-            background: "url(./driving.jpg)",
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-          }}
-        >
+        <div id="schedule"
+             className="flex py-20"
+             style={{
+             background: "url(./driving.jpg)",
+             backgroundRepeat: "no-repeat",
+             backgroundSize: "cover",
+             backgroundPosition: "center",
+           }}
+         >
           <div className="container mx-auto py-2">
             <h2 className="text-2xl text-center py-2 font-bold text-white">
               SCHEDULE AN APPOINTMENT TODAY!
@@ -229,7 +228,7 @@ const Home: NextPage = () => {
               Please Do Not Hesitate To Call Or Text Me At 415-897-7002 For More Details.
                  <p> &nbsp;  </p>
               <b>** Lastly, We No Longer Accept Cash and or Checks!**</b> 
-              However, We Do Accept Direct ApplePay Payments, and Can Accept and Send Bank Transfers from Zelle Through Your Banking Apps, 
+              However, We Do Accept Direct ApplePay Payments and Can Accept and Send Bank Transfers from Zelle Through Your Banking Apps, 
               We Are Very Excited to Announce That We Will Be Making All Appointment Bookings and Also Accepting
               Payments Through Square in The Very Near Future!
             </p>
@@ -262,7 +261,7 @@ const Home: NextPage = () => {
             <div className="p-8 m-auto grid sm:grid-cols-1 md:grid-cols-2">
               <div className="flex justify-end px-8">
                 <a href="https://www.yelp.com/biz/estop-driving-school-novato-2?utm_medium=biz_embedded_content&amp;utm_source=biz_badge">
-                  <img
+                  <Image
                     alt="eStop Driving School, Previously Nile Driving School"
                     src="https://dyn.yelpcdn.com/extimg/en_US/fsc/aqPJ63Ipo5dYtkh9JfJYRQ.png"
                     height={"55"}
@@ -299,6 +298,15 @@ const Home: NextPage = () => {
           <div 
             className="container 
             mx-auto py-2">
+             <h2 className="text-2xl text-center py-3 font-bold">
+               BOOK AN APPPOINTMENT
+             </h2>
+              <iframe
+            // @ts-ignore
+            src="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2X5prOOhhr9YY9lm18M6ccMEaEvW6SXqUkLSGyd5ZPeWZ_azMZEpImoszopFVTB4UXsnNkDOfy"
+            className="iframe" 
+            title="The Best Driving School - eStop Driving School in Marin County and Sonoma County"
+              />
             <h2 className="text-2xl text-center py-3 font-bold">
               SUBSCRIBE TO RECEIVE OUR EMAIL NEWSLETTER
             </h2>
@@ -331,7 +339,8 @@ const Home: NextPage = () => {
         </main>
       <footer className="bg-gray-900 text-gray-400 py-4 text-sm">
          <div className="locations">
-         <h2>eStop Driving School Provides Dring Lessons to The Following Locations: Novato, CA; Tiburon, CA; Petaluma, CA; San Rafael, CA; Corte Madera, CA; Sausalito, CA; Sebastopol, CA; Mill Valley, CA; San Anselmo, CA; Greenbrae CA; Kentfield, CA. If You Do Not See Your Location Listed Here; Please Do Not Hesitate to Contact Teshome (Tony or TK) Via Text or Phone.</h2> 
+         <h2>eStop Driving School Provides Dring Lessons to The Following Locations: Novato, CA; Tiburon, CA; Petaluma, CA; San Rafael, CA; Corte Madera, CA; Sausalito, CA; Sebastopol, CA; Mill Valley, CA; San Anselmo, CA; Greenbrae CA; Kentfield, CA. If You Do Not See Your Location Listed Here; 
+           Please Do Not Hesitate to Contact Teshome (Tony or TK) Via Text or Phone.</h2> 
          </div>
         <div className="container m-auto text-center">
           Copyright @2024{" "} | 
