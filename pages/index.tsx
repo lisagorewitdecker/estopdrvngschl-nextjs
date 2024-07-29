@@ -155,7 +155,7 @@ const Home: NextPage = () => {
                 href="https://qualitybusinessawards.com/2024/the-best-driving-school-in-novato/nile-driving-school?_uax=NjIxMjM6OTUyNDE3MDI6ODc2NDI6NDYwNzQ2OjI1NzUyMTk1MDM6NTYxMzY1MjE"
                 rel="noopener noreferrer"
                 >
-              <Image
+              <img
                 src="2024-best-award.jpg"
                 alt="Novato Best Driving Instructor Award"
                 width={350}
@@ -261,7 +261,7 @@ const Home: NextPage = () => {
             <div className="p-8 m-auto grid sm:grid-cols-1 md:grid-cols-2">
               <div className="flex justify-end px-8">
                 <a href="https://www.yelp.com/biz/estop-driving-school-novato-2?utm_medium=biz_embedded_content&amp;utm_source=biz_badge">
-                  <Image
+                  <img
                     alt="eStop Driving School, Previously Nile Driving School"
                     src="https://dyn.yelpcdn.com/extimg/en_US/fsc/aqPJ63Ipo5dYtkh9JfJYRQ.png"
                     height={"55"}
@@ -275,7 +275,7 @@ const Home: NextPage = () => {
                 <p><b>CALL/TEXT:</b> <a href="tel:415-897-7002" rel="noopener noreferrer">415-897-7002</a></p>
               
                 <p> Licensed Instructor No. 2055001, 
-                  Please Call Me Or Text Me In Advance At 415-897-7002 To or Scheduled A Personal Appointment.
+                  Please Call Me Or Text Me In Advance At 415-897-7002 To Scheduled A Personal Appointment.
                 </p>  
               </div>
             </div>
@@ -298,14 +298,7 @@ const Home: NextPage = () => {
           <div 
             className="container 
             mx-auto py-2">
-             <h2 className="text-2xl text-center py-3 font-bold">
-               BOOK AN APPPOINTMENT
-             </h2>
-              <iframe
-                src="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2X5prOOhhr9YY9lm18M6ccMEaEvW6SXqUkLSGyd5ZPeWZ_azMZEpImoszopFVTB4UXsnNkDOfy"
-                className="iframe" 
-                title="The Best Driving School - eStop Driving School in Marin County and Sonoma County"
-              />
+            
             <h2 className="text-2xl text-center py-3 font-bold">
               SUBSCRIBE TO RECEIVE OUR EMAIL NEWSLETTER
             </h2>
