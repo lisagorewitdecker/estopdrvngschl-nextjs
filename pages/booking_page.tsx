@@ -1,4 +1,5 @@
-// import Script from "next/script";
+import Script from 'next/script';
+import iframe from "next/script":
 import React, { Component } from "react";
 import type { NextPage } from "next";
 import Head from "next/head";
@@ -32,7 +33,8 @@ const NavConfig = [
 }
 const MyComponent = () => {
   return (
-    <iframe src="https://calendar.app.google/HMwwZEXYNCrUxCve7" title="The Best Driving School - eStop Driving School in Marin County and Sonoma County"><IframeComponent lazy />
+    <iframe src="https://calendar.app.google/HMwwZEXYNCrUxCve7" 
+      title="The Best Driving School - eStop Driving School in Marin County and Sonoma County" IframeComponent lazy />
   );
 };
 
