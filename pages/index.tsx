@@ -266,7 +266,7 @@ const Home: NextPage = () => {
                     src="https://dyn.yelpcdn.com/extimg/en_US/fsc/aqPJ63Ipo5dYtkh9JfJYRQ.png"
                     height={"55"}
                     width={"125"}
-                  Image/>
+                  />
                 </a>
               </div>
               <div>
