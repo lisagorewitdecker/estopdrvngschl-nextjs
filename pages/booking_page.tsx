@@ -29,13 +29,11 @@ const NavConfig = [
     link: "/contact",
   },
 ];
-
+{
 const MyComponent = () => {
   return (
     <iframe
-      src="https://calendar.app.google/HMwwZEXYNCrUxCve7"
-      width="100%"
-      height="800"
+      src="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2X5prOOhhr9YY9lm18M6ccMEaEvW6SXqUkLSGyd5ZPeWZ_azMZEpImoszopFVTB4UXsnNkDOfy"
       title="The Best Driving School - eStop Driving School in Marin County and Sonoma County"
     />
   );
