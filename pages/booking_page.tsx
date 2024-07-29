@@ -31,29 +31,6 @@ const NavConfig = [
     link: "/contact",
   },
 ];
-const NavConfig = [
-  {
-    name: "HOME",
-    link: "/home",
-  },
-  {
-    name: "ABOUT US",
-    link: "/about",
-  },
-  {
-    name: "SCHEDULE",
-    link: "/schedule",
-  },
-  {
-    name: "TRAINING & SERVICES",
-    link: "/training_and_services",
-  },
-  {
-    name: "CONTACT US",
-    link: "/contact",
-  },
-];
-
 const IframeComponent = () => {
   return (
     <iframe
