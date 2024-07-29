@@ -1,4 +1,4 @@
-/** @type {import('next').NextConfig} */
+/** @type {import('next').NextConfig} **/
 const nextConfig = {
   reactStrictMode: true,
   // swMinify: true,
@@ -11,6 +11,12 @@ const nextConfig = {
         destination: '/api/myfile.js',
       },
     ]
-  }
+  },
+  contentSecurityPolicy: {
+  directives: {
+  defaultSrc: ["'self'"],
+  frame-src: ["'https://allowed-iframe-host.com'"],
+  },
+}
 }
 module.exports = nextConfig
