@@ -263,7 +263,7 @@ const Home: NextPage = () => {
               <div className="flex justify-end px-8">
                 <a href="https://www.yelp.com/biz/estop-driving-school-novato-2?utm_medium=biz_embedded_content&amp;utm_source=biz_badge">
                   <img
-                    alt="eStop Driving School, Previously Nile Driving School"
+                    alt="eStop Driving School is The Best Driving School in The Entire Bay Area & Previously Called Nile Driving School"
                     src="https://dyn.yelpcdn.com/extimg/en_US/fsc/aqPJ63Ipo5dYtkh9JfJYRQ.png"
                     height={"55"}
                     width={"125"}
@@ -292,13 +292,32 @@ const Home: NextPage = () => {
             style={{ width: 36, height: 36 }}
           />
         </div>
-       <div
+        
+         <div
             className="flex  */}
             py-20 
             bg-gray-200">
           <div 
             className="container 
             mx-auto py-2">
+            <h2 className="text-2xl text-center py-3 font-bold">
+            </h2>
+            ]:
+    
+          const IframeComponent = () => {
+           []);
+          return (
+          <iframe
+            src="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2X5prOOhhr9YY9lm18M6ccMEaEvW6SXqUkLSGyd5ZPeWZ_azMZEpImoszopFVTB4UXsnNkDOfy"
+            width="800"
+            height="800"
+            title="The Best Driving School - eStop Driving School in Marin County and Sonoma County"
+            />
+        );
+        };
+
+        export default IframeComponent;
+       
             <h2 className="text-2xl text-center py-3 font-bold">
               SUBSCRIBE TO RECEIVE OUR EMAIL NEWSLETTER
             </h2>
