@@ -1,4 +1,4 @@
-import { GoogleAnalytics } from '@next/third-parties/google'
+import { GoogleAnalytics } from "@next/third-parties/google";
 import Script from "next/script";
 import React, { Component } from "react";
 import CountUp, { useCountUp } from "react-countup";
@@ -20,7 +20,7 @@ const NavConfig = [
   },
   {
     name: "SCHEDULE",
-    link: "/booking_page/",
+    link: "booking_page.tsx",
   },
   {
     name: "TRAINING & SERVICES",
