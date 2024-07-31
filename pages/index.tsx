@@ -131,7 +131,7 @@ const Home: NextPage = () => {
                 GIVE ME 6 HOURS OF YOUR TIME, AND I WILL GIVE YOU 30,000 DAYS!
               <a className="bg-red-500 hover:bg-red-800 text-white px-4 py-2 m-2 text-xl"
                 href="https://calendar.app.google/HMwwZEXYNCrUxCve7"
-                target=" _blank"
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 TRY NOW
@@ -146,7 +146,7 @@ const Home: NextPage = () => {
             <div className="flex items-center justify-center">
               <div className="container">
                 <h3 className="text-center">
-                  <b>TESHOME (TONY/TK) IS GRATEFUL FOR 26,350 DAYS ALIVE & EVERY BREATH I TAKE EVERYDAY!</b></h3>
+                  <b>TESHOME (TONY/TK) IS GRATEFUL FOR 26,351 DAYS ALIVE & EVERY BREATH I TAKE EVERYDAY!</b></h3>
               </div>
                
               <div
@@ -174,11 +174,11 @@ const Home: NextPage = () => {
                 Basic training and services are at a flat hourly rate of $115. If you need any additional services, please do not hesitate to contact me for more details.
               </p>
               <p className="mb-2">
-                 Since 1983, I Have 40 Years of Experience Training and Teaching Adults,
+                 Since 1983, I Have 41 Years of Experience Training and Teaching Adults,
                 Teenagers and Seniors Behind-The-Wheel Driving. All While Doing What I Love!
                </p>
               <p className="mb-2">
-                Every Day, I take great pride in and receive so much joy from what I do for a living!
+                Every Day, I Take Great Pride In and Receive So Much Joy From What I Do For a Living, I Love My Job!
               </p>
               <p className="mb-2">
                <b> My Life Philosophy Is...&ldquo;Speak STOP Fluently and Flawlessly For Life!&rdquo;</b>
@@ -195,7 +195,7 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
-        <div id="schedule"
+        <div
              className="flex py-20"
              style={{
              background: "url(./driving.jpg)",
@@ -295,8 +295,8 @@ const Home: NextPage = () => {
             className="flex  */}
             py-20 
             bg-gray-200">
-          <div 
-            className="container 
+          <div id="schedule"
+            className="container
             mx-auto py-2">
              <h2 className="text-2xl text-center py-3 font-bold">
                BOOK AN APPPOINTMENT
@@ -306,6 +306,7 @@ const Home: NextPage = () => {
                 className="iframe" 
                 title="The Best Driving School - eStop Driving School in Marin County and Sonoma County"
               />
+
             <h2 className="text-2xl text-center py-3 font-bold">
               SUBSCRIBE TO RECEIVE OUR EMAIL NEWSLETTER
             </h2>
