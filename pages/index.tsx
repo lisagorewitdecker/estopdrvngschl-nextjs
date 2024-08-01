@@ -146,7 +146,7 @@ const Home: NextPage = () => {
             <div className="flex items-center justify-center">
               <div className="container">
                 <h3 className="text-center">
-                  <b>TESHOME (TONY/TK) IS GRATEFUL FOR 26,351 DAYS ALIVE & EVERY BREATH I TAKE EVERYDAY!</b></h3>
+                  <b>TESHOME (TONY/TK) IS GRATEFUL FOR 26,352 DAYS ALIVE & EVERY BREATH I TAKE EVERYDAY!</b></h3>
               </div>
                
               <div
@@ -205,12 +205,12 @@ const Home: NextPage = () => {
            }}
          >
           <div className="container mx-auto py-2">
-            <h2 className="text-2xl text-center py-2 font-bold text-white">
+{/*             <h2 className="text-2xl text-center py-2 font-bold text-white">
               SCHEDULE AN APPOINTMENT TODAY!
-            </h2>
-            <p className="text-center text-white mx-2">
+            </h2> */}
+{/*             <p className="text-center text-white mx-2">
             TO SCHEDULE YOUR DRIVING TRAINING SESSIONS <a href="tel:415-897-7002" rel="noopener noreferrer">CALL ME</a> OR <a href="tel:415-897-7002" rel="noopener noreferrer">TEXT ME</a> TODAY!
-            </p>
+            </p> */}
           </div>
         </div>
         <div id="training_and_services" className="bg-gray-100">
@@ -221,9 +221,9 @@ const Home: NextPage = () => {
             <p className="text-center mx-1">
             <h3 className="text-xl text-center font-bold"> 
               My Clients Receive Valet Service!</h3>
-              <h3 className="text-xl text-center font-bold"> I Will Pick You Up Anywhere in Marin County, and Or Sonoma County, East Bay and San Francisco.</h3> 
+              <h3 className="text-xl text-center font-bold"> I Will Pick You Up Anywhere in Marin County Or Sonoma County, East Bay, and San Francisco. I will even drive to meet you anywhere in the Bay Area.</h3> 
               <h3 className="text-xl text-center font-bold"> No Need to Worry, You Will Safely Be Returned to The Location You Were Picked Up At!</h3>
-              <p> &nbsp;  </p>
+              <p> &nbsp; </p>
               Basic Training and Services are at an Hourly Rate of $115. If You Happen To Need Additional Services, 
               Please Do Not Hesitate To Call Or Text Me At 415-897-7002 For More Details.
                  <p> &nbsp;  </p>
@@ -299,14 +299,15 @@ const Home: NextPage = () => {
             className="container
             mx-auto py-2">
              <h2 className="text-2xl text-center py-3 font-bold">
-               BOOK AN APPPOINTMENT
+               SCHEDULE AN APPOINTMENT
              </h2>
               <iframe
                 src="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2X5prOOhhr9YY9lm18M6ccMEaEvW6SXqUkLSGyd5ZPeWZ_azMZEpImoszopFVTB4UXsnNkDOfy"
                 className="iframe" 
                 title="The Best Driving School - eStop Driving School in Marin County and Sonoma County"
               />
-
+          <p> &nbsp; </p>
+            
             <h2 className="text-2xl text-center py-3 font-bold">
               SUBSCRIBE TO RECEIVE OUR EMAIL NEWSLETTER
             </h2>
