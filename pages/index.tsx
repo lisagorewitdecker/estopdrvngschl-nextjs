@@ -42,8 +42,8 @@ const ServiceConfig = [
     icon: "user",
     title: "ADULTS",
     description: `Three 2-Hour Driving Lessons For Adults, Ages 18 and Up.
-    (The one-Hour Rate is $125 an Hour and Includes All Taxes and Fees). Total Service Cost is $750.`
-    <h3><a id="schedule" rel="noopener noreferrer"> SCHEDULE NOW!</a></h3>
+    (The one-Hour Rate is $125 an Hour and Includes All Taxes and Fees). Total Service Cost is $750. 
+     <h3><a id="schedule" rel="noopener noreferrer"> SCHEDULE NOW!</a></h3>`
   },
   {
     icon: "universal-access",
