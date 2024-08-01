@@ -1,4 +1,4 @@
-import { GoogleAnalytics } from "@next/third-parties/google";
+import { GoogleAnalytics } from "@next/third-parties/google-ga";
 import Script from "next/script";
 import React, { Component } from "react";
 import CountUp, { useCountUp } from "react-countup";
@@ -146,7 +146,7 @@ const Home: NextPage = () => {
             <div className="flex items-center justify-center">
               <div className="container">
                 <h3 className="text-center">
-                  <b>TESHOME (TONY/TK) IS GRATEFUL FOR 26,351 DAYS ALIVE & EVERY BREATH I TAKE EVERYDAY!</b></h3>
+                  <b>TESHOME (TONY/TK) IS GRATEFUL FOR 26,352 DAYS ALIVE & EVERY BREATH I TAKE EVERYDAY!</b></h3>
               </div>
                
               <div
@@ -299,7 +299,7 @@ const Home: NextPage = () => {
             className="container
             mx-auto py-2">
              <h2 className="text-2xl text-center py-3 font-bold">
-               BOOK AN APPPOINTMENT
+               SCHEDULE AN APPOINTMENT
              </h2>
               <iframe
                 src="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2X5prOOhhr9YY9lm18M6ccMEaEvW6SXqUkLSGyd5ZPeWZ_azMZEpImoszopFVTB4UXsnNkDOfy"
@@ -308,7 +308,7 @@ const Home: NextPage = () => {
               />
 
             <h2 className="text-2xl text-center py-3 font-bold">
-              SUBSCRIBE TO RECEIVE OUR EMAIL NEWSLETTER
+              PLEASE SUBSCRIBE OUR EMAIL NEWSLETTER
             </h2>
         <form 
           action="https://squareup.com/outreach/bfsXvM/subscribe" 
