@@ -1,4 +1,4 @@
-import { GoogleAnalytics } from "@next/third-parties/google";
+import { GoogleAnalytics } from "@next/next/next-script-for-ga";
 import Script from "next/script";
 import React, { Component } from "react";
 import CountUp, { useCountUp } from "react-countup";
@@ -65,10 +65,10 @@ const Home: NextPage = () => {
         <title>eStop Driving School, The Best Driving School of Novato in Marin County to Sonoma County, CA | Teaching Expert Driving in North Bay, South Bay — San Francisco | Instructor Has Over Four Decades of Experience</title>
         <meta name="description" content="Award Winning | Teaching Driving Teenagers, Adults, & Seniors How to Drive Marin County & Since 1983" />
         <meta name="google-site-verification" content="HyXYdxYYFS67OB0scOvwxD878VTo8cHARcI6LXMAg1Y" />
-       <script async 
+{/*        <script async 
          src="https://www.googletagmanager.com/gtag/js?id=G-HF75XQ6F80"
          >
-       </script>
+       </script> */}
         <link rel="icon" href="/favicon.ico" />
         <link
           rel="apple-touch-icon"
