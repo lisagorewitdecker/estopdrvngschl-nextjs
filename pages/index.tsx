@@ -1,5 +1,4 @@
-import { GoogleAnalytics } from "@next/third-parties/google";
-import Script from "next/script";
+import { GoogleAnalytics, Script} from "next/script";
 import React, { Component } from "react";
 import CountUp, { useCountUp } from "react-countup";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -118,7 +117,7 @@ const Home: NextPage = () => {
         </div>
         <div
           className="flex items-end"
-          style={{
+            style={{
             background: "url(./tony.jpg)",
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
@@ -147,7 +146,7 @@ const Home: NextPage = () => {
             <div className="flex items-center justify-center">
               <div className="container">
                 <h3 className="text-center">
-                  <b>TESHOME (TONY/TK) IS GRATEFUL FOR 26,352 DAYS ALIVE & EVERY BREATH I TAKE EVERYDAY!</b></h3>
+                  <b>TESHOME (TONY/TK) IS GRATEFUL FOR 26,360 DAYS ALIVE & EVERY BREATH I TAKE EVERYDAY!</b></h3>
               </div>
                
               <div
@@ -156,7 +155,7 @@ const Home: NextPage = () => {
                 href="https://qualitybusinessawards.com/2024/the-best-driving-school-in-novato/nile-driving-school?_uax=NjIxMjM6OTUyNDE3MDI6ODc2NDI6NDYwNzQ2OjI1NzUyMTk1MDM6NTYxMzY1MjE"
                 rel="noopener noreferrer"
                 >
-              <img
+              <Image
                 src="2024-best-award.jpg"
                 alt="Novato Best Driving Instructor Award"
                 width={350}
@@ -206,10 +205,10 @@ const Home: NextPage = () => {
            }}
          >
           <div className="container mx-auto py-2">
-{/*             <h2 className="text-2xl text-center py-2 font-bold text-white">
+           <h2 className="text-2xl text-center py-2 font-bold text-white">
               SCHEDULE AN APPOINTMENT TODAY!
-            </h2> */}
-{/*             <p className="text-center text-white mx-2">
+            </h2> 
+            <p className="text-center text-white mx-2">
             TO SCHEDULE YOUR DRIVING TRAINING SESSIONS <a href="tel:415-897-7002" rel="noopener noreferrer">CALL ME</a> OR <a href="tel:415-897-7002" rel="noopener noreferrer">TEXT ME</a> TODAY!
             </p> */}
           </div>
