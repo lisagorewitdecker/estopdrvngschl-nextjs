@@ -64,6 +64,7 @@ const Home: NextPage = () => {
       <Head>
         <title>eStop Driving School, The Best Driving School of Novato in Marin County to Sonoma County, CA | Teaching Expert Driving in North Bay, South Bay — San Francisco | Instructor Has Over Four Decades of Experience</title>
         <meta name="description" content="Award Winning | Teaching Driving Teenagers, Adults, & Seniors How to Drive Marin County & Since 1983" />
+        <meta content="src="https://www.googletagmanager.com/gtag/js?id=G-K8JR8FL59G"/>
        <script async 
          src="https://www.googletagmanager.com/gtag/js?id=G-HF75XQ6F80"
          >
@@ -371,6 +372,13 @@ const Home: NextPage = () => {
             title="YouTube eStopDrivingSchool"
           >
           YOUTUBE | 
+          </a>
+            <a
+            href="https://www.youtube.com/@teshomekebere4491"
+            className="text-gray-400"
+            title="YouTube eStopDrivingSchool"
+          >
+          NextDoor | 
           </a>
            <a
             href="https://lisagorewitdecker.com"
