@@ -64,9 +64,15 @@ const Home: NextPage = () => {
       <Head>
         <title>eStop Driving School, The Best Driving School of Novato in Marin County to Sonoma County, CA | Teaching Expert Driving in North Bay, South Bay — San Francisco | Instructor Has Over Four Decades of Experience</title>
         <meta name="description" content="Award Winning | Teaching Driving Teenagers, Adults, & Seniors How to Drive Marin County & Since 1983" />
-       <script async 
-         src="https://www.googletagmanager.com/gtag/js?id=G-HF75XQ6F80"
-         >
+        <meta name="description" content"GTM-52S8PDBJ" />
+        <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-52S8PDBJ');</script>
+<!-- End Google Tag Manager -->
+      
        </script>
         <link rel="icon" href="/favicon.ico" />
         <link
