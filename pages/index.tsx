@@ -64,7 +64,6 @@ const Home: NextPage = () => {
       <Head>
         <title>eStop Driving School, The Best Driving School of Novato in Marin County to Sonoma County, CA | Teaching Expert Driving in North Bay, South Bay — San Francisco | Instructor Has Over Four Decades of Experience</title>
         <meta name="description" content="Award Winning | Teaching Driving Teenagers, Adults, & Seniors How to Drive Marin County & Since 1983" />
-        <meta name="google-site-verification" content="HyXYdxYYFS67OB0scOvwxD878VTo8cHARcI6LXMAg1Y" />
        <script async 
          src="https://www.googletagmanager.com/gtag/js?id=G-HF75XQ6F80"
          >
@@ -156,7 +155,7 @@ const Home: NextPage = () => {
                 href="https://qualitybusinessawards.com/2024/the-best-driving-school-in-novato/nile-driving-school?_uax=NjIxMjM6OTUyNDE3MDI6ODc2NDI6NDYwNzQ2OjI1NzUyMTk1MDM6NTYxMzY1MjE"
                 rel="noopener noreferrer"
                 >
-              <img
+              <Image
                 src="2024-best-award.jpg"
                 alt="Novato Best Driving Instructor Award"
                 width={350}
@@ -206,12 +205,12 @@ const Home: NextPage = () => {
            }}
          >
           <div className="container mx-auto py-2">
-{/*             <h2 className="text-2xl text-center py-2 font-bold text-white">
+            <h2 className="text-2xl text-center py-2 font-bold text-white">
               SCHEDULE AN APPOINTMENT TODAY!
-            </h2> */}
-{/*             <p className="text-center text-white mx-2">
+            </h2> 
+             <p className="text-center text-white mx-2">
             TO SCHEDULE YOUR DRIVING TRAINING SESSIONS <a href="tel:415-897-7002" rel="noopener noreferrer">CALL ME</a> OR <a href="tel:415-897-7002" rel="noopener noreferrer">TEXT ME</a> TODAY!
-            </p> */}
+            </p> 
           </div>
         </div>
         <div id="training_and_services" className="bg-gray-100">
