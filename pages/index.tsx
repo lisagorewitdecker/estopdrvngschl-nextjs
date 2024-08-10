@@ -64,11 +64,10 @@ const Home: NextPage = () => {
       <Head>
         <title>eStop Driving School, The Best Driving School of Novato in Marin County to Sonoma County, CA | Teaching Expert Driving in North Bay, South Bay — San Francisco | Instructor Has Over Four Decades of Experience</title>
         <meta name="description" content="Award Winning | Teaching Driving Teenagers, Adults, & Seniors How to Drive Marin County & Since 1983" />
-          <meta name="googleanalytics"
-            content="https://www.googletagmanager.com/gtag/js?id=G-QG0BYSYEY2"/>
+          <meta ccontent="https://www.googletagmanager.com/gtag/js?id=G-QG0BYSYEY2"/>
         <script async
-          src="https://www.googletagmanager.com/gtag/js?id=G-QG0BYSYEY2">
-            </script>
+          src="https://www.googleanalytics.com/gtag/js?id=G-QG0BYSYEY2">
+       </script>
              
         <link rel="icon" href="/favicon.ico" />
         <link
@@ -148,7 +147,7 @@ const Home: NextPage = () => {
             <div className="flex items-center justify-center">
               <div className="container">
                 <h3 className="text-center">
-                  <b>TESHOME (TONY/TK) IS GRATEFUL FOR 24,992 DAYS ALIVE & EVERY BREATH I TAKE EVERYDAY!</b></h3>
+                  <b>TESHOME (TONY/TK) IS GRATEFUL FOR 24,995 DAYS ALIVE & EVERY BREATH I TAKE EVERYDAY!</b></h3>
               </div>
                
               <div
