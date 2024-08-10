@@ -1,4 +1,5 @@
-import {Script, GoogleAnalytics } from "next/script";
+import Script, { GoogleAnalytics } from "next/script";
+import Script from "next/script";
 import React, { Component } from "react";
 import CountUp, { useCountUp } from "react-countup";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
