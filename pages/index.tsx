@@ -1,5 +1,4 @@
-import { GoogleAnalytics } from "@next/third-parties/google";
-import Script from "next/script";
+import {Script, GoogleAnalytics } from "next/script";
 import React, { Component } from "react";
 import CountUp, { useCountUp } from "react-countup";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -148,7 +147,7 @@ const Home: NextPage = () => {
             <div className="flex items-center justify-center">
               <div className="container">
                 <h3 className="text-center">
-                  <b>TESHOME (TONY/TK) IS GRATEFUL FOR 24,992 DAYS ALIVE & EVERY BREATH I TAKE EVERYDAY!</b></h3>
+                  <b>TESHOME (TONY/TK) IS GRATEFUL FOR 24,995 DAYS ALIVE & EVERY BREATH I TAKE EVERYDAY!</b></h3>
               </div>
                
               <div
