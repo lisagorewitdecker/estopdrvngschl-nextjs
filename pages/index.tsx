@@ -64,9 +64,9 @@ const Home: NextPage = () => {
       <Head>
         <title>eStop Driving School, The Best Driving School of Novato in Marin County to Sonoma County, CA | Teaching Expert Driving in North Bay, South Bay — San Francisco | Instructor Has Over Four Decades of Experience</title>
         <meta name="description" content="Award Winning | Teaching Driving Teenagers, Adults, & Seniors How to Drive Marin County & Since 1983" />
-          <meta name="googletagmanager" content="https://www.googletagmanager.com/gtag/js?id=G-QG0BYSYEY2"/>
+          <meta name="googletagmanager" content="https://www.googletagmanager.com/gtag/js?id=GTM-52S8PDBJ"/>
         <script async
-          src="https://www.googleanalytics.com/gtag/js?id=G-QG0BYSYEY2">
+          src="https://www.googleanalytics.com/gtag/js?id=GTM-52S8PDBJ">
        </script>
              
         <link rel="icon" href="/favicon.ico" />
