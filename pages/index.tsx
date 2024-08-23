@@ -93,24 +93,8 @@ const Home: NextPage = () => {
         <meta name="theme-color" content="#ffffff"></meta>
       </Head>
       <body>
-        <aside id="ae_launcher" style="display: none" class="ae-module aetipsytip ae-active ae-cta-position-preset-left-lower" aria-label="Accessibility options">
-  <button aria-label="Explore your accessibility options">
-    <div style="display: none" class="ae-left">
-      <span>Explore your accessibility options</span>
+        
     </div>
-
-    <div class="ae-right">
-      <span class="icomoon-wrapper">
-        <div>
-          <span class="icomoon-cta ae-icon-launcher-universalaccess ae-initial-cta">
-            <span class="icomoon-cta path1 a11y-icon-figure-and-border"></span>
-            <span class="icomoon-cta path2 a11y-icon-background" style="color: rgb(18, 117, 179);"></span>
-          </span>
-        </div>
-      </span>
-    </div>
-  </button>
-</aside>
       <main className="main">
         <div id="home" className="flex items-center justify-center py-4">
           <Image
