@@ -93,7 +93,6 @@ const Home: NextPage = () => {
         <meta name="theme-color" content="#ffffff"></meta>
       </Head>
       <body>
-        
     </div>
       <main className="main">
         <div id="home" className="flex items-center justify-center py-4">
@@ -150,7 +149,7 @@ const Home: NextPage = () => {
             <div className="flex items-center justify-center">
               <div className="container">
                 <h3 className="text-center">
-                  <b>TESHOME (TONY/TK) IS GRATEFUL FOR 25,010u DAYS ALIVE & EVERY BREATH I TAKE EVERYDAY!</b></h3>
+                  <b>TESHOME (TONY/TK) IS GRATEFUL FOR 25,010 DAYS ALIVE & EVERY BREATH I TAKE EVERYDAY!</b></h3>
               </div>
                
               <div
@@ -384,11 +383,11 @@ const Home: NextPage = () => {
           SITE WEB DEV LISA GOREWIT-DECKER
           </a>
        
-        </div>
-
+  
+</div>
  </footer>
         </body>
-    </div>
+    
   );
 };
 export default Home;
