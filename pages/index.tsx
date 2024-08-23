@@ -93,24 +93,8 @@ const Home: NextPage = () => {
         <meta name="theme-color" content="#ffffff"></meta>
       </Head>
       <body>
-        <aside id="ae_launcher" style="display: none" class="ae-module aetipsytip ae-active ae-cta-position-preset-left-lower" aria-label="Accessibility options">
-  <button aria-label="Explore your accessibility options">
-    <div style="display: none" class="ae-left">
-      <span>Explore your accessibility options</span>
+        
     </div>
-
-    <div class="ae-right">
-      <span class="icomoon-wrapper">
-        <div>
-          <span class="icomoon-cta ae-icon-launcher-universalaccess ae-initial-cta">
-            <span class="icomoon-cta path1 a11y-icon-figure-and-border"></span>
-            <span class="icomoon-cta path2 a11y-icon-background" style="color: rgb(18, 117, 179);"></span>
-          </span>
-        </div>
-      </span>
-    </div>
-  </button>
-</aside>
       <main className="main">
         <div id="home" className="flex items-center justify-center py-4">
           <Image
@@ -166,7 +150,7 @@ const Home: NextPage = () => {
             <div className="flex items-center justify-center">
               <div className="container">
                 <h3 className="text-center">
-                  <b>TESHOME (TONY/TK) IS GRATEFUL FOR 24,995 DAYS ALIVE & EVERY BREATH I TAKE EVERYDAY!</b></h3>
+                  <b>TESHOME (TONY/TK) IS GRATEFUL FOR 25,010u DAYS ALIVE & EVERY BREATH I TAKE EVERYDAY!</b></h3>
               </div>
                
               <div
@@ -224,7 +208,7 @@ const Home: NextPage = () => {
              backgroundPosition: "center",
            }}
          >
-          <div className="container mx-auto py-2">
+          <div id="schedule" className="container mx-auto py-2">
             <h2 className="text-2xl text-center py-2 font-bold text-white">
               SCHEDULE AN APPOINTMENT TODAY!
             </h2> 
@@ -244,7 +228,7 @@ const Home: NextPage = () => {
               <h3 className="text-xl text-center font-bold"> I Will Pick You Up Anywhere in Marin County Or Sonoma County, East Bay, and San Francisco. I will even drive to meet you anywhere in the Bay Area.</h3> 
               <h3 className="text-xl text-center font-bold"> No Need to Worry, You Will Safely Be Returned to The Location You Were Picked Up At!</h3>
               <p> &nbsp; </p>
-              Basic Training and Services are at an Hourly Rate of $115. If You Happen To Need Additional Services, 
+              Basic Training and Services are at an Hourly Rate of $125. If You Happen To Need Additional Services, 
               Please Do Not Hesitate To Call Or Text Me At 415-897-7002 For More Details.
                  <p> &nbsp;  </p>
               <b>** Lastly, We No Longer Accept Cash and or Checks!**</b> 
