@@ -92,8 +92,9 @@ const Home: NextPage = () => {
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff"></meta>
       </Head>
-      <body>
     </div>
+<div>
+    <body>
       <main className="main">
         <div id="home" className="flex items-center justify-center py-4">
           <Image
@@ -174,7 +175,7 @@ const Home: NextPage = () => {
                 (previously known as Nile Driving School). I have been teaching behind-the-wheel driving since 1983.
               </p>
               <p className="mb-2"> I have trained more than 33,000 teenagers and over 5,000 adults and seniors during my almost four-decade career (of course, they are of legal driving age and status). 
-                Basic training and services are at a flat hourly rate of $115. If you need any additional services, please do not hesitate to contact me for more details.
+                Basic training and services are at a flat hourly rate of $125. If you need any additional services, please do not hesitate to contact me for more details.
               </p>
               <p className="mb-2">
                  Since 1983, I Have 41 Years of Experience Training and Teaching Adults,
@@ -230,10 +231,10 @@ const Home: NextPage = () => {
               Basic Training and Services are at an Hourly Rate of $125. If You Happen To Need Additional Services, 
               Please Do Not Hesitate To Call Or Text Me At 415-897-7002 For More Details.
                  <p> &nbsp;  </p>
-              <b>** Lastly, We No Longer Accept Cash and or Checks!**</b> 
-              However, We Do Accept Direct ApplePay Payments and Can Accept and Send Bank Transfers from Zelle Through Your Banking Apps, 
-              We Are Very Excited to Announce That We Will Be Making All Appointment Bookings and Also Accepting
-              Payments Through Square in The Very Near Future!
+              <b> ** Lastly, We No Longer Accept Cash and or Checks!** </b> 
+              However, We DO Accept Direct ApplePay Payments and Can Accept and Send Bank Transfers from Zelle Through Your Banking Apps, 
+              We Are Very Excited to Announce That We have made appointment bookings on this site and included payments
+              Through Square are available as wellThe Very Near Future!
             </p>
             <div className="py-3 grid xs:grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-4">
               {ServiceConfig.map(({ icon, title, description }) => (
@@ -382,12 +383,8 @@ const Home: NextPage = () => {
           >
           SITE WEB DEV LISA GOREWIT-DECKER
           </a>
-       
-  
 </div>
  </footer>
-        </body>
-    
   );
 };
 export default Home;
