@@ -92,7 +92,6 @@ const Home: NextPage = () => {
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff"></meta>
       </Head>
-      <body>
     </div>
       <main className="main">
         <div id="home" className="flex items-center justify-center py-4">
@@ -230,10 +229,9 @@ const Home: NextPage = () => {
               Basic Training and Services are at an Hourly Rate of $125. If You Happen To Need Additional Services, 
               Please Do Not Hesitate To Call Or Text Me At 415-897-7002 For More Details.
                  <p> &nbsp;  </p>
-              <b>** Lastly, We No Longer Accept Cash and or Checks!**</b> 
+              <b> ** Lastly, only n case of emergencies CASH or CHECKS are accepted!** </b> 
               However, We Do Accept Direct ApplePay Payments and Can Accept and Send Bank Transfers from Zelle Through Your Banking Apps, 
-              We Are Very Excited to Announce That We Will Be Making All Appointment Bookings and Also Accepting
-              Payments Through Square in The Very Near Future!
+              We Are Very Excited to Announce That we are Making All Appointment Bookings on this site and payments Through Square!
             </p>
             <div className="py-3 grid xs:grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-4">
               {ServiceConfig.map(({ icon, title, description }) => (
@@ -386,7 +384,7 @@ const Home: NextPage = () => {
   
 </div>
  </footer>
-        </body>
+
     
   );
 };
