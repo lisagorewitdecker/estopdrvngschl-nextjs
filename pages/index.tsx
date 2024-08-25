@@ -208,7 +208,12 @@ const Home: NextPage = () => {
          >
           <div className="container mx-auto py-2">
             <h2 className="text-2xl text-center py-2 font-bold text-white">
-              <a id="schedule" rel="noopener noreferrer"> SCHEDULE AN APPOINTMENT TODAY! </a>
+              <a id="schedule" 
+                rel="noopener"
+                noreferrer"
+              > 
+              SCHEDULE AN APPOINTMENT TODAY! 
+            </a>
             </h2> 
              <p className="text-center text-white mx-2">
             TO SCHEDULE YOUR DRIVING TRAINING SESSIONS <a href="tel:415-897-7002" rel="noopener noreferrer">CALL ME</a> OR <a href="tel:415-897-7002" rel="noopener noreferrer">TEXT ME</a> TODAY!
@@ -338,7 +343,7 @@ const Home: NextPage = () => {
           </button>
           </form>
         </div>
-            </div>
+          </div>
         </main>
       <footer className="bg-gray-900 text-gray-400 py-4 text-sm">
          <div className="locations">
@@ -385,6 +390,7 @@ const Home: NextPage = () => {
   
 </div>
  </footer>
+              </div>
 
     
   );
