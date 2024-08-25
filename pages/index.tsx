@@ -91,9 +91,8 @@ const Home: NextPage = () => {
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff"></meta>
-      </Head>
-      <body>
-    </div>
+        </Head>
+      </div>
       <main className="main">
         <div id="home" className="flex items-center justify-center py-4">
           <Image
@@ -386,7 +385,7 @@ const Home: NextPage = () => {
   
 </div>
  </footer>
-        </body>
+
     
   );
 };
