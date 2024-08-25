@@ -62,8 +62,8 @@ const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>eStop Driving School, The Best Driving School of Novato in Marin County to Sonoma County, CA | Teaching Expert Driving in North Bay, South Bay — San Francisco | Instructor Has Over Four Decades of Experience</title>
-        <meta name="description" content="Award Winning | Teaching Driving Teenagers, Adults, & Seniors How to Drive Marin County & Since 1983" />
+        <meta name og:title="eStop Driving School, The Best Driving School of Novato in Marin County to Sonoma County, CA | Teaching Expert Driving in North Bay, South Bay — San Francisco | Instructor Has Over Four Decades of Experience" />
+        <meta name="og:description" content="Award Winning | Teaching Driving Teenagers, Adults, & Seniors How to Drive Marin County & Since 1983" />
           <meta name="googletagmanager" content="https://www.googletagmanager.com/gtag/js?id=GTM-52S8PDBJ"/>
         <script async
           src="https://www.googleanalytics.com/gtag/js?id=GTM-52S8PDBJ">
@@ -207,12 +207,12 @@ const Home: NextPage = () => {
              backgroundPosition: "center",
            }}
          >
-          <div id="schedule" className="container mx-auto py-2">
+          <div className="container mx-auto py-2"> <a href="schedule" rel="noopener noreferrer">
             <h2 className="text-2xl text-center py-2 font-bold text-white">
               SCHEDULE AN APPOINTMENT TODAY!
-            </h2> 
+            </h2> </a>
              <p className="text-center text-white mx-2">
-            TO SCHEDULE YOUR DRIVING TRAINING SESSIONS <a href="tel:415-897-7002" rel="noopener noreferrer">CALL ME</a> OR <a href="tel:415-897-7002" rel="noopener noreferrer">TEXT ME</a> TODAY!
+            TO SCHEDULE YOUR DRIVING TRAINING SESSIONS <
             </p> 
           </div>
         </div>
@@ -230,7 +230,7 @@ const Home: NextPage = () => {
               Basic Training and Services are at an Hourly Rate of $125. If You Happen To Need Additional Services, 
               Please Do Not Hesitate To Call Or Text Me At 415-897-7002 For More Details.
                  <p> &nbsp;  </p>
-              <b>** Lastly, We No Longer Accept Cash and or Checks!**</b> 
+              <b>** Lastly, We No Longer Accept Cash and or Checks!**  </b> 
               However, We Do Accept Direct ApplePay Payments and Can Accept and Send Bank Transfers from Zelle Through Your Banking Apps, 
               We Are Very Excited to Announce That We Will Be Making All Appointment Bookings and Also Accepting
               Payments Through Square in The Very Near Future!
