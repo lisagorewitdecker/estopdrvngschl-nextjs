@@ -207,9 +207,9 @@ const Home: NextPage = () => {
              backgroundPosition: "center",
            }}
          >
-          <div id="schedule" className="container mx-auto py-2">
+          <div className="container mx-auto py-2">
             <h2 className="text-2xl text-center py-2 font-bold text-white">
-              SCHEDULE AN APPOINTMENT TODAY!
+              <a id="schedule" rel="noopener noreferrer"> SCHEDULE AN APPOINTMENT TODAY! </a>
             </h2> 
              <p className="text-center text-white mx-2">
             TO SCHEDULE YOUR DRIVING TRAINING SESSIONS <a href="tel:415-897-7002" rel="noopener noreferrer">CALL ME</a> OR <a href="tel:415-897-7002" rel="noopener noreferrer">TEXT ME</a> TODAY!
