@@ -68,7 +68,6 @@ const Home: NextPage = () => {
         <script async
          script-src="https://www.googleanalytics.com/gtag/js?id=GTM-52S8PDBJ">
         </script>
-             
         <link rel="icon" href="/favicon.ico" />
         <link
           rel="apple-touch-icon"
@@ -110,7 +109,7 @@ const Home: NextPage = () => {
                   href={`#${link}`}
                   onClick={() => onScrollToView(link)}
                 >
-                  {name}
+                {name}
                 </a>
               </li>
             ))}
