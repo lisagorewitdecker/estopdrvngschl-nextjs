@@ -208,8 +208,10 @@ const Home: NextPage = () => {
          >
           <div className="container mx-auto py-2">
             <h2 className="text-2xl text-center py-2 font-bold text-white">
-             <a href="schedule" rel="noopener noreferrer"
-               > SCHEDULE AN APPOINTMENT TODAY! 
+             <a href=`#schedule`
+                rel="noopener noreferrer"
+               > 
+              SCHEDULE AN APPOINTMENT TODAY! 
              </a>
             </h2> 
              <p className="text-center text-white mx-2">
