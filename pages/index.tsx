@@ -64,9 +64,9 @@ const Home: NextPage = () => {
       <Head>
         <title>eStop Driving School, The Best Driving School of Novato in Marin County to Sonoma County, CA | Teaching Expert Driving in North Bay, South Bay — San Francisco | Instructor Has Over Four Decades of Experience</title>
         <meta name="description" content="Award Winning | Teaching Driving Teenagers, Adults, & Seniors How to Drive Marin County & Since 1983" />
-          <meta name="googletagmanager" content="https://www.googletagmanager.com/gtag/js?id=GTM-52S8PDBJ"/>
+          <meta name="googletagmanager" content="https://www.googletagmanager.com/gtag/js?id=G-QG0BYSYEY2"/>
         <script async
-          src="https://www.googleanalytics.com/gtag/js?id=GTM-52S8PDBJ">
+          src="https://www.googleanalytics.com/gtag/js?id=G-QG0BYSYEY2">
        </script>
              
         <link rel="icon" href="/favicon.ico" />
@@ -92,7 +92,6 @@ const Home: NextPage = () => {
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff"></meta>
       </Head>
-    </div>
       <main className="main">
         <div id="home" className="flex items-center justify-center py-4">
           <Image
@@ -148,7 +147,7 @@ const Home: NextPage = () => {
             <div className="flex items-center justify-center">
               <div className="container">
                 <h3 className="text-center">
-                  <b>TESHOME (TONY/TK) IS GRATEFUL FOR 25,010 DAYS ALIVE & EVERY BREATH I TAKE EVERYDAY!</b></h3>
+                  <b>TESHOME (TONY/TK) IS GRATEFUL FOR 24,995 DAYS ALIVE & EVERY BREATH I TAKE EVERYDAY!</b></h3>
               </div>
                
               <div
@@ -206,7 +205,7 @@ const Home: NextPage = () => {
              backgroundPosition: "center",
            }}
          >
-          <div id="schedule" className="container mx-auto py-2">
+          <div className="container mx-auto py-2">
             <h2 className="text-2xl text-center py-2 font-bold text-white">
               SCHEDULE AN APPOINTMENT TODAY!
             </h2> 
@@ -226,12 +225,13 @@ const Home: NextPage = () => {
               <h3 className="text-xl text-center font-bold"> I Will Pick You Up Anywhere in Marin County Or Sonoma County, East Bay, and San Francisco. I will even drive to meet you anywhere in the Bay Area.</h3> 
               <h3 className="text-xl text-center font-bold"> No Need to Worry, You Will Safely Be Returned to The Location You Were Picked Up At!</h3>
               <p> &nbsp; </p>
-              Basic Training and Services are at an Hourly Rate of $125. If You Happen To Need Additional Services, 
+              Basic Training and Services are at an Hourly Rate of $115. If You Happen To Need Additional Services, 
               Please Do Not Hesitate To Call Or Text Me At 415-897-7002 For More Details.
                  <p> &nbsp;  </p>
-              <b> ** Lastly, only n case of emergencies CASH or CHECKS are accepted!** </b> 
+              <b>** Lastly, We No Longer Accept Cash and or Checks!**</b> 
               However, We Do Accept Direct ApplePay Payments and Can Accept and Send Bank Transfers from Zelle Through Your Banking Apps, 
-              We Are Very Excited to Announce That we are Making All Appointment Bookings on this site and payments Through Square!
+              We Are Very Excited to Announce That We Will Be Making All Appointment Bookings and Also Accepting
+              Payments Through Square in The Very Near Future!
             </p>
             <div className="py-3 grid xs:grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-4">
               {ServiceConfig.map(({ icon, title, description }) => (
@@ -381,11 +381,10 @@ const Home: NextPage = () => {
           SITE WEB DEV LISA GOREWIT-DECKER
           </a>
        
-  
-</div>
- </footer>
+        </div>
 
-    
+ </footer>
+    </div>
   );
 };
 export default Home;
