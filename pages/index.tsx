@@ -154,6 +154,7 @@ const Home: NextPage = () => {
                 className="container">
               <a 
                 href="https://qualitybusinessawards.com/2024/the-best-driving-school-in-novato/nile-driving-school?_uax=NjIxMjM6OTUyNDE3MDI6ODc2NDI6NDYwNzQ2OjI1NzUyMTk1MDM6NTYxMzY1MjE"
+                target="_blank"
                 rel="noopener noreferrer"
                 >
               <Image
@@ -207,10 +208,10 @@ const Home: NextPage = () => {
          >
           <div className="container mx-auto py-2">
             <h2 className="text-2xl text-center py-2 font-bold text-white">
-              <a href="#scheduled" rel="noopener noreferrer"> SCHEDULE AN APPOINTMENT TODAY! </a>
+              <a href="#schedule" rel="noopener noreferrer"> SCHEDULE AN APPOINTMENT TODAY! </a>
             </h2> 
              <p className="text-center text-white mx-2">
-            TO SCHEDULE YOUR DRIVING TRAINING SESSIONS OR <a href="tel:415-897-7002" rel="noopener noreferrer">TEXT ME</a> TODAY!
+            TO SCHEDULE YOUR DRIVING TRAINING SESSIONS <a href="tel:415-897-7002>CALL</a> OR <a href="tel:415-897-7002" rel="noopener noreferrer">TEXT ME</a> TODAY!
             </p> 
           </div>
         </div>
