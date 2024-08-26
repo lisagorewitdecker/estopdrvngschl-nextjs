@@ -239,12 +239,13 @@ const Home: NextPage = () => {
               Tony or Teshome's contact information. We Are Very Excited to Announce That Can Make All Appointment Bookings Below on Our Website and Accept
               Payments Through Square in person.
             </p>
-            <div className="py-3 grid xs:grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div 
+              className="py-3 grid xs:grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-4">
               {ServiceConfig.map(({ icon, title, description }) => (
-                <div
-                  key={title}
-                  className="p-3 flex flex-col text-center items-center"
-                  style={{ fontSize: 12 }}
+            <div
+              key={title}
+              className="p-3 flex flex-col text-center items-center"
+              style={{ fontSize: 12 }}
                 >
                   <FontAwesomeIcon
                     // @ts-ignore
@@ -280,17 +281,13 @@ const Home: NextPage = () => {
                 <p className="mb-2 font-bold">Tony (Teshome Kebere)</p>
                 <p><b>ADDRESS:</b> <a href="https://maps.app.goo.gl/iuwCYbJZx8y8CMtr7" rel="noopener noreferrer">Suite N, 7075 Redwood Blvd, Novato, CA 94945</a></p>
                 <p><b>CALL/TEXT:</b> <a href="tel:415-897-7002" rel="noopener noreferrer">415-897-7002</a></p>
-                <p> Licensed Instructor No. 2055001, 
-                  Please Call Me Or Text Me In Advance At 415-897-7002 To Scheduled A Personal Appointment.
-                </p>  
+                <p> Licensed Instructor No. 2055001, Please Call Me Or Text Me In Advance At 415-897-7002 To Scheduled A Personal Appointment.</p>  
               </div>
             </div>
           </div>
         </div>
-       <div
-          className="fixed bottom-2 right-2"
-          onClick={() => onScrollToView("home")}
-        >
+       <div className="fixed bottom-2 right-2"
+          onClick={() => onScrollToView("home")}>
           <FontAwesomeIcon
             icon="arrow-up"
             className="text-red-500"
@@ -298,30 +295,30 @@ const Home: NextPage = () => {
           />
         </div>
        <div
-            className="flex  */}
-            py-20 
-            bg-gray-200">
-          <div id="schedule"
-            className="container
-            mx-auto py-2">
-             <h2 className="text-2xl text-center py-3 font-bold">
-               SCHEDULE AN APPOINTMENT
-             </h2>
-              <iframe
-                src="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2X5prOOhhr9YY9lm18M6ccMEaEvW6SXqUkLSGyd5ZPeWZ_azMZEpImoszopFVTB4UXsnNkDOfy"
-                className="iframe" 
-                title="The Best Driving School - eStop Driving School in Marin County and Sonoma County"
-              />
-          <p> &nbsp; </p>
-            <h2 className="text-2xl text-center py-3 font-bold">
-              SUBSCRIBE TO RECEIVE OUR EMAIL NEWSLETTER
-            </h2>
+         className="flex  */}
+          py-20 
+          bg-gray-200">
+        <div id="schedule"
+          className="container
+          mx-auto py-2">
+        <h2 className="text-2xl text-center py-3 font-bold">
+          SCHEDULE AN APPOINTMENT
+        </h2>
+        <iframe
+          src="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2X5prOOhhr9YY9lm18M6ccMEaEvW6SXqUkLSGyd5ZPeWZ_azMZEpImoszopFVTB4UXsnNkDOfy"
+          className="iframe"
+          title="The Best Driving School - eStop Driving School in Marin County and Sonoma County"
+        />
+        <p> &nbsp; </p>
+        <h2 className="text-2xl text-center py-3 font-bold">
+        SUBSCRIBE TO RECEIVE OUR EMAIL NEWSLETTER
+        </h2>
         <form 
           action="https://squareup.com/outreach/bfsXvM/subscribe" 
           method="POST"
           className="p-3 flex flex-col text-center items-center"
           >
-          <input 
+          <input
             type="email" 
             name="email_address" 
             placeholder="Your Email Address" 
@@ -334,14 +331,14 @@ const Home: NextPage = () => {
             className="imput-square"
           />
           <button 
-            type="submit" 
+            type="submit"
             className="square-button"
             >
             Join Now
           </button>
-          </form>
+        </form>
         </div>
-            </div>
+        </div>
         </main>
       <footer className="bg-gray-900 text-gray-400 py-4 text-sm">
          <div className="locations">
@@ -386,8 +383,6 @@ const Home: NextPage = () => {
           </a>
         </div>
  </footer>
-    </div>
-
   );
 };
 export default Home;
