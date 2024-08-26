@@ -147,7 +147,7 @@ const Home: NextPage = () => {
             <div className="flex items-center justify-center">
               <div className="container">
                 <h3 className="text-center">
-                  <b>TESHOME (TONY/TK) IS GRATEFUL FOR 24,995 DAYS ALIVE & EVERY BREATH I TAKE EVERYDAY!</b></h3>
+                  <b>TESHOME (TONY/TK) IS GRATEFUL FOR 25,005 DAYS ALIVE & EVERY BREATH I TAKE EVERYDAY!</b></h3>
               </div>
                
               <div
@@ -172,7 +172,7 @@ const Home: NextPage = () => {
                 (previously known as Nile Driving School). I have been teaching behind-the-wheel driving since 1983.
               </p>
               <p className="mb-2"> I have trained more than 33,000 teenagers and over 5,000 adults and seniors during my almost four-decade career (of course, they are of legal driving age and status). 
-                Basic training and services are at a flat hourly rate of $115. If you need any additional services, please do not hesitate to contact me for more details.
+                Basic training and services are at a flat hourly rate of $125. If you need any additional services, please do not hesitate to contact me for more details.
               </p>
               <p className="mb-2">
                  Since 1983, I Have 41 Years of Experience Training and Teaching Adults,
@@ -207,10 +207,10 @@ const Home: NextPage = () => {
          >
           <div className="container mx-auto py-2">
             <h2 className="text-2xl text-center py-2 font-bold text-white">
-              SCHEDULE AN APPOINTMENT TODAY!
+              <a href="#scheduled" rel="noopener noreferrer"> SCHEDULE AN APPOINTMENT TODAY! </a>
             </h2> 
              <p className="text-center text-white mx-2">
-            TO SCHEDULE YOUR DRIVING TRAINING SESSIONS <a href="tel:415-897-7002" rel="noopener noreferrer">CALL ME</a> OR <a href="tel:415-897-7002" rel="noopener noreferrer">TEXT ME</a> TODAY!
+            TO SCHEDULE YOUR DRIVING TRAINING SESSIONS OR <a href="tel:415-897-7002" rel="noopener noreferrer">TEXT ME</a> TODAY!
             </p> 
           </div>
         </div>
@@ -308,7 +308,6 @@ const Home: NextPage = () => {
                 title="The Best Driving School - eStop Driving School in Marin County and Sonoma County"
               />
           <p> &nbsp; </p>
-            
             <h2 className="text-2xl text-center py-3 font-bold">
               SUBSCRIBE TO RECEIVE OUR EMAIL NEWSLETTER
             </h2>
@@ -380,9 +379,7 @@ const Home: NextPage = () => {
           >
           SITE WEB DEV LISA GOREWIT-DECKER
           </a>
-       
         </div>
-
  </footer>
     </div>
   );
