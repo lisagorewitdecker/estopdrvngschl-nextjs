@@ -68,7 +68,6 @@ const Home: NextPage = () => {
         <script async
           src="https://www.googleanalytics.com/gtag/js?id=G-QG0BYSYEY2">
        </script>
-             
         <link rel="icon" href="/favicon.ico" />
         <link
           rel="apple-touch-icon"
@@ -92,7 +91,6 @@ const Home: NextPage = () => {
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff"></meta>
       </Head>
-      <body>
       <main className="main">
         <div id="home" className="flex items-center justify-center py-4">
           <Image
@@ -149,8 +147,7 @@ const Home: NextPage = () => {
               <div className="container">
                 <h3 className="text-center">
                   <b>TESHOME (TONY/TK) IS GRATEFUL FOR 25,005 DAYS ALIVE & EVERY BREATH I TAKE EVERYDAY!</b></h3>
-              </div>
-               
+              </div>  
               <div
                 className="container">
               <a 
@@ -211,12 +208,16 @@ const Home: NextPage = () => {
             <h2 className="text-2xl text-center py-2 font-bold text-white">
               <a href="#schedule" 
                 rel="noopener noreferrer"
-                > SCHEDULE AN APPOINTMENT TODAY!</a>
+                > 
+                SCHEDULE AN APPOINTMENT TODAY!
+              </a>
             </h2> 
              <p className="text-center text-white mx-2">
-            TO SCHEDULE YOUR DRIVING TRAINING SESSIONS <a href="tel:415-897-7002" 
-                                                         rel="noopener noreferrer">C
-              ALL</a> OR <a href="tel:415-897-7002" rel="noopener noreferrer">TEXT ME</a> TODAY!</p> 
+            TO SCHEDULE YOUR DRIVING TRAINING SESSIONS 
+               <a href="tel:415-897-7002" 
+                  rel="noopener noreferrer">CALL</a> 
+                  OR
+               <a href="tel:415-897-7002" rel="noopener noreferrer">TEXT ME</a> TODAY!</p> 
           </div>
         </div>
         <div id="training_and_services" className="bg-gray-100">
@@ -386,8 +387,7 @@ const Home: NextPage = () => {
         </div>
  </footer>
     </div>
-      </body>
-    </div>
+
   );
 };
 export default Home;
