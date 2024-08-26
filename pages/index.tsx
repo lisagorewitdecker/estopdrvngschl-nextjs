@@ -211,7 +211,7 @@ const Home: NextPage = () => {
               <a href="#schedule" rel="noopener noreferrer"> SCHEDULE AN APPOINTMENT TODAY! </a>
             </h2> 
              <p className="text-center text-white mx-2">
-            TO SCHEDULE YOUR DRIVING TRAINING SESSIONS <a href="tel:415-897-7002>CALL</a> OR <a href="tel:415-897-7002" rel="noopener noreferrer">TEXT ME</a> TODAY!
+            TO SCHEDULE YOUR DRIVING TRAINING SESSIONS <a href="tel:415-897-7002" rel="noopener noreferrer">CALL</a> OR <a href="tel:415-897-7002" rel="noopener noreferrer">TEXT ME</a> TODAY!
             </p> 
           </div>
         </div>
@@ -229,10 +229,10 @@ const Home: NextPage = () => {
               Basic Training and Services are at an Hourly Rate of $115. If You Happen To Need Additional Services, 
               Please Do Not Hesitate To Call Or Text Me At 415-897-7002 For More Details.
                  <p> &nbsp;  </p>
-              <b>** Lastly, We No Longer Accept Cash and or Checks!**</b> 
-              However, We Do Accept Direct ApplePay Payments and Can Accept and Send Bank Transfers from Zelle Through Your Banking Apps, 
-              We Are Very Excited to Announce That We Will Be Making All Appointment Bookings and Also Accepting
-              Payments Through Square in The Very Near Future!
+              <b>** LASTLY, WE NO LONGER ACCEPT CASH OR CHECKS! **</b> 
+              However, We Do Accept Direct ApplePay Payments and Accept and Send Bank Transfers from Zelle Through Your Banking Application just using, 
+              Tony or Teshome's contact information. We Are Very Excited to Announce That Can Make All Appointment Bookings Below on Our Website and Accept
+              Payments Through Square in person.
             </p>
             <div className="py-3 grid xs:grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-4">
               {ServiceConfig.map(({ icon, title, description }) => (
