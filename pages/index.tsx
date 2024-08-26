@@ -92,6 +92,7 @@ const Home: NextPage = () => {
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff"></meta>
       </Head>
+      <body>
       <main className="main">
         <div id="home" className="flex items-center justify-center py-4">
           <Image
@@ -208,11 +209,14 @@ const Home: NextPage = () => {
          >
           <div className="container mx-auto py-2">
             <h2 className="text-2xl text-center py-2 font-bold text-white">
-              <a href="#schedule" rel="noopener noreferrer"> SCHEDULE AN APPOINTMENT TODAY! </a>
+              <a href="#schedule" 
+                rel="noopener noreferrer"
+                > SCHEDULE AN APPOINTMENT TODAY!</a>
             </h2> 
              <p className="text-center text-white mx-2">
-            TO SCHEDULE YOUR DRIVING TRAINING SESSIONS <a href="tel:415-897-7002" rel="noopener noreferrer">CALL</a> OR <a href="tel:415-897-7002" rel="noopener noreferrer">TEXT ME</a> TODAY!
-            </p> 
+            TO SCHEDULE YOUR DRIVING TRAINING SESSIONS <a href="tel:415-897-7002" 
+                                                         rel="noopener noreferrer">C
+              ALL</a> OR <a href="tel:415-897-7002" rel="noopener noreferrer">TEXT ME</a> TODAY!</p> 
           </div>
         </div>
         <div id="training_and_services" className="bg-gray-100">
@@ -226,7 +230,7 @@ const Home: NextPage = () => {
               <h3 className="text-xl text-center font-bold"> I Will Pick You Up Anywhere in Marin County Or Sonoma County, East Bay, and San Francisco. I will even drive to meet you anywhere in the Bay Area.</h3> 
               <h3 className="text-xl text-center font-bold"> No Need to Worry, You Will Safely Be Returned to The Location You Were Picked Up At!</h3>
               <p> &nbsp; </p>
-              Basic Training and Services are at an Hourly Rate of $115. If You Happen To Need Additional Services, 
+              Basic Training and Services are at an Hourly Rate of $125. If You Happen To Need Additional Services, 
               Please Do Not Hesitate To Call Or Text Me At 415-897-7002 For More Details.
                  <p> &nbsp;  </p>
               <b>** LASTLY, WE NO LONGER ACCEPT CASH OR CHECKS! **</b> 
@@ -257,7 +261,7 @@ const Home: NextPage = () => {
         <div id="contact" className="flex py-20 bg-gray-200">
           <div className="container mx-auto py-2">
             <h2 className="text-2xl text-center font-bold py-2">CONTACT eSTOPDRIVING SCHOOL</h2>
-            <p className="text-center  mx-2">
+            <p className="text-center mx-2">
               If You Have Any Questions, Feel Free To Call Me Anytime At <a href="tel:415-897-7002" rel="noopener noreferrer">415-897-7002</a>
             </p>
             <div className="p-8 m-auto grid sm:grid-cols-1 md:grid-cols-2">
@@ -275,7 +279,6 @@ const Home: NextPage = () => {
                 <p className="mb-2 font-bold">Tony (Teshome Kebere)</p>
                 <p><b>ADDRESS:</b> <a href="https://maps.app.goo.gl/iuwCYbJZx8y8CMtr7" rel="noopener noreferrer">Suite N, 7075 Redwood Blvd, Novato, CA 94945</a></p>
                 <p><b>CALL/TEXT:</b> <a href="tel:415-897-7002" rel="noopener noreferrer">415-897-7002</a></p>
-              
                 <p> Licensed Instructor No. 2055001, 
                   Please Call Me Or Text Me In Advance At 415-897-7002 To Scheduled A Personal Appointment.
                 </p>  
@@ -382,6 +385,8 @@ const Home: NextPage = () => {
           </a>
         </div>
  </footer>
+    </div>
+      </body>
     </div>
   );
 };
