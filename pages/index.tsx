@@ -235,7 +235,7 @@ const Home: NextPage = () => {
                  <p> &nbsp; </p>
               <b> ** Lastly, We No Longer Accept Cash or Checks!** </b> 
               However, We Do Accept Direct ApplePay Payments and Can Accept and Send Bank Transfers from Zelle Through Your Banking Applications to Ours, 
-              We Are Very Excited to Announce that We Can Book All Appointment Bookings Online and are Accepting Payments Through Square!
+              We Are Very Excited to Announce that We Can Book All Appointment Bookings Online and Accept Payments in Person Through Square!
             </p>
             <div className="py-3 grid xs:grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-4">
               {ServiceConfig.map(({ icon, title, description }) => (
