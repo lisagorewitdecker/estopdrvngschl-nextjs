@@ -64,9 +64,9 @@ const Home: NextPage = () => {
       <Head>
         <title>eStop Driving School, The Best Driving School of Novato in Marin County to Sonoma County, CA | Teaching Expert Driving in North Bay, South Bay — San Francisco | Instructor Has Over Four Decades of Experience</title>
         <meta name="description" content="Award Winning | Teaching Driving Teenagers, Adults, & Seniors How to Drive Marin County & Since 1983" />
-          <meta name="googletagmanager" content="https://www.googletagmanager.com/gtag/js?id=G-QG0BYSYEY2"/>
+          <meta name="googletagmanager" content="https://www.googletagmanager.com/gtag/js?id=GTM-52S8PDBJ"/>
         <script async
-          src="https://www.googleanalytics.com/gtag/js?id=G-QG0BYSYEY2">
+          src="https://www.googleanalytics.com/gtag/js?id=GTM-52S8PDBJ">
        </script>
              
         <link rel="icon" href="/favicon.ico" />
@@ -155,6 +155,7 @@ const Home: NextPage = () => {
               <a 
                 href="https://qualitybusinessawards.com/2024/the-best-driving-school-in-novato/nile-driving-school?_uax=NjIxMjM6OTUyNDE3MDI6ODc2NDI6NDYwNzQ2OjI1NzUyMTk1MDM6NTYxMzY1MjE"
                 rel="noopener noreferrer"
+                target="_blank"
                 >
               <Image
                 src="2024-best-award.jpg"
@@ -207,10 +208,10 @@ const Home: NextPage = () => {
          >
           <div className="container mx-auto py-2">
             <h2 className="text-2xl text-center py-2 font-bold text-white">
-              <a href="#scheduled" rel="noopener noreferrer"> SCHEDULE AN APPOINTMENT TODAY! </a>
+              SCHEDULE AN APPOINTMENT TODAY!
             </h2> 
              <p className="text-center text-white mx-2">
-            TO SCHEDULE YOUR DRIVING TRAINING SESSIONS OR <a href="tel:415-897-7002" rel="noopener noreferrer">TEXT ME</a> TODAY!
+            TO SCHEDULE YOUR DRIVING TRAINING SESSIONS <a href="tel:415-897-7002" rel="noopener noreferrer">CALL ME</a> OR <a href="tel:415-897-7002" rel="noopener noreferrer">TEXT ME</a> TODAY!
             </p> 
           </div>
         </div>
@@ -225,13 +226,12 @@ const Home: NextPage = () => {
               <h3 className="text-xl text-center font-bold"> I Will Pick You Up Anywhere in Marin County Or Sonoma County, East Bay, and San Francisco. I will even drive to meet you anywhere in the Bay Area.</h3> 
               <h3 className="text-xl text-center font-bold"> No Need to Worry, You Will Safely Be Returned to The Location You Were Picked Up At!</h3>
               <p> &nbsp; </p>
-              Basic Training and Services are at an Hourly Rate of $115. If You Happen To Need Additional Services, 
-              Please Do Not Hesitate To Call Or Text Me At 415-897-7002 For More Details.
-                 <p> &nbsp;  </p>
-              <b>** Lastly, We No Longer Accept Cash and or Checks!**</b> 
-              However, We Do Accept Direct ApplePay Payments and Can Accept and Send Bank Transfers from Zelle Through Your Banking Apps, 
-              We Are Very Excited to Announce That We Will Be Making All Appointment Bookings and Also Accepting
-              Payments Through Square in The Very Near Future!
+              Basic Training and Services are at an Hourly Rate of $125. If You Happen To Need Additional Services, 
+              Please Do Not Hesitate To Call Or Text Tony At 415-897-7002 For More Details.
+                 <p> &nbsp; </p>
+              <b> ** Lastly, We No Longer Accept Cash or Checks!** </b> 
+              However, We Do Accept Direct ApplePay Payments and Can Accept and Send Bank Transfers from Zelle Through Your Banking Applications to Ours, 
+              We Are Very Excited to Announce that We Can Book All Appointment Bookings Online and are Accepting Payments Through Square!
             </p>
             <div className="py-3 grid xs:grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-4">
               {ServiceConfig.map(({ icon, title, description }) => (
@@ -308,6 +308,7 @@ const Home: NextPage = () => {
                 title="The Best Driving School - eStop Driving School in Marin County and Sonoma County"
               />
           <p> &nbsp; </p>
+            
             <h2 className="text-2xl text-center py-3 font-bold">
               SUBSCRIBE TO RECEIVE OUR EMAIL NEWSLETTER
             </h2>
@@ -336,7 +337,7 @@ const Home: NextPage = () => {
           </button>
           </form>
         </div>
-            </div>
+        </div>
         </main>
       <footer className="bg-gray-900 text-gray-400 py-4 text-sm">
          <div className="locations">
@@ -380,6 +381,7 @@ const Home: NextPage = () => {
           SITE WEB DEV LISA GOREWIT-DECKER
           </a>
         </div>
+
  </footer>
     </div>
   );
