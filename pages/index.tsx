@@ -320,39 +320,34 @@ const Home: NextPage = () => {
           </div>
 
         </main>
-      <footer className="flex py-10 bg-gray-100 text-black-000 py-4 text-sm">
+      <footer className="flex py-10 bg-gray-100 text-black py-4 text-sm">
         <div className="container m-auto text-center">
           Copyright @2024{" "} | 
           <a
-            className="text-gray-400"
             href="http://estopdrivingschool.com/"
             title="eStopDrivingSchool"
           >
             eSTOPDRIVINGSCHOOL | 
           </a>{" "}
           <a
-            className="text-gray-400"
             href="tel:415-897-7002"
             title="eStopDrivingSchool Phone Number">
             CALL/TEXT: 415-897-7002 | 
           </a>
           <a
             href="https://www.facebook.com/estopdrivingschool/"
-            className="text-gray-400"
             title="Facebook eStopDrivingSchool"
           >
           FACEBOOK | 
           </a>
             <a
             href="https://www.youtube.com/@teshomekebere4491"
-            className="text-gray-400"
             title="YouTube eStopDrivingSchool"
           >
           YOUTUBE | 
           </a>
            <a
             href="https://lisagorewitdecker.com"
-            className="text-gray-400"
             title="Best Full-Stack Developer Free eStopDrivingSchool"
           >
           SITE WEB DEV LISA GOREWIT-DECKER
