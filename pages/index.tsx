@@ -146,7 +146,7 @@ const Home: NextPage = () => {
             <div className="flex items-center justify-center">
               <div className="container">
                 <h3 className="text-center">
-                  <b>TESHOME (TONY/TK) IS GRATEFUL FOR ALL OF THE DAYS HE IS ALIVE & FOR EVERY BREATH HE TAKEs EVERYDAY!</b></h3>
+                  <b>TESHOME (TONY/TK) IS GRATEFUL FOR ALL OF THE DAYS HE IS ALIVE & FOR EVERY BREATH HE TAKES EVERYDAY!</b></h3>
               </div>
                
               <div
@@ -312,7 +312,7 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
-          <div className="locations flex bg-gray-200">
+          <div className="locations flex bg-gray-100">
           <div className="container mx-auto py-2">
          <h2>eStop Driving School Provides Dring Lessons to The Following Locations: Novato, CA; Tiburon, CA; Petaluma, CA; San Rafael, CA; Corte Madera, CA; Sausalito, CA; Sebastopol, CA; Mill Valley, CA; San Anselmo, CA; Greenbrae CA; Kentfield, CA. If You Do Not See Your Location Listed Here; 
            Please Do Not Hesitate to Contact Teshome (Tony or TK) Via Text or Phone.</h2> 
@@ -320,7 +320,7 @@ const Home: NextPage = () => {
           </div>
 
         </main>
-      <footer className="flex py-10 bg-gray-200 text-gray-900 py-4 text-sm">
+      <footer className="flex py-10 bg-gray-100 text-black-000 py-4 text-sm">
         <div className="container m-auto text-center">
           Copyright @2024{" "} | 
           <a
