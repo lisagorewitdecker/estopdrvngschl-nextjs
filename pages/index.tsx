@@ -323,9 +323,9 @@ const Home: NextPage = () => {
       </div>
          </div>
 ,          </div>
-      </Main>
+      
            </div>
-  
+  </Main>
       <Footer className="bg-gray-900 text-gray-400 py-4 text-sm">
     </div>
         <div className="container m-auto text-center">
