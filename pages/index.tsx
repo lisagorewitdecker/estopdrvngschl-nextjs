@@ -320,11 +320,12 @@ const Home: NextPage = () => {
          <h1>eStop Driving School Provides Dring Lessons to The Following Locations: Novato, CA; Tiburon, CA; Petaluma, CA; San Rafael, CA; Corte Madera, CA; Sausalito, CA; Sebastopol, CA; Mill Valley, CA; San Anselmo, CA; Greenbrae CA; Kentfield, CA. If You Do Not See Your Location Listed Here; 
            Please Do Not Hesitate to Contact Teshome (Tony or TK) Via Text or Phone.</h1> 
       </div>
-           </main>
+      </div>
          </div>
 ,          </div>
+      </Main>
            </div>
-    
+  
       <Footer className="bg-gray-900 text-gray-400 py-4 text-sm">
     </div>
         <div className="container m-auto text-center">
