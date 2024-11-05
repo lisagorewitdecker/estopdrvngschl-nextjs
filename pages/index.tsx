@@ -273,15 +273,6 @@ const Home: NextPage = () => {
                   />
                 </a>
               </div>
-              <div>
-                <p className="mb-2 font-bold">Tony (Teshome Kebere)</p>
-                <p><b>ADDRESS:</b> <a href="https://maps.app.goo.gl/iuwCYbJZx8y8CMtr7" rel="noopener noreferrer">Suite N, 7075 Redwood Blvd, Novato, CA 94945</a></p>
-                <p><b>CALL/TEXT:</b> <a href="tel:415-897-7002" rel="noopener noreferrer">415-897-7002</a></p>
-              
-                <p> Licensed Instructor No. 2055001, 
-                  Please Call Me Or Text Me In Advance At 415-897-7002 To Scheduled A Personal Appointment.
-                </p>  
-              </div>
             </div>
           </div>
         </div>
@@ -313,6 +304,15 @@ const Home: NextPage = () => {
 
         </div>
         </div>
+         <div>
+                <p className="mb-2 font-bold">Tony (Teshome Kebere)</p>
+                <p><b>ADDRESS:</b> <a href="https://maps.app.goo.gl/iuwCYbJZx8y8CMtr7" rel="noopener noreferrer">Suite N, 7075 Redwood Blvd, Novato, CA 94945</a></p>
+                <p><b>CALL/TEXT:</b> <a href="tel:415-897-7002" rel="noopener noreferrer">415-897-7002</a></p>
+              
+                <p> Licensed Instructor No. 2055001, 
+                  Please Call Me Or Text Me In Advance At 415-897-7002 To Scheduled A Personal Appointment.
+                </p>  
+              </div>
         </main>
       <footer className="bg-gray-900 text-gray-400 py-4 text-sm">
          <div className="locations">
