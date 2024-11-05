@@ -268,8 +268,7 @@ const Home: NextPage = () => {
         </div>
        <div
          className="flex  */}
-          py-5 
-          bg-gray-200">
+          "py-5 bg-gray-200">
           <div id="schedule"
             className="container"
             "mx-auto py-2">
@@ -314,13 +313,11 @@ const Home: NextPage = () => {
         </div>
          <div
             className="flex  */}
-            py-5 
+            "py-5 
             bg-gray-200">
-          <div 
-            className="container" 
-           "mx-auto py-2">
-        <div 
-        className="locations">
+          <div className="container"
+              mx-auto py-2>
+        <div className="locations">
          <h2>eStop Driving School Provides Dring Lessons to The Following Locations: Novato, CA; Tiburon, CA; Petaluma, CA; San Rafael, CA; Corte Madera, CA; Sausalito, CA; Sebastopol, CA; Mill Valley, CA; San Anselmo, CA; Greenbrae CA; Kentfield, CA. If You Do Not See Your Location Listed Here; 
            Please Do Not Hesitate to Contact Teshome (Tony or TK) Via Text or Phone.</h2> 
          </div>
