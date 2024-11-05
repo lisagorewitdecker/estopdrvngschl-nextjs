@@ -310,35 +310,8 @@ const Home: NextPage = () => {
                 className="iframe" 
                 title="The Best Driving School - eStop Driving School in Marin County and Sonoma County"
               />
-          <p> &nbsp; </p>
-            
-            <h2 className="text-2xl text-center py-3 font-bold">
-              SUBSCRIBE TO RECEIVE OUR EMAIL NEWSLETTER
-            </h2>
-        <form 
-          action="https://squareup.com/outreach/bfsXvM/subscribe" 
-          method="POST"
-          className="p-3 flex flex-col text-center items-center"
-          >
-          <input 
-            type="email" 
-            name="email_address" 
-            placeholder="Your Email Address" 
-            className="imput-square"
-          />
-          <input 
-            type="hidden" 
-            name="embed" 
-            value="true"
-            className="imput-square"
-          />
-          <button 
-            type="submit" 
-            className="square-button"
-            >
-            Join Now
-          </button>
-          </form>
+   
+      
         </div>
         </div>
         </main>
