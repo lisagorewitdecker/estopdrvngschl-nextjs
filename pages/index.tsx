@@ -92,8 +92,8 @@ const Home: NextPage = () => {
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff"></meta>
       </Head>
-      <Main
-        className-"Main">
+      <main
+        className-"main">
         <div id="home" className="flex items-center justify-center py-4">
           <Image
             src="/logo.png"
@@ -101,7 +101,17 @@ const Home: NextPage = () => {
             width={80}
             height={80}
           />
-        </div>
+</div>
+      </div>
+  const Home: NextPage = () => {
+  const onScrollToView = useCallback((elemId: string) => {
+    const elem = document.getElementById(elemId);
+    console.log("🚀 ~ file: index.tsx ~ line 54 ~ onScrollToView ~ elem", elem);
+    if (elem) {
+      elem.scrollIntoView({ behavior: "smooth" });
+    }
+  }, []);
+  return (
         <div className="flex items-center justify-center py-4">
           <ul>
             {NavConfig.map(({ name, link }) => (
