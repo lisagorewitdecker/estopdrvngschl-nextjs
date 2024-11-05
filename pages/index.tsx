@@ -146,7 +146,7 @@ const Home: NextPage = () => {
             <div className="flex items-center justify-center">
               <div className="container">
                 <h3 className="text-center">
-                  <b>TESHOME (TONY/TK) IS GRATEFUL FOR ALL OF THE DAYS HE IS ALIVE & FOR EVERY BREATH HE TAKEs EVERYDAY!</b></h3>
+                  <b>TESHOME (TONY/TK) IS GRATEFUL FOR ALL OF THE DAYS HE IS ALIVE & FOR EVERY BREATH HE TAKES EVERYDAY!</b></h3>
               </div>
                
               <div
