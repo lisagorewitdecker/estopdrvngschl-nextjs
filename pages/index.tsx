@@ -325,7 +325,7 @@ const Home: NextPage = () => {
 ,          </div>
            </div>
     
-      <footer className="bg-gray-900 text-gray-400 py-4 text-sm">
+      <Footer className="bg-gray-900 text-gray-400 py-4 text-sm">
     </div>
         <div className="container m-auto text-center">
           Copyright @2024{" "} | 
@@ -364,8 +364,7 @@ const Home: NextPage = () => {
           SITE WEB DEV LISA GOREWIT-DECKER
           </a>
         </div>
-
- </footer>
+ </Footer>
     </div>
   );
 };
