@@ -238,25 +238,27 @@ const Home: NextPage = () => {
             </p>
             <div className="py-3 grid xs:grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-4">
               {ServiceConfig.map(({ icon, title, description }) => (
-                <div
-                  key={title}
-                  className="p-3 flex flex-col text-center items-center"
-                  style={{ fontSize: 12 }}
-                >
-                  <FontAwesomeIcon
-                    // @ts-ignore
-                    icon={icon}
-                    className="text-red-500 m-4"
-                    style={{ width: 96, height: 96 }}
-                  />
-                  <h3 className="font-bold text-lg">{title}</h3>
-                  <p className="text-base">{description}</p>
-                </div>
-              ))}
-            </div>
-          </div>
+               
+       <div
+            className="flex  */}
+            py-10
+            bg-gray-200">
+          <div id="schedule"
+            className="container
+            mx-auto py-2">
+             <h2 className="text-2xl text-center py-3 font-bold">
+               SCHEDULE AN APPOINTMENT
+             </h2>
+              <iframe
+                src="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3Z9oZDqvdpfHE1dlYceoVLrvtoPG0lu_fcrwUQY6rcRQjkVu9sIkzpF_OON1V_8q149k-AoUVO?gv=true"
+                className="iframe" 
+                title="The Best Driving School - eStop Driving School in Marin County and Sonoma County"
+              />
+
         </div>
-        <div id="contact" className="flex py-20 bg-gray-200">
+        </div>
+        
+         <div id="contact" className="flex py-20 bg-gray-200">
           <div className="container mx-auto py-2">
             <h2 className="text-2xl text-center font-bold py-2">CONTACT eSTOPDRIVING SCHOOL</h2>
             <p className="text-center  mx-2">
@@ -277,14 +279,31 @@ const Home: NextPage = () => {
                 <p className="mb-2 font-bold">Tony (Teshome Kebere)</p>
                 <p><b>ADDRESS:</b> <a href="https://maps.app.goo.gl/iuwCYbJZx8y8CMtr7" rel="noopener noreferrer">Suite N, 7075 Redwood Blvd, Novato, CA 94945</a></p>
                 <p><b>CALL/TEXT:</b> <a href="tel:415-897-7002" rel="noopener noreferrer">415-897-7002</a></p>
-              
                 <p> Licensed Instructor No. 2055001, 
                   Please Call Me Or Text Me In Advance At 415-897-7002 To Scheduled A Personal Appointment.
                 </p>  
               </div>
             </div>
           </div>
+       <div
+                  key={title}
+                  className="p-3 flex flex-col text-center items-center"
+                  style={{ fontSize: 12 }}
+                >
+                  <FontAwesomeIcon
+                    // @ts-ignore
+                    icon={icon}
+                    className="text-red-500 m-4"
+                    style={{ width: 96, height: 96 }}
+                  />
+                  <h3 className="font-bold text-lg">{title}</h3>
+                  <p className="text-base">{description}</p>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
+       
        <div
           className="fixed bottom-2 right-2"
           onClick={() => onScrollToView("home")}
@@ -294,23 +313,6 @@ const Home: NextPage = () => {
             className="text-red-500"
             style={{ width: 36, height: 36 }}
           />
-        </div>
-       <div
-            className="flex  */}
-            py-20 
-            bg-gray-200">
-          <div id="schedule"
-            className="container
-            mx-auto py-2">
-             <h2 className="text-2xl text-center py-3 font-bold">
-               SCHEDULE AN APPOINTMENT
-             </h2>
-              <iframe
-                src="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3Z9oZDqvdpfHE1dlYceoVLrvtoPG0lu_fcrwUQY6rcRQjkVu9sIkzpF_OON1V_8q149k-AoUVO?gv=true"
-                className="iframe" 
-                title="The Best Driving School - eStop Driving School in Marin County and Sonoma County"
-              />
-
         </div>
         </div>
         </main>
