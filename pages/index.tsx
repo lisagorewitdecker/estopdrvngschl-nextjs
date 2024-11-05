@@ -281,10 +281,9 @@ const Home: NextPage = () => {
                 className="iframe" 
                 title="The Best Driving School - eStop Driving School in Marin County and Sonoma County"
               />
-
         </div>
         </div>
-        <div id="contact" className="flex py-10 bg-gray-200">
+        <div id="contact" className="flex bg-gray-200">
           <div className="container mx-auto py-2">
             <h2 className="text-2xl text-center font-bold py-2">CONTACT eSTOPDRIVING SCHOOL</h2>
             <p className="text-center  mx-2">
@@ -313,16 +312,15 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
-        <div className="bg-gray-900 text-gray-400 py-4 text-sm">
-         <div className="flex py-10 bg-gray-200">
+          <div className="locations flex bg-gray-200">
+          <div className="container mx-auto py-2">
          <h2>eStop Driving School Provides Dring Lessons to The Following Locations: Novato, CA; Tiburon, CA; Petaluma, CA; San Rafael, CA; Corte Madera, CA; Sausalito, CA; Sebastopol, CA; Mill Valley, CA; San Anselmo, CA; Greenbrae CA; Kentfield, CA. If You Do Not See Your Location Listed Here; 
            Please Do Not Hesitate to Contact Teshome (Tony or TK) Via Text or Phone.</h2> 
          </div>
           </div>
-   
+
         </main>
-      <footer className="bg-gray-900 text-gray-400 py-4 text-sm">
-         <div className="flex py-10 bg-gray-200">
+      <footer className="flex py-10 bg-gray-200 text-gray-900 py-4 text-sm">
         <div className="container m-auto text-center">
           Copyright @2024{" "} | 
           <a
@@ -360,7 +358,6 @@ const Home: NextPage = () => {
           SITE WEB DEV LISA GOREWIT-DECKER
           </a>
         </div>
-           </div>
         
 
  </footer>
