@@ -196,13 +196,13 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
-        <div
-             className="flex py-20"
-             style={{
-             background: "url(./driving.jpg)",
-             backgroundRepeat: "no-repeat",
-             backgroundSize: "cover",
-             backgroundPosition: "center",
+        <div 
+          className="flex py-20"
+          style={{
+          background: "url(./driving.jpg)",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
            }}
          >
           <div className="container mx-auto py-2">
@@ -266,12 +266,11 @@ const Home: NextPage = () => {
             style={{ width: 36, height: 36 }}
           />
         </div>
-       <div
-            className="flex  */}
-            py-5 
-            bg-gray-200">
+       <div 
+         className="flex  */}
+         ">
           <div id="schedule"
-            className="container
+            className="container"
             mx-auto py-2">
              <h2 className="text-2xl text-center py-3 font-bold">
                SCHEDULE AN APPOINTMENT
@@ -281,7 +280,6 @@ const Home: NextPage = () => {
                 className="iframe" 
                 title="The Best Driving School - eStop Driving School in Marin County and Sonoma County"
               />
-
         </div>
         </div>
         <div id="contact" className="flex py-10 bg-gray-200">
@@ -314,7 +312,7 @@ const Home: NextPage = () => {
           </div>
         </div>
         <div className="bg-gray-900 text-gray-400 py-4 text-sm">
-         <div className="flex py-10 bg-gray-200">
+         <div className="flex py-0">
          <h2>eStop Driving School Provides Dring Lessons to The Following Locations: Novato, CA; Tiburon, CA; Petaluma, CA; San Rafael, CA; Corte Madera, CA; Sausalito, CA; Sebastopol, CA; Mill Valley, CA; San Anselmo, CA; Greenbrae CA; Kentfield, CA. If You Do Not See Your Location Listed Here; 
            Please Do Not Hesitate to Contact Teshome (Tony or TK) Via Text or Phone.</h2> 
          </div>
@@ -322,7 +320,7 @@ const Home: NextPage = () => {
    
         </main>
       <footer className="bg-gray-900 text-gray-400 py-4 text-sm">
-         <div className="flex py-10 bg-gray-200">
+         <div className="flex py-0">
         <div className="container m-auto text-center">
           Copyright @2024{" "} | 
           <a
