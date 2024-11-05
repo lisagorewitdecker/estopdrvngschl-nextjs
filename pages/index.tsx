@@ -277,7 +277,7 @@ const Home: NextPage = () => {
                SCHEDULE AN APPOINTMENT
              </h2>
               <iframe
-                src="<iframe src="https://calendar.google.com/calendar/embed?src=tony%40estopdrivingschool.com&ctz=America%2FLos_Angeles">
+                src="https://calendar.google.com/calendar/embed?src=tony%40estopdrivingschool.com&ctz=America%2FLos_Angeles">
                 className="iframe" 
                 title="The Best Driving School - eStop Driving School in Marin County and Sonoma County"
               />
