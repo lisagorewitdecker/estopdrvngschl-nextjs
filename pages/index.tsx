@@ -256,7 +256,6 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
-        
        <div
           className="fixed bottom-2 right-2"
           onClick={() => onScrollToView("home")}
@@ -269,7 +268,7 @@ const Home: NextPage = () => {
         </div>
        <div
             className="flex  */}
-            py-20 
+            py-5 
             bg-gray-200">
           <div id="schedule"
             className="container
@@ -285,7 +284,7 @@ const Home: NextPage = () => {
 
         </div>
         </div>
-        <div id="contact" className="flex py-20 bg-gray-200">
+        <div id="contact" className="flex py-10 bg-gray-200">
           <div className="container mx-auto py-2">
             <h2 className="text-2xl text-center font-bold py-2">CONTACT eSTOPDRIVING SCHOOL</h2>
             <p className="text-center  mx-2">
@@ -314,7 +313,6 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
-        
         </main>
       <footer className="bg-gray-900 text-gray-400 py-4 text-sm">
          <div className="locations">
