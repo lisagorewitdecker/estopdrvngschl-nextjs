@@ -306,39 +306,13 @@ const Home: NextPage = () => {
                SCHEDULE AN APPOINTMENT
              </h2>
               <iframe
-                src="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2X5prOOhhr9YY9lm18M6ccMEaEvW6SXqUkLSGyd5ZPeWZ_azMZEpImoszopFVTB4UXsnNkDOfy"
+                src="https://calendar.app.google/gC6umgjxA4zQfZPr7"
                 className="iframe" 
                 title="The Best Driving School - eStop Driving School in Marin County and Sonoma County"
               />
           <p> &nbsp; </p>
             
-            <h2 className="text-2xl text-center py-3 font-bold">
-              SUBSCRIBE TO RECEIVE OUR EMAIL NEWSLETTER
-            </h2>
-        <form 
-          action="https://squareup.com/outreach/bfsXvM/subscribe" 
-          method="POST"
-          className="p-3 flex flex-col text-center items-center"
-          >
-          <input 
-            type="email" 
-            name="email_address" 
-            placeholder="Your Email Address" 
-            className="imput-square"
-          />
-          <input 
-            type="hidden" 
-            name="embed" 
-            value="true"
-            className="imput-square"
-          />
-          <button 
-            type="submit" 
-            className="square-button"
-            >
-            Join Now
-          </button>
-          </form>
+            
         </div>
         </div>
         </main>
