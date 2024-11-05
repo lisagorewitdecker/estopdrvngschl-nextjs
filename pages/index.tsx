@@ -146,7 +146,7 @@ const Home: NextPage = () => {
             <div className="flex items-center justify-center">
               <div className="container">
                 <h3 className="text-center">
-                  <b>TESHOME (TONY/TK) IS GRATEFUL FOR ALL OF THE DAYS HE IS ALIVE & FOR EVERY BREATH HE TAKEs EVERYDAY!</b></h3>
+                  <b>TESHOME (TONY/TK) IS GRATEFUL FOR ALL OF THE DAYS HE IS ALIVE & FOR EVERY BREATH HE TAKES EVERYDAY!</b></h3>
               </div>
                
               <div
@@ -266,10 +266,10 @@ const Home: NextPage = () => {
             style={{ width: 36, height: 36 }}
           />
         </div>
-       <div
-            className="flex  */}
-            py-5 
-            bg-gray-200">
+       <div 
+         className="flex */}
+          py-8 
+          bg-gray-200">
           <div id="schedule"
             className="container
             mx-auto py-2">
@@ -281,13 +281,12 @@ const Home: NextPage = () => {
                 className="iframe" 
                 title="The Best Driving School - eStop Driving School in Marin County and Sonoma County"
               />
-
         </div>
         </div>
-        <div id="contact" className="flex py-10 bg-gray-200">
+        <div id="contact" className="flex py-8 bg-gray-200">
           <div className="container mx-auto py-2">
             <h2 className="text-2xl text-center font-bold py-2">CONTACT eSTOPDRIVING SCHOOL</h2>
-            <p className="text-center  mx-2">
+            <p className="text-center mx-2">
               If You Have Any Questions, Feel Free To Call Me Anytime At <a href="tel:415-897-7002" rel="noopener noreferrer">415-897-7002</a>
             </p>
             <div className="p-8 m-auto grid sm:grid-cols-1 md:grid-cols-2">
@@ -313,12 +312,15 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
-        </main>
-      <footer className="bg-gray-900 text-gray-400 py-4 text-sm">
-         <div className="locations">
-         <h2>eStop Driving School Provides Dring Lessons to The Following Locations: Novato, CA; Tiburon, CA; Petaluma, CA; San Rafael, CA; Corte Madera, CA; Sausalito, CA; Sebastopol, CA; Mill Valley, CA; San Anselmo, CA; Greenbrae CA; Kentfield, CA. If You Do Not See Your Location Listed Here; 
+       <div className="bg-gray-900 text-gray-400 py-4 text-sm">
+        <div className="container m-auto text-center">
+         <h1 className="locations">eStop Driving School Provides Dring Lessons to The Following Locations: Novato, CA; Tiburon, CA; Petaluma, CA; San Rafael, CA; Corte Madera, CA; Sausalito, CA; Sebastopol, CA; Mill Valley, CA; San Anselmo, CA; Greenbrae CA; Kentfield, CA. If You Do Not See Your Location Listed Here; 
            Please Do Not Hesitate to Contact Teshome (Tony or TK) Via Text or Phone.</h2> 
          </div>
+        </div>
+        </div>
+         </main>
+      <footer className="bg-gray-900 text-gray-400 py-4 text-sm">
         <div className="container m-auto text-center">
           Copyright @2024{" "} | 
           <a
