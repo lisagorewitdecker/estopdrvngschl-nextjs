@@ -4,9 +4,9 @@ import React, { Component } from "react";
 import CountUp, { useCountUp } from "react-countup";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import type { NextPage } from "next";
+import Head from "next/head";
 import Main from "next/main";
 import Footer from "next/footer";
-import Head from "next/head";
 import Image from "next/image";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { useCallback } from "react";
@@ -93,7 +93,7 @@ const Home: NextPage = () => {
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff"></meta>
       </Head>
-      <main className="main">
+      <Main className="main">
         <div id="home" className="flex items-center justify-center py-4">
           <Image
             src="/logo.png"
@@ -315,14 +315,18 @@ const Home: NextPage = () => {
             </div>
           </div>
         </div>
-        </main>
+        <div className="bg-gray-900 text-gray-400 py-4 text-sm">
+         <div className="locations">
+         <h1>eStop Driving School Provides Dring Lessons to The Following Locations: Novato, CA; Tiburon, CA; Petaluma, CA; San Rafael, CA; Corte Madera, CA; Sausalito, CA; Sebastopol, CA; Mill Valley, CA; San Anselmo, CA; Greenbrae CA; Kentfield, CA. If You Do Not See Your Location Listed Here; 
+           Please Do Not Hesitate to Contact Teshome (Tony or TK) Via Text or Phone.</h1> 
       </div>
+           </main>
+         </div>
+,          </div>
+           </div>
     
       <footer className="bg-gray-900 text-gray-400 py-4 text-sm">
-         <div className="locations">
-         <h2>eStop Driving School Provides Dring Lessons to The Following Locations: Novato, CA; Tiburon, CA; Petaluma, CA; San Rafael, CA; Corte Madera, CA; Sausalito, CA; Sebastopol, CA; Mill Valley, CA; San Anselmo, CA; Greenbrae CA; Kentfield, CA. If You Do Not See Your Location Listed Here; 
-           Please Do Not Hesitate to Contact Teshome (Tony or TK) Via Text or Phone.</h2> 
-         </div>
+    </div>
         <div className="container m-auto text-center">
           Copyright @2024{" "} | 
           <a
