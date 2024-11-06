@@ -65,7 +65,7 @@ form.button-square{
    font-family: 'Overpass', sans-serif !important;
 }
 .bg-gray-900 {
- background-color: rgba(17,24,39,var(--tw-bg-opacity));
+ background-color: black;
 }
 footer.bg-gray-900.text-gray-40.py-4.text-sm,div.locations,h2{
  padding: 19px 19px !important;
