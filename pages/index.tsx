@@ -320,7 +320,7 @@ const Home: NextPage = () => {
           </div>
 
         </main>
-      <footer className="flex py-10 bg-gray-100 text-black py-4 text-sm">
+      <footer className="flex py-10 bg-gray-900 text-black py-4 text-sm">
         <div className="container m-auto text-center">
           Copyright @2024{" "} | 
           <a
