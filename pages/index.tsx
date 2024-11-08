@@ -36,19 +36,19 @@ const ServiceConfig = [
     icon: "child",
     title: "TEENAGERS",
     description: `Three 2-Hour Driving Lessons For Teenagers
-    (The One-Hour Rate is NOW $125 Hourly. Teenager Package Includes Taxes & Fees, and Six Hours of Drivers Training Behind the Wheel). This Package Has Been Priced For Those Who Pay in Advance; For Teenage Driving Lessons: NOW ONLY $690!`
+    (The One-Hour Rate Has Lowered NOW Hourly For Those That Buy Packages. THe Teenager Package Includes Taxes & Fees, Six Hours of Drivers Training Behind the Wheel). This Package Has Been Priced For Those Who Pay in Advance; For Teenage Lessons: NOW ONLY $690!`
   },
   {
     icon: "user",
     title: "ADULTS",
     description: `Three 2-Hour Driving Lessons For Adults, Ages 18 and Up.
-    (The One-Hour Rate is NOW $125 Hourly. Adult Package Includes Taxes & Fees, and Six Hours of Drivers Training Behind the Wheel). This Package Has Been Discounted For Those Who Pay in Advance; For Adult Driving Lessons: NOW ONLY $690!`
+    (The One-Hour Rate Has Lowered NOW Hourly For Those That Buy Packages. The Adult Package Includes Taxes & Fees, Six Hours of Drivers Training Behind the Wheel). This Package Has Been Discounted For Those Who Pay in Advance; For Adult Lessons: NOW ONLY $690!`
   },
   {
     icon: "universal-access",
     title: "SENIORS",
     description: `One-Hour Driving Lesson For Seniors "Behind-The-Wheel Refresher".
-    (The One-Hour Rate is NOW $125 For Seniors "Behind-The-Wheel Refresher" Package Includes Taxes & Fees, One Hour of Behind the Wheel). This Package Has Been Discounted For Those Who Pay in Advance; For a Seniors "Behind-The-Wheel Refresher": NOW ONLY 125!`
+    (The One-Hour Rate Has Lowered NOW Hourly For Those That Buy Packages. The Seniors Package Includes Taxes & Fees, One Hour of Behind the Wheel). This Package Has Been Discounted For Those Who Pay in Advance; For Seniors "Behind-The-Wheel Refresher": NOW ONLY 125!`
   },
 ];
 const Home: NextPage = () => {
@@ -229,12 +229,13 @@ const Home: NextPage = () => {
               <h3 className="text-xl text-center font-bold"> I Teshome Kebere (Tony or Tk) Will Pick You Up Anywhere in Marin County, Sonoma County, East Bay, and San Francisco. I will Even Drive to Meet You Anywhere in The Entire Bay Area.</h3> 
               <h3 className="text-xl text-center font-bold"> No Need to Worry, You Will Safely Be Returned to The Location You Were Picked Up At!</h3>
               <p> &nbsp; </p>
-              Basic Training and Services Are Charged at An Hourly Rate of $125. If You Happen To Decide to Opt Out of Purchasing a Behind the Wheel Driving Lesson Package. I Charge $125 Hourly. If You Happen To Need Any Additional Services,
-              Please Do Not Hesitate To Call Or Text Tony or TK At 415-897-7002 For More Details.
-                 <p> &nbsp; </p>
-              <b> ** WE NO LONGER ACCEPT CHECKS! ** </b> 
-              However, We Accept Direct ApplePay and Accept Bank Transfers from Zelle Through The App or Bank and Their Apps, 
-              We Are Very Excited to Announce that We Can Book All  Appointment Bookings Online and Accept Payments in Person Through Zelle and Apple Pay! Lastly, We Are Working on Adding Klarna, Afterpay and Sezzle aa Alternative Payment Options.
+              <p>Basic Training and Services Are Charged at An Hourly Rate of $125. If You Happen To Decide to Opt Out of Purchasing a Behind the Wheel Driving Lesson Package. I Charge $125 Hourly. If You Happen To Need Any Additional Services,
+              Please Do Not Hesitate To Call Or Text Tony or TK At 415-897-7002 For More Details.</p>
+                <p> &nbsp; </p>
+              <p> <b> ** WE NO LONGER ACCEPT CHECKS! ** </b> 
+              However, We Accept ApplePay and Accept Bank Transfers from Zelle Through Their Specific App or Through Your Bank and Their Applications, 
+              We Are Very Excited to Announce that We Can Book All Appointment Here on Our Website. Online and Accept Payments in Person Through Zelle and Apple Pay! 
+              Lastly, We Are Working on Adding Klarna, Afterpay and Sezzle as Alternative Payment Options.</p>
             </p>
             <div className="py-3 grid xs:grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-4">
               {ServiceConfig.map(({ icon, title, description }) => (
