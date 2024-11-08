@@ -36,19 +36,19 @@ const ServiceConfig = [
     icon: "child",
     title: "TEENAGERS",
     description: `Three 2-Hour Driving Lessons For Teenagers
-    (The one-Hour Rate is $125 an Hour and Includes All Taxes and Fees). Total Service Cost is $750.`
+    (The One-Hour Rate is NOW $115 Hourly. Teenager Package Includes Taxes & Fees, and Six Hours of Drivers Training Behind the Wheel). This Package Has Been Priced For Those Who Pay in Advance; For Teenage Driving Lessons: NOW ONLY $690!`
   },
   {
     icon: "user",
     title: "ADULTS",
     description: `Three 2-Hour Driving Lessons For Adults, Ages 18 and Up.
-    (The one-Hour Rate is $125 an Hour and Includes All Taxes and Fees). Total Service Cost is $750.`
+    (The One-Hour Rate is NOW $115 Hourly. Adult Package Includes Taxes & Fees, and Six Hours of Drivers Training Behind the Wheel). This Package Has Been Discounted For Those Who Pay in Advance; For Adult Driving Lessons: NOW ONLY $690!`
   },
   {
     icon: "universal-access",
     title: "SENIORS",
     description: `One-Hour Driving Lesson For Seniors "Behind-The-Wheel Refresher".
-    (The one-Hour Rate is $125 an Hour and Includes All Taxes and Fees). Total Service Cost is $125.`
+    (The One-Hour Rate is NOW $115 Hourly. Seniors "Behind-The-Wheel Refresher" Package Includes Taxes & Fees, One Hour of Behind the Wheel). This Package Has Been Discounted For Those Who Pay in Advance; For a Seniors "Behind-The-Wheel Refresher": NOW ONLY $115!`
   },
 ];
 const Home: NextPage = () => {
