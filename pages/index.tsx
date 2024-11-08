@@ -5,6 +5,7 @@ import CountUp, { useCountUp } from "react-countup";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import type { NextPage } from "next";
 import Head from "next/head";
+import Main from "next/main";
 import Image from "next/image";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { useCallback } from "react";
@@ -36,19 +37,19 @@ const ServiceConfig = [
     icon: "child",
     title: "TEENAGERS",
     description: `Three 2-Hour Driving Lessons For Teenagers
-    (The One-Hour Rate Has Lowered NOW Hourly For Those That Buy Packages. THe Teenager Package Includes Taxes & Fees, Six Hours of Drivers Training Behind the Wheel). This Package Has Been Priced For Those Who Pay in Advance; For Teenage Lessons: NOW ONLY $690!`
+    (The One-Hour Rate Has Lowered NOW Hourly For Those That Buy Packages. THe Teenager Package Includes Taxes & Fees, Six Hours of Drivers Training Behind the Wheel). This Package Has Been Priced For Those Who Pay in Advance; For Teenage Lessons: NOW ONLY $690!;`
   },
   {
     icon: "user",
     title: "ADULTS",
     description: `Three 2-Hour Driving Lessons For Adults, Ages 18 and Up.
-    (The One-Hour Rate Has Lowered NOW Hourly For Those That Buy Packages. The Adult Package Includes Taxes & Fees, Six Hours of Drivers Training Behind the Wheel). This Package Has Been Discounted For Those Who Pay in Advance; For Adult Lessons: NOW ONLY $690!`
+    (The One-Hour Rate Has Lowered NOW Hourly For Those That Buy Packages. The Adult Package Includes Taxes & Fees, Six Hours of Drivers Training Behind the Wheel). This Package Has Been Discounted For Those Who Pay in Advance; For Adult Lessons: NOW ONLY $690!;`
   },
   {
     icon: "universal-access",
     title: "SENIORS",
     description: `One-Hour Driving Lesson For Seniors "Behind-The-Wheel Refresher".
-    (The One-Hour Rate Has Lowered NOW Hourly For Those That Buy Packages. The Seniors Package Includes Taxes & Fees, One Hour of Behind the Wheel). This Package Has Been Discounted For Those Who Pay in Advance; For Seniors "Behind-The-Wheel Refresher": NOW ONLY 125!`
+    (The One-Hour Rate Has Lowered NOW Hourly For Those That Buy Packages. The Seniors Package Includes Taxes & Fees, One Hour of Behind the Wheel). This Package Has Been Discounted For Those Who Pay in Advance; For Seniors "Behind-The-Wheel Refresher": NOW ONLY 125!;`
   },
 ];
 const Home: NextPage = () => {
