@@ -18,7 +18,7 @@ body {
 }
 .iframe{
  min-width:100% !important;
- min-height:100% !important;
+ min-height:1000px !important;
  background-color: #FFFFFF!important;
 }
 a {
