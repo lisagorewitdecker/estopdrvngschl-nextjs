@@ -277,7 +277,7 @@ Basic Training and Services are at an Hourly Rate of $125. If You Happen To Need
                SCHEDULE AN APPOINTMENT
              </h2>
           <p className="text-center  mx-2">
-              Keep Your Browser Window Open and Go to Your Email. You Will Receive a Code From Google Via Email. You can just enter the confirmation number, and your time will be set.
+              Once you have selected an appointment time and filled out the info. Keep your browser window open a new window and go to your email. You will receive a confirmation code from Google. Enter the confirmation code and your time will be set.
             </p>            
               <iframe
                 src="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2ZCzKMpxsDgy3QIYZTfsvvJUdvRk-jvBV0w8lJruHsQC7XKkoXjSkAI2Tti5absT-wnaXc05Zy"
