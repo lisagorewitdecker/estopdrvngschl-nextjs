@@ -280,19 +280,16 @@ Basic Training and Services are at an Hourly Rate of $125. If You Happen To Need
                SCHEDULE AN APPOINTMENT
              </h2>
           <p className="text-center  mx-2">
-            <br>
-            1. Once You Have Selected an Appointment Day and Time Selected and Filled Out The Form.
-            2. Please Keep This Window Open As You Need a Code from Google to Copy and Paste Into The Text Field Awaiting the Code. 
-            3. Google Will send you a Code to Your Email Account To Lock in Your Appointment.
-            4. Copy the Confirmation Code From The Email From Google/Teshome Kebere/eStop Driving School Email. It may take a Minute or Two to Reach Your Email Account.
-            5. If Unable to Find The Email From Google For Teshome Kebere/eStop Driving School. Check All Folders For Google's Email.
-            6. Copy The Code From The Email Sent To You From Google. Now Go Back to The Browser Window Of This Website and Paste the Code Into The Empty Field. 
-            7. Once the Code Is Pasted or Manually Entered Into The Remainder of Your Appointment Form, Your Appointment is Now Set; TK, Tony, or Teshome Will Be in Touch. 
-          </p>
-            <br>
-           <div>
-          <br>
-           </div>
+           <ul>
+            <li> 1. Once You Have Selected an Appointment Day and Time Selected and Filled Out The Form.</li>
+            <li> 2. Please Keep This Window Open As You Need a Code from Google to Copy and Paste Into The Text Field Awaiting the Code.</li>
+            <li> 3. Google Will send you a Code to Your Email Account To Lock in Your Appointment.</li>
+            <li> 4. Copy the confirmation code from the Google/Teshome Kebere/eStop Driving School email. It may take a Minute or Two to Reach Your Email Account.</li>
+            <li> 5. If Unable to Find The Email From Google For Teshome Kebere/eStop Driving School. Check All Folders For Google's Email.</li>
+            <li> 6. Copy The Code From The Email Sent To You From Google. Now Go Back to The Browser Window Of This Website and Paste the Code Into The Empty Field.</li>
+            <li> 7. Once the code is pasted or Manually Entered Into The Remainder of Your Appointment Form, Your Appointment is Now Set; TK, Tony, or Teshome Will contact you.</li>
+          </ul>
+             </p>
               <iframe
                 src="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2ZCzKMpxsDgy3QIYZTfsvvJUdvRk-jvBV0w8lJruHsQC7XKkoXjSkAI2Tti5absT-wnaXc05Zy"
                 className="iframe" 
