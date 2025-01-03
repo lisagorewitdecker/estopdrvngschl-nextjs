@@ -19,15 +19,13 @@ library.add(
   faUniversalAccess,
   faCar,
   faArrowUp
-);
-
-import { Analytics } from “@vercel/analytics/react”;
+); import { Analytics } from “@vercel/analytics/react”;
 import { SpeedInsights } from "@vercel/speed-insights/next";
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Component {...pageProps} />
-      <Analytics mode={'production'} />
+      <Analytics mode = {'production'} />
       <SpeedInsights />
     </>
   );
