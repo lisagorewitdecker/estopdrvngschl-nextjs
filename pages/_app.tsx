@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React { Component } from "react";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import {
   faArrowUp,
