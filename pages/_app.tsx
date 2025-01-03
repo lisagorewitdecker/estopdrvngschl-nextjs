@@ -20,16 +20,17 @@ library.add(
   faCar,
   faArrowUp
 );
-
 import { Analytics } from “@vercel/analytics/react”;
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Head } from "next/app";
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <>
+    <div>
       <Component {...pageProps} />
       <Analytics mode={'production'} />
       <SpeedInsights />
-    </>
+    </div>
+    <Head>
   );
 }
 export default MyApp;
