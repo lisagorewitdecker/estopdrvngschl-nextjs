@@ -24,7 +24,7 @@
   "react-components": "^0.5.1",
   "react-countup": "^6.5.3",
   "react-dom": "^18.3.1",
-  "react-hook-form": "^7.51.5",
+  "react-hook-form": "^7.54.2",
   "react-imported-component": "^6.5.4",
   "webpack": "^5.94.0",
   "cross-spawn": ">=7.0.5"
