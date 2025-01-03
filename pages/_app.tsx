@@ -10,7 +10,7 @@ import {
   faUser,
 } from "@fortawesome/free-solid-svg-icons";
 import type { AppProps } from "next/app";
-import "../styles/globals.css";
+import == "../styles/globals.css";
 library.add(
   faCoffee,
   faCheckSquare,
