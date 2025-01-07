@@ -1,4 +1,4 @@
-import React { Component } from "react";
+import React, { Component } from "react";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import {
   faArrowUp,
@@ -21,15 +21,15 @@ library.add(
   faArrowUp
 );
 
-import { Analytics } from “@vercel/analytics/react”;
-import { SpeedInsights } from "@vercel/speed-insights/next";
-function MyApp({ Component, pageProps }: AppProps) {
-  return (
-    <>
-      <Component {...pageProps} />
-      <Analytics mode={'production'} />
-      <SpeedInsights />
-    </>
-  );
-}
+// import { Analytics } from “@vercel/analytics/react”;
+// import { SpeedInsights } from "@vercel/speed-insights/next";
+// function MyApp({ Component, pageProps }: AppProps) {
+//   return (
+//     <>
+//       <Component {...pageProps} />
+//       <Analytics mode={'production'} />
+//       <SpeedInsights />
+//     </>
+//   );
+// }
 export default MyApp;
