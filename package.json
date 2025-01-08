@@ -33,7 +33,7 @@
   "@types/gtag.js": "^0.0.20",
   "@types/node": "18.11.17",
   "@types/react": "17.0.30",
-  "autoprefixer": "^10.3.7",
+  "autoprefixer": "^10.4.20",
   "eslint": "7.32.0",
   "eslint-config-next": "^13.0.7",
   "postcss": ">=8.4.35",
