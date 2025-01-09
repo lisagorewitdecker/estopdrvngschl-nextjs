@@ -10,7 +10,7 @@ updates:
   schedule:
     interval: "daily" 
   target-branch: "main" 
-- package-ecosystem: "dependabot"
+- package-ecosystem: "npm"
   directory: "/src"
   schedule:
     interval: "daily" 
