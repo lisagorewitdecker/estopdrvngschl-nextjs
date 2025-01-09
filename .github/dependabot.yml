@@ -1,25 +1,21 @@
-version: 2
+version: 3
 updates:
-- package-ecosystem: "npm"
-  directory: "/"
-  schedule:
-    interval: "daily" 
-  target-branch: "main" 
-- package-ecosystem: "github-actions"
-  directory: "/"
-  schedule:
-    interval: "daily" 
-  target-branch: "main" 
-- package-ecosystem: "nuget"
-  directory: "/src"
-  schedule:
-    interval: "daily" 
-  target-branch: "main" 
-- package-ecosystem: "npm"
-  directory: "/"
-  schedule:
-    interval: "daily" 
-  target-branch: "main" 
-  allow:
-  - dependency-type: direct
-  - dependency-type: production # check only dependencies, which are going to the compiled app, not supporting tools like @vue-cli
+
+  # Maintain dependencies for GitHub Actions
+  - package-ecosystem: "github-actions"
+    # Workflow files stored in the default location of `.github/workflows`. (You don't need to specify `/.github/workflows` for `directory`. You can use `directory: "/"`.)
+    directory: "/"
+    schedule:
+      interval: "daily"
+
+  # Maintain dependencies for npm
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+
+  # Maintain dependencies for Composer
+  - package-ecosystem: "composer"
+    directory: "/"
+    schedule:
+      interval: "weekly"
