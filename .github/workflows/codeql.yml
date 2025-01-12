@@ -11,7 +11,7 @@
 
 name: "CodeQL"
 on:
-  pull:
+  push:
     branches:
       - main
 jobs:
