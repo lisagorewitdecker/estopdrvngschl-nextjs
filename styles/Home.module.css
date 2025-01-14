@@ -12,7 +12,7 @@ h3.center-text-bold {
 }
 .iframe{
  width:100% !important;
- height:800px !important;
+ min-height:100% !important;
  background-color: white !important;
 }
 a {
