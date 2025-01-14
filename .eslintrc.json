@@ -2,7 +2,9 @@
   "rules": {
     "@next/next/no-html-link-for-pages": ["error", "packages/my-app/pages/"]
   }
-  "extends": {
+}
+ { 
+   "extends": {
     "next/core-web-vitals"
   }
 }
