@@ -41,7 +41,7 @@
   "tailwindcss": "^2.2.17",
   "typescript": "4.5.2",
   "cross-spawn": ">=7.0.5",
-  "postcss": ">=8.5.0",
+  "postcss": ">=8.5.1",
   "nth-check": ">=2.0.1"   
   }
 }
