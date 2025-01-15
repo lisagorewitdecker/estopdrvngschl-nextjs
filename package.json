@@ -33,7 +33,7 @@
   },
   "devDependencies": {
   "@types/gtag.js": "^0.0.20",
-  "@types/node": "18.11.17",
+  "@types/node": "22.10.6",
   "@types/react": "17.0.30",
   "autoprefixer": "^10.3.7",
   "eslint": "7.32.0",
