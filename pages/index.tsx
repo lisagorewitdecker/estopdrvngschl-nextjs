@@ -226,15 +226,11 @@ const Home: NextPage = () => {
             <p className="text-center mx-1">
             <h3 className="text-xl text-center font-bold"> 
               My Clients Receive Valet Service!</h3>
-              <h3 className="text-xl text-center font-bold"> I Will Pick You Up Anywhere in Marin County, Sonoma County, East Bay, and San Francisco. I will even drive to meet anywhere in the Bay Area.
-</h3> 
-              <h3 className="text-xl text-center font-bold"> No Need to Worry, You Will Safely Be Returned to The Location You Were Picked Up At!</h3>
-              <p> &nbsp; </p>
-Basic Training and Services are at an Hourly Rate of $125. If You Happen To Need Additional Services, Please Do Not Hesitate To Call Or Text Tony At 415-897-7002 For More Details.
-                 <p> &nbsp; </p>
-              <b> ** Lastly, We No Longer Accept Cash or Checks!** </b> 
-              However, We Do Accept Direct ApplePay Payments and Can Accept and Send Bank Transfers from Zelle Through Your Banking Applications to Ours, 
-              We Are Very Excited to Announce that We Can Book All Appointment Bookings Online and Accept Payments in Person Through Zelle!
+              <h3 className="text-xl text-center font-bold"> I Will Pick You Up Anywhere in Marin County, Sonoma County, East Bay, and San Francisco. I Will Even Drive to Meet You Anywhere in The Bay Area! No Need to Worry, You Will Safely Be Returned to The Location You Were Picked Up At!</h3>
+Basic Training and Services are at an Hourly Rate of $125. If You Happen To Need Additional Services, Please Do Not Hesitate To Call Or Text Tony At 415-897-7002 For More Details.</h3>
+            
+  <h3 className="text-xl text-center font-bold"> ** Lastly, We No Longer Accept Cash, Only Checks!** However, We Do Accept ApplePay Payments, and Can Accept Bank Transfers from Zelle Through Your Banking Application. 
+              We Are Very Excited to Announce That We Can Book All Appointments Online, and Accept Payments in Person Through Zelle!</h3>
             </p>
             <div className="py-3 grid xs:grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-4">
               {ServiceConfig.map(({ icon, title, description }) => (
@@ -317,7 +313,7 @@ Basic Training and Services are at an Hourly Rate of $125. If You Happen To Need
         </div>
           <div className="locations flex bg-gray-100">
           <div className="container mx-auto py-2">
-         <h2>eStop Driving School Provides Dring Lessons to The Following Locations: Novato, CA; Tiburon, CA; Petaluma, CA; San Rafael, CA; Corte Madera, CA; Sausalito, CA; Sebastopol, CA; Mill Valley, CA; San Anselmo, CA; Greenbrae CA; Kentfield, CA. If You Do Not See Your Location Listed Here; 
+         <h2>eStop Driving School Provides Driving Lessons to These Locations: Novato, CA; Tiburon, CA; Petaluma, CA; San Rafael, CA; Corte Madera, CA; Sausalito, CA; Sebastopol, CA; Mill Valley, CA; San Anselmo, CA; Greenbrae CA; Kentfield, CA. If You Do Not See Your Location Listed Here; 
            Please Do Not Hesitate to Contact Teshome (Tony or TK) Via Text or Phone.</h2> 
          </div>
           </div>
@@ -325,7 +321,11 @@ Basic Training and Services are at an Hourly Rate of $125. If You Happen To Need
         </main>
       <footer className="flex py-10 bg-gray-900 text-black py-4 text-sm">
         <div className="container m-auto text-center">
-          Copyright @2024{" "} | 
+           <a
+            href="#"
+            title="eStop Driving School copyright">
+            Copyright @2024 | 
+             </a>
           <a
             href="http://estopdrivingschool.com/"
             title="eStopDrivingSchool"
@@ -351,7 +351,7 @@ Basic Training and Services are at an Hourly Rate of $125. If You Happen To Need
           </a>
            <a
             href="https://lisagorewitdecker.com"
-            title="Best Full-Stack Developer Free eStopDrivingSchool"
+            title="Best Full-Stack Developer Designed For Free For Teshome Kebere @ eStop Driving School"
           >
           SITE WEB DEV LISA GOREWIT-DECKER
           </a>
