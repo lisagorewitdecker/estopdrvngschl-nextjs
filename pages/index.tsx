@@ -1,7 +1,6 @@
 import { GoogleAnalytics } from "@next/third-parties/google";
 import Script from "next/script";
 import React, { Component } from "react";
-import CountUp, { useCountUp } from "react-countup";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import type { NextPage } from "next";
 import Head from "next/head";
@@ -317,7 +316,7 @@ Basic Training and Services are at an Hourly Rate of $125. If You Happen To Need
         </div>
           <div className="locations flex bg-gray-100">
           <div className="container mx-auto py-2">
-         <h2>eStop Driving School Provides Dring Lessons to The Following Locations: Novato, CA; Tiburon, CA; Petaluma, CA; San Rafael, CA; Corte Madera, CA; Sausalito, CA; Sebastopol, CA; Mill Valley, CA; San Anselmo, CA;Greenbrae CA; Kentfield, CA. If You Do Not See Your Location Listed Here; 
+         <h2>eStop Driving School Provides Dring Lessons to The Following Locations: Novato, CA; Tiburon, CA; Petaluma, CA; San Rafael, CA; Corte Madera, CA; Sausalito, CA; Sebastopol, CA; Mill Valley, CA; San Anselmo, CA; Greenbrae CA; Kentfield, CA. If You Do Not See Your Location Listed Here; 
            Please Do Not Hesitate to Contact Teshome (Tony or TK) Via Text or Phone.</h2> 
          </div>
           </div>
