@@ -1,6 +1,16 @@
-{     
-  "extends": ["next/core-web-vitals"],
-     "rules": {
-       "@next/next/no-html-link-for-pages": ["error", "packages/my-app/pages/"]
-   }
+
+  "extends": ["next/core-web-vitals", "eslint:recommended", "plugin:@typescript-eslint/recommended"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "plugins": ["@typescript-eslint"],
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "rules": {
+    "@next/next/no-html-link-for-pages": ["error", "packages/my-app/pages/"]
+  }
 }
