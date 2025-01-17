@@ -19,7 +19,7 @@ jobs:
       fail-fast: false
       matrix:
         language: [ 'javascript', 'typescript' ]
-    environment: production
+    environment: npm
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
