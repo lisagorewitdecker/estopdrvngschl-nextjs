@@ -276,7 +276,7 @@ Basic Training and Services are at an Hourly Rate of $125. If You Happen To Need
                SCHEDULE AN APPOINTMENT
              </h2>
           <p className="text-center  mx-2">
-              Once you have selected an appointment time and date, look into your email for a Google email with a confirmation code. Once you open your browser, copy and paste the confirmation code from your email into the confirmation input text line and hit submit, and you will be scheduled for the appointment. 
+              Once You Have Selected an Appointment Day/Time; You Wil Be Prompted to Fill Out a Quick Form to Keep the Appointment. Keep the Browser Window Open as Once You Have Submitted the Form You Will See a Text Field That Needs a Code. Google Will Send the Code to the Email You Used in The Form. So Leave the eStopDrivingSchool.com Website Open In Your Browser Window,. Go to Your Email Account Grab the Code and Paste it Into the Text Field in the Browser Window Text Field. Submit the Code Form Text Field of The Browser Window You Saved Open at eStopDrivingSchool.com. Once The Code is Added to the Text Field Your Appointment is Saved.
             </p>            
               <iframe
                 src="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2ZCzKMpxsDgy3QIYZTfsvvJUdvRk-jvBV0w8lJruHsQC7XKkoXjSkAI2Tti5absT-wnaXc05Zy"
@@ -316,7 +316,7 @@ Basic Training and Services are at an Hourly Rate of $125. If You Happen To Need
         </div>
           <div className="locations flex bg-gray-100">
           <div className="container mx-auto py-2">
-         <h2>eStop Driving School Provides Dring Lessons to The Following Locations: Novato, CA; Tiburon, CA; Petaluma, CA; San Rafael, CA; Corte Madera, CA; Sausalito, CA; Sebastopol, CA; Mill Valley, CA; San Anselmo, CA; Greenbrae CA; Kentfield, CA. If You Do Not See Your Location Listed Here; 
+         <h2>eStop Driving School Provides Driving Lessons to The Following Locations: Novato, CA; Tiburon, CA; Petaluma, CA; San Rafael, CA; Corte Madera, CA; Sausalito, CA; Sebastopol, CA; Mill Valley, CA; San Anselmo, CA; Greenbrae CA; Kentfield, CA. If You Do Not See Your Location Listed Here; 
            Please Do Not Hesitate to Contact Teshome (Tony or TK) Via Text or Phone.</h2> 
          </div>
           </div>
