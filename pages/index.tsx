@@ -184,14 +184,13 @@ const Home: NextPage = () => {
                <b> My Life Philosophy Is...&ldquo;Speak STOP Fluently and Flawlessly For Life!&rdquo;</b>
               </p>
               <p className="mb-2">
-                Please Feel Free to Contact Me Anytime By
+               <b> Contact Me Anytime. Call Or Text Me At: <a 
+                                                             href="tel:415-897-7002" 
+                                                             rel="noopener noreferrer"
+                                                             > 415-897-7002
+               </a>
+               </b>
               </p>
-            <p className="mb-2">
-                <a href="tel:415-897-7002" rel="noopener noreferrer">
-                <b>CALL ME</b></a> OR <a href="tel:415-897-7002" rel="noopener noreferrer">
-                <b>TEXT ME</b></a> AT 415-897-7002.
-              </p>
-              </p> 
             </div>
           </div>
         </div>
@@ -225,15 +224,17 @@ const Home: NextPage = () => {
             <p className="text-center mx-1">
             <h3 className="text-xl text-center font-bold"> 
               My Clients Receive Valet Service!</h3>
-              <h3 className="text-xl text-center font-bold"> I Will Pick You Up Anywhere in Marin County, Sonoma County, East Bay, and San Francisco. I will even drive to meet anywhere in the Bay Area.
-</h3> 
+              <h3 className="text-xl text-center font-bold"> I Will Pick You Up Anywhere in Marin County, Sonoma County, East Bay, and San Francisco. I Will Even Drive to Meet You Anywhere in THe Bay Area.</h3> 
               <h3 className="text-xl text-center font-bold"> No Need to Worry, You Will Safely Be Returned to The Location You Were Picked Up At!</h3>
               <p> &nbsp; </p>
-Basic Training and Services are at an Hourly Rate of $125. If You Happen To Need Additional Services, Please Do Not Hesitate To Call Or Text Tony At 415-897-7002 For More Details.
-                 <p> &nbsp; </p>
-              <b> ** Lastly, We No Longer Accept Cash or Checks!** </b> 
-              However, We Do Accept Direct ApplePay Payments and Can Accept and Send Bank Transfers from Zelle Through Your Banking Applications to Ours, 
+Basic Training and Services Are an Hourly Rate of $125. If You Need Additional Services, Please Do Not Hesitate To Call Or Text Tony At <a hfref="tel:415-897-7002> 415-897-7002 </a> For More Details.
+              <p> &nbsp; </p>
+              <b> ** Lastly, We No Longer Accept Cash! ** </b> 
+              However, We Do Accept Direct ApplePay, PayPal and Can Accept &amp; Send Bank Transfers With Zelle Through Your Banking Application, 
               We Are Very Excited to Announce that We Can Book All Appointment Bookings Online and Accept Payments in Person Through Zelle!
+            <p> &nbsp; </p>
+            <p>
+              We Are In The Process of Trying To Offer Our Klarna &amp; AfterPay and Accept Other Alternative Forms of Payment to Make Your Life Easier.                                                                                                                           
             </p>
             <div className="py-3 grid xs:grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-4">
               {ServiceConfig.map(({ icon, title, description }) => (
@@ -265,7 +266,7 @@ Basic Training and Services are at an Hourly Rate of $125. If You Happen To Need
             style={{ width: 36, height: 36 }}
           />
         </div>
-       <div
+        <div
             className="flex  */}
             py-5 
             bg-gray-200">
@@ -276,20 +277,22 @@ Basic Training and Services are at an Hourly Rate of $125. If You Happen To Need
                SCHEDULE AN APPOINTMENT
              </h2>
           <p className="text-center  mx-2">
-              Once you have selected an appointment time and date, look into your email for a Google email with a confirmation code. Once you open your browser, copy and paste the confirmation code from your email into the confirmation input text line and hit submit, and you will be scheduled for the appointment. 
+              ONCE YOU HAVE SELECTED AN APPOINTMENT DATE &amp; TIME, FILLED OUT THE FORM (KEEP YOUR eSTOP DRIVING SCHOOL BROWSER WINDOW OPEN); PLEASE GO TO YOUR EMAIL ACCOUNT YOU USED TO FILL OUT THE FORM; COPY, REMEMBER, OR WRITE, THE CONFRIMATION CODE DOWN. GO TO THE BROWSER WINDOW WHERE YOU FILLED OUT THE FORM AT eSTOP DRIVING SCHOL AND ENTER YOUR CONFIRMATION CODE IN THE TEXT BOX AFTER YOU SUBMITTED THE FORM. THIS WILL KEEP YOUR APPOINTMENT SLOT BOTH DAY AND TIME &amp; IT WILL BE SENT TO TESHOME OR TK AND HE WILL REACH OUT TO YOU ASAP! 
             </p>            
-              <iframe
+              <span>
+                <iframe
                 src="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2ZCzKMpxsDgy3QIYZTfsvvJUdvRk-jvBV0w8lJruHsQC7XKkoXjSkAI2Tti5absT-wnaXc05Zy"
                 className="iframe" 
                 title="The Best Driving School - eStop Driving School in Marin County and Sonoma County"
               />
+              </span>
         </div>
         </div>
         <div id="contact" className="flex bg-gray-200">
           <div className="container mx-auto py-2">
             <h2 className="text-2xl text-center font-bold py-2">CONTACT eSTOPDRIVING SCHOOL</h2>
             <p className="text-center  mx-2">
-              If You Have Any Questions, Feel Free To Call Me Anytime At <a href="tel:415-897-7002" rel="noopener noreferrer">415-897-7002</a>
+              If You Have Any Questions, Feel Free To Call Me Anytime At <a href="tel:415-897-7002" rel="noopener noreferrer">415-897-7002</a>.
             </p>
             <div className="p-8 m-auto grid sm:grid-cols-1 md:grid-cols-2">
               <div className="flex justify-end px-8">
@@ -308,7 +311,7 @@ Basic Training and Services are at an Hourly Rate of $125. If You Happen To Need
                 <p><b>CALL/TEXT:</b> <a href="tel:415-897-7002" rel="noopener noreferrer">415-897-7002</a></p>
               
                 <p> Licensed Instructor No. 2055001, 
-                  Please Call Me Or Text Me In Advance At 415-897-7002 To Scheduled A Personal Appointment.
+                  Please Call Me Or Text Me In Advance At <a href="tel:415-897-7002" rel="noopener noreferrer">415-897-7002</a> To Scheduled A Personal Appointment.
                 </p>  
               </div>
             </div>
@@ -316,7 +319,7 @@ Basic Training and Services are at an Hourly Rate of $125. If You Happen To Need
         </div>
           <div className="locations flex bg-gray-100">
           <div className="container mx-auto py-2">
-         <h2>eStop Driving School Provides Dring Lessons to The Following Locations: Novato, CA; Tiburon, CA; Petaluma, CA; San Rafael, CA; Corte Madera, CA; Sausalito, CA; Sebastopol, CA; Mill Valley, CA; San Anselmo, CA; Greenbrae CA; Kentfield, CA. If You Do Not See Your Location Listed Here; 
+         <h2>eStop Driving School Provides Driving Lessons to The Following Locations: Novato, CA; Tiburon, CA; Petaluma, CA; San Rafael, CA; Corte Madera, CA; Sausalito, CA; Sebastopol, CA; Mill Valley, CA; San Anselmo, CA; Greenbrae CA; Kentfield, CA. If You Do Not See Your Location Listed Here; 
            Please Do Not Hesitate to Contact Teshome (Tony or TK) Via Text or Phone.</h2> 
          </div>
           </div>
@@ -327,7 +330,7 @@ Basic Training and Services are at an Hourly Rate of $125. If You Happen To Need
             href="#"
             title="#"
             >
-        Copyright @2024 | 
+        COPYRIGHT @2025 | 
           </a>
           <a
             href="http://estopdrivingschool.com/"
@@ -335,10 +338,12 @@ Basic Training and Services are at an Hourly Rate of $125. If You Happen To Need
           >
             eSTOPDRIVINGSCHOOL | 
           </a>{" "}
-          <a
-            href="tel:415-897-7002"
             title="eStopDrivingSchool Phone Number">
-            CALL/TEXT: 415-897-7002 | 
+            CALL/TEXT: <a
+            href="tel:415-897-7002" 
+            rel="noopener noreferrer"
+            >
+              415-897-7002 | 
           </a>
           <a
             href="https://www.facebook.com/estopdrivingschool/"
@@ -348,13 +353,15 @@ Basic Training and Services are at an Hourly Rate of $125. If You Happen To Need
           </a>
             <a
             href="https://www.youtube.com/@teshomekebere4491"
-            title="YouTube eStopDrivingSchool"
+            title="eStopDrivingSchool YouTube Channel"
+            rel="noopener noreferrer"
           >
           YOUTUBE | 
           </a>
            <a
             href="https://lisagorewitdecker.com"
-            title="Best Full-Stack Developer Free eStopDrivingSchool"
+            title="Best Full-Stack Developer at eStopDrivingSchool"
+            rel="noopener noreferrer"
           >
           SITE WEB DEV LISA GOREWIT-DECKER
           </a>
