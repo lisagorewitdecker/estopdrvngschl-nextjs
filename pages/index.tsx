@@ -320,11 +320,15 @@ Basic Training and Services are at an Hourly Rate of $125. If You Happen To Need
            Please Do Not Hesitate to Contact Teshome (Tony or TK) Via Text or Phone.</h2> 
          </div>
           </div>
-
         </main>
       <footer className="flex py-10 bg-gray-900 text-black py-4 text-sm">
         <div className="container m-auto text-center">
-          Copyright @2024{" "} | 
+           <a
+            href="#"
+            title="#"
+            >
+        Copyright @2024 | 
+          </a>
           <a
             href="http://estopdrivingschool.com/"
             title="eStopDrivingSchool"
