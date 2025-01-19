@@ -7,7 +7,6 @@ import Head from "next/head";
 import Image from "next/image";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { useCallback } from "react";
-
 const NavConfig = [
   {
     name: "HOME",
@@ -273,13 +272,13 @@ Basic Training and Services are at an Hourly Rate of $125. If You Happen To Need
             className="container
             mx-auto py-2">
              <h2 className="text-2xl text-center py-3 font-bold">
-               SCHEDULE AN APPOINTMENT
-             </h2>
-          <p className="text-center  mx-2">
-              Once You Have Selected an Appointment Day/Time; You Wil Be Prompted to Fill Out a Quick Form to Keep the Appointment. Keep the Browser Window Open as Once You Have Submitted the Form You Will See a Text Field That Needs a Code. Google Will Send the Code to the Email You Used in The Form. So Leave the eStopDrivingSchool.com Website Open In Your Browser Window,. Go to Your Email Account Grab the Code and Paste it Into the Text Field in the Browser Window Text Field. Submit the Code Form Text Field of The Browser Window You Saved Open at eStopDrivingSchool.com. Once The Code is Added to the Text Field Your Appointment is Saved.
-            </p>            
-              <iframe
-                src="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2ZCzKMpxsDgy3QIYZTfsvvJUdvRk-jvBV0w8lJruHsQC7XKkoXjSkAI2Tti5absT-wnaXc05Zy"
+                SCHEDULE AN APPOINTMENT
+              </h2>
+           <p className="text-center  mx-2">
+               Once You Have Selected an Appointment Day/Time; You Wil Be Prompted to Fill Out a Quick Form to Keep the Appointment. Keep the Browser Window Open as Once You Have Submitted the Form You Will See a Text Field That Needs a Code. Google Will Send the Code to the Email You Used in The Form. So Leave the eStopDrivingSchool.com Website Open In Your Browser Window,. Go to Your Email Account Grab the Code and Paste it Into the Text Field in the Browser Window Text Field. Submit the Code Form Text Field of The Browser Window You Saved Open at eStopDrivingSchool.com. Once The Code is Added to the Text Field Your Appointment is Saved.
+             </p>            
+               <iframe
+                 src="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2ZCzKMpxsDgy3QIYZTfsvvJUdvRk-jvBV0w8lJruHsQC7XKkoXjSkAI2Tti5absT-wnaXc05Zy"  
                 className="iframe" 
                 title="The Best Driving School - eStop Driving School in Marin County and Sonoma County"
               />
@@ -313,13 +312,13 @@ Basic Training and Services are at an Hourly Rate of $125. If You Happen To Need
               </div>
             </div>
           </div>
-        </div>
-          <div className="locations flex bg-gray-100">
-          <div className="container mx-auto py-2">
-         <h2>eStop Driving School Provides Driving Lessons to The Following Locations: Novato, CA; Tiburon, CA; Petaluma, CA; San Rafael, CA; Corte Madera, CA; Sausalito, CA; Sebastopol, CA; Mill Valley, CA; San Anselmo, CA; Greenbrae CA; Kentfield, CA. If You Do Not See Your Location Listed Here; 
-           Please Do Not Hesitate to Contact Teshome (Tony or TK) Via Text or Phone.</h2> 
          </div>
+           <div className="locations flex bg-gray-100">
+           <div className="container mx-auto py-2">
+          <h2>eStop Driving School Provides Driving Lessons to The Following Locations: Novato, CA; Tiburon, CA; Petaluma, CA; San Rafael, CA; Corte Madera, CA; Sausalito, CA; Sebastopol, CA; Mill Valley, CA; San Anselmo, CA; Greenbrae CA; Kentfield, CA. If You Do Not See Your Location Listed Here; 
+            Please Do Not Hesitate to Contact Teshome (Tony or TK) Via Text or Phone.</h2> 
           </div>
+           </div>
         </main>
       <footer className="flex py-10 bg-gray-900 text-black py-4 text-sm">
         <div className="container m-auto text-center">
@@ -327,7 +326,7 @@ Basic Training and Services are at an Hourly Rate of $125. If You Happen To Need
             href="#"
             title="#"
             >
-        Copyright @2024 | 
+        Copyright @2025 | 
           </a>
           <a
             href="http://estopdrivingschool.com/"
@@ -360,7 +359,6 @@ Basic Training and Services are at an Hourly Rate of $125. If You Happen To Need
           </a>
         </div>
         
-
  </footer>
     </div>
   );
