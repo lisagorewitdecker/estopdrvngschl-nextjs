@@ -1,16 +1,20 @@
 {
-  "extends": ["next/core-web-vitals", "eslint:recommended", "plugin:@typescript-eslint/recommended"],
-  "parser": "@typescript-eslint/parser",
-  "parserOptions": {
-    "project": "./tsconfig.json"
-  },
-  "plugins": ["@typescript-eslint"],
-  "env": {
-    "browser": true,
-    "node": true,
-    "es6": true
-  },
-  "rules": {
-    "@next/next/no-html-link-for-pages": ["error", "packages/my-app/pages/"]
-  }
+	"extends": "eslint:recommended",
+	"parser": "babel-eslint",
+	"parserOptions": {
+		"ecmaVersion": 6,
+		"sourceType": "module",
+		"ecmaFeatures": {
+			"modules": true,
+			"classes": true
+		}
+	},
+	"rules": {
+		"semi": "error"
+	},
+	"env": {
+		"es6": true,
+		"browser": true,
+		"node": true
+	}
 }
