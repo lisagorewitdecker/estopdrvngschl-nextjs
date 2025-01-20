@@ -224,12 +224,12 @@ const Home: NextPage = () => {
             <p className="text-center mx-1">
             <h3 className="text-xl text-center font-bold"> 
               My Clients Receive Valet Service!</h3>
-              <h3 className="text-xl text-center font-bold"> I Will Pick You Up Anywhere in Marin County, Sonoma County, East Bay, and San Francisco. I will even drive to meet anywhere in the Bay Area.
-</h3> 
-              <h3 className="text-xl text-center font-bold"> No Need to Worry, You Will Safely Be Returned to The Location You Were Picked Up At!</h3>
+              <h3 className="text-xl text-center font-bold"> Tony Will Even Drive to Meet Anyone, Anywhere in The Marin County, Sonoma County Locations As Well As Locations in The Entire Bay Area. 
+                He Even Services Clients Who Need a Driving Instruction in San Francisco. Pick-Ups, Drop-Offs and Gas Is Provided to All Clients At NO ADDITIONAL, Or LAST MINUTE SURPRISE COST!</h3>
+                Tony Will Even Drive to Meet Anyone, Anywhere in The Entire Bay Area and San Francisco! No Need to Worry, You Will Be Safely Returned to The Location You Were Picked Up At or Elsewhere If Needed!</h3>
               <p> &nbsp; </p>
-Basic Training and Services are at an Hourly Rate of $125. If You Happen To Need Additional Services, Please Do Not Hesitate To Call Or Text Tony At 415-897-7002 For More Details.
-                 <p> &nbsp; </p>
+               Basic Training and Services are at an Hourly Rate of $125. If You Happen To Need Additional Services, Please Do Not Hesitate To Call Or Text Tony At 415-897-7002 For More Details.
+              <p> &nbsp; </p>
               <b> ** Lastly, We No Longer Accept Cash or Checks!** </b> 
               However, We Do Accept Direct ApplePay Payments and Can Accept and Send Bank Transfers from Zelle Through Your Banking Applications to Ours, 
               We Are Very Excited to Announce that We Can Book All Appointment Bookings Online and Accept Payments in Person Through Zelle!
