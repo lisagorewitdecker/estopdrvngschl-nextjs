@@ -20,7 +20,7 @@
   "@vercel/speed-insights": "^1.0.12",
   "eslint": "7.32.0",
   "handlebars": "^4.7.8",
-  "next": "^14.2.23",
+  "next": "^15.1.5",
   "npm": "^10.8.1",
   "react": "^18.2.0",
   "react-components": "^0.5.1",
