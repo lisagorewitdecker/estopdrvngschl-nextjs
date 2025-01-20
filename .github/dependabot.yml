@@ -4,6 +4,12 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
+    ignore:
+      - dependency-name: "lodash"
+        versions: ["<4.17.20"]
+    labels:
+      - "dependencies"
+      - "security"
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
@@ -12,17 +18,3 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
-  - package-ecosystem: "npm"
-    directory: "/"
-    schedule:
-      interval: "daily"
-    ignore:
-      - dependency-name: "lodash"
-        versions: ["<4.17.20"]
-  - package-ecosystem: "npm"
-    directory: "/"
-    schedule:
-      interval: "daily"
-    labels:
-      - "dependencies"
-      - "security"
