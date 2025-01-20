@@ -1,4 +1,4 @@
-//import { GoogleAnalytics } from "@next/third-parties/google";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import Script from "next/script";
 import React, { Component } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -223,17 +223,17 @@ const Home: NextPage = () => {
             </h2>
             <p className="text-center mx-1">
             <h3 className="text-xl text-center font-bold"> 
-              eStop Driving School Clients, Always Receive Valet Service!</h3>
+              My Clients Receive Valet Service!</h3>
               <h3 className="text-xl text-center font-bold"> Tony Will Even Drive to Meet Anyone, Anywhere in The Marin County, Sonoma County Locations As Well As Locations in The Entire Bay Area. 
                 He Even Services Clients Who Need a Driving Instruction in San Francisco. Pick-Ups, Drop-Offs and Gas Is Provided to All Clients At NO ADDITIONAL, Or LAST MINUTE SURPRISE COST!</h3>
                 Tony Will Even Drive to Meet Anyone, Anywhere in The Entire Bay Area and San Francisco! No Need to Worry, You Will Be Safely Returned to The Location You Were Picked Up At or Elsewhere If Needed!</h3>
               <p> &nbsp; </p>
-            <h3 className="text-xl text-center font-bold">Basic Training and Services are at an Hourly Rate of $125. If You Happen To Need Additional Services, Please Do Not Hesitate To Call Or Text Tony At 415-897-7002 For More Details.
+               Basic Training and Services are at an Hourly Rate of $125. If You Happen To Need Additional Services, Please Do Not Hesitate To Call Or Text Tony At 415-897-7002 For More Details.
               <p> &nbsp; </p>
-              <b> ** We No Longer Accept CASH Payments!** </b> 
+              <b> &bull; &bull; Lastly, We No Longer Accept Cash or Checks! &bull; &bull;</b> 
               However, We Do Accept Direct ApplePay Payments and Can Accept and Send Bank Transfers from Zelle Through Your Banking Applications to Ours, 
               We Are Very Excited to Announce that We Can Book All Appointment Bookings Online and Accept Payments in Person Through Zelle!
-            </p></h3>
+            </p>
             <div className="py-3 grid xs:grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-4">
               {ServiceConfig.map(({ icon, title, description }) => (
                 <div
@@ -264,26 +264,24 @@ const Home: NextPage = () => {
             style={{ width: 36, height: 36 }}
           />
         </div>
-       <div 
-         className="flex  */}
-          py-5 
-          bg-gray-200">
-        <div 
-          id="schedule"
-          className="container
-          mx-auto py-2">
-      <h2 className="text-2xl text-center py-3 font-bold">
-          SCHEDULE AN APPOINTMENT
-      </h2>
+       <div
+            className="flex  */}
+            py-5 
+            bg-gray-200">
+          <div id="schedule"
+            className="container
+            mx-auto py-2">
+             <h2 className="text-2xl text-center py-3 font-bold">
+                SCHEDULE AN APPOINTMENT
+              </h2>
            <p className="text-center  mx-2">
-               Once You Have Selected an Appointment Day/Time; You Wil Be Prompted to Fill Out a Quick Form to Keep the Appointment. Keep the Browser Window Open as Once You Have Submitted the Form You Will See a Text Field That Needs a Code. Google Will Send the Code to the Email You Used in The Form Once You Submitted it. So Leave the eStopDrivingSchool.com Website Open In Your Browser Window. Go to Your Email Account in a New Window or Use Your Email Clients Application to Open Your eStop Driving School Appointment Email From Google. It May Take a Few Seconds For You to Receive It. If You Are Unable to Find the Email Check Your Spam Folder And Or Type In A Search for Google. The Email Sent From Google Will Have a Temporary Code on it, (Memorize the Code, Copy and Paste It or Write it Down for the Next Step. Go back to the eStop Driving School Website Saved Browser Window and Enter the Code Into the Text Field click the Submit Button for the Second Time and Your Appointment is Set. You will Hear From Tony ASAP to Make Sure You are Both on The same Page; and Lessons Can Start on the Day Selected. You Can Discuss Packages, Future Driving Lesson Appointments You Would Like Him to Block Out For You On His Calendar and Checking Tony's Availability Moving Forward for Both Parties, Ensuring You Have Your Appointment Time Booked! </p>            
-                             <p> &nbsp; </p>
-            <iframe
-              src="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2ZCzKMpxsDgy3QIYZTfsvvJUdvRk-jvBV0w8lJruHsQC7XKkoXjSkAI2Tti5absT-wnaXc05Zy"  
-              className="iframe" 
-              title="The Best Driving School - eStop Driving School in Marin County and Sonoma County"
+               Once You Have Selected an Appointment Day/Time; You Wil Be Prompted to Fill Out a Quick Form to Keep the Appointment. Keep the Browser Window Open as Once You Have Submitted the Form You Will See a Text Field That Needs a Code. Google Will Send the Code to the Email You Used in The Form. So Leave the eStopDrivingSchool.com Website Open In Your Browser Window,. Go to Your Email Account Grab the Code and Paste it Into the Text Field in the Browser Window Text Field. Submit the Code Form Text Field of The Browser Window You Saved Open at eStopDrivingSchool.com. Once The Code is Added to the Text Field Your Appointment is Saved.
+             </p>            
+               <iframe
+                 src="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2ZCzKMpxsDgy3QIYZTfsvvJUdvRk-jvBV0w8lJruHsQC7XKkoXjSkAI2Tti5absT-wnaXc05Zy"  
+                className="iframe" 
+                title="The Best Driving School - eStop Driving School in Marin County and Sonoma County"
               />
-    
         </div>
         </div>
         <div id="contact" className="flex bg-gray-200">
