@@ -6,9 +6,9 @@ inputs:
     description: 'Set always-auth in npmrc.'
     default: 'false'
   node-version:
-    description: 'Version Spec of the version to use. Examples: 12.x, 10.15.1, >=10.15.0.'
+    description: '12.x, 10.15.1, >=10.15.0.'
   node-version-file:
-    description: 'File containing the version Spec of the version to use.  Examples: package.json, .nvmrc, .node-version, .tool-versions.'
+    description: 'File containing the version Spec of the version to use.  Examples: package.json, .nvmrc, .npm, .node-version, .tool-versions.'
   architecture:
     description: 'Target architecture for Node to use. Examples: x86, x64. Will use system architecture by default.'
   check-latest:
@@ -33,7 +33,7 @@ outputs:
   node-version:
     description: 'The installed node version.'
 runs:
-  using: 'node20'
-  main: 'dist/setup/index.js'
-  post: 'dist/cache-save/index.js'
+  using: '12.x, 10.15.1, >=10.15.0.'
+  main: '/pages/index.tsx'
+  post: 'pagess/cache-save/index.tsx'
   post-if: success()
