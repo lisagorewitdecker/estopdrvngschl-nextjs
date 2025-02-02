@@ -5,9 +5,8 @@ on:
   pull_request:
     branches: [ main ]
   schedule:
-    - cron: '25 3 * * 3'
 jobs:
     analyze:
         strategy:
             matrix:
-            language: ['typescript']  # Remove 'javascript'
+            language: ['typescript']  
