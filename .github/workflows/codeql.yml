@@ -9,8 +9,8 @@ on:
 
 jobs:
   analyze:
-    runs-on: ${{ matrix.language == 'swift' && 'macos-latest' || 'ubuntu-latest' }}
-    timeout-minutes: ${{ matrix.language == 'swift' && 120 || 360 }}
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 360
     permissions:
       security-events: write
       actions: read
@@ -18,7 +18,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        language: [ 'javascript', 'typescript' ]
+        os: [ 'ubuntu-latest' ]
+        language: [ 'javascript', 'microsoft/typescript' ]
     environment: npm
     steps:
       - name: Checkout repository
