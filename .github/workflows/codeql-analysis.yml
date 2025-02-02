@@ -1,0 +1,5 @@
+jobs:
+    analyze:
+        strategy:
+            matrix:
+            language: ['typescript']  # Remove 'javascript'
