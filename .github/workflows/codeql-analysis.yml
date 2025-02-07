@@ -9,4 +9,4 @@ jobs:
     analyze:
         strategy:
             matrix:
-            language: ['typescript', 'microsoft/typescript']  
+            language: ['typescript', 'typescript']  
