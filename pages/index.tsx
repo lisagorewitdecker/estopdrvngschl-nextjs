@@ -10,7 +10,6 @@ import Link from "next/link";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { useCallback } from "react";
 import { LinkProps } from "next/link"
-interface CustomLinkProps extends LinkProps { url: string}
 const NavConfig = [
     {
         "name": "HOME",
@@ -55,12 +54,17 @@ const ServiceConfig = [
      {
         icon: " ",
         title: "TRAFFIC SCHOOL",
-        description: `<p><a href="https://trafficschool.estopdrivingschoolonline.com/signup"> Click The Link to Sign-Up and Pay for Traffic School
+        description: `<a 
+        href="https://trafficschool.estopdrivingschoolonline.com/signup"
+        > 
+        Click The Link to Sign-Up and Pay for Traffic School
         <a/> 
-        </p>
-        <p><a href="https://trafficschool.estopdrivingschoolonline.com/login">Click The Link to Sign-Up and Pay for Traffic School
-        <a/>
-        </p>` 
+        
+          <a 
+            href="https://trafficschool.estopdrivingschoolonline.com/login"
+            >
+            Click The Link to Sign-Up and Pay for Traffic School
+        </a>` 
     },
     {
         icon: "",
