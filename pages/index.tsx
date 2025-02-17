@@ -51,29 +51,27 @@ const ServiceConfig = [
         title: "SENIORS",
         description: `One-Hour Driving Lesson For Seniors "Behind-The-Wheel Refresher".
     (The One-Hour Rate is NOW Discounted. Seniors "Behind-The-Wheel Refresher" Package Includes Taxes & Fees, One Hour of Behind the Wheel). This Package Has Been Discounted For Those Who Pay in Advance; For a Seniors "Behind-The-Wheel Refresher": NOW ONLY $125!`
-    },
-     {
-        icon: " ",
-        title: "TRAFFIC SCHOOL",
-        description: `<p><a href="https://trafficschool.estopdrivingschoolonline.com/signup"> Click The Link to Sign-Up and Pay for Traffic School
-        <a/> 
+    
+        <link
+        Link.icon: " ",
+        Link.title: "TRAFFIC SCHOOL",
+        Link.description: `<p><a href="https://trafficschool.estopdrivingschoolonline.com/signup"> Click The Link to Sign-Up and Pay for Traffic School
+        
         </p>
         <p><a href="https://trafficschool.estopdrivingschoolonline.com/login">Click The Link to Sign-Up and Pay for Traffic School
         <a/>
         </p>` 
-    },
-    {
+ <div>
         icon: "",
         title: "STUDY GUIDE",
-        description: `
-    `
-    },
-    {
+        description: ""
+    </div>
+<div>
         icon: "",
         title: "DRIVERS EDUCATION",
-        description: `
-        `
-    },
+        description: 
+    </div>
+        },
 ];
 const Home: NextPage = () => {
     const onScrollToView = useCallback((elemId: string) => {
