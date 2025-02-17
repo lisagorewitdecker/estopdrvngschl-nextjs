@@ -8,7 +8,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { useCallback } from "react";
-import Link from 'next/link'
+import Link from "next/link";
 
 const NavConfig = [
     {
@@ -54,14 +54,22 @@ const ServiceConfig = [
      {
         icon: "",
         title: "TRAFFIC SCHOOL",
-        description: `<Link>
-        <a className="text-xl px-2" href="https://trafficschool.estopdrivingschoolonline.com/signup">
-        Click The Link to Sign-Up and Pay for Traffic School</a>
-        </Link>
+        description: `
+        <Link><a 
+        className="text-xl px-2" 
+        href="https://trafficschool.estopdrivingschoolonline.com/signup/"
+        >
+        Click The Link to Sign-Up and Pay for Traffic School
+        </a></Link>
+        
+        <Link><a 
+        className="text-xl px-2" 
+        href="https://trafficschool.estopdrivingschoolonline.com/login/"
+        >
+        Click The Link to Sign-Up and Pay for Traffic School
+        </a>
         <Link>
-        <a className="text-xl px-2" href="https://trafficschool.estopdrivingschoolonline.com/login">
-        Click The Link to Sign-Up and Pay for Traffic School</a>
-        <Link>` 
+        ` 
     },
     {
         icon: "",
