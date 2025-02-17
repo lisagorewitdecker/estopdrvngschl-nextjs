@@ -50,38 +50,8 @@ const ServiceConfig = [
         title: "SENIORS",
         description: `One-Hour Driving Lesson For Seniors "Behind-The-Wheel Refresher".
     (The One-Hour Rate is NOW Discounted. Seniors "Behind-The-Wheel Refresher" Package Includes Taxes & Fees, One Hour of Behind the Wheel). This Package Has Been Discounted For Those Who Pay in Advance; For a Seniors "Behind-The-Wheel Refresher": NOW ONLY $125!`
-    },
-     {
-        icon: "",
-        title: "TRAFFIC SCHOOL",
-        description: `
-        <Link><a 
-        className="text-xl px-2" 
-        href="https://trafficschool.estopdrivingschoolonline.com/signup/"
-        >
-        Click The Link to Sign-Up and Pay for Traffic School
-        </a></Link>
         
-        <Link><a 
-        className="text-xl px-2" 
-        href="https://trafficschool.estopdrivingschoolonline.com/login/"
-        >
-        Click The Link to Sign-Up and Pay for Traffic School
-        </a>
-        <Link>
-        ` 
-    },
-    {
-        icon: "",
-        title: "STUDY GUIDE",
-        description: `
-    `
-    },
-    {
-        icon: "",
-        title: "DRIVERS EDUCATION",
-        description: `
-        `
+    
     },
 ];
 const Home: NextPage = () => {
