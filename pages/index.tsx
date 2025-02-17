@@ -54,15 +54,16 @@ const ServiceConfig = [
         icon: " ",
         title: "TRAFFIC SCHOOL",
         description: `Click The Link to Sign-Up and Pay for Traffic School
-                <link
-                    rel=""
-                    href="https://trafficschool.estopdrivingschoolonline.com/signup"
-                />
-                Or Click The Second Link to Login Once You Have Paid and Are Registered to Login
-                <link
-                    rel=""
-                    href="https://trafficschool.estopdrivingschoolonline.com/login"
-                />`
+               (<a
+               href="https://trafficschool.estopdrivingschoolonline.com/signup"
+               >
+               Click The Link to Sign-Up and Pay for Traffic School
+                <a/>
+                <a
+               href="href="https://trafficschool.estopdrivingschoolonline.com/login""
+               >
+                Click Here to Login When Registered to Login
+                <a/> )`
     },
     {
         icon: "",
