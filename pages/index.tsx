@@ -51,14 +51,15 @@ const ServiceConfig = [
     (The One-Hour Rate is NOW Discounted. Seniors "Behind-The-Wheel Refresher" Package Includes Taxes & Fees, One Hour of Behind the Wheel). This Package Has Been Discounted For Those Who Pay in Advance; For a Seniors "Behind-The-Wheel Refresher": NOW ONLY $125!`
     },
      {
-        icon: " ",
-        title: "TRAFFIC SCHOOL",
-        description: `<p><a href="https://trafficschool.estopdrivingschoolonline.com/signup"> Click The Link to Sign-Up and Pay for Traffic School
-        <a/> 
-        </p>
-        <p><a href="https://trafficschool.estopdrivingschoolonline.com/login">Click The Link to Sign-Up and Pay for Traffic School
-        <a/>
-        </p>` 
+        const link = document.createElement('a');
+        link.href = 'href="https://trafficschool.estopdrivingschoolonline.com/signup';
+        link.textContent = 'Sign Up for Online Traffic Schoool ';
+        link.target = '_blank'; // Open in a new tab/window
+        link.rel = 'noopener noreferrer'; // Security best practice for _blank
+        link.icon: " ",
+        link.title: "TRAFFIC SCHOOL",
+        link.description: `
+        ` 
     },
     {
         icon: "",
