@@ -9,6 +9,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { useCallback } from "react";
+
 const NavConfig = [
     {
         "name": "HOME",
@@ -51,19 +52,15 @@ const ServiceConfig = [
     (The One-Hour Rate is NOW Discounted. Seniors "Behind-The-Wheel Refresher" Package Includes Taxes & Fees, One Hour of Behind the Wheel). This Package Has Been Discounted For Those Who Pay in Advance; For a Seniors "Behind-The-Wheel Refresher": NOW ONLY $125!`
     },
      {
-        icon: " ",
+        icon: "",
         title: "TRAFFIC SCHOOL",
-        description: `<a 
-        href="https://trafficschool.estopdrivingschoolonline.com/signup"
-        > 
+        description: `
+    <a className="text-xl px-2" href="https://trafficschool.estopdrivingschoolonline.com/signup">
         Click The Link to Sign-Up and Pay for Traffic School
-        <a/> 
-        
-          <a 
-            href="https://trafficschool.estopdrivingschoolonline.com/login"
-            >
-            Click The Link to Sign-Up and Pay for Traffic School
-        </a>` 
+    </a>
+    <a className="text-xl px-2" href="https://trafficschool.estopdrivingschoolonline.com/login">
+        Click The Link to Sign-Up and Pay for Traffic School
+    </a>` 
     },
     {
         icon: "",
