@@ -51,38 +51,7 @@ const ServiceConfig = [
         description: `One-Hour Driving Lesson For Seniors "Behind-The-Wheel Refresher".
     (The One-Hour Rate is NOW Discounted. Seniors "Behind-The-Wheel Refresher" Package Includes Taxes & Fees, One Hour of Behind the Wheel). This Package Has Been Discounted For Those Who Pay in Advance; For a Seniors "Behind-The-Wheel Refresher": NOW ONLY $125!`
     },
-     {
-        icon: "",
-        title: "TRAFFIC SCHOOL",
-        description: `
-        <Link><a 
-        className="text-xl px-2" 
-        href="https://trafficschool.estopdrivingschoolonline.com/signup/"
-        >
-        Click The Link to Sign-Up and Pay for Traffic School
-        </a></Link>
-        
-        <Link><a 
-        className="text-xl px-2" 
-        href="https://trafficschool.estopdrivingschoolonline.com/login/"
-        >
-        Click The Link to Sign-Up and Pay for Traffic School
-        </a>
-        <Link>
-        ` 
-    },
-    {
-        icon: "",
-        title: "STUDY GUIDE",
-        description: `
-    `
-    },
-    {
-        icon: "",
-        title: "DRIVERS EDUCATION",
-        description: `
-        `
-    },
+    } 
 ];
 const Home: NextPage = () => {
     const onScrollToView = useCallback((elemId: string) => {
@@ -98,9 +67,7 @@ const Home: NextPage = () => {
                 <title>eStop Driving School, The Best Driving School of Novato in Marin County to Sonoma County, CA | Teaching Expert Driving in North Bay, South Bay — San Francisco | Instructor Has Over Four Decades of Experience</title>
                 <meta name="description" content="Award Winning | Teaching Driving Teenagers, Adults, & Seniors How to Drive Marin County & Since 1983" />
                 <meta name="googletagmanager" content="https://www.googletagmanager.com/gtag/js?id=GTM-52S8PDBJ"/>
-                <script async
-                        script-src="https://www.googleanalytics.com/gtag/js?id=GTM-52S8PDBJ">
-                </script>
+                <script async script-src="https://www.googleanalytics.com/gtag/js?id=GTM-52S8PDBJ"></script>
                 <link rel="icon" href="/favicon.ico" />
                 <link
                     rel="apple-touch-icon"
