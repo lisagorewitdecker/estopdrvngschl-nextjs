@@ -6,9 +6,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
-import Link from "next/link";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { useCallback } from "react";
+import Link from 'next/link'
 
 const NavConfig = [
     {
@@ -54,13 +54,14 @@ const ServiceConfig = [
      {
         icon: "",
         title: "TRAFFIC SCHOOL",
-        description: `
-    <a className="text-xl px-2" href="https://trafficschool.estopdrivingschoolonline.com/signup">
-        Click The Link to Sign-Up and Pay for Traffic School
-    </a>
-    <a className="text-xl px-2" href="https://trafficschool.estopdrivingschoolonline.com/login">
-        Click The Link to Sign-Up and Pay for Traffic School
-    </a>` 
+        description: `<Link>
+        <a className="text-xl px-2" href="https://trafficschool.estopdrivingschoolonline.com/signup">
+        Click The Link to Sign-Up and Pay for Traffic School</a>
+        </Link>
+        <Link>
+        <a className="text-xl px-2" href="https://trafficschool.estopdrivingschoolonline.com/login">
+        Click The Link to Sign-Up and Pay for Traffic School</a>
+        <Link>` 
     },
     {
         icon: "",
