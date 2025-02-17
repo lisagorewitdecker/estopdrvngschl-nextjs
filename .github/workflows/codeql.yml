@@ -16,7 +16,7 @@ jobs:
       actions: read
       contents: read
     strategy:
-      fail-fast: false
+      fail-fast: true
       matrix:
         language: [ 'javascript' ]
     environment: npm
