@@ -6,10 +6,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { useCallback } from "react";
-import Link from "next/link";
-
 const NavConfig = [
     {
         "name": "HOME",
@@ -50,8 +49,22 @@ const ServiceConfig = [
         title: "SENIORS",
         description: `One-Hour Driving Lesson For Seniors "Behind-The-Wheel Refresher".
     (The One-Hour Rate is NOW Discounted. Seniors "Behind-The-Wheel Refresher" Package Includes Taxes & Fees, One Hour of Behind the Wheel). This Package Has Been Discounted For Those Who Pay in Advance; For a Seniors "Behind-The-Wheel Refresher": NOW ONLY $125!`
-        
-    
+    },
+    {
+        icon: "",
+        title: "",
+        description: `Traffic School`
+    },
+    {
+        icon: "",
+        title: "",
+        description: `TRAFFIC SCHOOL`
+    },
+    {
+        icon: "universal-access",
+        title: "SENIORS",
+        description: `One-Hour Driving Lesson For Seniors "Behind-The-Wheel Refresher".
+    (The One-Hour Rate is NOW Discounted. Seniors "Behind-The-Wheel Refresher" Package Includes Taxes & Fees, One Hour of Behind the Wheel). This Package Has Been Discounted For Those Who Pay in Advance; For a Seniors "Behind-The-Wheel Refresher": NOW ONLY $125!`
     },
 ];
 const Home: NextPage = () => {
