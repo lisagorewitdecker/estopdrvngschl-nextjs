@@ -1,3 +1,4 @@
+'use client'
 // import { GoogleAnalytics } from "@next/third-parties/google";
 import { GoogleAnalytics } from "nextjs-google-analytics";
 import Script from "next/script";
@@ -6,9 +7,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
-import Link, { LinkProps } from "next/link";
+import type { Route } from 'next';
+import Link from 'next/link'
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { useCallback } from "react";
+import { useRouter } from "next/router";
 const NavConfig = [
     {
         "name": "HOME",
@@ -51,14 +54,16 @@ const ServiceConfig = [
     (The One-Hour Rate is NOW Discounted. Seniors "Behind-The-Wheel Refresher" Package Includes Taxes & Fees, One Hour of Behind the Wheel). This Package Has Been Discounted For Those Who Pay in Advance; For a Seniors "Behind-The-Wheel Refresher": NOW ONLY $125!`
     },
     {
-        icon: "",
+        icon: "hello",
         title: "TRAFFIC SCHOOL",
-        description: `
-        <a href="https://trafficschool.estopdrivingschoolonline.com/signup/">
-        Click The Link to Pay for Traffic School</a>
-        
-        <a href="https://trafficschool.estopdrivingschoolonline.com/login/">
-        Click The Link to Login To Traffic School</a>`
+        description: `<ul>
+      <li>
+        <div><a href="https://trafficschool.estopdrivingschoolonline.com/signup/">Click For Traffic Schoo</a></div>
+      </li>
+      <li>
+        <a href="https://trafficschool.estopdrivingschoolonline.com/login/">Click Login To Traffic School</a>
+      </li>
+    </ul>`
     },
     {
         icon: "",
