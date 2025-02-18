@@ -7,8 +7,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
-import type { Route } from 'next';
-import Link from 'next/link'
+// import type { Route } from 'next';
+import Link from 'next/link';
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { useCallback } from "react";
 import { useRouter } from "next/router";
@@ -62,9 +62,9 @@ const Home: NextPage = () => {
         if (elem) {
             elem.scrollIntoView({ behavior: "smooth" });
         }
-    }, []);
-    return (
-        <div>
+    }, 
+[]);
+    return (<div>
             <Head>
                 <title>eStop Driving School, The Best Driving School of Novato in Marin County to Sonoma County, CA | Teaching Expert Driving in North Bay, South Bay — San Francisco | Instructor Has Over Four Decades of Experience</title>
                 <meta name="description" content="Award Winning | Teaching Driving Teenagers, Adults, & Seniors How to Drive Marin County & Since 1983" />
