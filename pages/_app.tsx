@@ -23,7 +23,7 @@ library.add(
 import { GoogleAnalytics } from "nextjs-google-analytics";
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from "@vercel/speed-insights/next";
-const MyApp = ({ Component, pageProps }) => {
+function MyApp({ Component, pageProps }: AppProps) {
    return (
     <>
       <GoogleAnalytics trackPageViews />
