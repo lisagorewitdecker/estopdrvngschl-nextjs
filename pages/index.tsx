@@ -30,6 +30,7 @@ const NavConfig = [
     {
         name: "CONTACT US",
         link: "contact",
+    {
     },
 ];
 const ServiceConfig = [
@@ -50,9 +51,9 @@ const ServiceConfig = [
         title: "SENIORS",
         description: `One-Hour Driving Lesson For Seniors "Behind-The-Wheel Refresher".
     (The One-Hour Rate is NOW Discounted. Seniors "Behind-The-Wheel Refresher" Package Includes Taxes & Fees, One Hour of Behind the Wheel). This Package Has Been Discounted For Those Who Pay in Advance; For a Seniors "Behind-The-Wheel Refresher": NOW ONLY $125!`
-        
-    
+
     },
+    }
 ];
 const Home: NextPage = () => {
     const onScrollToView = useCallback((elemId: string) => {
@@ -63,7 +64,6 @@ const Home: NextPage = () => {
         }
     }, []);
     return (
-        <div>
             <Head>
                 <title>eStop Driving School, The Best Driving School of Novato in Marin County to Sonoma County, CA | Teaching Expert Driving in North Bay, South Bay — San Francisco | Instructor Has Over Four Decades of Experience</title>
                 <meta name="description" content="Award Winning | Teaching Driving Teenagers, Adults, & Seniors How to Drive Marin County & Since 1983" />
