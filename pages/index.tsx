@@ -9,7 +9,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { useCallback } from "react";
-
 const NavConfig = [
     {
         "name": "HOME",
