@@ -61,17 +61,6 @@ const ServiceConfig = [
         Click The Link to Sign-Up and Pay for Traffic School
     </a>`
     },
-    {
-        icon: "",
-        title: "STUDY GUIDE",
-        description: `
-    <a className="text-xl px-2" href="https://studyguide.estopdrivingschoolonline.com/signup/">
-        Click Link to Pay for Study Guide
-    </a>
-    <a className="text-xl px-2" href="https://trafficschool.estopdrivingschoolonline.com/login">
-        Click Link to Login To Study Guide
-    </a>`
-    },
      {
         icon: "",
         title: "STUDY GUIDE",
