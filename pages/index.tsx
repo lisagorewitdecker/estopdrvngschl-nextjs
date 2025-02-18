@@ -53,9 +53,10 @@ const ServiceConfig = [
     {
         icon: "",
         title: "TRAFFIC SCHOOL",
-        description: `
-        <a href="https://trafficschool.estopdrivingschoolonline.com/signup/">
-        Click The Link to Pay for Traffic School</a>
+        description: `<Link href="https://trafficschool.estopdrivingschoolonline.com/signup/">
+  <button> Click The Link to Pay for Traffic School</button>
+</Link>
+       
         
         <a href="https://trafficschool.estopdrivingschoolonline.com/login/">
         Click The Link to Login To Traffic School</a>`
