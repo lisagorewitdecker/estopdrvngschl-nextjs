@@ -2,11 +2,26 @@ const NodeAttributes = require('../utils/node-attributes.js')
 
 const SUPPORTED_SRCS = [
   'www.google-analytics.com/analytics.js',
-  'www.googletagmanager.com/gtag/js',
+  'www.googletagmanager.com/gtag/js',,
+  'https://trafficschool.estopdrivingschoolonline.com/signup/',
+  'https://trafficschool.estopdrivingschoolonline.com/login/',
+  'https://drivered.estopdrivingschoolonline.com/signup/',
+  'https://drivered.estopdrivingschoolonline.com/login/',
+  'https://studyguide.estopdrivingschoolonline.com/signup/',
+  'https://studyguide.estopdrivingschoolonline.com/login/',
+  
+
+  
 ]
 const SUPPORTED_HTML_CONTENT_URLS = [
   'www.google-analytics.com/analytics.js',
   'www.googletagmanager.com/gtm.js',
+  'https://trafficschool.estopdrivingschoolonline.com/signup/',
+  'https://trafficschool.estopdrivingschoolonline.com/login/',
+  'https://drivered.estopdrivingschoolonline.com/signup/',
+  'https://drivered.estopdrivingschoolonline.com/login/',
+  'https://studyguide.estopdrivingschoolonline.com/signup/',
+  'https://studyguide.estopdrivingschoolonline.com/login/'
 ]
 const ERROR_MSG =
   'Use the `next/script` component for loading third party scripts. See: https://nextjs.org/docs/messages/next-script-for-ga'
@@ -49,9 +64,9 @@ module.exports = {
           })
         }
 
-        // Check if inline script is being used to add GA.
-        // https://developers.google.com/analytics/devguides/collection/analyticsjs#the_google_analytics_tag
-        // https://developers.google.com/tag-manager/quickstart
+        Check if inline script is being used to add GA.
+        https://developers.google.com/analytics/devguides/collection/analyticsjs#the_google_analytics_tag
+        https://developers.google.com/tag-manager/quickstart
         if (
           attributes.value('dangerouslySetInnerHTML') &&
           attributes.value('dangerouslySetInnerHTML').length > 0
