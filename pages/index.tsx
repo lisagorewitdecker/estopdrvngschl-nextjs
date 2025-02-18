@@ -30,7 +30,7 @@ const NavConfig = [
     {
         name: "CONTACT US",
         link: "contact",
-    {
+    
     },
 ];
 const ServiceConfig = [
@@ -53,7 +53,6 @@ const ServiceConfig = [
     (The One-Hour Rate is NOW Discounted. Seniors "Behind-The-Wheel Refresher" Package Includes Taxes & Fees, One Hour of Behind the Wheel). This Package Has Been Discounted For Those Who Pay in Advance; For a Seniors "Behind-The-Wheel Refresher": NOW ONLY $125!`
 
     },
-    }
 ];
 const Home: NextPage = () => {
     const onScrollToView = useCallback((elemId: string) => {
