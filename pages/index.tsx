@@ -53,36 +53,12 @@ const ServiceConfig = [
         description: `One-Hour Driving Lesson For Seniors "Behind-The-Wheel Refresher".
     (The One-Hour Rate is NOW Discounted. Seniors "Behind-The-Wheel Refresher" Package Includes Taxes & Fees, One Hour of Behind the Wheel). This Package Has Been Discounted For Those Who Pay in Advance; For a Seniors "Behind-The-Wheel Refresher": NOW ONLY $125!`
     },
-    {
+     {
         icon: "",
-        title: "TRAFFIC SCHOOL",
-        description: `<ul>
-      <li>
-        <Link href="https://trafficschool.estopdrivingschoolonline.com/signup/">Click For Traffic Schoo</Link>
-      </li>
-      <li>
-        <Link href="https://trafficschool.estopdrivingschoolonline.com/login/">Click Login To Traffic School</Link>
-      </li>
-    </ul>`
-    },
-    {
-        icon: "",
-        title: "STUDY GUIDE",
-        description: `<Link href="https://studyguide.estopdrivingschoolonline.com/signup/">
-                        <a>Click Link to Pay for Study Guide</a></Link>
-                        
-                        <Link href="https://studyguide.estopdrivingschoolonline.com/login/">
-                        <a>Click Link to Login To Study Guide</a></Link>`
-    },
-    {
-        icon: "",
-        title: "DRIVER'S ED",
-        description: `
-    <a href="https://drivered.estopdrivingschoolonline.com/signup/">
-        Click Link to Pay for Driver's Education</a>
-        
-    <a href="https://drivered.estopdrivingschoolonline.com/login/">
-        Click Link to Login To Driver's Education</a>`
+        title: "",
+        link:"",
+        description: `One-Hour Driving Lesson For Seniors "Behind-The-Wheel Refresher".
+     (The One-Hour Rate is NOW Discounted. Seniors "Behind-The-Wheel Refresher" Package Includes Taxes & Fees, One Hour of Behind the Wheel). This Package Has Been Discounted For Those Who Pay in Advance; For a Seniors "Behind-The-Wheel Refresher": NOW ONLY $125!`
     },
 ];
 const Home: NextPage = () => {
@@ -273,7 +249,7 @@ const Home: NextPage = () => {
                         </p>
 
                         <div className="py-3 grid xs:grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-4">
-                            {ServiceConfig.map(({ icon, title, description }) => (
+                            {ServiceConfig.map(({ icon, title, description, link }) => (
                                 <div
                                     key={title}
                                     className="p-3 flex flex-col text-center items-center"
