@@ -65,12 +65,20 @@ const ServiceConfig = [
         icon: "",
         title: "STUDY GUIDE",
         description: `
-    <a className="text-xl px-2" href="https://studyguide.estopdrivingschoolonline.com/signup/">
+    <p><a 
+    className="text-xl px-2" 
+    href="https://studyguide.estopdrivingschoolonline.com/signup/"
+    >
         Click Link to Pay for Study Guide
     </a>
-    <a className="text-xl px-2" href="https://studyguide.estopdrivingschoolonline.com/login">
+    </p>
+   <p>
+   <a 
+   className="text-xl px-2" 
+   href="https://studyguide.estopdrivingschoolonline.com/login"
+   >
         Click Link to Login To Study Guide
-    </a>`
+    </a></p>`
     },
      {
         icon: "",
