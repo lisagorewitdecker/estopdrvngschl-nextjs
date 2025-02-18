@@ -139,7 +139,7 @@ const Home: NextPage = () => {
                                 </a>
                             </div>
                         </div>
-                    </div>
+                    </div
                 </div>
                 <div id="about" className="container mx-auto py-4">
                     <h1 className="text-2xl text-center py-4 font-bold">eStop Driving School, Novato, CA &ndash; Driving Lessons in Marin County & Sonoma County!</h1>
@@ -268,16 +268,15 @@ const Home: NextPage = () => {
                         className="text-red-500"
                         style={{ width: 36, height: 36 }}
                     />
-                </div> <div
-                    className="flex  */}
-         py-5 
-        bg-gray-200">
+                </div> 
+                <div
+                    className="flex  */} 
+                    py-5 bg-gray-200">
                   <div class="container mx-auto py-3">
                      <p class="text-center mx-1">
-                        <h3 class="text-xl text-center font-bold">
                             <div class="p-3 flex flex-col text-center items-center" style="font-size: 12px;">
-                                <h3 class="font-bold text-lg">TRAFFIC SCHOOL</h3>
-                                <p class="text-base">
+            <h3 class="font-bold text-lg">TRAFFIC SCHOOL</h3>
+            <p class="text-base">
       <a className="text-xl px-2" href="https://trafficschool.estopdrivingschoolonline.com/signup/">
            Click The Link to Sign-Up and Pay for Traffic School
       </a>
@@ -314,8 +313,11 @@ const Home: NextPage = () => {
             Click The Link to Login to Login to The Drivers Education Portal
       </a>
          </p>
- </div>                                
-</h3></p></div></div>
+   </p>
+</div>
+         </div></div>
+                               
+
                     <div id="schedule"
                          className="container mx-auto py-2">
                         <h2 className="text-2xl text-center py-3 font-bold">
