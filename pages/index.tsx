@@ -63,12 +63,11 @@ const ServiceConfig = [
     {
         icon: "",
         title: "STUDY GUIDE",
-        description: `
-        <a href="https://studyguide.estopdrivingschoolonline.com/signup/">
-        Click Link to Pay for Study Guide</a>
-        
-        <a href="https://studyguide.estopdrivingschoolonline.com/login">
-        Click Link to Login To Study Guide</a>`
+        description: `<Link href="https://studyguide.estopdrivingschoolonline.com/signup/">
+                        <a>Click Link to Pay for Study Guide</a></Link>
+                        
+                        <Link href="https://studyguide.estopdrivingschoolonline.com/login/">
+                        <a>Click Link to Login To Study Guide</a></Link>`
     },
     {
         icon: "",
