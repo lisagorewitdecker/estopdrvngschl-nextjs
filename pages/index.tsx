@@ -277,18 +277,22 @@ const Home: NextPage = () => {
                     className="flex  */}
          py-5 
         bg-gray-200">
-                       <div class="bg-gray-100">
+                    
+<div class="bg-gray-100">
 <div class="container mx-auto py-3">
 <div class="py-3 grid xs:grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-4">
 <div class="p-3 flex flex-col text-center items-center" style="font-size: 12px;">
 <h3 class="font-bold text-lg">TRAFFIC SCHOOL</h3>
-<p class="text-base">We Are Now Offering Online Traffic School !
+<p class="text-base">We Are Now Offering Online Traffic School!
 If You Are interested in Signing Up for Our Affordable Online Traffic School
-<a href="https://trafficschool.estopdrivingschoolonline.com/signup“ no rel="no referer” target=_blank”>Please Click  This Link to Sign-Up and Learn More
-</a></p>
+<a href="https://trafficschool.estopdrivingschoolonline.com/signup“ rel="noopener noreferrer" target=_blank”>Please Click Here to Sign-Up</a>
+</p>
 <p>&nbsp;</p>
 <p class="text-base">Once You Have Signed Up and Paid For Traffic School
-<a href="https://trafficschool.estopdrivingschoolonline.com/login“ no rel="no referer” target="_blank”>Please Click This Link to Login to Your Portal for Traffic School</a></p>
+<a href="https://trafficschool.estopdrivingschoolonline.com/login“ rel="noopener noreferrer" target=_blank”>
+    Please Click This Link to Login to Your Portal for Traffic School
+</a>
+</p>
 </div>
 </div>
 </div>
