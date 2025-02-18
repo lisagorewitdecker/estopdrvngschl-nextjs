@@ -12,6 +12,7 @@ import Link from 'next/link'
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { useCallback } from "react";
 import { useRouter } from "next/router";
+
 const NavConfig = [
     {
         "name": "HOME",
@@ -56,14 +57,13 @@ const ServiceConfig = [
     {
         icon: "hello",
         title: "TRAFFIC SCHOOL",
-        description: `<ul>
-      <li>
-        <div><a href="https://trafficschool.estopdrivingschoolonline.com/signup/">Click For Traffic Schoo</a></div>
+        description: ``,
+        link: "<a href="https://trafficschool.estopdrivingschoolonline.com/signup/">Click For Traffic School</a><
       </li>
       <li>
         <a href="https://trafficschool.estopdrivingschoolonline.com/login/">Click Login To Traffic School</a>
       </li>
-    </ul>`
+    </ul>"
     },
     {
         icon: "",
