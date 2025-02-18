@@ -8,7 +8,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 // import type { Route } from 'next';
-import Link from "next/link";
+// import Link from "next/link";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { useCallback } from "react";
 //import { useRouter } from "next/router";
@@ -95,6 +95,8 @@ return (<div>
                 <meta name="msapplication-TileColor" content="#da532c" />
                 <meta name="theme-color" content="#ffffff"></meta>
             </Head>
+    </div>
+        <div>
             <main className="main">
                 <div id="home" className="flex items-center justify-center py-4">
                     <Image
@@ -261,7 +263,6 @@ return (<div>
                                 </div>
                             ))}
                         </div>
-                    </div>
                     <div class="bg-gray-100">
 <div class="container mx-auto py-3">
 <div class="py-3 grid xs:grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -280,6 +281,7 @@ If You Are interested in Signing Up for Our Affordable Online Traffic School
 </div>
 </div>
 </div>
+                    </div>
                 
                 <div
                     className="fixed bottom-2 right-2"
