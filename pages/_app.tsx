@@ -20,16 +20,17 @@ library.add(
   faCar,
   faArrowUp
 );
-
+import { GoogleAnalytics } from "nextjs-google-analytics";
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from "@vercel/speed-insights/next";
-function MyApp({ Component, pageProps }: AppProps) {
-  return (
+const MyApp = ({ Component, pageProps }) => {
+   return (
     <>
+      <GoogleAnalytics trackPageViews />
       <Component {...pageProps} />
-      <Analytics mode={'production'} />
-      <SpeedInsights />
     </>
   );
-}
+};
 export default MyApp;
+
+
