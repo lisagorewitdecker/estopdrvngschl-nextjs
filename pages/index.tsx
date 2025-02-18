@@ -7,8 +7,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
-import type { Route } from 'next';
-import Link from 'next/link';
+// import type { Route } from 'next';
+import Link from "next/link";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { useCallback } from "react";
 //import { useRouter } from "next/router";
@@ -62,9 +62,9 @@ const Home: NextPage = () => {
         if (elem) {
             elem.scrollIntoView({ behavior: "smooth" });
         }
-    }, []);
-    return (
-        <div>
+    }, 
+[]);
+return (<div>
             <Head>
                 <title>eStop Driving School, The Best Driving School of Novato in Marin County to Sonoma County, CA | Teaching Expert Driving in North Bay, South Bay — San Francisco | Instructor Has Over Four Decades of Experience</title>
                 <meta name="description" content="Award Winning | Teaching Driving Teenagers, Adults, & Seniors How to Drive Marin County & Since 1983" />
@@ -262,23 +262,7 @@ const Home: NextPage = () => {
                             ))}
                         </div>
                     </div>
-                </div>
-                <div
-                    className="fixed bottom-2 right-2"
-                    onClick={() => onScrollToView("home")}
-                >
-                    <FontAwesomeIcon
-                        icon="arrow-up"
-                        className="text-red-500"
-                        style={{ width: 36, height: 36 }}
-                    />
-                </div>
-                <div
-                    className="flex  */}
-         py-5 
-        bg-gray-200">
-                    
-<div class="bg-gray-100">
+                    <div class="bg-gray-100">
 <div class="container mx-auto py-3">
 <div class="py-3 grid xs:grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-4">
 <div class="p-3 flex flex-col text-center items-center" style="font-size: 12px;">
@@ -296,6 +280,23 @@ If You Are interested in Signing Up for Our Affordable Online Traffic School
 </div>
 </div>
 </div>
+                
+                <div
+                    className="fixed bottom-2 right-2"
+                    onClick={() => onScrollToView("home")}
+                >
+                    <FontAwesomeIcon
+                        icon="arrow-up"
+                        className="text-red-500"
+                        style={{ width: 36, height: 36 }}
+                    />
+                </div>
+                <div
+                    className="flex  */}
+         py-5 
+        bg-gray-200">
+                    </div>
+
                     <div id="schedule"
                          className="container mx-auto py-2">
                         <h2 className="text-2xl text-center py-3 font-bold">
