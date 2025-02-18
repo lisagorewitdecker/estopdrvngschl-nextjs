@@ -1,3 +1,4 @@
+'use client'
 // import { GoogleAnalytics } from "@next/third-parties/google";
 import { GoogleAnalytics } from "nextjs-google-analytics";
 import Script from "next/script";
@@ -54,13 +55,14 @@ const ServiceConfig = [
     {
         icon: "",
         title: "TRAFFIC SCHOOL",
-        description: `<Link href="https://trafficschool.estopdrivingschoolonline.com/signup/">
-  <button> Click The Link to Pay for Traffic School</button>
-</Link>
-       
-        
-        <a href="https://trafficschool.estopdrivingschoolonline.com/login/">
-        Click The Link to Login To Traffic School</a>`
+        description: `<ul>
+      <li>
+        <Link href="https://trafficschool.estopdrivingschoolonline.com/signup/">Click For Traffic Schoo</Link>
+      </li>
+      <li>
+        <Link href="https://trafficschool.estopdrivingschoolonline.com/login/">Click Login To Traffic School</Link>
+      </li>
+    </ul>`
     },
     {
         icon: "",
