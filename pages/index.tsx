@@ -50,6 +50,51 @@ const ServiceConfig = [
         description: `One-Hour Driving Lesson For Seniors "Behind-The-Wheel Refresher".
     (The One-Hour Rate is NOW Discounted. Seniors "Behind-The-Wheel Refresher" Package Includes Taxes & Fees, One Hour of Behind the Wheel). This Package Has Been Discounted For Those Who Pay in Advance; For a Seniors "Behind-The-Wheel Refresher": NOW ONLY $125!`
     },
+    {
+        icon: "",
+        title: "TRAFFIC SCHOOL",
+        description: `
+    <a className="text-xl px-2" href="https://trafficschool.estopdrivingschoolonline.com/signup/">
+        Click The Link to Sign-Up and Pay for Traffic School
+    </a>
+    <a className="text-xl px-2" href="https://trafficschool.estopdrivingschoolonline.com/login/">
+        Click The Link to Sign-Up and Pay for Traffic School
+    </a>`
+    },
+    {
+        icon: "",
+        title: "STUDY GUIDE",
+        description: `
+    <a className="text-xl px-2" href="https://studyguide.estopdrivingschoolonline.com/signup/">
+        Click Link to Pay for Study Guide
+    </a>
+    <a className="text-xl px-2" href="https://trafficschool.estopdrivingschoolonline.com/login">
+        Click Link to Login To Study Guide
+    </a>`
+    },
+     {
+        icon: "",
+        title: "STUDY GUIDE",
+        description: `
+    <a className="text-xl px-2" href="https://studyguide.estopdrivingschoolonline.com/signup/">
+        Click Link to Pay for Study Guide
+    </a>
+    <a className="text-xl px-2" href="https://studyguide.estopdrivingschoolonline.com/login">
+        Click Link to Login To Study Guide
+    </a>`
+    },
+     {
+        icon: "",
+        title: "DRIVER'S ED",
+        description: `
+    <a className="text-xl px-2" href="https://drivered.estopdrivingschoolonline.com/signup/">
+        Click Link to Pay for Driver's Education
+    </a>
+    <a className="text-xl px-2" href="https://drivered.estopdrivingschoolonline.com/login/">
+        Click Link to Login To Driver's Education
+    </a>`
+    },
+    {
 ];
 const Home: NextPage = () => {
     const onScrollToView = useCallback((elemId: string) => {
