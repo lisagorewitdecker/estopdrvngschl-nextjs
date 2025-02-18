@@ -94,7 +94,6 @@ const ServiceConfig = [
         Click Link to Login To Driver's Education
     </a>`
     },
-    {
 ];
 const Home: NextPage = () => {
     const onScrollToView = useCallback((elemId: string) => {
