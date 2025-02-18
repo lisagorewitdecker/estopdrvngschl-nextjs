@@ -9,6 +9,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { useCallback } from "react";
+
 const NavConfig = [
     {
         "name": "HOME",
@@ -267,11 +268,54 @@ const Home: NextPage = () => {
                         className="text-red-500"
                         style={{ width: 36, height: 36 }}
                     />
-                </div>
-                <div
+                </div> <div
                     className="flex  */}
          py-5 
         bg-gray-200">
+                  <div class="container mx-auto py-3">
+                     <p class="text-center mx-1">
+                        <h3 class="text-xl text-center font-bold">
+                            <div class="p-3 flex flex-col text-center items-center" style="font-size: 12px;">
+                                <h3 class="font-bold text-lg">TRAFFIC SCHOOL</h3>
+                                <p class="text-base">
+      <a className="text-xl px-2" href="https://trafficschool.estopdrivingschoolonline.com/signup/">
+           Click The Link to Sign-Up and Pay for Traffic School
+      </a>
+         </p>
+          <p class="text-base">
+       <a className="text-xl px-2" href="https://trafficschool.estopdrivingschoolonline.com/login/">
+            Click The Link to Login for Traffic School Portal
+       </a>
+       </p>
+    </div>
+  <div class="p-3 flex flex-col text-center items-center" style="font-size: 12px;">
+      <h3 class="font-bold text-lg">STUDY GUIDE</h3>
+      <p class="text-base">
+      <a className="text-xl px-2" href="https://studyguide.estopdrivingschoolonline.com/signup/">
+           Click The Link to Sign-Up and Pay for Our Study Guide
+      </a>
+         </p>
+      <p class="text-base">
+      <a className="text-xl px-2" href="https://studyguide.estopdrivingschoolonline.com/login">
+            Click The Link to Login to Login to The Study Guide Portal
+      </a>
+         </p>
+ </div>       
+      
+   <div class="p-3 flex flex-col text-center items-center" style="font-size: 12px;">
+            <h3 class="font-bold text-lg">DRIVERS EDUCATION</h3>
+      <p class="text-base">
+      <a className="text-xl px-2" href="https://drivered.estopdrivingschoolonline.com/signup">
+           Click The Link to Sign-Up and Pay for Drivers Education
+      </a>
+         </p>
+      <p class="text-base">
+      <a className="text-xl px-2" href="https://drivered.estopdrivingschoolonline.com/login/">
+            Click The Link to Login to Login to The Drivers Education Portal
+      </a>
+         </p>
+ </div>                                
+</h3></p></div></div>
                     <div id="schedule"
                          className="container mx-auto py-2">
                         <h2 className="text-2xl text-center py-3 font-bold">
