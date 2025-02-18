@@ -1,4 +1,4 @@
-'use client'
+// 'use client'
 // import { GoogleAnalytics } from "@next/third-parties/google";
 import { GoogleAnalytics } from "nextjs-google-analytics";
 import Script from "next/script";
@@ -8,7 +8,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 // import type { Route } from 'next';
-import Link from 'next/link';
+// import Link from 'next/link';
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { useCallback } from "react";
 import { useRouter } from "next/router";
@@ -64,8 +64,7 @@ const Home: NextPage = () => {
         }
     }, 
 []);
-    return (
-        <div>
+return (<div>
             <Head>
                 <title>eStop Driving School, The Best Driving School of Novato in Marin County to Sonoma County, CA | Teaching Expert Driving in North Bay, South Bay — San Francisco | Instructor Has[...]</title>
                 <meta name="description" content="Award Winning | Teaching Driving Teenagers, Adults, & Seniors How to Drive Marin County & Since 1983" />
@@ -80,6 +79,8 @@ const Home: NextPage = () => {
                 <meta name="msapplication-TileColor" content="#da532c" />
                 <meta name="theme-color" content="#ffffff"/>
             </Head>
+    </div>
+        <div>
             <main className="main">
                 <div id="home" className="flex items-center justify-center py-4">
                     <Image src="/logo.png" alt="eStop Driving School Logo" width={80} height={80}/>
@@ -206,6 +207,7 @@ const Home: NextPage = () => {
                         <h2>eStop Driving School Provides Driving Lessons to The Following Locations: Novato, CA; Tiburon, CA; Petaluma, CA; San Rafael, CA; Corte Madera, CA; Sausalito, CA; Sebastopol[...] Please Do Not Hesitate to Contact Teshome (Tony) Via Text or Phone.</h2>
                     </div>
                 </div>
+    
             </main>
             <footer className="flex py-10 bg-gray-900 text-black py-4 text-sm">
                 <div className="container m-auto text-center">
