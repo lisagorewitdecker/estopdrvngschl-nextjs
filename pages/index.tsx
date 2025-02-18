@@ -7,12 +7,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
-// import type { Route } from 'next';
-import Link from 'next/link';
+import type { Route } from 'next';
+import Link from 'next/link'
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { useCallback } from "react";
 import { useRouter } from "next/router";
-
 const NavConfig = [
     {
         "name": "HOME",
@@ -54,6 +53,37 @@ const ServiceConfig = [
         description: `One-Hour Driving Lesson For Seniors "Behind-The-Wheel Refresher".
     (The One-Hour Rate is NOW Discounted. Seniors "Behind-The-Wheel Refresher" Package Includes Taxes & Fees, One Hour of Behind the Wheel). This Package Has Been Discounted For Those Who Pay in Advance; For a Seniors "Behind-The-Wheel Refresher": NOW ONLY $125!`
     },
+    {
+        icon: "",
+        title: "TRAFFIC SCHOOL",
+        description: `<ul>
+      <li>
+        <Link href="https://trafficschool.estopdrivingschoolonline.com/signup/">Click For Traffic Schoo</Link>
+      </li>
+      <li>
+        <Link href="https://trafficschool.estopdrivingschoolonline.com/login/">Click Login To Traffic School</Link>
+      </li>
+    </ul>`
+    },
+    {
+        icon: "",
+        title: "STUDY GUIDE",
+        description: `<Link href="https://studyguide.estopdrivingschoolonline.com/signup/">
+                        <a>Click Link to Pay for Study Guide</a></Link>
+                        
+                        <Link href="https://studyguide.estopdrivingschoolonline.com/login/">
+                        <a>Click Link to Login To Study Guide</a></Link>`
+    },
+    {
+        icon: "",
+        title: "DRIVER'S ED",
+        description: `
+    <a href="https://drivered.estopdrivingschoolonline.com/signup/">
+        Click Link to Pay for Driver's Education</a>
+        
+    <a href="https://drivered.estopdrivingschoolonline.com/login/">
+        Click Link to Login To Driver's Education</a>`
+    },
 ];
 const Home: NextPage = () => {
     const onScrollToView = useCallback((elemId: string) => {
@@ -62,9 +92,9 @@ const Home: NextPage = () => {
         if (elem) {
             elem.scrollIntoView({ behavior: "smooth" });
         }
-    }, 
-[]);
-    return (<div>
+    }, []);
+    return (
+        <div>
             <Head>
                 <title>eStop Driving School, The Best Driving School of Novato in Marin County to Sonoma County, CA | Teaching Expert Driving in North Bay, South Bay — San Francisco | Instructor Has Over Four Decades of Experience</title>
                 <meta name="description" content="Award Winning | Teaching Driving Teenagers, Adults, & Seniors How to Drive Marin County & Since 1983" />
