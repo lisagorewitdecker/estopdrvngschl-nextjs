@@ -1,5 +1,5 @@
-'use client'
-// import { GoogleAnalytics } from "@next/third-parties/google";
+// 'use client'
+import { GoogleAnalytics } from "@next/third-parties/google";
 import { GoogleAnalytics } from "nextjs-google-analytics";
 import Script from "next/script";
 import React, { Component } from "react";
@@ -52,14 +52,7 @@ const ServiceConfig = [
         title: "SENIORS",
         description: `One-Hour Driving Lesson For Seniors "Behind-The-Wheel Refresher".
     (The One-Hour Rate is NOW Discounted. Seniors "Behind-The-Wheel Refresher" Package Includes Taxes & Fees, One Hour of Behind the Wheel). This Package Has Been Discounted For Those Who Pay in Advance; For a Seniors "Behind-The-Wheel Refresher": NOW ONLY $125!`
-    },
-     {
-        icon: "",
-        title: "",
-        link:"",
-        description: `One-Hour Driving Lesson For Seniors "Behind-The-Wheel Refresher".
-     (The One-Hour Rate is NOW Discounted. Seniors "Behind-The-Wheel Refresher" Package Includes Taxes & Fees, One Hour of Behind the Wheel). This Package Has Been Discounted For Those Who Pay in Advance; For a Seniors "Behind-The-Wheel Refresher": NOW ONLY $125!`
-    },
+   },
 ];
 const Home: NextPage = () => {
     const onScrollToView = useCallback((elemId: string) => {
