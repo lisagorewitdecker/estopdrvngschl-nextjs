@@ -1,4 +1,3 @@
-'use client'
 // import { GoogleAnalytics } from "@next/third-parties/google";
 import { GoogleAnalytics } from "nextjs-google-analytics";
 import Script from "next/script";
@@ -7,11 +6,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
-import type { Route } from 'next';
-import Link from 'next/link'
-import { SpeedInsights } from "@vercel/speed-insights/next";
+import Link from "next/link";
 import { useCallback } from "react";
-import { useRouter } from "next/router";
 const NavConfig = [
     {
         "name": "HOME",
@@ -53,13 +49,6 @@ const ServiceConfig = [
         description: `One-Hour Driving Lesson For Seniors "Behind-The-Wheel Refresher".
     (The One-Hour Rate is NOW Discounted. Seniors "Behind-The-Wheel Refresher" Package Includes Taxes & Fees, One Hour of Behind the Wheel). This Package Has Been Discounted For Those Who Pay in Advance; For a Seniors "Behind-The-Wheel Refresher": NOW ONLY $125!`
     },
-     {
-        icon: "",
-        title: "",
-        link:"",
-        description: `One-Hour Driving Lesson For Seniors "Behind-The-Wheel Refresher".
-     (The One-Hour Rate is NOW Discounted. Seniors "Behind-The-Wheel Refresher" Package Includes Taxes & Fees, One Hour of Behind the Wheel). This Package Has Been Discounted For Those Who Pay in Advance; For a Seniors "Behind-The-Wheel Refresher": NOW ONLY $125!`
-    },
 ];
 const Home: NextPage = () => {
     const onScrollToView = useCallback((elemId: string) => {
@@ -68,7 +57,8 @@ const Home: NextPage = () => {
         if (elem) {
             elem.scrollIntoView({ behavior: "smooth" });
         }
-    }, []);
+    }, 
+    []);
     return (
         <div>
             <Head>
@@ -249,7 +239,7 @@ const Home: NextPage = () => {
                         </p>
 
                         <div className="py-3 grid xs:grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-4">
-                            {ServiceConfig.map(({ icon, title, description, link }) => (
+                            {ServiceConfig.map(({ icon, title, description }) => (
                                 <div
                                     key={title}
                                     className="p-3 flex flex-col text-center items-center"
@@ -331,7 +321,7 @@ const Home: NextPage = () => {
                 </div>
                 <div className="locations flex bg-gray-100">
                     <div className="container mx-auto py-2">
-                        <h2>eStop Driving School Provides Driving Lessons to The Following Locations: Novato, CA; Tiburon, CA; Petaluma, CA; San Rafael, CA; Corte Madera, CA; Sausalito, CA; Sebastopol, CA; Mill Valley, CA; San Anselmo, CA; Greenbrae CA; Kentfield, CA. If You Do Not See Your Location Listed Here;
+                        <h2>eStop Driving School Provides Driving Lessons to The Following Locations: Novato, CA; Tiburon, CA; Petaluma, CA; San Rafael, CA; Corte Madera, CA; Sausalito, CA; Sebastopol, CA; Mill Valley, CA; San Anselmo, CA;Greenbrae CA; Kentfield, CA. If You Do Not See Your Location Listed Here;
                             Please Do Not Hesitate to Contact Teshome (Tony) Via Text or Phone.</h2>
                     </div>
                 </div>
