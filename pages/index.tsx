@@ -273,8 +273,7 @@ const Home: NextPage = () => {
          py-5 
         bg-gray-200">
                     <div 
-                        style="background:#dd524c;"
-                        id="schedule"
+                        id="new-services"
                         className="py-3 
                         grid xs:grid-cols-1  
                         md:grid-cols-2 
