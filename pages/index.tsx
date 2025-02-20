@@ -278,11 +278,12 @@ const Home: NextPage = () => {
                             ))}
                         </div>
                     </div>
+                    </div>
                 <div className="py-3 grid xs:grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-4">
                           <h2>TEST</h2>  
                                
                 </div>
-            </div>
+        
 
                 <div
                     className="fixed bottom-2 right-2"
