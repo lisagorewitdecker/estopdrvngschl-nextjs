@@ -272,7 +272,8 @@ const Home: NextPage = () => {
                     className="flex  */}
          py-5 
         bg-gray-200">
-                    <div id="schedule"
+                <div className="py-3 grid xs:grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-4">
+                    <div id="schedule-new"
                          className="container mx-auto py-2">
                         <h2 className="text-2xl text-center py-3 font-bold">
                             SCHEDULE AN APPOINTMENT
@@ -290,6 +291,7 @@ const Home: NextPage = () => {
                         />
                     </div>
                 </div>
+                    </div>
                 <div id="contact" className="flex bg-gray-200">
                     <div className="container mx-auto py-2">
                         <h2 className="text-2xl text-center font-bold py-2">CONTACT eSTOPDRIVING SCHOOL</h2>
