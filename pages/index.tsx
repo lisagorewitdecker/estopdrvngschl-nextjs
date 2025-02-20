@@ -283,7 +283,7 @@ const Home: NextPage = () => {
                                
                 </div>
             </div>
-        </div>
+
                 <div
                     className="fixed bottom-2 right-2"
                     onClick={() => onScrollToView("home")}
