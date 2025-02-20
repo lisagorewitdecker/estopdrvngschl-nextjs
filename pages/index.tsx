@@ -257,7 +257,33 @@ const Home: NextPage = () => {
                             ))}
                         </div>
                     </div>
+
+                    
+                        <div className="py-3 grid xs:grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-4">
+                            {ServiceConfig.map(({ icon, title, description }) => (
+                                <div
+                                    key={title}
+                                    className="p-3 flex flex-col text-center items-center"
+                                    style={{ fontSize: 12 }}
+                                >
+                                    <FontAwesomeIcon
+                                        // @ts-ignore
+                                        icon={icon}
+                                        className="text-red-500 m-4"
+                                        style={{ width: 96, height: 96 }}
+                                    />
+                                    <h3 className="font-bold text-lg">{title}</h3>
+                                    <p className="text-base">{description}</p>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                <div className="py-3 grid xs:grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-4">
+                          <h2>TEST</h2>  
+                               
                 </div>
+            </div>
+        </div>
                 <div
                     className="fixed bottom-2 right-2"
                     onClick={() => onScrollToView("home")}
