@@ -258,10 +258,11 @@ const Home: NextPage = () => {
                         </div>
                     </div>
                 </div>
-                      <div className="locations flex bg-gray-100">
-                    <div className="container mx-auto py-2">
-                        <h2>eStop Driving School Provides Driving Lessons to The Following Locations: Novato, CA; Tiburon, CA; Petaluma, CA; San Rafael, CA; Corte Madera, CA; Sausalito, CA; Sebastopol, CA; Mill Valley, CA; San Anselmo, CA;Greenbrae CA; Kentfield, CA. If You Do Not See Your Location Listed Here;
-                            Please Do Not Hesitate to Contact Teshome (Tony) Via Text or Phone.</h2>
+                        <div className="py-3 grid xs:grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-4">
+                      <div className="p-3 flex flex-col text-center items-center">
+                        <h2>eStop Driving School Is Offering New Services!</h2>
+                          <p className="text-base"><a href="https://trafficschool.estopdrivingschoolonline.com/signup">CLICK HERE TO ENROLL IN TRAFFIC SCHOOL</a></p>
+                            
                     </div>
                 </div>
                 <div
