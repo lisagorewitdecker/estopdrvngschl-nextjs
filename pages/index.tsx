@@ -260,8 +260,10 @@ const Home: NextPage = () => {
                 </div>
                         <div className="py-3 grid xs:grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-4">
                       <div className="p-3 flex flex-col text-center items-center">
-                        <h2>eStop Driving School Is Offering New Services!</h2>
-                          <p className="text-base"><a href="https://trafficschool.estopdrivingschoolonline.com/signup">CLICK HERE TO ENROLL IN TRAFFIC SCHOOL</a></p>
+ <h2 className="text-2xl text-center py-3 font-bold">
+eStop Driving School Is Offering New Services</h2>                          
+                          <p className="text-base"><a href="https://trafficschool.estopdrivingschoolonline.com/signup" rel="noopener noreferrer" target="_blank">CLICK HERE TO ENROLL IN TRAFFIC SCHOOL</a>
+                          <a href="https://trafficschool.estopdrivingschoolonline.com/login" rel="noopener noreferrer" target="_blank">CLICK HERE TO LOGIN TO TRAFFIC SCHOOL</a></p>
                             
                     </div>
                 </div>
