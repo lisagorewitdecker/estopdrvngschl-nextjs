@@ -258,26 +258,32 @@ const Home: NextPage = () => {
                         </div>
                     </div>
                 </div>
+                 <div id="new-services"
+                         className="container mx-auto py-2">
+                        <h2 className="text-2xl text-center py-3 font-bold">
+                            eSTOP DRIVING SCHOOL ADDITIONAL BRAND NEW SERVICES! 
+                        </h2>
                         <div className="py-3 grid xs:grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-4">
                       <div className="p-3 flex flex-col text-center items-center">
-                         <h2 className="text-2xl text-center py-3 font-bold">ESTOP DRIVING SCHOOL NOW OFFERS TRAFFIC SCHOOL</h2>                          
+                         <h2 className="text-2xl text-center py-3 font-bold">eSTOP DRIVING SCHOOL NOW OFFERS TRAFFIC SCHOOL</h2>                          
                           <p className="text-base"><a href="https://trafficschool.estopdrivingschoolonline.com/signup" rel="noopener noreferrer" target="_blank">CLICK HERE TO ENROLL IN TRAFFIC SCHOOL</a></p>
                           <p className="text-base"><a href="https://trafficschool.estopdrivingschoolonline.com/login" rel="noopener noreferrer" target="_blank">CLICK HERE TO LOGIN TO TRAFFIC SCHOOL</a></p>
                             
                     </div>
                          <div className="p-3 flex flex-col text-center items-center">
-                         <h2 className="text-2xl text-center py-3 font-bold">ESTOP DRIVING SCHOOL NOW OFFERS STUDY GUIDES</h2>                          
+                         <h2 className="text-2xl text-center py-3 font-bold">eSTOP DRIVING SCHOOL NOW OFFERS STUDY GUIDES</h2>                          
                           <p className="text-base"><a href="https://studyguide.estopdrivingschoolonline.com/signup" rel="noopener noreferrer" target="_blank">CLICK HERE TO ENROLL IN STUDY GUIDES</a></p>
                           <p className="text-base"><a href="https://studyguide.estopdrivingschoolonline.com/login" rel="noopener noreferrer" target="_blank">CLICK HERE TO LOGIN TO STUDY GUIDES</a></p>
                             
                     </div>
                          <div className="p-3 flex flex-col text-center items-center">
-                         <h2 className="text-2xl text-center py-3 font-bold">ESTOP DRIVING SCHOOL NOW OFFERS DRIVERS ED</h2>                          
+                         <h2 className="text-2xl text-center py-3 font-bold">eSTOP DRIVING SCHOOL NOW OFFERS DRIVERS ED</h2>                          
                           <p className="text-base"><a href="https://drivered.estopdrivingschoolonline.com/signup" rel="noopener noreferrer" target="_blank">CLICK HERE TO ENROLL IN DRIVERS ED</a></p>
                           <p className="text-base"><a href="https://drivered.estopdrivingschoolonline.com/login" rel="noopener noreferrer" target="_blank">CLICK HERE TO LOGIN TO DRIVERS ED</a></p>
                             
                     </div>
                 </div>
+                     </div>
                 <div
                     className="fixed bottom-2 right-2"
                     onClick={() => onScrollToView("home")}
