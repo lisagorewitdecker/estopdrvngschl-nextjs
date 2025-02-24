@@ -265,19 +265,19 @@ const Home: NextPage = () => {
                         </h2>
                         <div className="py-3 grid xs:grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-4">
                       <div className="p-3 flex flex-col text-center items-center">
-                         <h3 className="font-bold text-lg">eSTOP DRIVING SCHOOL NOW OFFERS TRAFFIC SCHOOL</h3>                          
+                         <h3 className="font-bold">eSTOP DRIVING SCHOOL NOW OFFERS TRAFFIC SCHOOL</h3>                          
                           <p className="text-base"><a href="https://trafficschool.estopdrivingschoolonline.com/signup" rel="noopener noreferrer" target="_blank">CLICK HERE TO ENROLL IN TRAFFIC SCHOOL</a></p>
                           <p className="text-base"><a href="https://trafficschool.estopdrivingschoolonline.com/login" rel="noopener noreferrer" target="_blank">CLICK HERE TO LOGIN TO TRAFFIC SCHOOL</a></p>
                             
                     </div>
                          <div className="p-3 flex flex-col text-center items-center">
-                         <h3 className="font-bold text-lg">eSTOP DRIVING SCHOOL NOW OFFERS STUDY GUIDES</h3>                          
+                         <h3 className="font-bold">eSTOP DRIVING SCHOOL NOW OFFERS STUDY GUIDES</h3>                          
                           <p className="text-base"><a href="https://studyguide.estopdrivingschoolonline.com/signup" rel="noopener noreferrer" target="_blank">CLICK HERE TO ENROLL IN STUDY GUIDES</a></p>
                           <p className="text-base"><a href="https://studyguide.estopdrivingschoolonline.com/login" rel="noopener noreferrer" target="_blank">CLICK HERE TO LOGIN TO STUDY GUIDES</a></p>
                             
                     </div>
                          <div className="p-3 flex flex-col text-center items-center">
-                         <h3 className="font-bold text-lg">eSTOP DRIVING SCHOOL NOW OFFERS DRIVERS ED</h3>                          
+                         <h3 className="font-bold">eSTOP DRIVING SCHOOL NOW OFFERS DRIVERS ED</h3>                          
                           <p className="text-base"><a href="https://drivered.estopdrivingschoolonline.com/signup" rel="noopener noreferrer" target="_blank">CLICK HERE TO ENROLL IN DRIVERS ED</a></p>
                           <p className="text-base"><a href="https://drivered.estopdrivingschoolonline.com/login" rel="noopener noreferrer" target="_blank">CLICK HERE TO LOGIN TO DRIVERS ED</a></p>
                             
