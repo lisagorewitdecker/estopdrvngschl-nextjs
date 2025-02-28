@@ -1,5 +1,5 @@
-import { useState, useEffect } from 'react';
-import Cookies from 'js-cookie';
+import { useState, useEffect } from "react";
+import Cookies from "js-cookie";
 
 const CookieBanner = () => {
   const [showBanner, setShowBanner] = useState(true);
