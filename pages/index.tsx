@@ -394,4 +394,4 @@ const Home: NextPage = () => {
         </div>
     );
 };
-export default function Page() {
+export default Page() {
