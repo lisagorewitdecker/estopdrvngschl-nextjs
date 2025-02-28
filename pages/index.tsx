@@ -1,4 +1,4 @@
-// import { GoogleAnalytics } from "@next/third-parties/google";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import { GoogleAnalytics } from "nextjs-google-analytics";
 import Script from "next/script";
 import React, { Component } from "react";
@@ -14,8 +14,8 @@ const NavConfig = [
         "link": "home",
     },
     {
-        name: "ABOUT US",
-        link: "about",
+        name: "ABOUT",
+        link: "/pages/about",
     },
     {
         name: "SCHEDULE",
@@ -26,7 +26,7 @@ const NavConfig = [
         link: "training_and_services",
     },
     {
-        name: "CONTACT US",
+        name: "CONTACT",
         link: "contact",
     },
 ];
@@ -294,19 +294,16 @@ const Home: NextPage = () => {
                         style={{ width: 36, height: 36 }}
                     />
                 </div>
-                <div
-                    className="flex  */}
-         py-5 
-        bg-gray-200">
+                <div className="flex py-5 bg-gray-200">
                     <div id="schedule"
                          className="container mx-auto py-2">
                         <h2 className="text-2xl text-center py-3 font-bold">
                             SCHEDULE AN APPOINTMENT
                         </h2>
                         <p className="text-center  mx-2">
-                            Once You've Selected Your Preferred Appointment Day and Time, It's Just a Matter of Filling Out a Brief Form. Hit Submit and Keep The eStop Driving School Website Open. A Text Field Will Pop Up for The Code Sent By Google on Behalf of eStop Driving School. It's That Simple!
-                            Check Your Email For The Code, and If You Don't See It, Look in Your Spam Folder or Perform a in Your Email Provider Search For "Google" or "eStop Driving School." Once You Receive The Code, Enter It Into The Text Field That Will Appear When You Submit Your Appointment Request on The eStop Driving School Website Tab You Left Open.
-                            Enter The Secret Code From Google on Behalf of eStop Driving School (From The Google Email) In The Text Field and For The Last Time Click Submit. Your Appointment Will Be Saved, and Tony Will Contact You ASAP, To Start Your Driving Lessons, and or Your Driver's Permit Lessons Or Course.
+                            Once You have chosen the Day and Time for your Appointment. It's Just a Matter of Filling Out a Brief Form. Hit Submit and Keep The eStop Driving School Website Tab Open. A Text Field Will Pop Up for The Code Sent By Google on Behalf of eStop Driving School. It's That Simple! You will need to Fill out
+                            Check Your Email For The Code. If You Don't See It, Look in Your Spam Folder or Perform a search in Your Email Provider for "Google" or "eStop Driving School." Once You Receive The Code, Enter It Into The Text Field That Will Appear When You Submit Your Appointment Request on the eStop Driving School Website 
+                            Tab You Left Open. Enter The Secret Code From Google on Behalf of eStop Driving School (From The Google Email) In The Text Field and For The Last Time Click Submit. Your Appointment Will Be Saved, and Tony Will Contact You ASAP, To Start Your Driving Lesson, and or Your Driver's Permit Lessons or Course.
                         </p>
                         <p>&nbsp;</p>
                         <iframe
@@ -332,6 +329,8 @@ const Home: NextPage = () => {
                                         width={"125"}
                                     />
                                 </a>
+                            </div>
+                            </div>
                             </div>
                             <div>
                                 <p className="mb-2 font-bold">Tony (Teshome Kebere)</p>
