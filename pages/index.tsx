@@ -1,4 +1,4 @@
-// import { GoogleAnalytics } from "@next/third-parties/google";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import { GoogleAnalytics } from "nextjs-google-analytics";
 import Script from "next/script";
 import React, { Component } from "react";
@@ -35,13 +35,13 @@ const ServiceConfig = [
         icon: "child",
         title: "TEENAGERS",
         description: `Three 2-Hour Driving Lessons For Teenagers
-    (The One-Hour Rate is NOW Discounted. Teenager Package Includes Taxes & Fees, and Six Hours of Drivers Training Behind the Wheel). This Package Has Been Priced For Those Who Pay in Advance; For Teenage Driving Lessons: NOW ONLY $690!`
+    (The One-Hour Rate is NOW Discounted. Teenager Package Includes Taxes & Fees and Six Hours of Drivers Training Behind the Wheel). This Package Has Been Priced For Those Who Pay in Advance; For Teenage Driving Lessons: NOW ONLY $690!`
     },
     {
         icon: "user",
         title: "ADULTS",
         description: `Three 2-Hour Driving Lessons For Adults, Ages 18 and Up.
-    (The One-Hour Rate is NOW Discounted. Adult Package Includes Taxes & Fees, and Six Hours of Drivers Training Behind the Wheel). This Package Has Been Discounted For Those Who Pay in Advance; For Adult Driving Lessons: NOW ONLY $690!`
+    (The One-Hour Rate is NOW Discounted. Adult Package Includes Taxes & Fees and Six Hours of Drivers Training Behind the Wheel). This Package Has Been Discounted For Those Who Pay in Advance; For Adult Driving Lessons: NOW ONLY $690!`
     },
     {
         icon: "universal-access",
@@ -65,8 +65,7 @@ const Home: NextPage = () => {
                 <title>eStop Driving School, The Best Driving School of Novato in Marin County to Sonoma County, CA | Teaching Expert Driving in North Bay, South Bay — San Francisco | Instructor Has Over Four Decades of Experience</title>
                 <meta name="description" content="Award Winning | Teaching Driving Teenagers, Adults, & Seniors How to Drive Marin County & Since 1983" />
                 <meta name="googletagmanager" content="https://www.googletagmanager.com/gtag/js?id=GTM-52S8PDBJ"/>
-                <script async
-                        script-src="https://www.googleanalytics.com/gtag/js?id=GTM-52S8PDBJ">
+                <script async script-src="https://www.googleanalytics.com/gtag/js?id=GTM-52S8PDBJ">
                 </script>
                 <link rel="icon" href="/favicon.ico" />
                 <link
@@ -294,19 +293,13 @@ const Home: NextPage = () => {
                         style={{ width: 36, height: 36 }}
                     />
                 </div>
-                <div
-                    className="flex  */}
-         py-5 
-        bg-gray-200">
-                    <div id="schedule"
-                         className="container mx-auto py-2">
-                        <h2 className="text-2xl text-center py-3 font-bold">
-                            SCHEDULE AN APPOINTMENT
-                        </h2>
-                        <p className="text-center  mx-2">
-                            Once You've Selected Your Preferred Appointment Day and Time, It's Just a Matter of Filling Out a Brief Form. Hit Submit and Keep The eStop Driving School Website Open. A Text Field Will Pop Up for The Code Sent By Google on Behalf of eStop Driving School. It's That Simple!
-                            Check Your Email For The Code, and If You Don't See It, Look in Your Spam Folder or Perform a in Your Email Provider Search For "Google" or "eStop Driving School." Once You Receive The Code, Enter It Into The Text Field That Will Appear When You Submit Your Appointment Request on The eStop Driving School Website Tab You Left Open.
-                            Enter The Secret Code From Google on Behalf of eStop Driving School (From The Google Email) In The Text Field and For The Last Time Click Submit. Your Appointment Will Be Saved, and Tony Will Contact You ASAP, To Start Your Driving Lessons, and or Your Driver's Permit Lessons Or Course.
+                <div className="flex  */} py-5 bg-gray-200" >
+                    <div id="schedule" className="container mx-auto py-2">
+                        <h2 className="text-2xl text-center py-3 font-bold"> SCHEDULE AN APPOINTMENT </h2>
+                        <p className="text-center mx-2">
+                            Once you've selected your preferred appointment day and time, fill out a brief form. Hit Submit and Keep The eStop Driving School Website Open. A Text Field Will Pop Up for The Code Sent By Google on Behalf of eStop Driving School. It's That Simple!
+                            Check your email for the code. If you don't see it, check your spam folder or perform an Email provider search for "Google" or "eStop Driving School." Once You Receive The Code, Enter It Into The Text Field That Will Appear When You Submit Your Appointment Request on the eStop Driving School Website browser tab Left Open.
+                            Enter The Secret Code From Google on Behalf of eStop Driving School (From The Google Email) In The Text Field, and For The Last Time, Click Submit. Your Appointment Will Be Saved, and Tony Will Contact You ASAP To Start Your Driving Lessons and/or Driver's Permit Lessons Course.
                         </p>
                         <p>&nbsp;</p>
                         <iframe
@@ -334,6 +327,7 @@ const Home: NextPage = () => {
                                 </a>
                             </div>
                             <div>
+                                </div></div></div></div>
                                 <p className="mb-2 font-bold">Tony (Teshome Kebere)</p>
                                 <p><b>ADDRESS:</b> <a href="https://maps.app.goo.gl/iuwCYbJZx8y8CMtr7" rel="noopener noreferrer">Suite N, 7075 Redwood Blvd, Novato, CA 94945</a></p>
                                 <p><b>CALL/TEXT:</b> <a href="tel:415-897-7002" rel="noopener noreferrer">415-897-7002</a></p>
@@ -342,16 +336,16 @@ const Home: NextPage = () => {
                                     Please Call Me Or Text Me In Advance At 415-897-7002 To Scheduled A Personal Appointment.
                                 </p>
                             </div>
+                          </div>
                         </div>
                     </div>
-                </div>
                 <div className="locations flex bg-gray-100">
                     <div className="container mx-auto py-2">
                         <h2>eStop Driving School Provides Driving Lessons to The Following Locations: Novato, CA; Tiburon, CA; Petaluma, CA; San Rafael, CA; Corte Madera, CA; Sausalito, CA; Sebastopol, CA; Mill Valley, CA; San Anselmo, CA;Greenbrae CA; Kentfield, CA. If You Do Not See Your Location Listed Here;
                             Please Do Not Hesitate to Contact Teshome (Tony) Via Text or Phone.</h2>
                     </div>
                 </div>
-            </main>
+                </main>
             <footer className="flex py-10 bg-gray-900 text-black py-4 text-sm">
                 <div className="container m-auto text-center">
                     <a
