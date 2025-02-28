@@ -1,4 +1,4 @@
-// import { GoogleAnalytics } from "@next/third-parties/google";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import { GoogleAnalytics } from "nextjs-google-analytics";
 import Script from "next/script";
 import React, { Component } from "react";
@@ -8,7 +8,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import { useCallback } from "react";
-const NavConfig = [
+const Navivgation = [
     {
         "name": "HOME",
         "link": "home",
