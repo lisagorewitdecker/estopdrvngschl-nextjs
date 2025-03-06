@@ -1,4 +1,4 @@
-// import { GoogleAnalytics } from "@next/third-parties/google";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import { GoogleAnalytics } from "nextjs-google-analytics";
 import Script from "next/script";
 import React, { Component } from "react";
@@ -232,9 +232,9 @@ const Home: NextPage = () => {
                                 <p>&nbsp;</p>
                                 Basic Training and Services are at an Hourly Rate of $125. If You Happen To Need Additional Services, Please Do Not Hesitate To Call Or Text Tony At 415-897-7002 For More Details.
                                 <p>&nbsp;</p>
-                                <b>&bull; &bull; WE NO LONGER Accept Cash! &bull; &bull; </b>
-                                However, We Do Accept ApplePay, Paypal, Checks and Zelle Payments. We Prefer to Use Zelle Due to Security and Banking Applications.
-                                We Are Very Excited to Announce that We Can Book All Appointment Bookings Online Through Google! We Are Also Working On Adding Klarna, and Afterpay, Business Accounts For Our Clients So You Can Purchase Any Driving Lesson Packages For The Ease of Our Clients.
+                                <b>PERSONAL CHECKS, CASH, AND ZELLE PAYMENTS ONLY</b>
+                                However, We Do Accept Cash, Zelle and Personal Checks and Zelle as Payments. We Prefer to Use Zelle Due to Security and Banking Applications.
+                                We Are Very Excited to Announce that We Can Book All Appointment Bookings Online Through Google!
                             </h3>
                         </p>
 
