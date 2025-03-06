@@ -59,6 +59,7 @@ const Home: NextPage = () => {
     }, 
     []);
     return (
+        <div>
             <Head>
                 <title>eStop Driving School, The Best Driving School of Novato in Marin County to Sonoma County, CA | Teaching Expert Driving in North Bay, South Bay — San Francisco | Instructor Has Over Four Decades of Experience</title>
                 <meta name="description" content="Award Winning | Teaching Driving Teenagers, Adults, & Seniors How to Drive Marin County & Since 1983" />
@@ -89,6 +90,7 @@ const Home: NextPage = () => {
                 <meta name="msapplication-TileColor" content="#da532c" />
                 <meta name="theme-color" content="#ffffff"></meta>
             </Head>
+            </div>
             <main className="main">
                 <div id="home" className="flex items-center justify-center py-4">
                     <Image
@@ -232,12 +234,12 @@ const Home: NextPage = () => {
                                 <p>&nbsp;</p>
                                <p><b>&bull; &bull; WE ONLY ACCEPT CASH, PERSONAL CHECKS, AND ZELLE! &bull; &bull; </b></p>
                                 Currently, We Do Accept Cash, Personal Checks, and Zelle as Payment. We Prefer to Use Zelle Due to Security and Banking Applications.
-                                We Are Very Excited to Announce that We Can Book All Appointment Bookings Online Through Google!</p>
+                                We Are Very Excited to Announce that We Can Book All Appointment Bookings Online Through Google!
                             </h3>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+                                                        </p>                                                                                                                                                                                                                                                                                                                                                                                                                                   
 
 
-                        <div className="py-3 grid xs:grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-4">
+                        <div className="py-3 grid xs:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                             {ServiceConfig.map(({ icon, title, description }) => (
                                 <div
                                     key={title}
@@ -389,6 +391,7 @@ const Home: NextPage = () => {
                         SITE WEB DEV LISA GOREWIT-DECKER
                     </a>
                 </div>
+                             </div> 
             </footer>
         </div>
     );
