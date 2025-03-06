@@ -17,5 +17,4 @@ export default function Page({
     return <div>Loading...</div>
   }
 
-  return <div>Slug: {slug}</div>
 }
