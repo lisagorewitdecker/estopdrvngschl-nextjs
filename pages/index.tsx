@@ -233,7 +233,7 @@ const Home: NextPage = () => {
                                 <p>&nbsp;</p>
                                <p><b>&bull; &bull; WE ONLY ACCEPT CASH, PERSONAL CHECKS, AND ZELLE! &bull; &bull; </b></p>
                                 Currently, We Do Accept Cash, Personal Checks, and Zelle as Payment. We Prefer to Use Zelle Due to Security and Banking Applications.
-                                We Are Very Excited to Announce that We Can Book All Appointment Bookings Online Through Google!
+                                We Are Very Excited to Announce that We Can Book All Appointment Bookings Online Through Google!</p>
                             </h3>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
 
