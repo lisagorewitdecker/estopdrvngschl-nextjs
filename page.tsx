@@ -16,5 +16,5 @@ export default function Page({
   if (!slug) {
     return <div>Loading...</div>
   }
-
+  return <div>Slug: {slug}</div>
 }
