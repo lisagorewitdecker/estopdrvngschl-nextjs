@@ -232,9 +232,9 @@ const Home: NextPage = () => {
                                 Basic Training and Services are at an Hourly Rate of $125. If You Happen To Need Additional Services, Please Do Not Hesitate To Call Or Text Tony At 415-897-7002 For More Details.
                                 <p>&nbsp;</p>
                                <p><b>&bull; &bull; WE ONLY ACCEPT PERSONAL CHECKS, CASH AND ZELLE PAYMENTS &bull; &bull;</b><p>
-                                 We Only Accept Cash, Personal Checks and Zelle Payments. We Prefer to Use Zelle Due to Security and Banking Applications.
+                                 We Only Accept Cash, Personal Checks and Zelle Payments. We Prefer to Use Zelle Due to Security and Banking Applications.    </p>
                             </h3>
-                        </p>
+                    
 
                         <div className="py-3 grid xs:grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-4">
                             {ServiceConfig.map(({ icon, title, description }) => (
