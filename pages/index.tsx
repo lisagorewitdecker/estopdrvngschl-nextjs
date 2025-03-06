@@ -256,6 +256,7 @@ const Home: NextPage = () => {
                         </div>
                     </div>
                 </div>
+                        </div>
                  <div id="new-services"
                          className="container mx-auto py-2">
                         <h2 className="text-2xl text-center py-3 font-bold">
