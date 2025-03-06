@@ -59,6 +59,7 @@ const Home: NextPage = () => {
     }, 
     []);
     return (
+        <div>
             <Head>
                 <title>eStop Driving School, The Best Driving School of Novato in Marin County to Sonoma County, CA | Teaching Expert Driving in North Bay, South Bay — San Francisco | Instructor Has Over Four Decades of Experience</title>
                 <meta name="description" content="Award Winning | Teaching Driving Teenagers, Adults, & Seniors How to Drive Marin County & Since 1983" />
@@ -190,10 +191,13 @@ const Home: NextPage = () => {
                                         <b>CALL ME</b></a> OR <a href="tel:415-897-7002" rel="noopener noreferrer">
                                     <b>TEXT ME</b></a> AT 415-897-7002.
                                 </p>
-                            </p>
+                              </p>
+                            </div>
                         </div>
                     </div>
-                </div>
+                
+                            
+               
                 <div
                     className="flex py-20"
                     style={{
