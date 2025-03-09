@@ -1,4 +1,3 @@
-// import { GoogleAnalytics } from "@next/third-parties/google";
 import { GoogleAnalytics } from "nextjs-google-analytics";
 import Script from "next/script";
 import React, { Component } from "react";
@@ -232,9 +231,9 @@ const Home: NextPage = () => {
                                 <p>&nbsp;</p>
                                 Basic Training and Services are at an Hourly Rate of $125. If You Happen To Need Additional Services, Please Do Not Hesitate To Call Or Text Tony At 415-897-7002 For More Details.
                                 <p>&nbsp;</p>
-                                <b>&bull; &bull; WE NO LONGER Accept Cash! &bull; &bull; </b>
-                                However, We Do Accept ApplePay, Paypal, Checks and Zelle Payments. We Prefer to Use Zelle Due to Security and Banking Applications.
-                                We Are Very Excited to Announce that We Can Book All Appointment Bookings Online Through Google! We Are Also Working On Adding Klarna, and Afterpay, Business Accounts For Our Clients So You Can Purchase Any Driving Lesson Packages For The Ease of Our Clients.
+                                <b>&bull; &bull; We Only Accept Cash!, Personal Checks, and Zelle &bull; &bull;</b>
+                                <p>&nbsp;</p>
+                                We Prefer to Use Zelle Due to Security and Banking Applications. However We Do Accept Personal Checks and Cash! We Are Very Excited to Announce that We Can Book All Appointment Bookings Online Through Google!
                             </h3>
                         </p>
 
@@ -261,23 +260,23 @@ const Home: NextPage = () => {
                  <div id="new-services"
                          className="container mx-auto py-2">
                         <h2 className="text-2xl text-center py-3 font-bold">
-                            eSTOP DRIVING SCHOOL ADDITIONAL BRAND NEW SERVICES! 
+                            eSTOP DRIVING SCHOOL OFFERS CALIFORNIA DMV APPROVED NEW SERVICES! 
                         </h2>
                         <div className="py-3 grid xs:grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-4">
                       <div className="p-3 flex flex-col text-center items-center">
-                         <h3 className="font-bold">eSTOP DRIVING SCHOOL NOW OFFERS TRAFFIC SCHOOL</h3>                          
-                          <p className="text-base"><a href="https://trafficschool.estopdrivingschoolonline.com/signup" rel="noopener noreferrer" target="_blank">CLICK HERE TO ENROLL IN TRAFFIC SCHOOL</a></p>
-                          <p className="text-base"><a href="https://trafficschool.estopdrivingschoolonline.com/login" rel="noopener noreferrer" target="_blank">CLICK HERE TO LOGIN TO TRAFFIC SCHOOL</a></p>
+                         <h3 className="font-bold">CA-DMV TRAFFIC SCHOOL</h3>                          
+                          <p className="text-base"><a href="https://trafficschool.estopdrivingschoolonline.com/signup" rel="noopener noreferrer" target="_blank">CLICK HERE TO SIGN-UP FOR TRAFFIC SCHOOL</a></p>
+                          <p className="text-base"><a href="https://trafficschool.estopdrivingschoolonline.com/login" rel="noopener noreferrer" target="_blank">CLICK HERE TO LOGIN FOR TRAFFIC SCHOOL</a></p>
                             
                     </div>
                          <div className="p-3 flex flex-col text-center items-center">
-                         <h3 className="font-bold">eSTOP DRIVING SCHOOL NOW OFFERS STUDY GUIDES</h3>                          
-                          <p className="text-base"><a href="https://studyguide.estopdrivingschoolonline.com/signup" rel="noopener noreferrer" target="_blank">CLICK HERE TO ENROLL IN STUDY GUIDES</a></p>
-                          <p className="text-base"><a href="https://studyguide.estopdrivingschoolonline.com/login" rel="noopener noreferrer" target="_blank">CLICK HERE TO LOGIN TO STUDY GUIDES</a></p>
+                         <h3 className="font-bold">CA-DMV 350 Q&A STUDY GUIDE</h3>                          
+                          <p className="text-base"><a href="https://studyguide.estopdrivingschoolonline.com/signup" rel="noopener noreferrer" target="_blank">CLICK HERE TO BUY YOUR STUDY GUIDE</a></p>
+                          <p className="text-base"><a href="https://studyguide.estopdrivingschoolonline.com/login" rel="noopener noreferrer" target="_blank">CLICK HERE TO LOGIN TO YOUR STUDY GUIDE</a></p>
                             
                     </div>
                          <div className="p-3 flex flex-col text-center items-center">
-                         <h3 className="font-bold">eSTOP DRIVING SCHOOL NOW OFFERS DRIVERS ED</h3>                          
+                         <h3 className="font-bold">CA-DMV DRIVERS EDUCATION</h3>                          
                           <p className="text-base"><a href="https://drivered.estopdrivingschoolonline.com/signup" rel="noopener noreferrer" target="_blank">CLICK HERE TO ENROLL IN DRIVERS ED</a></p>
                           <p className="text-base"><a href="https://drivered.estopdrivingschoolonline.com/login" rel="noopener noreferrer" target="_blank">CLICK HERE TO LOGIN TO DRIVERS ED</a></p>
                             
