@@ -1,16 +1,10 @@
 version: 2
 updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
       interval: "daily"
-    ignore:
-      - dependency-name: "lodash"
-        versions: ["<4.17.20"]
-    labels:
-      - "dependencies"
-      - "security"
-  - package-ecosystem: "github-actions"
-    directory: "/"
-    schedule:
-      interval: "weekly"
