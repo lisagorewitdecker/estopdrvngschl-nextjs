@@ -24,7 +24,7 @@
   "next": "14.2.26",
   "npm": "^11.2.0",
   "lucide-react": "0.484.0",
-  "react": "^18.2.0",
+  "react": "^19.1.0",
   "react-scripts": "5.0.1",
   "react-components": "^0.5.1",
   "react-dom": "^18.2.0",
@@ -42,7 +42,7 @@
   "devDependencies": {
   "@types/gtag.js": "^0.0.20",
   "@types/node": "18.11.17",
-  "@types/react": "17.0.30",
+  "@types/react": "19.1.2",
   "lucide-react": "0.484.0",
   "autoprefixer": "^10.4.21",
   "eslint": "9.23.0",
