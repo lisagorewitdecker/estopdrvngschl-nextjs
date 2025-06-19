@@ -37,7 +37,9 @@
   "nextjs-google-analytics": "2.3.7",
   "tailwindcss": "^2.2.17",
   "serialize-javascript": ">=6.0.2",
-  "postcss": ">=8.5.3"
+  "postcss": ">=8.5.3",
+  "webpack-dev-server": ">=5.2.1",
+    
   },
   "devDependencies": {
   "@types/gtag.js": "^0.0.20",
@@ -51,6 +53,25 @@
   "typescript": "4.5.2",
   "nextjs-google-analytics": "2.3.7",
   "react-scripts": "5.0.1",
-  "serialize-javascript": ">=6.0.2"
+  "serialize-javascript": ">=6.0.2",
+  "handlebars": "^4.7.8",
+  "next": "14.2.30",
+  "npm": "^11.2.0",
+  "lucide-react": "0.484.0",
+  "react": "^18.2.0",
+  "react-scripts": "5.0.1",
+  "react-components": "^0.5.1",
+  "react-dom": "^18.2.0",
+  "react-hook-form": "^7.56.1",
+  "react-imported-component": "^6.5.4",
+  "nextjs-google-analytics": "2.3.7",
+  "cross-spawn": "7.0.6",        
+  "js-cookie": "3.0.5",   
+  "webpack": "^5.94.0",
+  "nextjs-google-analytics": "2.3.7",
+  "tailwindcss": "^2.2.17",
+  "serialize-javascript": ">=6.0.2",
+  "postcss": ">=8.5.3",
+  "webpack-dev-server": ">=5.2.1",    
   }
 }
