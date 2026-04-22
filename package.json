@@ -38,7 +38,7 @@
   "tailwindcss": "^2.2.17",
   "serialize-javascript": ">=6.0.2",
   "postcss": ">=8.5.5",
-  "brace-expansion": ">=2.0.2"  
+  "brace-expansion": ">=2.0.3", 
   },
   "devDependencies": {
   "@types/gtag.js": "^0.0.20",
@@ -53,6 +53,6 @@
   "nextjs-google-analytics": "2.3.7",
   "react-scripts": "5.0.1",
   "serialize-javascript": ">=6.0.2",
-  "brace-expansion": ">=2.0.2"  
+  "brace-expansion": ">=2.0.3",  
   }
 }
