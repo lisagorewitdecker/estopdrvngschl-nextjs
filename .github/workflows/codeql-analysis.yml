@@ -91,7 +91,7 @@ jobs:
         id: codeql-analysis
         uses: github/codeql-action/analyze@v3
         with:
-          category: "/language:javascript-typescript"
+          category: "/language:javascript-typescript/workflow:codeql-advanced"
           output: codeql-results
 
       - name: Upload SARIF results as artifact
