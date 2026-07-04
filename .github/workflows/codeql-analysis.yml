@@ -70,7 +70,7 @@ jobs:
         uses: github/codeql-action/init@v3
         with:
           languages: javascript-typescript
-          queries: ${{ inputs.query_suite || 'security-and-quality' }}
+          queries: ${{ (github.event_name == 'workflow_dispatch' && github.event.inputs.query_suite) || 'security-and-quality' }}
           config: |
             paths:
               - pages
