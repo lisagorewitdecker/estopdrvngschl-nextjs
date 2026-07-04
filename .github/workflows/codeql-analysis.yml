@@ -40,6 +40,7 @@ jobs:
       contents: read
       security-events: write
       pull-requests: write
+      issues: write
 
     # outputs: (none)
     steps:
@@ -93,7 +94,7 @@ jobs:
           output: codeql-results
 
       - name: Upload SARIF results as artifact
-        if: ${{ inputs.upload_results != 'false' && always() }}
+        if: (github.event_name != 'workflow_dispatch' || github.event.inputs.upload_results != 'false') && always()
         uses: actions/upload-artifact@v4
         with:
           name: codeql-sarif-${{ github.run_id }}
