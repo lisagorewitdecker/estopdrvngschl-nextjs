@@ -43,8 +43,13 @@ jobs:
           cache-dependency-path: package-lock.json
 
       - name: Install dependencies
+        id: npm-install
         run: npm ci --legacy-peer-deps
         continue-on-error: true
+
+      - name: Warn on dependency install failure
+        if: steps.npm-install.outcome == 'failure'
+        run: echo "::warning::Dependency installation failed. CodeQL analysis will proceed but may produce incomplete results."
 
       - name: Initialize CodeQL
         uses: github/codeql-action/init@v3
