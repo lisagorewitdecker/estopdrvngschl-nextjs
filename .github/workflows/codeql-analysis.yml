@@ -115,7 +115,7 @@ jobs:
               '',
               `**Status:** ${status}`,
               `**Language:** JavaScript/TypeScript`,
-              `**Query Suite:** ${{ inputs.query_suite || 'security-and-quality' }}`,
+              `**Query Suite:** ${{ (github.event_name == 'workflow_dispatch' && github.event.inputs.query_suite) || 'security-and-quality' }}`,
               `**Run ID:** ${{ github.run_id }}`,
               '',
               'View full results in the [Security tab](https://github.com/${{ github.repository }}/security/code-scanning).',
