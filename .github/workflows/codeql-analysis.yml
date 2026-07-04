@@ -1,0 +1,156 @@
+name: "CodeQL Advanced Analysis"
+
+on:
+  workflow_dispatch:
+    inputs:
+      upload_results:
+        description: "Upload SARIF results as artifact"
+        required: false
+        default: "true"
+        type: choice
+        options:
+          - "true"
+          - "false"
+      query_suite:
+        description: "CodeQL query suite to use"
+        required: false
+        default: "security-and-quality"
+        type: choice
+        options:
+          - "security-and-quality"
+          - "security-extended"
+          - "default"
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+concurrency:
+  group: codeql-analysis-${{ github.ref }}-${{ github.run_id }}
+  cancel-in-progress: true
+
+jobs:
+  analyze:
+    name: CodeQL Analysis (javascript-typescript)
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+
+    permissions:
+      actions: read
+      contents: read
+      security-events: write
+      pull-requests: write
+
+    outputs:
+      sarif-id: ${{ steps.upload-sarif.outputs.sarif-id }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: "npm"
+          cache-dependency-path: package-lock.json
+
+      - name: Install dependencies
+        run: npm ci --legacy-peer-deps
+        continue-on-error: true
+
+      - name: Initialize CodeQL
+        uses: github/codeql-action/init@v3
+        with:
+          languages: javascript-typescript
+          queries: ${{ inputs.query_suite || 'security-and-quality' }}
+          config: |
+            paths:
+              - pages
+              - components
+              - layouts
+              - styles
+            paths-ignore:
+              - .next
+              - node_modules
+              - public
+              - packages
+              - '**/*.test.ts'
+              - '**/*.test.tsx'
+              - '**/*.spec.ts'
+              - '**/*.spec.tsx'
+
+      - name: Perform CodeQL Analysis
+        id: codeql-analysis
+        uses: github/codeql-action/analyze@v3
+        with:
+          category: "/language:javascript-typescript"
+          output: codeql-results
+
+      - name: Upload SARIF results as artifact
+        if: ${{ inputs.upload_results != 'false' && always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: codeql-sarif-${{ github.run_id }}
+          path: codeql-results/
+          retention-days: 30
+          if-no-files-found: warn
+
+      - name: Comment on PR with analysis status
+        if: github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const outcome = '${{ steps.codeql-analysis.outcome }}';
+            const status = outcome === 'success' ? '✅ Passed' : '⚠️ Check Results';
+            const body = [
+              '## CodeQL Analysis Complete',
+              '',
+              `**Status:** ${status}`,
+              `**Language:** JavaScript/TypeScript`,
+              `**Query Suite:** ${{ inputs.query_suite || 'security-and-quality' }}`,
+              `**Run ID:** ${{ github.run_id }}`,
+              '',
+              'View full results in the [Security tab](https://github.com/${{ github.repository }}/security/code-scanning).',
+            ].join('\n');
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body,
+            });
+
+  summary:
+    name: Results Summary
+    runs-on: ubuntu-latest
+    needs: analyze
+    if: always()
+
+    permissions:
+      contents: read
+      security-events: read
+
+    steps:
+      - name: Generate workflow summary
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const result = '${{ needs.analyze.result }}';
+            const icon = result === 'success' ? '✅' : result === 'failure' ? '❌' : '⚠️';
+            const lines = [
+              '# CodeQL Analysis Summary',
+              '',
+              `| Field | Value |`,
+              `|-------|-------|`,
+              `| ${icon} Status | ${result} |`,
+              `| Language | JavaScript / TypeScript |`,
+              `| Branch | \`${{ github.ref_name }}\` |`,
+              `| Triggered by | ${{ github.actor }} |`,
+              `| Run | [${{ github.run_id }}](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}) |`,
+              '',
+              'View detailed results in the [Security tab](https://github.com/${{ github.repository }}/security/code-scanning).',
+            ];
+            await core.summary.addRaw(lines.join('\n')).write();
