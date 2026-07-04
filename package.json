@@ -26,7 +26,7 @@
     "next": "16.2.10",
     "nextjs-google-analytics": "2.3.7",
     "npm": "^11.2.0",
-    "postcss": ">=8.5.5",
+    "postcss": ">=8.5.10",
     "react": "^18.2.0",
     "react-components": "^0.5.1",
     "react-dom": "^18.2.0",
@@ -47,7 +47,7 @@
     "eslint-config-next": "14.2.30",
     "lucide-react": "0.484.0",
     "nextjs-google-analytics": "2.3.7",
-    "postcss": ">=8.5.5",
+    "postcss": ">=8.5.10",
     "react-scripts": "5.0.1",
     "serialize-javascript": ">=6.0.2",
     "typescript": "4.9.5"
