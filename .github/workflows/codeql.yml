@@ -30,8 +30,6 @@ jobs:
         include:
           - language: javascript
             build-mode: autobuild
-          - language: typescript
-            build-mode: autobuild
 
     steps:
       - name: Checkout repository
