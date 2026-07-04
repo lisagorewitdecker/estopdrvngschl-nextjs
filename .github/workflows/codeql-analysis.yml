@@ -41,9 +41,7 @@ jobs:
       security-events: write
       pull-requests: write
 
-    outputs:
-      sarif-id: ${{ steps.upload-sarif.outputs.sarif-id }}
-
+    # outputs: (none)
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
