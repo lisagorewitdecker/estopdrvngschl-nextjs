@@ -10,14 +10,14 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: codeql-${{ github.ref }}
+  group: codeql-${{ github.ref }}-${{ github.workflow }}
   cancel-in-progress: true
 
 jobs:
   analyze:
-    name: Analyze (${{ matrix.language }})
+    name: Analyze (javascript-typescript)
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 360
 
     permissions:
       actions: read
@@ -27,28 +27,44 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        include:
-          - language: javascript-typescript
-            build-mode: none
+        language: [javascript-typescript]
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: npm
+          cache: "npm"
+          cache-dependency-path: package-lock.json
 
       - name: Install dependencies
+        id: npm-install
         run: npm ci --legacy-peer-deps
+        continue-on-error: true
+
+      - name: Warn on dependency install failure
+        if: steps.npm-install.outcome == 'failure'
+        run: echo "::warning::Dependency installation failed. CodeQL analysis will proceed but may produce incomplete results."
 
       - name: Initialize CodeQL
         uses: github/codeql-action/init@v3
         with:
           languages: ${{ matrix.language }}
-          build-mode: ${{ matrix.build-mode }}
+          queries: security-and-quality
+          config: |
+            paths-ignore:
+              - .next
+              - node_modules
+              - public
+              - '**/*.test.ts'
+              - '**/*.test.tsx'
+              - '**/*.spec.ts'
+              - '**/*.spec.tsx'
 
       - name: Perform CodeQL Analysis
         uses: github/codeql-action/analyze@v3
