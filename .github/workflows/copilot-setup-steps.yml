@@ -1,0 +1,11 @@
+- name: vercel-ai
+  # You may pin to the exact commit or the version.
+  # uses: vercel/ai-action@769eb5db2c70d4edda6b14d2f4bc3f4ac66fa55d
+  uses: vercel/ai-action@v2.0.1
+  with:
+    # The input prompt to generate the text from
+    prompt: 
+    # An API KEY for the AI Gateway: https://vercel.com/d?to=%2F%5Bteam%5D%2F%7E%2Fai%2Fapi-keys
+    api-key: 
+    # An identifier from the list of provider models supported by the AI Gateway: https://vercel.com/ai-gateway/models
+    model: 
