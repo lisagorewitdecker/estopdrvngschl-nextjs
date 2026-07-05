@@ -1,11 +1,29 @@
-- name: vercel-ai
-  # You may pin to the exact commit or the version.
-  # uses: vercel/ai-action@769eb5db2c70d4edda6b14d2f4bc3f4ac66fa55d
-  uses: vercel/ai-action@v2.0.1
-  with:
-    # The input prompt to generate the text from
-    prompt: 
-    # An API KEY for the AI Gateway: https://vercel.com/d?to=%2F%5Bteam%5D%2F%7E%2Fai%2Fapi-keys
-    api-key: 
-    # An identifier from the list of provider models supported by the AI Gateway: https://vercel.com/ai-gateway/models
-    model: 
+name: "Copilot Setup Steps"
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/copilot-setup-steps.yml
+  pull_request:
+    paths:
+      - .github/workflows/copilot-setup-steps.yml
+
+jobs:
+  copilot-setup-steps:
+    runs-on: ubuntu-latest
+    environment: copilot
+    permissions: {}
+
+    steps:
+      - name: vercel-ai
+        if: ${{ secrets.VERCEL_AI_API_KEY != '' }}
+        # Pinned to a full-length commit SHA for supply-chain security.
+        uses: vercel/ai-action@769eb5db2c70d4edda6b14d2f4bc3f4ac66fa55d
+        with:
+          # The input prompt to generate the text from
+          prompt: ${{ vars.VERCEL_AI_PROMPT }}
+          # An API KEY for the AI Gateway: https://vercel.com/d?to=%2F%5Bteam%5D%2F%7E%2Fai%2Fapi-keys
+          api-key: ${{ secrets.VERCEL_AI_API_KEY }}
+          # An identifier from the list of provider models supported by the AI Gateway: https://vercel.com/ai-gateway/models
+          model: ${{ vars.VERCEL_AI_MODEL }}
