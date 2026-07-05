@@ -351,7 +351,7 @@ const Home: NextPage = () => {
                     </div>
                 </div>
             </main>
-            <footer className="flex py-10 bg-gray-900 text-black py-4 text-sm">
+            <footer className="flex py-10 bg-gray-900 text-white py-4 text-sm">
                 <div className="container m-auto text-center">
                     <a
                         href="#"

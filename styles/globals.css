@@ -67,6 +67,9 @@ form.button-square{
 .bg-gray-900 {
  background-color: black;
 }
+footer.bg-gray-900 a {
+  @apply text-red-400 hover:text-red-300;
+}
 footer.bg-gray-900.text-gray-40.py-4.text-sm,div.locations,h2{
  padding: 19px 19px !important;
   text-align:center!important;
