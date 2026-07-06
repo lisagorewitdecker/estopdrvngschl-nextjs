@@ -145,8 +145,8 @@ const Home: NextPage = () => {
                     <div className="grid sm:grid-cols-1  md:grid-cols-2 gap-4">
                         <div className="flex items-center justify-center">
                             <div className="container">
-                                <h3 className="text-center">
-                                    <b>EVERYDAY, TONY (Teshome) IS GRATEFUL FOR ALL OF THE DAYS HE WAKES UP, AND FOR EVERY BREATH HE TAKES EVERY MINUTE OF THE DAY!</b></h3>
+                                <h2 className="text-center font-bold">
+                                    EVERYDAY, TONY (Teshome) IS GRATEFUL FOR ALL OF THE DAYS HE WAKES UP, AND FOR EVERY BREATH HE TAKES EVERY MINUTE OF THE DAY!</h2>
                             </div>
 
                             <div
