@@ -357,7 +357,7 @@ const Home: NextPage = () => {
                         href="#"
                         title="#"
                     >
-                        Copyright @2025 |
+                        Copyright @2026 |
                     </a>
                     <a
                         href="https://estopdrivingschool.com/"
