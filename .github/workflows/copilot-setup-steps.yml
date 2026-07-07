@@ -19,7 +19,7 @@ jobs:
       - name: vercel-ai
         if: ${{ secrets.VERCEL_AI_API_KEY != '' }}
         # Pinned to a full-length commit SHA for supply-chain security.
-        uses: vercel/ai-action@769eb5db2c70d4edda6b14d2f4bc3f4ac66fa55d
+        uses: vercel/ai-action@bd265252c9d1d8295ceda28dadb56ad9321c8ccc
         with:
           # The input prompt to generate the text from
           prompt: ${{ vars.VERCEL_AI_PROMPT }}
