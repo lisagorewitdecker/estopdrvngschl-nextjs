@@ -1,4 +1,4 @@
-xconst NodeAttributes = require('../utils/node-attributes.js')
+const NodeAttributes = require('../utils/node-attributes.js')
 
 module.exports = {
   meta: {

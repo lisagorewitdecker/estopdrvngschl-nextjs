@@ -50,9 +50,9 @@ module.exports = {
           })
         }
 
-        Check if inline script is being used to add GA.
-        https://developers.google.com/analytics/devguides/collection/analyticsjs#the_google_analytics_tag
-        https://developers.google.com/tag-manager/quickstart
+        // Check if inline script is being used to add GA.
+        // https://developers.google.com/analytics/devguides/collection/analyticsjs#the_google_analytics_tag
+        // https://developers.google.com/tag-manager/quickstart
         if (
           attributes.value('dangerouslySetInnerHTML') &&
           attributes.value('dangerouslySetInnerHTML').length > 0
