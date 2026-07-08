@@ -390,7 +390,7 @@ const Home: NextPage = () => {
                         SITE WEB DEV LISA GOREWIT-DECKER
                     </a>
                 </div>
-                <<Analytics />
+                <Analytics />
             </footer>
         </div>
     );
