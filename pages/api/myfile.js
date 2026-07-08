@@ -8,7 +8,8 @@ export default async function api(req, res) {
     const content = await fs.readFile(filename, "utf-8");
     res.setHeader("Content-Type", "text/html; charset=utf-8");
     res.status(200).send(content);
-  } catch {
-    res.status(500).json({ error: "Unable to load file." });
+  } catch (error) {
+    console.error("Failed to load myfile.html:", error);
+    res.status(500).json({ error: "Failed to load myfile.html." });
   }
 }
