@@ -1,10 +1,10 @@
-const escape = require('shell-quote').quote
+const quote = require('shell-quote').quote
 const { ESLint } = require('eslint')
 
 const eslint = new ESLint()
 const isWin = process.platform === 'win32'
 const escapeFilename = (filename) =>
-  isWin ? JSON.stringify(filename) : escape([filename])
+  isWin ? JSON.stringify(filename) : quote([filename])
 
 module.exports = {
   '**/*.{js,jsx,ts,tsx}': (filenames) => {
