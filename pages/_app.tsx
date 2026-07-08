@@ -28,6 +28,8 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <GoogleAnalytics trackPageViews />
       <Component {...pageProps} />
+      <Analytics />
+      <SpeedInsights />
     </>
   );
 };
