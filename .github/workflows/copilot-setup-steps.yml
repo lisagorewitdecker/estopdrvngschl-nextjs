@@ -14,16 +14,15 @@ jobs:
     runs-on: ubuntu-latest
     environment: copilot
     permissions: {}
+    env:
+      VERCEL_AI_API_KEY: ${{ secrets.VERCEL_AI_API_KEY }}
 
     steps:
       - name: vercel-ai
-        if: ${{ secrets.VERCEL_AI_API_KEY != '' }}
+        if: ${{ env.VERCEL_AI_API_KEY != '' }}
         # Pinned to a full-length commit SHA for supply-chain security.
         uses: vercel/ai-action@bd265252c9d1d8295ceda28dadb56ad9321c8ccc
         with:
-          # The input prompt to generate the text from
           prompt: ${{ vars.VERCEL_AI_PROMPT }}
-          # An API KEY for the AI Gateway: https://vercel.com/d?to=%2F%5Bteam%5D%2F%7E%2Fai%2Fapi-keys
           api-key: ${{ secrets.VERCEL_AI_API_KEY }}
-          # An identifier from the list of provider models supported by the AI Gateway: https://vercel.com/ai-gateway/models
           model: ${{ vars.VERCEL_AI_MODEL }}
