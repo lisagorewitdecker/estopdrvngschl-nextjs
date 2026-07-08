@@ -26,11 +26,6 @@ a {
   font-family: 'Overpass', sans-serif;
   padding:.15rem .15rem;
 }
-a.text.gray-400{
-  @apply text-red-700 hover:text-red-800;
-  font-family: 'Overpass', sans-serif;
-  padding:.15rem .15rem;
-}
 a.bg-red-700.hover\:bg-red-900.text-white.px-4.py-2.m-2.text-xl{
   padding:.35rem .45rem;
 }
