@@ -26,11 +26,6 @@ a {
   font-family: 'Overpass', sans-serif;
   padding:.15rem .15rem;
 }
-a.text.gray-400{
-  @apply text-red-700 hover:text-red-800;
-  font-family: 'Overpass', sans-serif;
-  padding:.15rem .15rem;
-}
 a.bg-red-700.hover\:bg-red-900.text-white.px-4.py-2.m-2.text-xl{
   padding:.35rem .45rem;
 }
@@ -70,7 +65,7 @@ form.button-square{
 footer.bg-gray-900 a {
   @apply text-red-300 hover:text-red-200;
 }
-footer.bg-gray-900.text-gray-40.py-4.text-sm,div.locations,h2{
+footer.bg-gray-900,div.locations,h2{
  padding: 19px 19px !important;
   text-align:center!important;
 }
