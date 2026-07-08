@@ -31,7 +31,7 @@ a.text.gray-400{
   font-family: 'Overpass', sans-serif;
   padding:.15rem .15rem;
 }
-a.bg-red-500.hover:bg-red-800.text-white.px-4.py-2.m-2.text-xl{
+a.bg-red-500.hover\:bg-red-800.text-white.px-4.py-2.m-2.text-xl{
   padding:.35rem .45rem;
 }
 
