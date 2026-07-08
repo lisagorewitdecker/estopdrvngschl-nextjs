@@ -53,7 +53,6 @@ const ServiceConfig = [
 const Home: NextPage = () => {
     const onScrollToView = useCallback((elemId: string) => {
         const elem = document.getElementById(elemId);
-        console.log("🚀 ~ file: index.tsx ~ line 54 ~ onScrollToView ~ elem", elem);
         if (elem) {
             elem.scrollIntoView({ behavior: "smooth" });
         }
