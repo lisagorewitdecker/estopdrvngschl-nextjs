@@ -225,7 +225,7 @@ const Home: NextPage = () => {
                         <p className="text-center mx-1">
                             <h3 className="text-xl text-center font-bold">
                                 eStop Driving School Clients Receive Valet Pick-Up and Drop-Off Services Anywhere!</h3>
-                            <h3 className="text-xl text-center font-bold">Tony will pick you up anywhere in Marin County, Sonoma County, East Bay, and West Bay Such as San Francisco.</h3>
+                            <h3 className="text-xl text-center font-bold">Tony will pick you up anywhere in Marin County, Sonoma County, East Bay, and West Bay such as San Francisco.</h3>
 
                             <h3 className="text-xl text-center font-bold"> No Need to Worry, You Will Safely Be Returned to The Location You Were Picked Up At. Or Even if You Need to Be Dropped Off at a Different Location Than Where You Were Picked Up!
                                 <p>&nbsp;</p>
