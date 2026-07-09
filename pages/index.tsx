@@ -35,7 +35,7 @@ const ServiceConfig = [
         icon: "child",
         title: "TEENAGERS",
         description: `Three 2-Hour Driving Lessons For Teenagers
-    (The One-Hour Rate is NOW Discounted. Teenager Package Includes Taxes & Fees, and Six Hours of Drivers Training Behind the Wheel). This Package Has Been Priced For Those Who Pay in Advance; For Teenage Driving Lessons: NOW ONLY $690!`
+    (The One-Hour Rate is NOW Discounted. Teenager Package Includes Taxes & Fees, and Six Hours of Drivers Training Behind the Wheel). This Package Has Been Priced For Those Who Pay in Advance; For Teenage Driving Lessons. NOW ONLY $690!`
     },
     {
         icon: "user",
@@ -145,7 +145,7 @@ const Home: NextPage = () => {
                         <div className="flex items-center justify-center">
                             <div className="container">
                                 <h2 className="text-center font-bold">
-                                    EVERYDAY, TONY (Teshome) IS GRATEFUL FOR ALL OF THE DAYS HE WAKES UP, AND FOR EVERY BREATH HE TAKES EVERY MINUTE OF THE DAY!</h2>
+                                    EVERY DAY, TONY (Teshome) IS GRATEFUL FOR ALL OF THE DAYS HE WAKES UP, AND FOR EVERY BREATH HE TAKES EVERY MINUTE OF THE DAY!</h2>
                             </div>
 
                             <div
@@ -174,7 +174,7 @@ const Home: NextPage = () => {
                                     Basic training and services are at a flat hourly rate of $125. If you need any additional services, please do not hesitate to contact me for more details.
                                 </p>
                                 <p className="mb-2">
-                                    Since 1983, I Have 41 Years of Experience Training and Teaching Adults,
+                                    Since 1983, I Have 43 Years of Experience Training and Teaching Adults,
                                     Teenagers and Seniors Behind-The-Wheel Driving. All While Doing What I Love!
                                 </p>
                                 <p className="mb-2">
@@ -184,12 +184,12 @@ const Home: NextPage = () => {
                                     <b> My Life Philosophy Is...&ldquo;Speak STOP Fluently and Flawlessly For Life!&rdquo;</b>
                                 </p>
                                 <p className="mb-2">
-                                    Please Feel Free to Contact Me Anytime By
+                                    Please Feel Free to Call or Text Tony Anytime at:
                                 </p>
                                 <p className="mb-2">
                                     <a href="tel:415-897-7002" rel="noopener noreferrer">
-                                        <b>CALL ME</b></a> OR <a href="tel:415-897-7002" rel="noopener noreferrer">
-                                    <b>TEXT ME</b></a> AT 415-897-7002.
+                                       <a href="tel:415-897-7002" rel="noopener noreferrer">
+                                    415-897-7002</a>.
                                 </p>
                             </p>
                         </div>
@@ -213,7 +213,7 @@ const Home: NextPage = () => {
                             </a>
                         </h2>
                         <p className="text-center text-white mx-2">
-                            TO SCHEDULE YOUR DRIVING TRAINING SESSIONS <a href="tel:415-897-7002" rel="noopener noreferrer">CALL ME</a> OR <a href="tel:415-897-7002" rel="noopener noreferrer">TEXT ME</a> TODAY!
+                            TO SCHEDULE YOUR DRIVING LESSONS, <a href="tel:415-897-7002" rel="noopener noreferrer">CALL ME</a> OR <a href="tel:415-897-7002" rel="noopener noreferrer">TEXT ME</a> TODAY!
                         </p>
                     </div>
                 </div>
@@ -225,7 +225,7 @@ const Home: NextPage = () => {
                         <p className="text-center mx-1">
                             <h3 className="text-xl text-center font-bold">
                                 eStop Driving School Clients Receive Valet Pick-Up and Drop-Off Services Anywhere!</h3>
-                            <h3 className="text-xl text-center font-bold">You Will Be Picked Up You Up Anywhere in Marin County, Sonoma County, East Bay, and West Bay Such as San Francisco.</h3>
+                            <h3 className="text-xl text-center font-bold">Tony will pick you up anywhere in Marin County, Sonoma County, East Bay, and West Bay Such as San Francisco.</h3>
 
                             <h3 className="text-xl text-center font-bold"> No Need to Worry, You Will Safely Be Returned to The Location You Were Picked Up At. Or Even if You Need to Be Dropped Off at a Different Location Than Where You Were Picked Up!
                                 <p>&nbsp;</p>
@@ -304,7 +304,7 @@ const Home: NextPage = () => {
                         </h2>
                         <p className="text-center  mx-2">
                             Once You&apos;ve Selected Your Preferred Appointment Day and Time, It&apos;s Just a Matter of Filling Out a Brief Form. Hit Submit and Keep The eStop Driving School Website Open. A Text Field Will Pop Up for The Code Sent By Google on Behalf of eStop Driving School. It&apos;s That Simple!
-                            Check Your Email For The Code, and If You Don&apos;t See It, Look in Your Spam Folder or Perform a in Your Email Provider Search For &quot;Google&quot; or &quot;eStop Driving School.&quot; Once You Receive The Code, Enter It Into The Text Field That Will Appear When You Submit Your Appointment Request on The eStop Driving School Website Tab You Left Open.
+                            Check Your Email For The Code, and If You Don&apos;t See It, Look in Your Spam Folder or perform a search in your email provider for &lsque;Google&rsquo; or &quot;eStop Driving School.&quot; Once You Receive The Code, Enter It Into The Text Field That Will Appear When You Submit Your Appointment Request on The eStop Driving School Website Tab You Left Open.
                             Enter The Secret Code From Google on Behalf of eStop Driving School (From The Google Email) In The Text Field and For The Last Time Click Submit. Your Appointment Will Be Saved, and Tony Will Contact You ASAP, To Start Your Driving Lessons, and or Your Driver&apos;s Permit Lessons Or Course.
                         </p>
                         <p>&nbsp;</p>
