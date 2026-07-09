@@ -304,7 +304,7 @@ const Home: NextPage = () => {
                         </h2>
                         <p className="text-center  mx-2">
                             Once You&apos;ve Selected Your Preferred Appointment Day and Time, It&apos;s Just a Matter of Filling Out a Brief Form. Hit Submit and Keep The eStop Driving School Website Open. A Text Field Will Pop Up for The Code Sent By Google on Behalf of eStop Driving School. It&apos;s That Simple!
-                            Check Your Email For The Code, and If You Don&apos;t See It, Look in Your Spam Folder or perform a search in your email provider for &lsque;Google&rsquo; or &quot;eStop Driving School.&quot; Once You Receive The Code, Enter It Into The Text Field That Will Appear When You Submit Your Appointment Request on The eStop Driving School Website Tab You Left Open.
+                            Check Your Email For The Code, and If You Don&apos;t See It, Look in Your Spam Folder or perform a search in your email provider for &lsquo;Google&rsquo; or &quot;eStop Driving School.&quot; Once You Receive The Code, Enter It Into The Text Field That Will Appear When You Submit Your Appointment Request on The eStop Driving School Website Tab You Left Open.
                             Enter The Secret Code From Google on Behalf of eStop Driving School (From The Google Email) In The Text Field and For The Last Time Click Submit. Your Appointment Will Be Saved, and Tony Will Contact You ASAP, To Start Your Driving Lessons, and or Your Driver&apos;s Permit Lessons Or Course.
                         </p>
                         <p>&nbsp;</p>
