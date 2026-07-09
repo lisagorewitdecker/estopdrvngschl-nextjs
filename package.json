@@ -26,14 +26,14 @@
     "next": "16.2.10",
     "nextjs-google-analytics": "2.3.7",
     "npm": "^11.2.0",
-    "postcss": ">=8.5.10",
+    "postcss": "^8.5.16",
     "react": "^18.2.0",
     "react-components": "^0.5.1",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.56.1",
     "react-imported-component": "^6.5.4",
     "react-scripts": "5.0.1",
-    "serialize-javascript": ">=7.0.5",
+    "serialize-javascript": "^7.0.7",
     "tailwindcss": "^2.2.17",
     "webpack": "^5.94.0"
   },
@@ -47,12 +47,19 @@
     "eslint-config-next": "14.2.30",
     "lucide-react": "0.484.0",
     "nextjs-google-analytics": "2.3.7",
-    "postcss": ">=8.5.10",
+    "postcss": "^8.5.16",
     "react-scripts": "5.0.1",
-    "serialize-javascript": ">=7.0.5",
+    "serialize-javascript": "^7.0.7",
     "typescript": "4.9.5"
   },
   "overrides": {
-    "glob": ">=10.5.0"
+    "glob": ">=10.5.0",
+    "nth-check": "^2.1.1",
+    "underscore": "^1.13.8",
+    "serialize-javascript": "^7.0.7",
+    "webpack-dev-server": "^5.2.6",
+    "uuid": "^14.0.1",
+    "postcss": "^8.5.16",
+    "@tootallnate/once": "^2.0.1"
   }
 }
