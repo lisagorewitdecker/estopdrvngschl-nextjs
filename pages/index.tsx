@@ -229,7 +229,7 @@ const Home: NextPage = () => {
 
                             <h3 className="text-xl text-center font-bold"> No Need to Worry, You Will Safely Be Returned to The Location You Were Picked Up At. Or Even if You Need to Be Dropped Off at a Different Location Than Where You Were Picked Up!
                                 <p>&nbsp;</p>
-                                Basic training and services are set at an hourly rate of $125. If you happen ti need additional services, please do not hesitate to call or text Tony at 415-897-7002 (for more details).
+                                Basic training and services are set at an hourly rate of $125. If you happen to need additional services, please do not hesitate to call or text Tony at <a href="tel:415-897-7002" rel="noopener noreferrer">415-897-7002</a> for more details.
                                 <p>&nbsp;</p>
                                 <b>&bull; &bull; We Only Accept Cash!, Personal Checks, and Zelle &bull; &bull;</b>
                                 <p>&nbsp;</p>
