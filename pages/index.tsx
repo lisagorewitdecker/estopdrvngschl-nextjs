@@ -35,7 +35,7 @@ const ServiceConfig = [
         icon: "child",
         title: "TEENAGERS",
         description: `Three 2-Hour Driving Lessons For Teenagers
-    (The One-Hour Rate is NOW Discounted. Teenager Package Includes Taxes & Fees, and Six Hours of Drivers Training Behind the Wheel). This Package Has Been Priced For Those Who Pay in Advance; For Teenage Driving Lessons. NOW ONLY $690!`
+    (The One-Hour Rate is NOW Discounted. Teenager Package Includes Taxes & Fees, and Six Hours of Drivers Training Behind the Wheel). This Package Has Been Priced For Those Who Pay in Advance; For Teenage Driving Lessons: NOW ONLY $690!`
     },
     {
         icon: "user",
