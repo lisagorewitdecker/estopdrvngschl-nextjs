@@ -229,7 +229,7 @@ const Home: NextPage = () => {
 
                             <h3 className="text-xl text-center font-bold"> No Need to Worry, You Will Safely Be Returned to The Location You Were Picked Up At. Or Even if You Need to Be Dropped Off at a Different Location Than Where You Were Picked Up!
                                 <p>&nbsp;</p>
-                                Basic Training and Services are at an Hourly Rate of $125. If You Happen To Need Additional Services, Please Do Not Hesitate To Call Or Text Tony At 415-897-7002 For More Details.
+                                Basic training and services are set at an hourly rate of $125. If you happen to need additional services, please do not hesitate to call or text Tony at <a href="tel:415-897-7002" rel="noopener noreferrer">415-897-7002</a> for more details.
                                 <p>&nbsp;</p>
                                 <b>&bull; &bull; We Only Accept Cash!, Personal Checks, and Zelle &bull; &bull;</b>
                                 <p>&nbsp;</p>
@@ -303,10 +303,13 @@ const Home: NextPage = () => {
                             SCHEDULE AN APPOINTMENT
                         </h2>
                         <p className="text-center  mx-2">
-                            Once You&apos;ve Selected Your Preferred Appointment Day and Time, It&apos;s Just a Matter of Filling Out a Brief Form. Hit Submit and Keep The eStop Driving School Website Open. A Text Field Will Pop Up for The Code Sent By Google on Behalf of eStop Driving School. It&apos;s That Simple!
-                            Check Your Email For The Code, and If You Don&apos;t See It, Look in Your Spam Folder or perform a search in your email provider for &lsquo;Google&rsquo; or &quot;eStop Driving School.&quot; Once You Receive The Code, Enter It Into The Text Field That Will Appear When You Submit Your Appointment Request on The eStop Driving School Website Tab You Left Open.
-                            Enter The Secret Code From Google on Behalf of eStop Driving School (From The Google Email) In The Text Field and For The Last Time Click Submit. Your Appointment Will Be Saved, and Tony Will Contact You ASAP, To Start Your Driving Lessons, and or Your Driver&apos;s Permit Lessons Or Course.
-                        </p>
+                            Once you've selected your preferred appointment day and time, simply fill out the brief form and hit submit.</p>
+
+                        <p className="text-center  mx-2">
+                            Important: Keep this website tab open! A text field will pop up asking for a verification code. Check your email for a code sent by Google on behalf of eStop Driving School (if you don't see it, check your spam folder or search your email for 'Google').</p>
+
+                        <p className="text-center  mx-2">
+                            Enter the secret code into the pop-up text field and click submit one final time. Your appointment will be saved, and Tony will contact you ASAP to kick off your driving lessons!</p>
                         <p>&nbsp;</p>
                         <iframe
                             src="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2ZCzKMpxsDgy3QIYZTfsvvJUdvRk-jvBV0w8lJruHsQC7XKkoXjSkAI2Tti5absT-wnaXc05Zy"
@@ -346,7 +349,7 @@ const Home: NextPage = () => {
                 </div>
                 <div className="locations flex bg-gray-100">
                     <div className="container mx-auto py-2">
-                        <h2>eStop Driving School Provides Driving Lessons to The Following Locations: Novato, CA; Tiburon, CA; Petaluma, CA; San Rafael, CA; Corte Madera, CA; Sausalito, CA; Sebastopol, CA; Mill Valley, CA; San Anselmo, CA;Greenbrae CA; Kentfield, CA. If You Do Not See Your Location Listed Here;
+                        <h2>eStop Driving School Provides Driving Lessons to The Following Locations: Novato, CA; Tiburon, CA; Petaluma, CA; San Rafael, CA; Corte Madera, CA; Sausalito, CA; Sebastopol, CA; Mill Valley, CA; San Anselmo, CA; Greenbrae, CA; Kentfield, CA. If You Do Not See Your Location Listed Here;
                             Please Do Not Hesitate to Contact Teshome (Tony) Via Text or Phone.</h2>
                     </div>
                 </div>
