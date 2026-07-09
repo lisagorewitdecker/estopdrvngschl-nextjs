@@ -188,8 +188,8 @@ const Home: NextPage = () => {
                                 </p>
                                 <p className="mb-2">
                                     <a href="tel:415-897-7002" rel="noopener noreferrer">
-                                       <a href="tel:415-897-7002" rel="noopener noreferrer">
-                                    415-897-7002</a>.
+                                        415-897-7002
+                                    </a>.
                                 </p>
                             </p>
                         </div>
