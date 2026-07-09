@@ -174,7 +174,7 @@ const Home: NextPage = () => {
                                     Basic training and services are at a flat hourly rate of $125. If you need any additional services, please do not hesitate to contact me for more details.
                                 </p>
                                 <p className="mb-2">
-                                    Since 1983, I Have 43 Years of Experience Training and Teaching Adults,
+                                    Since 1983, I Have {new Date().getFullYear() - 1983} Years of Experience Training and Teaching Adults,
                                     Teenagers and Seniors Behind-The-Wheel Driving. All While Doing What I Love!
                                 </p>
                                 <p className="mb-2">
