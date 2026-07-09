@@ -340,7 +340,7 @@ const Home: NextPage = () => {
                                 <p><b>ADDRESS:</b> <a href="https://maps.app.goo.gl/iuwCYbJZx8y8CMtr7" rel="noopener noreferrer">Suite N, 7075 Redwood Blvd, Novato, CA 94945</a></p>
                                 <p><b>CALL/TEXT:</b> <a href="tel:415-897-7002" rel="noopener noreferrer">415-897-7002</a></p>
 
-                                <p> Licensed Instructor No. 2055001, 
+                                <p> Licensed Instructor No. 2055001,
                                     Please call me or text me in advance at 415-897-7002 to schedule a personal appointment.
                                 </p>
                             </div>
