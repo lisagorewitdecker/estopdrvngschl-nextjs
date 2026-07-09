@@ -56,7 +56,6 @@
     "glob": ">=10.5.0",
     "nth-check": "^2.1.1",
     "underscore": "^1.13.8",
-    "serialize-javascript": "^7.0.7",
     "webpack-dev-server": "^5.2.6",
     "uuid": "^14.0.1",
     "postcss": "^8.5.16",
