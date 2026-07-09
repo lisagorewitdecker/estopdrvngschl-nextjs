@@ -303,7 +303,7 @@ const Home: NextPage = () => {
                             SCHEDULE AN APPOINTMENT
                         </h2>
                         <p className="text-center  mx-2">
-                           Once you've selected your preferred appointment day and time, simply fill out the brief form and hit submit..</p>
+                           Once you've selected your preferred appointment day and time, simply fill out the brief form and hit submit.</p>
 
                         <p className="text-center  mx-2">
                             <b>Important:</b> Keep this website tab open! A text field will pop up asking for a verification code. Check your email for a code sent by Google on behalf of eStop Driving School (if you don't see it, check your spam folder or search your email provider for 'Google').</p>
