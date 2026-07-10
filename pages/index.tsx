@@ -343,7 +343,6 @@ const Home: NextPage = () => {
                                 <p> Licensed Instructor No. 2055001,
                                     Please call me or text me in advance at 415-897-7002 to schedule a personal appointment.
                                 </p>
-
                             </div>
                         </div>
                     </div>
@@ -351,8 +350,8 @@ const Home: NextPage = () => {
                 <div className="locations flex bg-gray-100">
                     <div className="container mx-auto py-2">
                         <h2>eStop Driving School Provides Driving Lessons to The Following Locations: 
-                            Novato, CA; Tiburon, CA; Petaluma, CA; San Rafael, CA; Corte Madera, CA; Sausalito, CA; Sebastopol, CA; Mill Valley, CA; San Anselmo, CA; Greenbrae, CA; Kentfield, CA. 
-                            If you do not see your location listed here; Please do not hesitate to contact Teshome (Tony) via text or phone.</h2>
+                            Novato, CA; Tiburon, CA; Petaluma, CA; San Rafael, CA; Corte Madera, CA; Sausalito, CA; Sebastopol, CA; Mill Valley, CA; San Anselmo, CA: Greenbrae, CA; Kentfield, CA. 
+                            If you do not see your location listed here; Plesse do not hesitate to contact Teshome (Tony) via text or phone.</h2>
                     </div>
                 </div>
             </main>
