@@ -343,6 +343,7 @@ const Home: NextPage = () => {
                                 <p> Licensed Instructor No. 2055001,
                                     Please call me or text me in advance at 415-897-7002 to schedule a personal appointment.
                                 </p>
+
                             </div>
                         </div>
                     </div>
