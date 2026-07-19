@@ -174,17 +174,17 @@ const Home: NextPage = () => {
                                     Basic training and services are at a flat hourly rate of $125. If you need any additional services, please do not hesitate to contact me for more details.
                                 </p>
                                 <p className="mb-2">
-                                    Since 1983, I Have {new Date().getFullYear() - 1983} Years of Experience Training and Teaching Adults,
-                                    Teenagers and Seniors Behind-The-Wheel Driving. All While Doing What I Love!
+                                    Since 1983, I have {new Date().getFullYear() - 1983} years of experience training and teaching adults,
+                                    teenagers and seniors behind-the-wheel driving. All while doing what I love!
                                 </p>
                                 <p className="mb-2">
-                                    Every Day, I Take Great Pride In and Receive So Much Joy From What I Do For a Living, I Love My Job!
+                                    Every day, I take great pride in and receive so much joy from what I do for a living. I love my job!
                                 </p>
                                 <p className="mb-2">
-                                    <b> My Life Philosophy Is...&ldquo;Speak STOP Fluently and Flawlessly For Life!&rdquo;</b>
+                                    <b> My life philosophy is...&ldquo;Speak STOP fluently and flawlessly for life!&rdquo;</b>
                                 </p>
                                 <p className="mb-2">
-                                    Please Feel Free to Call or Text Tony Anytime at:
+                                    Please feel free to call or text Tony anytime at:
                                 </p>
                                 <p className="mb-2">
                                     <a href="tel:415-897-7002" rel="noopener noreferrer">
@@ -322,7 +322,7 @@ const Home: NextPage = () => {
                     <div className="container mx-auto py-2">
                         <h2 className="text-2xl text-center font-bold py-2">CONTACT eSTOPDRIVING SCHOOL</h2>
                         <p className="text-center  mx-2">
-                            If You Have Any Questions, Feel Free To Call Me Anytime At <a href="tel:415-897-7002" rel="noopener noreferrer">415-897-7002</a>
+                            If you have any questions, feel free to call me anytime at: <a href="tel:415-897-7002" rel="noopener noreferrer">415-897-7002</a>
                         </p>
                         <div className="p-8 m-auto grid sm:grid-cols-1 md:grid-cols-2">
                             <div className="flex justify-end px-8">
@@ -341,7 +341,7 @@ const Home: NextPage = () => {
                                 <p><b>CALL/TEXT:</b> <a href="tel:415-897-7002" rel="noopener noreferrer">415-897-7002</a></p>
 
                                 <p> Licensed Instructor No. 2055001,
-                                    Please Call Me Or Text Me In Advance At 415-897-7002 To Scheduled A Personal Appointment.
+                                    Please call me or text me in advance at 415-897-7002 to schedule a personal appointment.
                                 </p>
 
                             </div>
@@ -350,8 +350,8 @@ const Home: NextPage = () => {
                 </div>
                 <div className="locations flex bg-gray-100">
                     <div className="container mx-auto py-2">
-                        <h2>eStop Driving School Provides Driving Lessons to The Following Locations: Novato, CA; Tiburon, CA; Petaluma, CA; San Rafael, CA; Corte Madera, CA; Sausalito, CA; Sebastopol, CA; Mill Valley, CA; San Anselmo, CA; Greenbrae, CA; Kentfield, CA. If You Do Not See Your Location Listed Here;
-                            Please Do Not Hesitate to Contact Teshome (Tony) Via Text or Phone.</h2>
+                        <h2>eStop Driving School provides driving lessons to the following locations: Novato, CA; Tiburon, CA; Petaluma, CA; San Rafael, CA; Corte Madera, CA; Sausalito, CA; Sebastopol, CA; Mill Valley, CA; San Anselmo, CA; Greenbrae, CA; Kentfield, CA. If you do not see your location listed here,
+                            please do not hesitate to contact Teshome (Tony) via text or phone.</h2>
                     </div>
                 </div>
             </main>
