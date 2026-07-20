@@ -222,20 +222,26 @@ const Home: NextPage = () => {
                         <h2 className="text-2xl text-center py-3 font-bold">
                             TRAINING &amp; SERVICES
                         </h2>
-                        <p className="text-center mx-1">
-                            <h3 className="text-xl text-center font-bold">
-                                eStop Driving School Clients Receive Valet Pick-Up and Drop-Off Services Anywhere!</h3>
-                            <h3 className="text-xl text-center font-bold">Tony will pick you up anywhere in Marin County, Sonoma County, East Bay, and West Bay such as San Francisco.</h3>
-
-                            <h3 className="text-xl text-center font-bold"> No Need to Worry, You Will Safely Be Returned to The Location You Were Picked Up At. Or Even if You Need to Be Dropped Off at a Different Location Than Where You Were Picked Up!
-                                <p>&nbsp;</p>
+                        <div className="text-center mx-1 space-y-4 text-xl font-bold">
+                            <p>
+                                eStop Driving School Clients Receive Valet Pick-Up and Drop-Off Services Anywhere!
+                            </p>
+                            <p>
+                                Tony will pick you up anywhere in Marin County, Sonoma County, East Bay, and West Bay such as San Francisco.
+                            </p>
+                            <p>
+                                No Need to Worry, You Will Safely Be Returned to The Location You Were Picked Up At. Or Even if You Need to Be Dropped Off at a Different Location Than Where You Were Picked Up!
+                            </p>
+                            <p>
                                 Basic training and services are set at an hourly rate of $125. If you happen to need additional services, please do not hesitate to call or text Tony at <a href="tel:415-897-7002" rel="noopener noreferrer">415-897-7002</a> for more details.
-                                <p>&nbsp;</p>
-                                <b>&bull; &bull; We Only Accept Cash!, Personal Checks, and Zelle &bull; &bull;</b>
-                                <p>&nbsp;</p>
+                            </p>
+                            <p>
+                                &bull; &bull; We Only Accept Cash!, Personal Checks, and Zelle &bull; &bull;
+                            </p>
+                            <p>
                                 We Prefer to Use Zelle Due to Security and Banking Applications. However We Do Accept Personal Checks and Cash! We Are Very Excited to Announce that We Can Book All Appointment Bookings Online Through Google!
-                            </h3>
-                        </p>
+                            </p>
+                        </div>
 
                         <div className="py-3 grid xs:grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-4">
                             {ServiceConfig.map(({ icon, title, description }) => (
@@ -350,8 +356,8 @@ const Home: NextPage = () => {
                 </div>
                 <div className="locations flex bg-gray-100">
                     <div className="container mx-auto py-2">
-                        <h2>eStop Driving School provides driving lessons to the following locations: Novato, CA; Tiburon, CA; Petaluma, CA; San Rafael, CA; Corte Madera, CA; Sausalito, CA; Sebastopol, CA; Mill Valley, CA; San Anselmo, CA; Greenbrae, CA; Kentfield, CA. If you do not see your location listed here,
-                            please do not hesitate to contact Teshome (Tony) via text or phone.</h2>
+                        <p className="text-xl text-center font-bold leading-relaxed">eStop Driving School provides driving lessons to the following locations: Novato, CA; Tiburon, CA; Petaluma, CA; San Rafael, CA; Corte Madera, CA; Sausalito, CA; Sebastopol, CA; Mill Valley, CA; San Anselmo, CA; Greenbrae, CA; Kentfield, CA. If you do not see your location listed here,
+                            please do not hesitate to contact Teshome (Tony) via text or phone.</p>
                     </div>
                 </div>
             </main>
