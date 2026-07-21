@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import {
   faArrowUp,
@@ -34,5 +34,4 @@ function MyApp({ Component, pageProps }: AppProps) {
   );
 };
 export default MyApp;
-
 
