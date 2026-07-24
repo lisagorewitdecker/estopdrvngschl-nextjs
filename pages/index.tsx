@@ -46,11 +46,11 @@ const ServiceConfig = [
     (The One-Hour Rate is NOW Discounted. Seniors "Behind-The-Wheel Refresher" Package Includes Taxes & Fees, One Hour of Behind the Wheel). This Package Has Been Discounted For Those Who Pay in Advance; For a Seniors "Behind-The-Wheel Refresher": NOW ONLY $125!`
     },
 ];
-// Computed at module load — stable value avoids SSR/client divergence from calling
-// new Date() inside JSX render (which could theoretically differ across a year boundary).
-const YEARS_OF_EXPERIENCE = new Date().getFullYear() - 1983;
+type HomeProps = {
+    yearsOfExperience: number;
+};
 
-const Home: NextPage = () => {
+const Home: NextPage<HomeProps> = ({ yearsOfExperience }) => {
     const onScrollToView = useCallback((elemId: string) => {
         const elem = document.getElementById(elemId);
         if (elem) {
@@ -176,7 +176,7 @@ const Home: NextPage = () => {
                                     Basic training and services are at a flat hourly rate of $125. If you need any additional services, please do not hesitate to contact me for more details.
                                 </p>
                                 <p className="mb-2">
-                                    Since 1983, I have {YEARS_OF_EXPERIENCE} years of experience training and teaching adults,
+                                    Since 1983, I have {yearsOfExperience} years of experience training and teaching adults,
                                     teenagers and seniors behind-the-wheel driving. All while doing what I love!
                                 </p>
                                 <p className="mb-2">
@@ -404,4 +404,12 @@ const Home: NextPage = () => {
         </div>
     );
 };
+export const getStaticProps = () => {
+    return {
+        props: {
+            yearsOfExperience: new Date().getUTCFullYear() - 1983,
+        },
+    };
+};
+
 export default Home;
