@@ -33,6 +33,13 @@ jobs:
         with:
           languages: ${{ matrix.language }}
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: lts/*
+          cache: npm
+          cache-dependency-path: package-lock.json
+
       - name: Autobuild
         uses: github/codeql-action/autobuild@v3
 
