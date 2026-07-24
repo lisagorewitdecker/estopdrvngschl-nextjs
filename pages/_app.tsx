@@ -1,4 +1,7 @@
-import { library } from "@fortawesome/fontawesome-svg-core";
+// Prevent FontAwesome from injecting its CSS at runtime — Next.js serves the
+// stylesheet via SSR, so runtime insertion would cause a style/attribute mismatch.
+import { library, config } from "@fortawesome/fontawesome-svg-core";
+import "@fortawesome/fontawesome-svg-core/styles.css";
 import {
   faArrowUp,
   faCar,
@@ -9,7 +12,12 @@ import {
   faUser,
 } from "@fortawesome/free-solid-svg-icons";
 import type { AppProps } from "next/app";
+import { GoogleAnalytics } from "nextjs-google-analytics";
+import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "../styles/globals.css";
+
+config.autoAddCss = false;
 library.add(
   faCoffee,
   faCheckSquare,
@@ -19,9 +27,7 @@ library.add(
   faCar,
   faArrowUp
 );
-import { GoogleAnalytics } from "nextjs-google-analytics";
-import { Analytics } from '@vercel/analytics/react';
-import { SpeedInsights } from "@vercel/speed-insights/next";
+
 function MyApp({ Component, pageProps }: AppProps) {
    return (
     <>
@@ -33,4 +39,3 @@ function MyApp({ Component, pageProps }: AppProps) {
   );
 };
 export default MyApp;
-
