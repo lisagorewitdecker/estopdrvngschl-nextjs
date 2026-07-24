@@ -46,6 +46,10 @@ const ServiceConfig = [
     (The One-Hour Rate is NOW Discounted. Seniors "Behind-The-Wheel Refresher" Package Includes Taxes & Fees, One Hour of Behind the Wheel). This Package Has Been Discounted For Those Who Pay in Advance; For a Seniors "Behind-The-Wheel Refresher": NOW ONLY $125!`
     },
 ];
+// Computed at module load — stable value avoids SSR/client divergence from calling
+// new Date() inside JSX render (which could theoretically differ across a year boundary).
+const YEARS_OF_EXPERIENCE = new Date().getFullYear() - 1983;
+
 const Home: NextPage = () => {
     const onScrollToView = useCallback((elemId: string) => {
         const elem = document.getElementById(elemId);
@@ -161,7 +165,9 @@ const Home: NextPage = () => {
                             </div>
                         </div>
                         <div className="p-4">
-                            <p className="font-bold leading-relaxed mb-4">
+                            {/* Changed outer <p> to <div> — <p> cannot contain block-level <p> children
+                                (invalid HTML causes browser DOM restructuring → React hydration mismatch #418) */}
+                            <div className="font-bold leading-relaxed mb-4">
                                 <p className="mb-2">
                                     Welcome to eStop Driving School. I am Tony(Teshome), the founder and owner of eStop Driving School
                                     (previously known as Nile Driving School). I have been teaching behind-the-wheel driving since 1983.
@@ -170,7 +176,7 @@ const Home: NextPage = () => {
                                     Basic training and services are at a flat hourly rate of $125. If you need any additional services, please do not hesitate to contact me for more details.
                                 </p>
                                 <p className="mb-2">
-                                    Since 1983, I have {new Date().getFullYear() - 1983} years of experience training and teaching adults,
+                                    Since 1983, I have {YEARS_OF_EXPERIENCE} years of experience training and teaching adults,
                                     teenagers and seniors behind-the-wheel driving. All while doing what I love!
                                 </p>
                                 <p className="mb-2">
@@ -187,7 +193,7 @@ const Home: NextPage = () => {
                                         415-897-7002
                                     </a>.
                                 </p>
-                            </p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -296,9 +302,7 @@ const Home: NextPage = () => {
                     />
                 </div>
                 <div
-                    className="flex  */}
-         py-5 
-        bg-gray-200">
+                    className="flex py-5 bg-gray-200">
                     <div id="schedule"
                          className="container mx-auto py-2">
                         <h2 className="text-2xl text-center py-3 font-bold">
