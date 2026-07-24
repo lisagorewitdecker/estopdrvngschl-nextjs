@@ -1,6 +1,6 @@
 import { Analytics } from "@vercel/analytics/next";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import type { NextPage } from "next";
+import type { GetStaticProps, NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import { useCallback } from "react";
@@ -404,7 +404,7 @@ const Home: NextPage<HomeProps> = ({ yearsOfExperience }) => {
         </div>
     );
 };
-export const getStaticProps = () => {
+export const getStaticProps: GetStaticProps<HomeProps> = () => {
     return {
         props: {
             yearsOfExperience: new Date().getUTCFullYear() - 1983,
