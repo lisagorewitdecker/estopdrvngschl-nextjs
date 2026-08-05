@@ -31,7 +31,6 @@
     "react-components": "^0.5.1",
     "react-dom": "^19.2.8",
     "react-hook-form": "^7.83.0",
-    "react-imported-component": "^6.5.4",
     "serialize-javascript": "^7.0.5",
     "tailwindcss": "^4.3.3",
     "webpack": "^5.109.1"
