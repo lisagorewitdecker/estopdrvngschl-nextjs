@@ -19,20 +19,20 @@
     "@tailwindcss/postcss": "^4.3.3",
     "@vercel/analytics": "^2.0.1",
     "@vercel/speed-insights": "^2.0.0",
-    "brace-expansion": ">=5.0.8",
+    "brace-expansion": ">=5.0.9",
     "cross-spawn": "7.0.6",
     "handlebars": "^4.7.8",
     "js-cookie": "3.0.8",
-    "lucide-react": "1.27.0",
+    "lucide-react": "1.28.0",
     "next": "16.2.12",
     "nextjs-google-analytics": "2.3.7",
-    "npm": "^12.0.1",
+    "npm": "^12.0.2",
     "postcss": "^8.5.10",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
     "serialize-javascript": "^7.0.5",
     "tailwindcss": "^4.3.3",
-    "webpack": "^5.109.1"
+    "webpack": "^5.109.2"
   },
   "devDependencies": {
     "@types/gtag.js": "^0.0.20",
@@ -42,7 +42,7 @@
     "autoprefixer": "^10.5.4",
     "eslint": "^10.8.0",
     "eslint-config-next": "16.2.12",
-    "typescript": "^6.0.0"
+    "typescript": "^7.0.2"
   },
   "overrides": {
     "glob": "^10.5.0",
