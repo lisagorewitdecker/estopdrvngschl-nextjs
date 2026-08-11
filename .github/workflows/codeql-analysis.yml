@@ -24,7 +24,7 @@ jobs:
       matrix:
         include:
           - language: javascript-typescript
-            category: typescript
+            category: javascript-typescript
 
     steps:
       - name: Checkout repository
