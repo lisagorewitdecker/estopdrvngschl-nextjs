@@ -7,7 +7,7 @@ updates:
       interval: "weekly"
     labels:
       - "dependencies"
-      - "github-actions"
+      - "github_actions"
     open-pull-requests-limit: 5
 
   - package-ecosystem: "npm"
@@ -16,7 +16,7 @@ updates:
       interval: "weekly"
     labels:
       - "dependencies"
-      - "npm"
+      - "javascript"
     open-pull-requests-limit: 10
     groups:
       npm-dependencies:
