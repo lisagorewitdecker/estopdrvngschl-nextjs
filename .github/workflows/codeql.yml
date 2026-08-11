@@ -22,34 +22,30 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        language: ["javascript-typescript"]
+        include:
+          - language: javascript-typescript
+            category: typescript
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
         with:
           node-version: lts/*
           cache: npm
           cache-dependency-path: package-lock.json
 
       - name: Initialize CodeQL
-        uses: github/codeql-action/init@v3
+        uses: github/codeql-action/init@d1ba80a13dd99fba24a470575428917156a28b43
         with:
           languages: ${{ matrix.language }}
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: lts/*
-          cache: npm
-
       - name: Autobuild
-        uses: github/codeql-action/autobuild@v3
+        uses: github/codeql-action/autobuild@d1ba80a13dd99fba24a470575428917156a28b43
 
       - name: Perform CodeQL Analysis
-        uses: github/codeql-action/analyze@v3
+        uses: github/codeql-action/analyze@d1ba80a13dd99fba24a470575428917156a28b43
         with:
-          category: "/language:${{ matrix.language }}"
+          category: "/language:${{ matrix.category }}"
