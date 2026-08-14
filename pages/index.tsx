@@ -130,7 +130,7 @@ const Home: NextPage<HomeProps> = ({ yearsOfExperience }) => {
                                 GIVE ME 6 HOURS OF YOUR TIME, AND I WILL GIVE YOU 30,000 DAYS!
                                 <a
                                     href="https://calendar.app.google/HMwwZEXYNCrUxCve7"
-                                    className="bg-red-700 hover:bg-red-900 px-4 py-2 m-2 text-xl text-white"
+                                    className="bg-red-700 hover:white color:var(--color-white) px-4 py-2 m-2 text-xl text-white"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
