@@ -21,7 +21,7 @@ body {
  background-color: #FFFFFF!important;
 }
 a {
-  @apply text-red-700 hover:text-red-800;
+  @apply text-white hover:text-white;
   font-family: 'Overpass', sans-serif;
   padding:.15rem .15rem;
 }
