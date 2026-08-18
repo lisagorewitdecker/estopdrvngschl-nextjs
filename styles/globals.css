@@ -25,7 +25,7 @@ a {
   font-family: 'Overpass', sans-serif;
   padding:.15rem .15rem;
 }
-a.bg-red-700.hover\:bg-red-900.px-4.py-2.m-2.text-xl{
+a.bg-red-700.hover\:bg-red-900.text-white.px-4.py-2.m-2.text-xl{
   padding:.35rem .45rem;
 }
 
