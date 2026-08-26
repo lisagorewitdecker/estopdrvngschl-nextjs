@@ -329,7 +329,7 @@ const Home: NextPage<HomeProps> = ({ yearsOfExperience }) => {
                     <div className="container mx-auto py-2">
                         <h2 className="text-2xl text-center font-bold py-2">CONTACT eSTOPDRIVING SCHOOL</h2>
                         <p className="text-center  mx-2">
-                            If you have any questions, feel free to call me anytime at: <a className="body" href="tel:415-897-7002" rel="noopener noreferrer">415-897-7002</a>
+                            If you have any questions, feel free to call me anytime at: <a className="!text-red-700 hover:!text-red-700 underline" href="tel:415-897-7002" rel="noopener noreferrer">415-897-7002</a>
                         </p>
                         <div className="p-8 m-auto grid sm:grid-cols-1 md:grid-cols-2">
                             <div className="flex justify-end px-8">
