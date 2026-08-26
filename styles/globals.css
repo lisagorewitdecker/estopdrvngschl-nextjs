@@ -31,7 +31,9 @@ a.text-xl.px-2{
 a.bg-red-700.hover\:bg-red-900.text-white.px-4.py-2.m-2.text-xl{
   padding:.35rem .45rem;
 }
-
+a.body{
+  @apply text-red-700 hover:text-red-700;
+}
 ul, li{
   min-height:50px; text-align: center;
 }
