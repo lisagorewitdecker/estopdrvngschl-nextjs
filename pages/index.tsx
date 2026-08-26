@@ -190,7 +190,7 @@ const Home: NextPage<HomeProps> = ({ yearsOfExperience }) => {
                                     Please feel free to call or text Tony anytime at:
                                 </p>
                                 <p className="mb-2">
-                                    <a href="tel:415-897-7002" rel="noopener noreferrer">
+                                    <a className="!text-red-700 hover:!text-red-700 underline" href="tel:415-897-7002" rel="noopener noreferrer">
                                         415-897-7002
                                     </a>.
                                 </p>
@@ -215,7 +215,7 @@ const Home: NextPage<HomeProps> = ({ yearsOfExperience }) => {
                                 SCHEDULE AN APPOINTMENT TODAY!
                             </a>
                         </h2>
-                        <p className="text-center text-white mx-2">
+                        <p className="!text-red-700 hover:!text-red-700 text-center underline mx-2" className="text-center text-white mx-2">
                             TO SCHEDULE YOUR DRIVING LESSONS, <a href="tel:415-897-7002" rel="noopener noreferrer">CALL ME</a> OR <a href="tel:415-897-7002" rel="noopener noreferrer">TEXT ME</a> TODAY!
                         </p>
                     </div>
@@ -236,10 +236,10 @@ const Home: NextPage<HomeProps> = ({ yearsOfExperience }) => {
                                 No Need to Worry, You Will Safely Be Returned to The Location You Were Picked Up At. Or Even if You Need to Be Dropped Off at a Different Location Than Where You Were Picked Up!
                             </p>
                             <p>
-                                Basic training and services are set at an hourly rate of $125. If you happen to need additional services, please do not hesitate to call or text Tony at <a href="tel:415-897-7002" rel="noopener noreferrer">415-897-7002</a> for more details.
+                                Basic training and services are set at an hourly rate of $125. If you happen to need additional services, please do not hesitate to call or text Tony at <a className="!text-red-700 hover:!text-red-700 underline" href="tel:415-897-7002" rel="noopener noreferrer">415-897-7002</a> for more details.
                             </p>
                             <p>
-                                &bull; &bull; We Only Accept Cash!, Personal Checks, and Zelle &bull; &bull;
+                                &bull; &bull; We Only Accept Cash and Zelle &bull; &bull;
                             </p>
                             <p>
                                 We Prefer to Use Zelle Due to Security and Banking Applications. However We Do Accept Personal Checks and Cash! We Are Very Excited to Announce that We Can Book All Appointment Bookings Online Through Google!
@@ -274,20 +274,20 @@ const Home: NextPage<HomeProps> = ({ yearsOfExperience }) => {
                         <div className="py-3 grid xs:grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-4">
                       <div className="p-3 flex flex-col text-center items-center">
                          <h3 className="font-bold">CA-DMV TRAFFIC SCHOOL</h3>                          
-                          <p className="text-base"><a href="https://trafficschool.estopdrivingschoolonline.com/signup" rel="noopener noreferrer" target="_blank">CLICK HERE TO SIGN-UP FOR TRAFFIC SCHOOL</a></p>
-                          <p className="text-base"><a href="https://trafficschool.estopdrivingschoolonline.com/login" rel="noopener noreferrer" target="_blank">CLICK HERE TO LOGIN FOR TRAFFIC SCHOOL</a></p>
+                          <p className="text-base"><a className="!text-red-700 hover:!text-red-700 underline" href="https://trafficschool.estopdrivingschoolonline.com/signup" rel="noopener noreferrer" target="_blank">CLICK HERE TO SIGN-UP FOR TRAFFIC SCHOOL</a></p>
+                          <p className="text-base"><a className="!text-red-700 hover:!text-red-700 underline" href="https://trafficschool.estopdrivingschoolonline.com/login" rel="noopener noreferrer" target="_blank">CLICK HERE TO LOGIN FOR TRAFFIC SCHOOL</a></p>
                             
                     </div>
                          <div className="p-3 flex flex-col text-center items-center">
                          <h3 className="font-bold">CA-DMV 350 Q&A STUDY GUIDE</h3>                          
-                          <p className="text-base"><a href="https://studyguide.estopdrivingschoolonline.com/signup" rel="noopener noreferrer" target="_blank">CLICK HERE TO BUY YOUR STUDY GUIDE</a></p>
-                          <p className="text-base"><a href="https://studyguide.estopdrivingschoolonline.com/login" rel="noopener noreferrer" target="_blank">CLICK HERE TO LOGIN TO YOUR STUDY GUIDE</a></p>
+                          <p className="text-base"><a className="!text-red-700 hover:!text-red-700 underline" href="https://studyguide.estopdrivingschoolonline.com/signup" rel="noopener noreferrer" target="_blank">CLICK HERE TO BUY YOUR STUDY GUIDE</a></p>
+                          <p className="text-base"><a className="!text-red-700 hover:!text-red-700 underline" href="https://studyguide.estopdrivingschoolonline.com/login" rel="noopener noreferrer" target="_blank">CLICK HERE TO LOGIN TO YOUR STUDY GUIDE</a></p>
                             
                     </div>
                          <div className="p-3 flex flex-col text-center items-center">
                          <h3 className="font-bold">CA-DMV DRIVERS EDUCATION</h3>                          
-                          <p className="text-base"><a href="https://drivered.estopdrivingschoolonline.com/signup" rel="noopener noreferrer" target="_blank">CLICK HERE TO ENROLL IN DRIVERS ED</a></p>
-                          <p className="text-base"><a href="https://drivered.estopdrivingschoolonline.com/login" rel="noopener noreferrer" target="_blank">CLICK HERE TO LOGIN TO DRIVERS ED</a></p>
+                          <p className="text-base"><a className="!text-red-700 hover:!text-red-700 underline" href="https://drivered.estopdrivingschoolonline.com/signup" rel="noopener noreferrer" target="_blank">CLICK HERE TO ENROLL IN DRIVERS ED</a></p>
+                          <p className="text-base"><a className="!text-red-700 hover:!text-red-700 underline" href="https://drivered.estopdrivingschoolonline.com/login" rel="noopener noreferrer" target="_blank">CLICK HERE TO LOGIN TO DRIVERS ED</a></p>
                             
                     </div>
                 </div>
@@ -333,7 +333,7 @@ const Home: NextPage<HomeProps> = ({ yearsOfExperience }) => {
                         </p>
                         <div className="p-8 m-auto grid sm:grid-cols-1 md:grid-cols-2">
                             <div className="flex justify-end px-8">
-                                <a href="https://www.yelp.com/biz/estop-driving-school-novato-2?utm_medium=biz_embedded_content&amp;utm_source=biz_badge">
+                                <a className="!text-red-700 hover:!text-red-700 underline" href="https://www.yelp.com/biz/estop-driving-school-novato-2?utm_medium=biz_embedded_content&amp;utm_source=biz_badge">
                                     <img
                                         alt="eStop Driving School, Previously Nile Driving School"
                                         src="https://dyn.yelpcdn.com/extimg/en_US/fsc/aqPJ63Ipo5dYtkh9JfJYRQ.png"
@@ -344,7 +344,7 @@ const Home: NextPage<HomeProps> = ({ yearsOfExperience }) => {
                             </div>
                             <div>
                                 <p className="mb-2 font-bold">Tony (Teshome Kebere)</p>
-                                <p><b>ADDRESS:</b> <a href="https://maps.app.goo.gl/iuwCYbJZx8y8CMtr7" rel="noopener noreferrer">Suite N, 7075 Redwood Blvd, Novato, CA 94945</a></p>
+                                <p><b>ADDRESS:</b> <a className="!text-red-700 hover:!text-red-700 underline" href="https://maps.app.goo.gl/iuwCYbJZx8y8CMtr7" rel="noopener noreferrer">Suite N, 7075 Redwood Blvd, Novato, CA 94945</a></p>
                                 <p><b>CALL/TEXT:</b> <a className="!text-red-700 hover:!text-red-700 underline" href="tel:415-897-7002" rel="noopener noreferrer">415-897-7002</a></p>
 
                                 <p> Licensed Instructor No. 2055001,
