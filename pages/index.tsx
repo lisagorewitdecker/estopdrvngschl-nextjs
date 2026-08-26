@@ -345,7 +345,7 @@ const Home: NextPage<HomeProps> = ({ yearsOfExperience }) => {
                             <div>
                                 <p className="mb-2 font-bold">Tony (Teshome Kebere)</p>
                                 <p><b>ADDRESS:</b> <a href="https://maps.app.goo.gl/iuwCYbJZx8y8CMtr7" rel="noopener noreferrer">Suite N, 7075 Redwood Blvd, Novato, CA 94945</a></p>
-                                <p><b>CALL/TEXT:</b> <a className="body" href="tel:415-897-7002" rel="noopener noreferrer">415-897-7002</a></p>
+                                <p><b>CALL/TEXT:</b> <a className="!text-red-700 hover:!text-red-700 underline" href="tel:415-897-7002" rel="noopener noreferrer">415-897-7002</a></p>
 
                                 <p> Licensed Instructor No. 2055001,
                                     Please call me or text me in advance at 415-897-7002 to schedule a personal appointment.
