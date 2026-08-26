@@ -242,7 +242,7 @@ const Home: NextPage<HomeProps> = ({ yearsOfExperience }) => {
                                 &bull; &bull; We Only Accept Cash and Zelle &bull; &bull;
                             </p>
                             <p>
-                                We Prefer to Use Zelle Due to Security and Banking Applications. However We Do Accept Personal Checks and Cash! We Are Very Excited to Announce that We Can Book All Appointment Bookings Online Through Google!
+                                We Prefer to Use Zelle Due to Security and Banking Applications. However We Do Accept Cash! We Are Very Excited to Announce that We Can Book All Appointment Bookings Online Through Google!
                             </p>
                         </div>
 
