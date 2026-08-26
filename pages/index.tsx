@@ -215,7 +215,7 @@ const Home: NextPage<HomeProps> = ({ yearsOfExperience }) => {
                                 SCHEDULE AN APPOINTMENT TODAY!
                             </a>
                         </h2>
-                        <p className="!text-red-700 hover:!text-red-700 text-center underline mx-2" className="text-center text-white mx-2">
+                        <p className="!text-red-700 hover:!text-red-700 text-center underline mx-2">
                             TO SCHEDULE YOUR DRIVING LESSONS, <a href="tel:415-897-7002" rel="noopener noreferrer">CALL ME</a> OR <a href="tel:415-897-7002" rel="noopener noreferrer">TEXT ME</a> TODAY!
                         </p>
                     </div>
