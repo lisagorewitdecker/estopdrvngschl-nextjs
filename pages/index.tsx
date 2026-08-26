@@ -6,23 +6,23 @@ import Image from "next/image";
 import { useCallback } from "react";
 const NavConfig = [
     {
-        "name": "HOME ",
+        "name": "HOME",
         "link": "home",
     },
     {
-        name: "ABOUT US ",
+        name: "ABOUT US",
         link: "about",
     },
     {
-        name: "SCHEDULE ",
+        name: "SCHEDULE",
         link: "schedule",
     },
     {
-        name: "TRAINING & SERVICES ",
+        name: "TRAINING & SERVICES",
         link: "training_and_services",
     },
     {
-        name: "CONTACT US ",
+        name: "CONTACT US",
         link: "contact",
     },
 ];
@@ -236,8 +236,7 @@ const Home: NextPage<HomeProps> = ({ yearsOfExperience }) => {
                                 No Need to Worry, You Will Safely Be Returned to The Location You Were Picked Up At. Or Even if You Need to Be Dropped Off at a Different Location Than Where You Were Picked Up!
                             </p>
                             <p>
-                                Basic training and services are set at an hourly rate of $125. If you happen to need additional services, please do not hesitate</p>
-                            <p> to call or text Tony at <a className="!text-red-700 hover:!text-red-700 underline" href="tel:415-897-7002" rel="noopener noreferrer">415-897-7002</a> for more details.
+                                Basic training and services are set at an hourly rate of $125. If you happen to need additional services, please do not hesitate to call or text Tony at <a className="!text-red-700 hover:!text-red-700 underline" href="tel:415-897-7002" rel="noopener noreferrer">415-897-7002</a> for more details.
                             </p>
                             <p>
                                 &bull; &bull; We Only Accept Cash and Zelle &bull; &bull;
