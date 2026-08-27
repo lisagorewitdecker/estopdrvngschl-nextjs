@@ -215,8 +215,8 @@ const Home: NextPage<HomeProps> = ({ yearsOfExperience }) => {
                                 SCHEDULE AN APPOINTMENT TODAY!
                             </a>
                         </h2>
-                        <p className="text-center mx-2 font-bold">
-                            TO SCHEDULE YOUR DRIVING LESSONS, <a className="text-center py-2 text-white" href="tel:415-897-7002" rel="noopener noreferrer">CALL ME</a> OR <a className="text-center py-2 text-white" href="tel:415-897-7002" rel="noopener noreferrer">TEXT ME</a> TODAY!
+                        <p className="text-center mx-2 font-bold text-white">
+                            TO SCHEDULE YOUR DRIVING LESSONS, <a className="text-center py-2 text-white" href="tel:415-897-7002" rel="noopener noreferrer">CALL ME</a> OR <a className="text-center py-2 text-white" href="sms:+14158977002" rel="noopener noreferrer">TEXT ME</a> TODAY!
                         </p>
                     </div>
                 </div>
