@@ -12,12 +12,6 @@ jobs:
     permissions:
       contents: read
       actions: write
-permissions:
-  contents: read
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
 
     steps:
       # Pinned to a full-length commit SHA for supply-chain security.
