@@ -1,10 +1,14 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Cookies from "js-cookie";
 
 const CookieBanner = () => {
-  const [showBanner, setShowBanner] = useState(
-    () => (typeof window === "undefined" ? true : !Cookies.get('cookieConsent')),
-  );
+  const [showBanner, setShowBanner] = useState(true);
+
+  useEffect(() => {
+    const consent = Cookies.get('cookieConsent');
+    if (!consent) return;
+    setShowBanner(false);
+  }, []);
 
   const handleAccept = () => {
     Cookies.set('cookieConsent', 'true', { expires: 365 });
