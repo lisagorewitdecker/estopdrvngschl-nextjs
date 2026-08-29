@@ -310,10 +310,10 @@ const Home: NextPage<HomeProps> = ({ yearsOfExperience }) => {
                             SCHEDULE AN APPOINTMENT
                         </h2>
                         <p className="text-center  mx-2">
-                            Once you've selected your preferred appointment day and time, simply fill out the brief form and hit submit.</p>
+                            Once you&apos;ve selected your preferred appointment day and time, simply fill out the brief form and hit submit.</p>
 
                         <p className="text-center  mx-2">
-                            Important: Keep this website tab open! A text field will pop up asking for a verification code. Check your email for a code sent by Google on behalf of eStop Driving School (if you don't see it, check your spam folder or search your email for 'Google').</p>
+                            Important: Keep this website tab open! A text field will pop up asking for a verification code. Check your email for a code sent by Google on behalf of eStop Driving School (if you don&apos;t see it, check your spam folder or search your email for &apos;Google&apos;).</p>
 
                         <p className="text-center  mx-2">
                             Enter the verification code into the pop-up text field and click submit one final time. Your appointment will be saved, and Tony will contact you ASAP to kick off your driving lessons!</p>
