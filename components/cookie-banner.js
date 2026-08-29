@@ -6,10 +6,13 @@ const CookieBanner = () => {
 
   useEffect(() => {
     const consent = Cookies.get('cookieConsent');
-    if (consent) {
-      // eslint-disable-next-line react-hooks/set-state-in-effect
+    if (!consent) return;
+
+    const timeoutId = window.setTimeout(() => {
       setShowBanner(false);
-    }
+    }, 0);
+
+    return () => window.clearTimeout(timeoutId);
   }, []);
 
   const handleAccept = () => {
