@@ -8,11 +8,7 @@ const CookieBanner = () => {
     const consent = Cookies.get('cookieConsent');
     if (!consent) return;
 
-    const timeoutId = window.setTimeout(() => {
-      setShowBanner(false);
-    }, 0);
-
-    return () => window.clearTimeout(timeoutId);
+    setShowBanner(false);
   }, []);
 
   const handleAccept = () => {
