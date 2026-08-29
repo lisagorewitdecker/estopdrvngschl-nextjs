@@ -1,12 +1,11 @@
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 import Cookies from "js-cookie";
 
 const CookieBanner = () => {
   const [showBanner, setShowBanner] = useState(true);
 
   useEffect(() => {
-    const consent = Cookies.get('cookieConsent');
-    if (!consent) return;
+    if (!Cookies.get('cookieConsent')) return;
 
     const timeoutId = window.setTimeout(() => {
       setShowBanner(false);
@@ -20,13 +19,13 @@ const CookieBanner = () => {
     setShowBanner(false);
   };
 
+  if (!showBanner) return null;
+
   return (
-    showBanner && (
-      <div className="cookie-banner">
-        <p>This website uses cookies to enhance the user experience.</p>
-        <button onClick={handleAccept}>Accept</button>
-      </div>
-    )
+    <div className="cookie-banner">
+      <p>This website uses cookies to enhance the user experience.</p>
+      <button onClick={handleAccept}>Accept</button>
+    </div>
   );
 };
 
