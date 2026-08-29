@@ -1,19 +1,25 @@
-import { useState, useSyncExternalStore } from "react";
+import { useEffect, useState } from "react";
 import Cookies from "js-cookie";
 
-const subscribe = () => () => {};
-const getConsentSnapshot = () => Cookies.get('cookieConsent') === 'true';
-
 const CookieBanner = () => {
-  const hasConsent = useSyncExternalStore(subscribe, getConsentSnapshot, () => false);
-  const [isDismissed, setIsDismissed] = useState(false);
+  const [showBanner, setShowBanner] = useState(true);
+
+  useEffect(() => {
+    if (!Cookies.get('cookieConsent')) return;
+
+    const timeoutId = window.setTimeout(() => {
+      setShowBanner(false);
+    }, 0);
+
+    return () => window.clearTimeout(timeoutId);
+  }, []);
 
   const handleAccept = () => {
     Cookies.set('cookieConsent', 'true', { expires: 365 });
-    setIsDismissed(true);
+    setShowBanner(false);
   };
 
-  if (hasConsent || isDismissed) return null;
+  if (!showBanner) return null;
 
   return (
     <div className="cookie-banner">
