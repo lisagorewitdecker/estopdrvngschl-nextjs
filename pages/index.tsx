@@ -274,20 +274,20 @@ const Home: NextPage<HomeProps> = ({ yearsOfExperience }) => {
                         <div className="py-3 grid xs:grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-4">
                       <div className="p-3 flex flex-col text-center items-center">
                          <h3 className="font-bold">CA-DMV TRAFFIC SCHOOL</h3>                          
-                          <p className="text-base"><a className="!text-red-700 hover:!text-red-700 underline" href="https://trafficschool.estopdrivingschoolonline.com/signup" rel="noopener noreferrer" target="_blank">CLICK HERE TO SIGN-UP FOR TRAFFIC SCHOOL</a></p>
-                          <p className="text-base"><a className="!text-red-700 hover:!text-red-700 underline" href="https://trafficschool.estopdrivingschoolonline.com/login" rel="noopener noreferrer" target="_blank">CLICK HERE TO LOGIN FOR TRAFFIC SCHOOL</a></p>
+                          <p className="text-base"><a className="!text-red-700 hover:!text-red-700" href="https://trafficschool.estopdrivingschoolonline.com/signup" rel="noopener noreferrer" target="_blank">CLICK HERE TO SIGN-UP FOR TRAFFIC SCHOOL</a></p>
+                          <p className="text-base"><a className="!text-red-700 hover:!text-red-700" href="https://trafficschool.estopdrivingschoolonline.com/login" rel="noopener noreferrer" target="_blank">CLICK HERE TO LOGIN FOR TRAFFIC SCHOOL</a></p>
                             
                     </div>
                          <div className="p-3 flex flex-col text-center items-center">
                          <h3 className="font-bold">CA-DMV 350 Q&A STUDY GUIDE</h3>                          
-                          <p className="text-base"><a className="!text-red-700 hover:!text-red-700 underline" href="https://studyguide.estopdrivingschoolonline.com/signup" rel="noopener noreferrer" target="_blank">CLICK HERE TO BUY YOUR STUDY GUIDE</a></p>
-                          <p className="text-base"><a className="!text-red-700 hover:!text-red-700 underline" href="https://studyguide.estopdrivingschoolonline.com/login" rel="noopener noreferrer" target="_blank">CLICK HERE TO LOGIN TO YOUR STUDY GUIDE</a></p>
+                          <p className="text-base"><a className="!text-red-700 hover:!text-red-700" href="https://studyguide.estopdrivingschoolonline.com/signup" rel="noopener noreferrer" target="_blank">CLICK HERE TO BUY YOUR STUDY GUIDE</a></p>
+                          <p className="text-base"><a className="!text-red-700 hover:!text-red-700" href="https://studyguide.estopdrivingschoolonline.com/login" rel="noopener noreferrer" target="_blank">CLICK HERE TO LOGIN TO YOUR STUDY GUIDE</a></p>
                             
                     </div>
                          <div className="p-3 flex flex-col text-center items-center">
                          <h3 className="font-bold">CA-DMV DRIVERS EDUCATION</h3>                          
-                          <p className="text-base"><a className="!text-red-700 hover:!text-red-700 underline" href="https://drivered.estopdrivingschoolonline.com/signup" rel="noopener noreferrer" target="_blank">CLICK HERE TO ENROLL IN DRIVERS ED</a></p>
-                          <p className="text-base"><a className="!text-red-700 hover:!text-red-700 underline" href="https://drivered.estopdrivingschoolonline.com/login" rel="noopener noreferrer" target="_blank">CLICK HERE TO LOGIN TO DRIVERS ED</a></p>
+                          <p className="text-base"><a className="!text-red-700 hover:!text-red-700" href="https://drivered.estopdrivingschoolonline.com/signup" rel="noopener noreferrer" target="_blank">CLICK HERE TO ENROLL IN DRIVERS ED</a></p>
+                          <p className="text-base"><a className="!text-red-700 hover:!text-red-700" href="https://drivered.estopdrivingschoolonline.com/login" rel="noopener noreferrer" target="_blank">CLICK HERE TO LOGIN TO DRIVERS ED</a></p>
                             
                     </div>
                 </div>
@@ -333,7 +333,7 @@ const Home: NextPage<HomeProps> = ({ yearsOfExperience }) => {
                         </p>
                         <div className="p-8 m-auto grid sm:grid-cols-1 md:grid-cols-2">
                             <div className="flex justify-end px-8">
-                                <a className="!text-red-700 hover:!text-red-700 underline" href="https://www.yelp.com/biz/estop-driving-school-novato-2?utm_medium=biz_embedded_content&amp;utm_source=biz_badge">
+                                <a className="!text-red-700 hover:!text-red-700" href="https://www.yelp.com/biz/estop-driving-school-novato-2?utm_medium=biz_embedded_content&amp;utm_source=biz_badge">
                                     <img
                                         alt="eStop Driving School, Previously Nile Driving School"
                                         src="https://dyn.yelpcdn.com/extimg/en_US/fsc/aqPJ63Ipo5dYtkh9JfJYRQ.png"
@@ -344,11 +344,11 @@ const Home: NextPage<HomeProps> = ({ yearsOfExperience }) => {
                             </div>
                             <div>
                                 <p className="mb-2 font-bold">Tony (Teshome Kebere)</p>
-                                <p><b>ADDRESS:</b> <a className="!text-red-700 hover:!text-red-700 underline" href="https://maps.app.goo.gl/iuwCYbJZx8y8CMtr7" rel="noopener noreferrer">Suite N, 7075 Redwood Blvd, Novato, CA 94945</a></p>
-                                <p><b>CALL/TEXT:</b> <a className="!text-red-700 hover:!text-red-700 underline" href="tel:415-897-7002" rel="noopener noreferrer">415-897-7002</a></p>
+                                <p><b>ADDRESS:</b> <a className="!text-red-700 hover:!text-red-700" href="https://maps.app.goo.gl/iuwCYbJZx8y8CMtr7" rel="noopener noreferrer">Suite N, 7075 Redwood Blvd, Novato, CA 94945</a></p>
+                                <p><b>CALL/TEXT:</b> <a className="!text-red-700 hover:!text-red-700" href="tel:415-897-7002" rel="noopener noreferrer">415-897-7002</a></p>
 
                                 <p> Licensed Instructor No. 2055001,
-                                    Please call me or text me in advance at 415-897-7002 to schedule a personal appointment.
+                                    Please call me or text me in advance at <a className="!text-red-700 hover:!text-red-700" href="tel:415-897-7002" rel="noopener noreferrer">415-897-7002</a> to schedule a personal appointment.
                                 </p>
 
                             </div>
