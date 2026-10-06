@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: false,
+  reactStrictMode: true,
   async headers() {
     return [
       {
@@ -17,16 +17,12 @@ const nextConfig = {
   async rewrites() {
     return [
       {
-        source: '/',
-        destination: '/html/index.html',
-      },
-      {
         source: '/some-other-source',
-        destination: '/public/myfile.html',
+        destination: '/myfile.html',
       },
       {
         source: '/another-source',
-        destination: '/api/myfile.js',
+        destination: '/api/myfile',
       },
     ]
   }
