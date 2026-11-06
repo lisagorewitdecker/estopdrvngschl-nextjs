@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test:security": "node --test scripts/tests/minimatch-security.test.mjs",
+    "test:security": "node --test scripts/tests/minimatch-security.test.mjs scripts/tests/glob-security.test.mjs",
     "lint": "eslint ."
   },
   "dependencies": {
