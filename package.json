@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "test:security": "node --test scripts/tests/minimatch-security.test.mjs",
     "lint": "eslint ."
   },
   "dependencies": {
@@ -44,7 +45,8 @@
     "typescript": "^5.9.3"
   },
   "overrides": {
-    "glob": "^10.5.0",
+    "glob": "14.0.2",
+    "minimatch@>=7.0.0 <11.0.1": "11.0.1",
     "nth-check": "^2.0.1",
     "postcss": "^8.5.26",
     "underscore": "^1.13.8",
