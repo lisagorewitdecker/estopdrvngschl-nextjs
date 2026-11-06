@@ -112,6 +112,37 @@ for (const [label, consumerRequire] of [
   });
 }
 
+test('Sentry Glob bounds amplification in its bundled CommonJS and ESM builds', () => {
+  const globPath = bundlerRequire.resolve('glob');
+  const globPackagePath = bundlerRequire.resolve('glob/package.json');
+  const globEsmUrl = pathToFileURL(
+    join(dirname(globPackagePath), bundlerRequire(globPackagePath).module),
+  );
+  const result = spawnSync(
+    process.execPath,
+    [
+      '--max-old-space-size=256',
+      '--input-type=module',
+      '--eval',
+      `
+        import assert from 'node:assert/strict';
+        import { createRequire } from 'node:module';
+        const require = createRequire(${JSON.stringify(globPackagePath)});
+        for (const { Glob } of [require(${JSON.stringify(globPath)}), await import(${JSON.stringify(globEsmUrl.href)})]) {
+          const glob = new Glob(Array(30).fill('**/../a/b').join('/'), {
+            braceExpandMax: 8,
+          });
+          assert.equal(glob.patterns.length, 8);
+        }
+      `,
+    ],
+    { encoding: 'utf8', timeout: 15_000 },
+  );
+  assert.ifError(result.error);
+  assert.equal(result.signal, null, result.stderr);
+  assert.equal(result.status, 0, result.stderr);
+});
+
 test('Sentry retains wildcard, brace, ignore and source-map file discovery', async (t) => {
   const cwd = mkdtempSync(join(tmpdir(), 'minimatch-sentry-'));
   t.after(() => rmSync(cwd, { recursive: true, force: true }));

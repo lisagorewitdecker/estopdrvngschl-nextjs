@@ -8,8 +8,9 @@ Only the latest code on the `main` branch is supported with security updates. Ol
 
 Modern minimatch dependencies are overridden to 11.0.1 for
 GHSA-g3hv-75wg-m249 (globparts amplification during pattern optimization).
-Glob is overridden to 14.0.2 because earlier Glob releases expect RegExp-based
-minimatch internals that minimatch 11 no longer provides. Unaffected minimatch 3
+Glob is overridden to 14.0.3 so its bundled minimatch is also fixed; earlier
+Glob releases expect RegExp-based minimatch internals that minimatch 11 no longer
+provides. Unaffected minimatch 3
 dependencies retain their callable API for ESLint.
 
 Glob 14.0.2 also fixes GHSA-3g3m-2fjr-6pw4 (AbortSignal cancellation bypass).
