@@ -30,5 +30,8 @@ jobs:
       - name: Lint
         run: npm run lint
 
+      - name: Dependency security regressions
+        run: npm run test:security
+
       - name: Build
         run: npm run build
