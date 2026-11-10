@@ -47,6 +47,7 @@
   "overrides": {
     "glob": "14.0.3",
     "minimatch@>=7.0.0 <11.0.1": "11.0.1",
+    "minimatch@^11.0.2": "11.0.2",
     "nth-check": "^2.0.1",
     "postcss": "^8.5.26",
     "underscore": "^1.13.8",
