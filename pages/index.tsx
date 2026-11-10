@@ -36,19 +36,19 @@ const ServiceConfig = [
         icon: faChild,
         title: "TEENAGERS",
         description: `Three 2-Hour Driving Lessons For Teenagers
-    (The One-Hour Rate is NOW Discounted. Teenager Package Includes Taxes & Fees, and Six Hours of Drivers Training Behind the Wheel). This Package Has Been Priced For Those Who Pay in Advance; For Teenage Driving Lessons: NOW ONLY $690!`
+    (The One-Hour Rate is NOW Discounted. Teenager Package Includes Taxes & Fees, and Six Hours of Drivers Training Behind the Wheel). This Package Has Been Priced For Those Who Pay in Advance; For Teenage Driving Lessons: NOW ONLY $700!`
     },
     {
         icon: faUser,
         title: "ADULTS",
         description: `Three 2-Hour Driving Lessons For Adults, Ages 18 and Up.
-    (The One-Hour Rate is NOW Discounted. Adult Package Includes Taxes & Fees, and Six Hours of Drivers Training Behind the Wheel). This Package Has Been Discounted For Those Who Pay in Advance; For Adult Driving Lessons: NOW ONLY $690!`
+    (The One-Hour Rate is NOW Discounted. Adult Package Includes Taxes & Fees, and Six Hours of Drivers Training Behind the Wheel). This Package Has Been Discounted For Those Who Pay in Advance; For Adult Driving Lessons: NOW ONLY $700!`
     },
     {
         icon: faUniversalAccess,
         title: "SENIORS",
         description: `One-Hour Driving Lesson For Seniors "Behind-The-Wheel Refresher".
-    (The One-Hour Rate is NOW Discounted. Seniors "Behind-The-Wheel Refresher" Package Includes Taxes & Fees, One Hour of Behind the Wheel). This Package Has Been Discounted For Those Who Pay in Advance; For a Seniors "Behind-The-Wheel Refresher": NOW ONLY $125!`
+    (The One-Hour Rate is NOW Discounted. Seniors "Behind-The-Wheel Refresher" Package Includes Taxes & Fees, One Hour of Behind the Wheel). This Package Has Been Discounted For Those Who Pay in Advance; For a Seniors "Behind-The-Wheel Refresher": NOW ONLY $150!`
     },
 ];
 type HomeProps = {
